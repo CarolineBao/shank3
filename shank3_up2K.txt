@@ -1,0 +1,2 @@
+seqnames	start	end	width	strand	feature	gene_name
+chr22	50672415	50733298	60884	+	gene	SHANK3
