@@ -77,10 +77,10 @@ modified_makewindows <- function(gene, windowsize) {
     output
 }
 
-intersection_by_bp_window <- function(gene_path, motifs, window_size) {
+intersection_by_bp_window <- function(gene, motifs, window_size) {
     
     #Creates windows
-    windows <- modified_makewindows(gene, windowsize)
+    windows <- modified_makewindows(gene, window_size)
     
     #Calculates frequency of intersection
     ans <- windows
