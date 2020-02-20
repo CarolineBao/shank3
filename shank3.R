@@ -43,7 +43,7 @@ shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions
 
 # add motif_id to the genomic ranges
 shank.match.motif.ranges <- shank.match.motif.pos %>% as.data.frame %>% 
-                            select(seqnames, start, end, strand, score, group_name) %>%
+                            dplyr::select(seqnames, start, end, strand, score, group_name) %>%
                             makeGRangesFromDataFrame(keep.extra.columns = T)
 
 # get overlaps between motif matching ranges and shank3 annotated features
@@ -62,12 +62,26 @@ write.table(shank.match.motif.df, "shank3_region_TF_motifs.txt", sep = "\t", quo
 shank.match.motif.df <- makeGRangesFromDataFrame(shank.match.motif.df, keep.extra.columns = T)
 
 
-#intersection function
-intersection_by_bp_window <- function(genome, gene_path, motifs, window_size) {
+#makes windows
+modified_makewindows <- function(gene, windowsize) {
+    gene_range <- ranges(gene)
+    end_value <- (end(gene_range)-start(gene_range))%/%windowsize*windowsize+start(gene_range)+windowsize-1
+    gene_temp <- GRanges(seqnames = seqnames(gene), ranges = IRanges(start=start(gene_range), end=end_value, width=end_value-start(gene_range)+1))
+    
+    output<-tile(gene_temp, width=windowsize)
+    output<-as.data.frame(output, stringsAsFactors=F)
+    
+    output[[5]][[length(output[[1]])]]<-end(gene_range)
+    output[[6]][[length(output[[1]])]]<-windowsize-end_value+end(gene_range)
+    output<-makeGRangesFromDataFrame(output)
+    output
+}
+
+intersection_by_bp_window <- function(gene_path, motifs, window_size) {
     
     #Creates windows
-    code <- bedtools_makewindows(paste("-b ", gene_path, " -w ", window_size))
-    windows <- unlist(eval(code))
+    windows <- modified_makewindows(gene, windowsize)
+    
     #Calculates frequency of intersection
     ans <- windows
     mcols(ans)$overlap_count <- countOverlaps(windows, motifs, ignore.strand = TRUE)
@@ -83,10 +97,4 @@ process_and_graph_overlaps <-function(intersections) {
     "plot"(to_graph, type = "histogram")
 }
 
-intersection_by_bp_window(BSgenome.Hsapiens.UCSC.hg38, "~/Desktop/UROP/shank3-master/shank3_gene.bed", shank.match.motif.df, 10)
-
-
-process_and_graph_overlaps(intersection_by_bp_window(BSgenome.Hsapiens.UCSC.hg38, "~/Desktop/UROP/shank3-master/shank3_gene.bed", shank.match.motif.df, 10))
-
-
-      
+process_and_graph_overlaps(intersection_by_bp_window(shank_gene, shank.match.motif.df, 10))
