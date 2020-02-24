@@ -60,12 +60,10 @@ shank.match.motif.df <- left_join(shank.match.motif.df, motif_lookup, by = c("gr
 write.table(shank.match.motif.df, "output/shank3_region_TF_motifs.txt", sep = "\t", quote = F, row.names = F)
 
 #remove start/end dupes
-shank.match.motif.df.no_repeats <-subset(shank.match.motif.df, !duplicated(shank.match.motif.df[,c(2,3,10)]))
+shank.match.motif.df <-subset(shank.match.motif.df, !duplicated(shank.match.motif.df[,c(2,3,10)]))
 
-
-#reformatting shank.match.motif.df properly for bedtools
+#reformatting shank.match.motif.df properly for hellowindows
 shank.match.motif.df <- makeGRangesFromDataFrame(shank.match.motif.df, keep.extra.columns = T)
-
 
 #makes windows
 modified_makewindows <- function(gene, windowsize) {
