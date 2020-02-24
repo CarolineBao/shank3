@@ -57,10 +57,9 @@ shank.match.motif.df <- shank.match.motif.ranges[queryHits(feature.overlap)] %>%
 # join on motif_id to bring in motif meta data, such as species, symbols etc.
 shank.match.motif.df <- left_join(shank.match.motif.df, motif_lookup, by = c("group_name" = "motif_id"))
 
-write.table(shank.match.motif.df, "output/shank3_region_TF_motifs.txt", sep = "\t", quote = F, row.names = F)
-
-#remove start/end dupes
+#remove start/end dupes and output data
 shank.match.motif.df <-subset(shank.match.motif.df, !duplicated(shank.match.motif.df[,c(2,3,10)]))
+write.table(shank.match.motif.df, "output/shank3_region_TF_motifs.txt", sep = "\t", quote = F, row.names = F)
 
 #reformatting shank.match.motif.df properly for hellowindows
 shank.match.motif.df <- makeGRangesFromDataFrame(shank.match.motif.df, keep.extra.columns = T)
