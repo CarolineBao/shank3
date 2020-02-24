@@ -87,7 +87,7 @@ intersection_by_bp_window <- function(gene, motifs, window_size) {
     ans <- windows
     mcols(ans)$overlap_count <- countOverlaps(windows, motifs, ignore.strand = TRUE)
     write.table(lapply(as.data.frame(ans, stringsAsFactors=F), as.character), 
-                paste("shank3_gene_intersect_", window_size, "_bps.txt"), sep="\t", col.names=FALSE, quote = F, row.names = F)
+                paste("output/shank3_gene_intersect_", window_size, "_bps.txt"), sep="\t", col.names=FALSE, quote = F, row.names = F)
     ans
 }
 
