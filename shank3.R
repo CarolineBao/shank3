@@ -4,6 +4,7 @@ library(Matrix)
 library(TFBSTools) #bioconductor
 library(SummarizedExperiment) #bioconductor
 library(BSgenome.Hsapiens.UCSC.hg38) #bioconductor
+library(BSgenome.Mmusculus.UCSC.mm10)
 library(BiocParallel)
 library(JASPAR2018)
 library(HelloRanges)
