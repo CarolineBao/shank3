@@ -57,7 +57,7 @@ shank.match.motif.df <- shank.match.motif.ranges[queryHits(feature.overlap)] %>%
 # join on motif_id to bring in motif meta data, such as species, symbols etc.
 shank.match.motif.df <- left_join(shank.match.motif.df, motif_lookup, by = c("group_name" = "motif_id"))
 
-write.table(shank.match.motif.df, "shank3_region_TF_motifs.txt", sep = "\t", quote = F, row.names = F)
+write.table(shank.match.motif.df, "output/shank3_region_TF_motifs.txt", sep = "\t", quote = F, row.names = F)
 
 #reformatting shank.match.motif.df properly for bedtools
 shank.match.motif.df <- makeGRangesFromDataFrame(shank.match.motif.df, keep.extra.columns = T)
