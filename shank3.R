@@ -34,13 +34,13 @@ motif_lookup <- do.call(rbind, motif_lookup)
 motif_lookup <- as.data.frame(motif_lookup) %>% rownames_to_column(., "motif_id")
 
 # read in Shank3 gene and all feature annotations
-shank_gene <- read.table("shank3_up2K.txt", header = T, stringsAsFactors = F)
-shank_all <- read.table("shank3_allfeatures.txt", header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
+shank_gene <- read.table("shank_gene_mm.txt", header = T, stringsAsFactors = F)
+shank_all <- read.table("shank_features_mm.txt", header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
 shank_gene <- makeGRangesFromDataFrame(shank_gene, keep.extra.columns = T)
 shank_all <- makeGRangesFromDataFrame(shank_all, keep.extra.columns = T)
 
 # match shank gene with jaspar 2018 motifs
-shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions", genome = BSgenome.Hsapiens.UCSC.hg38)
+shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions", genome = BSgenome.Mmusculus.UCSC.mm10)
 
 # add motif_id to the genomic ranges
 shank.match.motif.ranges <- shank.match.motif.pos %>% as.data.frame %>% 
@@ -58,6 +58,10 @@ shank.match.motif.df <- shank.match.motif.ranges[queryHits(feature.overlap)] %>%
 shank.match.motif.df <- left_join(shank.match.motif.df, motif_lookup, by = c("group_name" = "motif_id"))
 
 write.table(shank.match.motif.df, "output/shank3_region_TF_motifs.txt", sep = "\t", quote = F, row.names = F)
+
+#remove start/end dupes
+shank.match.motif.df.no_repeats <-subset(shank.match.motif.df, !duplicated(shank.match.motif.df[,c(2,3,10)]))
+
 
 #reformatting shank.match.motif.df properly for bedtools
 shank.match.motif.df <- makeGRangesFromDataFrame(shank.match.motif.df, keep.extra.columns = T)
@@ -99,3 +103,4 @@ process_and_graph_overlaps <-function(intersections) {
 }
 
 process_and_graph_overlaps(intersection_by_bp_window(shank_gene, shank.match.motif.df, 10))
+
