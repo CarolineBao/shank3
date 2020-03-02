@@ -1,6 +1,9 @@
+#this code is used to properly process bed-like annotated GTF files from Gencode to create a gene and feature file to be used in shank3.R
+library(dplyr)
+
 mouse_genome<-rtracklayer::import('../shank_data/gencode.vM24.annotation.gtf') # read annotated genome GTF file into GRanges
 
-#removing unnecessary rows and repeated rows
+#removing unnecessary columns and repeated rows
 mouse_genome_df<-as.data.frame(mouse_genome, stringsAsFactors= F )
 shank_all_mm<-(subset(subset(mouse_genome_df, gene_name=="Shank3"), 
                            !(type=="start_codon" | type=="transcript" | type=="CDS" | type=="stop_codon")))
