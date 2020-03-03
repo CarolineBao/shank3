@@ -1,0 +1,11 @@
+seqnames	start	end	width	strand	type	gene_name
+chr12	57796848	57796850	2	+	start_codon	Shank3
+chr12	57796848	57796851	3	+	CDS	Shank3
+chr12	57796626	57796851	225	+	exon	Shank3
+chr12	57797561	57798187	626	+	CDS	Shank3
+chr12	57797561	57798187	626	+	exon	Shank3
+chr12	57800999	57801141	142	+	CDS	Shank3
+chr12	57800999	57801141	142	+	exon	Shank3
+chr12	57810640	57810891	251	+	CDS	Shank3
+chr12	57810892	57810894	2	+	stop_codon	Shank3
+chr12	57810640	57812217	1577	+	exon	Shank3

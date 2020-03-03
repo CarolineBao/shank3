@@ -4,7 +4,7 @@ library(Matrix)
 library(TFBSTools) #bioconductor
 library(SummarizedExperiment) #bioconductor
 library(BSgenome.Hsapiens.UCSC.hg38) #bioconductor
-library(BSgenome.Mmusculus.UCSC.mm10)
+library(BSgenome.Mmusculus.UCSC.mm9)
 library(BSgenome.Mmulatta.UCSC.rheMac10)
 library(BiocParallel)
 library(JASPAR2018)
@@ -13,6 +13,8 @@ library(HelloRanges)
 register(MulticoreParam(8)) #setting up processing on non-Windows
 set.seed(2019) #set random seed
 options(warn=-1) #turns off warnings
+
+FILE_PATH <-"data/mouse/gencode_mm9/"
 
 # method to get JASPAR2018, Getting both human and mouse
 #opts <- list()
@@ -36,13 +38,13 @@ motif_lookup <- do.call(rbind, motif_lookup)
 motif_lookup <- as.data.frame(motif_lookup) %>% rownames_to_column(., "motif_id")
 
 # read in Shank3 gene and all feature annotations
-shank_gene <- read.table("output/Shank3_rheMac10_gene.txt", header = T, stringsAsFactors = F)
-shank_all <- read.table("output/Shank3_rheMac10_features.txt", header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
+shank_gene <- read.table(paste(FILE_PATH, "input_data/Shank3_up2Kgene.txt", sep=''), header = T, stringsAsFactors = F)
+shank_all <- read.table(paste(FILE_PATH, "input_data/Shank3_features.txt", sep=''), header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
 shank_gene <- makeGRangesFromDataFrame(shank_gene, keep.extra.columns = T)
 shank_all <- makeGRangesFromDataFrame(shank_all, keep.extra.columns = T)
 
 # match shank gene with jaspar 2018 motifs
-shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions", genome = BSgenome.Mmulatta.UCSC.rheMac10)
+shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions", genome = BSgenome.Hsapiens.UCSC.hg38)
 
 # add motif_id to the genomic ranges
 shank.match.motif.ranges <- shank.match.motif.pos %>% as.data.frame %>% 
@@ -61,11 +63,8 @@ shank.match.motif.df <- left_join(shank.match.motif.df, motif_lookup, by = c("gr
 
 #remove start/end duplicates and output data
 shank.match.motif.df <-subset(shank.match.motif.df, !duplicated(shank.match.motif.df[,c(2,3,10)]))
-write.table(shank.match.motif.df, "output/shank3_region_TF_motifs_rheMac10.txt", sep = "\t", quote = F, row.names = F)
+write.table(shank.match.motif.df, paste(FILE_PATH, "results/shank3_region_TF_motifs_mm.txt", sep=''), sep = "\t", quote = F, row.names = F)
 
-#reformatting shank.match.motif.df properly for hellowindows
-shank.match.motif.df <- makeGRangesFromDataFrame(shank.match.motif.df, keep.extra.columns = T)
-start(shank_gene)
 #makes windows
 modified_makewindows <- function(gene, windowsize, shift=0) {
     gene_range <- ranges(gene)
@@ -90,15 +89,17 @@ modified_makewindows <- function(gene, windowsize, shift=0) {
     output
 }
 
-intersection_by_bp_window <- function(gene, motifs, window_size, shift=0) {
+intersection_by_bp_window <- function(gene, motifs, window_size, shift=0, tfbs_name="") {
     #Creates windows
     windows <- modified_makewindows(gene, window_size, shift)
     
     #Calculates frequency of intersection
+    motifs<- motifs %>% filter(str_detect(motif_nm, tfbs_name))
+    motifs <- makeGRangesFromDataFrame(motifs, keep.extra.columns = T)
     ans <- windows
     mcols(ans)$overlap_count <- countOverlaps(windows, motifs, ignore.strand = TRUE)
     write.table(lapply(as.data.frame(ans, stringsAsFactors=F), as.character), 
-                paste("output/shank3_gene_intersect_", window_size, "_bps_rheMac10.txt", sep=''), sep="\t", col.names=FALSE, quote = F, row.names = F)
+                paste(FILE_PATH, "results/shank3_gene_intersect_frequencies_", window_size, "_bps",tfbs_name,".txt", sep=''), sep="\t", col.names=FALSE, quote = F, row.names = F)
     ans
 }
 
@@ -109,5 +110,4 @@ process_and_graph_overlaps <-function(intersections) {
     "plot"(to_graph, type = "histogram")
 }
 
-process_and_graph_overlaps(intersection_by_bp_window(shank_gene, shank.match.motif.df, 10,0))
-
+process_and_graph_overlaps(intersection_by_bp_window(shank_gene, shank.match.motif.df, 10))

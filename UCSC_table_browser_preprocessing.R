@@ -1,6 +1,8 @@
 #Uses annotations from UCSC table browser to produce readable files for motif matching. Change gene_features' file path, gene_of_interest, gene_name, and the output file path names to match your needs.
-gene_features <- read.table("shank3_annotated_rheMac10_UCSC.txt", header = F, stringsAsFactors = F)
-gene_of_interest <-"XM_028827508.1"
+FILE_PATH="data/mouse/gencode_mm9/"
+
+gene_features <- read.table(paste(FILE_PATH,"input_data/shank3_annotated_mm_UCSC.txt", sep=''), header = F, stringsAsFactors = F)
+gene_of_interest <-"uc007npi.1"
 gene_name<-"Shank3"
 
 #creating the .bed format columns
@@ -17,5 +19,11 @@ gene<-cbind(seqnames=gene_features[1,1], start=gene_features[1,2], end=gene_feat
                 width=gene_features[nrow(gene_features),3]-gene_features[1,2]+1, strand=gene_features[1,5], 
                 type="gene", gene_name=gene_name)
 
-write.table(lapply(as.data.frame(gene_features, stringsAsFactors=F), as.character), paste("output/",gene_name,"_rheMac10_features.txt",sep=''), sep = "\t", quote = F, row.names = F)
-write.table(lapply(as.data.frame(gene, stringsAsFactors=F), as.character), paste("output/",gene_name,"_rheMac10_gene.txt",sep=''), sep = "\t", quote = F, row.names = F)
+up_2k_gene <-cbind(seqnames=gene_features[1,1], start=gene_features[1,2]-2000, end=gene_features[nrow(gene_features),3], 
+                   width=gene_features[nrow(gene_features),3]-gene_features[1,2]+2001, strand=gene_features[1,5], 
+                   type="gene", gene_name=gene_name)
+
+write.table(lapply(as.data.frame(gene_features, stringsAsFactors=F), as.character), paste(FILE_PATH,"input_data/",gene_name,"_features.txt",sep=''), sep = "\t", quote = F, row.names = F)
+write.table(lapply(as.data.frame(gene, stringsAsFactors=F), as.character), paste(FILE_PATH,"input_data/",gene_name,"_gene.txt",sep=''), sep = "\t", quote = F, row.names = F)
+write.table(lapply(as.data.frame(up_2k_gene, stringsAsFactors=F), as.character), paste(FILE_PATH,"input_data/",gene_name,"_up2kgene.txt",sep=''), sep = "\t", quote = F, row.names = F)
+
