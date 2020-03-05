@@ -1,0 +1,2 @@
+seqnames	start	end	width	strand	type	gene_name
+chr15	89497623	89560261	62639	+	gene	Shank3

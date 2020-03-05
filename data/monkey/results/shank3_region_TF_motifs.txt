@@ -1,0 +1,1721 @@
+seqnames	start	end	width	strand	score	group_name	type	gene_name	motif_nm	tf_symbol	description	species
+chr10	748240	748250	11	-	12.9977597850328	MA0025.1	exon	Shank3	NFIL3	NFIL3	nuclear factor,interleukin 3 regulated	Homo sapiens
+chr10	781263	781273	11	-	13.3029204373025	MA0025.1	intron	Shank3	NFIL3	NFIL3	nuclear factor,interleukin 3 regulated	Homo sapiens
+chr10	798121	798131	11	-	9.45697584955857	MA0025.1	intron	Shank3	NFIL3	NFIL3	nuclear factor,interleukin 3 regulated	Homo sapiens
+chr10	793074	793087	14	+	12.3790414737046	MA0030.1	intron	Shank3	FOXF2	FOXF2	forkhead box F2	Homo sapiens
+chr10	796552	796565	14	+	13.3706221549487	MA0030.1	intron	Shank3	FOXF2	FOXF2	forkhead box F2	Homo sapiens
+chr10	763269	763282	14	-	11.3251586492112	MA0030.1	intron	Shank3	FOXF2	FOXF2	forkhead box F2	Homo sapiens
+chr10	749752	749761	10	-	13.1206634646015	MA0057.1	exon	Shank3	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr10	753989	753998	10	-	12.9834282605137	MA0057.1	intron	Shank3	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr10	782793	782802	10	-	12.3555807096076	MA0057.1	intron	Shank3	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr10	782805	782814	10	-	11.8778329704913	MA0057.1	intron	Shank3	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr10	786100	786109	10	-	11.8778329704913	MA0057.1	intron	Shank3	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr10	801987	801996	10	-	12.063067280042	MA0057.1	intron	Shank3	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr10	803602	803611	10	-	11.810988166412	MA0057.1	intron	Shank3	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr10	792872	792882	11	+	12.5683803523308	MA0059.1	intron	Shank3	MAX::MYC	-	-	Homo sapiens
+chr10	759197	759216	20	-	11.9661824863229	MA0066.1	exon	Shank3	PPARG	PPARG	peroxisome proliferator-activated receptor gamma	Homo sapiens
+chr10	762645	762664	20	-	11.1042706480205	MA0066.1	intron	Shank3	PPARG	PPARG	peroxisome proliferator-activated receptor gamma	Homo sapiens
+chr10	762728	762747	20	-	10.1095576721669	MA0066.1	intron	Shank3	PPARG	PPARG	peroxisome proliferator-activated receptor gamma	Homo sapiens
+chr10	797413	797432	20	-	10.6674260087894	MA0066.1	exon	Shank3	PPARG	PPARG	peroxisome proliferator-activated receptor gamma	Homo sapiens
+chr10	764176	764189	14	-	10.3131985644183	MA0069.1	intron	Shank3	Pax6	PAX6	paired box 6	Homo sapiens
+chr10	791605	791618	14	-	13.2825308654725	MA0069.1	intron	Shank3	Pax6	PAX6	paired box 6	Homo sapiens
+chr10	780654	780665	12	-	10.4941882015687	MA0070.1	intron	Shank3	PBX1	PBX1	pre-B-cell leukemia homeobox 1	Homo sapiens
+chr10	780707	780718	12	-	10.4941882015687	MA0070.1	intron	Shank3	PBX1	PBX1	pre-B-cell leukemia homeobox 1	Homo sapiens
+chr10	793537	793546	10	+	11.7126565831503	MA0071.1	intron	Shank3	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	762657	762666	10	-	11.5803400372329	MA0071.1	intron	Shank3	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	779334	779343	10	-	11.9632837013856	MA0071.1	intron	Shank3	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	780395	780404	10	-	11.7459966130067	MA0071.1	intron	Shank3	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	781621	781630	10	-	12.7462408768422	MA0071.1	intron	Shank3	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	783608	783617	10	-	12.5202688263236	MA0071.1	intron	Shank3	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	802144	802153	10	-	11.9531391016986	MA0071.1	intron	Shank3	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	783607	783620	14	-	10.4506759427822	MA0072.1	intron	Shank3	RORA(var.2)	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	802143	802156	14	-	14.3551705919271	MA0072.1	intron	Shank3	RORA(var.2)	RORA	RAR-related orphan receptor A	Homo sapiens
+chr10	750055	750074	20	-	14.6564554034095	MA0073.1	exon	Shank3	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr10	776675	776694	20	-	14.8917411951125	MA0073.1	intron	Shank3	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr10	780254	780273	20	-	17.8046717564161	MA0073.1	intron	Shank3	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr10	780725	780744	20	-	19.3785593208429	MA0073.1	intron	Shank3	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr10	781667	781686	20	-	15.1659818825707	MA0073.1	intron	Shank3	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr10	781670	781689	20	-	15.7955322470839	MA0073.1	intron	Shank3	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr10	757110	757124	15	-	9.95627789514176	MA0074.1	intron	Shank3	RXRA::VDR	-	-	Homo sapiens
+chr10	766552	766566	15	-	12.992483035346	MA0074.1	intron	Shank3	RXRA::VDR	-	-	Homo sapiens
+chr10	773180	773194	15	-	12.2503231050942	MA0074.1	intron	Shank3	RXRA::VDR	-	-	Homo sapiens
+chr10	798799	798813	15	-	11.0609806498247	MA0074.1	intron	Shank3	RXRA::VDR	-	-	Homo sapiens
+chr10	800233	800247	15	-	13.3333486178353	MA0074.1	intron	Shank3	RXRA::VDR	-	-	Homo sapiens
+chr10	755925	755936	12	-	11.2043498850209	MA0091.1	intron	Shank3	TAL1::TCF3	-	-	Homo sapiens
+chr10	765827	765838	12	-	11.4206290337818	MA0091.1	intron	Shank3	TAL1::TCF3	-	-	Homo sapiens
+chr10	783354	783365	12	-	16.2599168501548	MA0091.1	intron	Shank3	TAL1::TCF3	-	-	Homo sapiens
+chr10	788139	788150	12	-	13.1227539966774	MA0091.1	exon	Shank3	TAL1::TCF3	-	-	Homo sapiens
+chr10	791372	791383	12	-	11.2082674047304	MA0091.1	intron	Shank3	TAL1::TCF3	-	-	Homo sapiens
+chr10	798563	798574	12	-	11.7872447295678	MA0091.1	intron	Shank3	TAL1::TCF3	-	-	Homo sapiens
+chr10	795847	795856	10	+	11.805607867949	MA0101.1	intron	Shank3	REL	REL	v-rel avian reticuloendotheliosis viral oncogene homolog	Homo sapiens
+chr10	756066	756075	10	-	12.7336422155444	MA0101.1	intron	Shank3	REL	REL	v-rel avian reticuloendotheliosis viral oncogene homolog	Homo sapiens
+chr10	761541	761550	10	-	11.805607867949	MA0101.1	intron	Shank3	REL	REL	v-rel avian reticuloendotheliosis viral oncogene homolog	Homo sapiens
+chr10	768659	768668	10	-	12.7336422155444	MA0101.1	intron	Shank3	REL	REL	v-rel avian reticuloendotheliosis viral oncogene homolog	Homo sapiens
+chr10	769389	769398	10	-	11.6491949825008	MA0101.1	intron	Shank3	REL	REL	v-rel avian reticuloendotheliosis viral oncogene homolog	Homo sapiens
+chr10	756066	756075	10	-	12.2920018326485	MA0107.1	intron	Shank3	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr10	768659	768668	10	-	12.2920018326485	MA0107.1	intron	Shank3	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr10	769388	769397	10	-	13.1377189733987	MA0107.1	intron	Shank3	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr10	776642	776651	10	-	12.7004408796289	MA0107.1	intron	Shank3	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr10	784757	784766	10	-	11.3904122057743	MA0107.1	intron	Shank3	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr10	804241	804250	10	-	12.4703682981215	MA0107.1	intron	Shank3	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr10	754415	754431	17	-	9.96347726372693	MA0115.1	intron	Shank3	NR1H2::RXRA	-	-	Homo sapiens
+chr10	766658	766674	17	-	4.44193063608698	MA0115.1	intron	Shank3	NR1H2::RXRA	-	-	Homo sapiens
+chr10	772150	772166	17	-	6.33203160533507	MA0115.1	intron	Shank3	NR1H2::RXRA	-	-	Homo sapiens
+chr10	773171	773187	17	-	16.8976721547575	MA0115.1	intron	Shank3	NR1H2::RXRA	-	-	Homo sapiens
+chr10	774611	774627	17	-	9.18627848366167	MA0115.1	intron	Shank3	NR1H2::RXRA	-	-	Homo sapiens
+chr10	776181	776197	17	-	4.76278471210085	MA0115.1	intron	Shank3	NR1H2::RXRA	-	-	Homo sapiens
+chr10	801548	801564	17	-	4.65228982859151	MA0115.1	intron	Shank3	NR1H2::RXRA	-	-	Homo sapiens
+chr10	767051	767064	14	-	13.9401087961802	MA0119.1	intron	Shank3	NFIC::TLX1	-	-	Homo sapiens
+chr10	796862	796880	19	+	15.3596924770945	MA0139.1	intron	Shank3	CTCF	CTCF	CCCTC-binding factor (zinc finger protein)	Homo sapiens
+chr10	767599	767617	19	-	13.4741409554802	MA0139.1	intron	Shank3	CTCF	CTCF	CCCTC-binding factor (zinc finger protein)	Homo sapiens
+chr10	785604	785622	19	-	13.3545739238726	MA0139.1	intron	Shank3	CTCF	CTCF	CCCTC-binding factor (zinc finger protein)	Homo sapiens
+chr10	788192	788210	19	-	15.3205094777682	MA0139.1	exon	Shank3	CTCF	CTCF	CCCTC-binding factor (zinc finger protein)	Homo sapiens
+chr10	794191	794208	18	+	-0.500357240484551	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	749409	749426	18	-	0.117348594913522	MA0149.1	exon	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	764354	764371	18	-	1.1625766051193	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	764358	764375	18	-	-2.6412120453325	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	766440	766457	18	-	-0.608182573301765	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	769226	769243	18	-	0.836287906565199	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	772380	772397	18	-	-0.991801582633988	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	775751	775768	18	-	1.36533745500865	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	776210	776227	18	-	2.13902075951324	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	779584	779601	18	-	-0.436055151848456	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	779609	779626	18	-	4.1276402975483	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	781126	781143	18	-	-2.21279052165088	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	782797	782814	18	-	4.63713472714622	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	784201	784218	18	-	10.8310395881811	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	784202	784219	18	-	-2.1032479117983	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	784205	784222	18	-	-1.82208958545394	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	785640	785657	18	-	-2.49668476950313	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	787876	787893	18	-	5.36648424632592	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	803182	803199	18	-	0.807434324423167	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	803186	803203	18	-	-1.94952716638553	MA0149.1	intron	Shank3	EWSR1-FLI1	-	-	Homo sapiens
+chr10	754567	754587	21	-	9.53012632141963	MA0138.2	intron	Shank3	REST	REST	RE1-silencing transcription factor	Homo sapiens
+chr10	769272	769292	21	-	10.4704609490051	MA0138.2	intron	Shank3	REST	REST	RE1-silencing transcription factor	Homo sapiens
+chr10	783963	783983	21	-	10.0916857763181	MA0138.2	intron	Shank3	REST	REST	RE1-silencing transcription factor	Homo sapiens
+chr10	797818	797838	21	-	9.61978011570067	MA0138.2	intron	Shank3	REST	REST	RE1-silencing transcription factor	Homo sapiens
+chr10	792461	792472	12	+	14.373671567577	MA0155.1	intron	Shank3	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr10	750539	750550	12	-	14.7690847247577	MA0155.1	exon	Shank3	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr10	757905	757916	12	-	13.9798746475571	MA0155.1	intron	Shank3	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr10	762079	762090	12	-	13.8429354966697	MA0155.1	intron	Shank3	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr10	769523	769534	12	-	15.2719281805129	MA0155.1	intron	Shank3	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr10	769735	769746	12	-	12.3031141534177	MA0155.1	intron	Shank3	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr10	784190	784201	12	-	13.8068117860109	MA0155.1	intron	Shank3	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr10	785883	785894	12	-	13.3204138805513	MA0155.1	intron	Shank3	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr10	781610	781626	17	-	18.370750918339	MA0159.1	intron	Shank3	RARA::RXRA	-	-	Homo sapiens
+chr10	797846	797862	17	-	16.3295331922437	MA0159.1	intron	Shank3	RARA::RXRA	-	-	Homo sapiens
+chr10	795928	795941	14	+	13.0845338378734	MA0163.1	intron	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	795929	795942	14	+	15.7863965033216	MA0163.1	intron	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	750518	750531	14	-	13.0286095769315	MA0163.1	exon	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	764163	764176	14	-	14.6025316436734	MA0163.1	intron	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	766467	766480	14	-	16.5909380367334	MA0163.1	intron	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	769204	769217	14	-	15.9230071049632	MA0163.1	intron	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	783025	783038	14	-	14.1415238164583	MA0163.1	intron	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	785057	785070	14	-	15.0468268059166	MA0163.1	intron	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	798498	798511	14	-	16.9890800445125	MA0163.1	exon	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	798929	798942	14	-	13.017263072211	MA0163.1	exon	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	800195	800208	14	-	14.0674817617069	MA0163.1	intron	Shank3	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr10	755426	755436	11	-	12.3598830339649	MA0462.1	intron	Shank3	BATF::JUN	-	-	Homo sapiens
+chr10	788786	788796	11	-	11.7948721200351	MA0462.1	intron	Shank3	BATF::JUN	-	-	Homo sapiens
+chr10	793129	793139	11	+	14.3686261282095	MA0465.1	intron	Shank3	CDX2	CDX2	caudal type homeobox 2	Homo sapiens
+chr10	794957	794967	11	+	9.82081676115418	MA0468.1	intron	Shank3	DUX4	DUX4	double homeobox 4	Homo sapiens
+chr10	768182	768192	11	-	10.2517673395643	MA0468.1	intron	Shank3	DUX4	DUX4	double homeobox 4	Homo sapiens
+chr10	749878	749888	11	-	16.7656564417453	MA0470.1	exon	Shank3	E2F4	E2F4	E2F transcription factor 4,p107/p130-binding	Homo sapiens
+chr10	785644	785654	11	-	16.7656564417453	MA0470.1	intron	Shank3	E2F4	E2F4	E2F transcription factor 4,p107/p130-binding	Homo sapiens
+chr10	749878	749888	11	-	17.1624178198868	MA0471.1	exon	Shank3	E2F6	E2F6	E2F transcription factor 6	Homo sapiens
+chr10	753074	753084	11	-	14.5161886084593	MA0471.1	intron	Shank3	E2F6	E2F6	E2F transcription factor 6	Homo sapiens
+chr10	766448	766458	11	-	14.3255947957433	MA0471.1	intron	Shank3	E2F6	E2F6	E2F transcription factor 6	Homo sapiens
+chr10	772379	772389	11	-	15.317641489808	MA0471.1	intron	Shank3	E2F6	E2F6	E2F transcription factor 6	Homo sapiens
+chr10	774624	774634	11	-	14.3144179594523	MA0471.1	intron	Shank3	E2F6	E2F6	E2F transcription factor 6	Homo sapiens
+chr10	784071	784081	11	-	14.2959873659562	MA0471.1	exon	Shank3	E2F6	E2F6	E2F transcription factor 6	Homo sapiens
+chr10	784201	784211	11	-	14.3797674069964	MA0471.1	intron	Shank3	E2F6	E2F6	E2F transcription factor 6	Homo sapiens
+chr10	785644	785654	11	-	17.1624178198868	MA0471.1	intron	Shank3	E2F6	E2F6	E2F transcription factor 6	Homo sapiens
+chr10	755424	755434	11	-	14.1086200815029	MA0476.1	intron	Shank3	FOS	FOS	FBJ murine osteosarcoma viral oncogene homolog	Homo sapiens
+chr10	769572	769582	11	-	14.8918395806071	MA0476.1	intron	Shank3	FOS	FOS	FBJ murine osteosarcoma viral oncogene homolog	Homo sapiens
+chr10	774205	774215	11	-	10.9005447833508	MA0476.1	intron	Shank3	FOS	FOS	FBJ murine osteosarcoma viral oncogene homolog	Homo sapiens
+chr10	782306	782316	11	-	11.19618891765	MA0476.1	intron	Shank3	FOS	FOS	FBJ murine osteosarcoma viral oncogene homolog	Homo sapiens
+chr10	755424	755434	11	-	12.9755282702719	MA0477.1	intron	Shank3	FOSL1	FOSL1	FOS-like antigen 1	Homo sapiens
+chr10	769572	769582	11	-	15.7564464160456	MA0477.1	intron	Shank3	FOSL1	FOSL1	FOS-like antigen 1	Homo sapiens
+chr10	782306	782316	11	-	11.6415793654771	MA0477.1	intron	Shank3	FOSL1	FOSL1	FOS-like antigen 1	Homo sapiens
+chr10	755425	755435	11	-	14.5251373488681	MA0478.1	intron	Shank3	FOSL2	FOSL2	FOS-like antigen 2	Homo sapiens
+chr10	782785	782795	11	-	15.6143279515461	MA0479.1	intron	Shank3	FOXH1	FOXH1	forkhead box H1	Homo sapiens
+chr10	783908	783918	11	-	14.2251436951438	MA0479.1	intron	Shank3	FOXH1	FOXH1	forkhead box H1	Homo sapiens
+chr10	748814	748828	15	-	12.6652212249543	MA0484.1	exon	Shank3	HNF4G	HNF4G	hepatocyte nuclear factor 4,gamma	Homo sapiens
+chr10	757810	757824	15	-	15.3691632008379	MA0484.1	intron	Shank3	HNF4G	HNF4G	hepatocyte nuclear factor 4,gamma	Homo sapiens
+chr10	781729	781743	15	-	15.9770511717793	MA0484.1	intron	Shank3	HNF4G	HNF4G	hepatocyte nuclear factor 4,gamma	Homo sapiens
+chr10	800684	800698	15	-	12.9698842666842	MA0484.1	intron	Shank3	HNF4G	HNF4G	hepatocyte nuclear factor 4,gamma	Homo sapiens
+chr10	756568	756580	13	-	11.1259303099949	MA0488.1	intron	Shank3	JUN	JUN	jun proto-oncogene	Homo sapiens
+chr10	783516	783528	13	-	11.0043535490718	MA0488.1	intron	Shank3	JUN	JUN	jun proto-oncogene	Homo sapiens
+chr10	791377	791389	13	-	11.7951369935749	MA0488.1	intron	Shank3	JUN	JUN	jun proto-oncogene	Homo sapiens
+chr10	798123	798135	13	-	10.5706822180951	MA0488.1	intron	Shank3	JUN	JUN	jun proto-oncogene	Homo sapiens
+chr10	755425	755438	14	-	14.1478854941832	MA0489.1	intron	Shank3	JUN(var.2)	JUN	jun proto-oncogene	Homo sapiens
+chr10	755425	755435	11	-	14.90156297256	MA0490.1	intron	Shank3	JUNB	JUNB	jun B proto-oncogene	Homo sapiens
+chr10	755424	755434	11	-	14.175884597643	MA0491.1	intron	Shank3	JUND	JUND	jun D proto-oncogene	Homo sapiens
+chr10	769572	769582	11	-	15.9586900838746	MA0491.1	intron	Shank3	JUND	JUND	jun D proto-oncogene	Homo sapiens
+chr10	756567	756581	15	-	10.241660012049	MA0492.1	intron	Shank3	JUND(var.2)	JUND	jun D proto-oncogene	Homo sapiens
+chr10	779035	779049	15	-	10.471714059405	MA0492.1	intron	Shank3	JUND(var.2)	JUND	jun D proto-oncogene	Homo sapiens
+chr10	783515	783529	15	-	10.7523038144064	MA0492.1	intron	Shank3	JUND(var.2)	JUND	jun D proto-oncogene	Homo sapiens
+chr10	791376	791390	15	-	12.0085448287748	MA0492.1	intron	Shank3	JUND(var.2)	JUND	jun D proto-oncogene	Homo sapiens
+chr10	792831	792845	15	+	13.50753151505	MA0497.1	intron	Shank3	MEF2C	MEF2C	myocyte enhancer factor 2C	Homo sapiens
+chr10	793376	793390	15	+	10.833621583906	MA0497.1	intron	Shank3	MEF2C	MEF2C	myocyte enhancer factor 2C	Homo sapiens
+chr10	767688	767702	15	-	13.0291123590282	MA0497.1	intron	Shank3	MEF2C	MEF2C	myocyte enhancer factor 2C	Homo sapiens
+chr10	770109	770123	15	-	8.61836940833079	MA0501.1	intron	Shank3	MAF::NFE2	-	-	Homo sapiens
+chr10	770221	770235	15	-	8.61836940833079	MA0501.1	intron	Shank3	MAF::NFE2	-	-	Homo sapiens
+chr10	773819	773833	15	-	9.80996996064277	MA0501.1	intron	Shank3	MAF::NFE2	-	-	Homo sapiens
+chr10	784005	784019	15	-	10.5967399548673	MA0501.1	exon	Shank3	MAF::NFE2	-	-	Homo sapiens
+chr10	799587	799601	15	-	8.76884628278927	MA0501.1	exon	Shank3	MAF::NFE2	-	-	Homo sapiens
+chr10	800549	800563	15	-	10.8008788575822	MA0501.1	intron	Shank3	MAF::NFE2	-	-	Homo sapiens
+chr10	803525	803539	15	-	8.91471944718536	MA0501.1	intron	Shank3	MAF::NFE2	-	-	Homo sapiens
+chr10	795836	795850	15	+	13.7913992070495	MA0504.1	intron	Shank3	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr10	749752	749766	15	-	12.8593030486905	MA0504.1	exon	Shank3	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr10	753615	753629	15	-	18.2381123052791	MA0504.1	intron	Shank3	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr10	757810	757824	15	-	12.8516435178774	MA0504.1	intron	Shank3	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr10	776183	776197	15	-	17.6484498642709	MA0504.1	intron	Shank3	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr10	777369	777383	15	-	18.1811659139123	MA0504.1	intron	Shank3	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr10	792892	792904	13	+	8.182327706661	MA0507.1	intron	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	793032	793044	13	+	8.61782847324691	MA0507.1	intron	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	749703	749715	13	-	12.6801787617717	MA0507.1	exon	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	751763	751775	13	-	6.10223275680501	MA0507.1	intron	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	767549	767561	13	-	6.04294944806952	MA0507.1	intron	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	769919	769931	13	-	14.9855857411063	MA0507.1	intron	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	771017	771029	13	-	6.89854138873055	MA0507.1	intron	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	788987	788999	13	-	7.36636413023369	MA0507.1	intron	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	802375	802387	13	-	7.36405262408352	MA0507.1	intron	Shank3	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr10	794561	794573	13	+	13.1877198388888	MA0513.1	intron	Shank3	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr10	758677	758689	13	-	12.5985705613073	MA0513.1	intron	Shank3	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr10	765996	766008	13	-	12.7074772604893	MA0513.1	intron	Shank3	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr10	775308	775320	13	-	11.8127591066462	MA0513.1	intron	Shank3	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr10	783687	783699	13	-	12.2669971265741	MA0513.1	intron	Shank3	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr10	787925	787937	13	-	12.2747128170846	MA0513.1	intron	Shank3	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr10	748568	748582	15	-	16.9369012944589	MA0516.1	exon	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	749468	749482	15	-	16.489476688194	MA0516.1	exon	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	750059	750073	15	-	17.0649821046492	MA0516.1	exon	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	750091	750105	15	-	15.6829127046469	MA0516.1	exon	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	750103	750117	15	-	16.6999116327442	MA0516.1	exon	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	757979	757993	15	-	16.094465995648	MA0516.1	intron	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	761034	761048	15	-	18.1137140166505	MA0516.1	exon	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	761168	761182	15	-	20.0743502615827	MA0516.1	intron	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	761361	761375	15	-	15.5816035806358	MA0516.1	intron	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	763026	763040	15	-	18.8430461173441	MA0516.1	intron	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	777860	777874	15	-	17.7304013503625	MA0516.1	intron	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	779886	779900	15	-	16.2722634229416	MA0516.1	intron	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	804174	804188	15	-	16.2417895555948	MA0516.1	intron	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	804229	804243	15	-	17.1371708329676	MA0516.1	intron	Shank3	SP2	SP2	Sp2 transcription factor	Homo sapiens
+chr10	794998	795012	15	+	9.78426161141749	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	796940	796954	15	+	9.21945170169021	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	748389	748403	15	-	8.70402115365278	MA0517.1	exon	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	748432	748446	15	-	8.46163464769717	MA0517.1	exon	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	748674	748688	15	-	8.67193126246585	MA0517.1	exon	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	749635	749649	15	-	9.82493996801065	MA0517.1	exon	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	756972	756986	15	-	10.7792878039761	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	757079	757093	15	-	6.51641201355785	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	758333	758347	15	-	16.0693351316897	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	765421	765435	15	-	7.24167929444041	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	766041	766055	15	-	8.75347212175838	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	767218	767232	15	-	10.9609575605238	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	767846	767860	15	-	7.19822098222	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	768254	768268	15	-	9.20933379567398	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	772591	772605	15	-	6.67670357844718	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	775456	775470	15	-	7.31094755117227	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	783931	783945	15	-	6.30389398713065	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	789465	789479	15	-	9.4064718114567	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	789470	789484	15	-	8.24774537681302	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	789678	789692	15	-	6.82854070446179	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	791521	791535	15	-	6.64816057880036	MA0517.1	intron	Shank3	STAT1::STAT2	-	-	Homo sapiens
+chr10	793250	793263	14	+	13.1941914295688	MA0523.1	intron	Shank3	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific,HMG-box)	Homo sapiens
+chr10	757300	757313	14	-	12.8571241401201	MA0523.1	intron	Shank3	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific,HMG-box)	Homo sapiens
+chr10	762101	762114	14	-	15.8839027512375	MA0523.1	intron	Shank3	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific,HMG-box)	Homo sapiens
+chr10	773967	773980	14	-	12.2494324475943	MA0523.1	intron	Shank3	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific,HMG-box)	Homo sapiens
+chr10	779590	779603	14	-	12.3872460198448	MA0523.1	intron	Shank3	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific,HMG-box)	Homo sapiens
+chr10	782048	782061	14	-	12.9786071039007	MA0523.1	intron	Shank3	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific,HMG-box)	Homo sapiens
+chr10	760528	760542	15	-	13.7327379292581	MA0527.1	exon	Shank3	ZBTB33	ZBTB33	zinc finger and BTB domain containing 33	Homo sapiens
+chr10	776513	776527	15	-	12.722807376664	MA0527.1	intron	Shank3	ZBTB33	ZBTB33	zinc finger and BTB domain containing 33	Homo sapiens
+chr10	749876	749896	21	-	13.5440643833038	MA0528.1	exon	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	751012	751032	21	-	14.7698755280876	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	752057	752077	21	-	19.2221094884551	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	752063	752083	21	-	16.1187361803489	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	754427	754447	21	-	14.6970168448611	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	758859	758879	21	-	13.921376283289	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	760588	760608	21	-	14.9610988557722	MA0528.1	exon	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	760600	760620	21	-	13.0953736460996	MA0528.1	exon	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	766440	766460	21	-	15.190840143958	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	766446	766466	21	-	13.6972386736528	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	769692	769712	21	-	14.8380028572111	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	772286	772306	21	-	12.9550744575602	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	772376	772396	21	-	18.7119730534566	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	772377	772397	21	-	22.2842976230211	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	776202	776222	21	-	12.8619620346519	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	776205	776225	21	-	18.2213651435882	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	776302	776322	21	-	15.5153022193394	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	776969	776989	21	-	12.6737534083017	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	778434	778454	21	-	19.8596865050841	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	781134	781154	21	-	13.816039796194	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	781458	781478	21	-	15.0074300442	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	781469	781489	21	-	12.4780134347908	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	782668	782688	21	-	13.3614349402998	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	782788	782808	21	-	15.6790588150592	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	782791	782811	21	-	21.9699846424041	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	782792	782812	21	-	19.7159701789801	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	782794	782814	21	-	18.3267549614619	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	782797	782817	21	-	23.4509526917708	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	782801	782821	21	-	14.2942074194777	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	782802	782822	21	-	15.0703078767012	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	783408	783428	21	-	12.5611861686515	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	784012	784032	21	-	12.6251910256386	MA0528.1	exon	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	784197	784217	21	-	13.4421323474653	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	784201	784221	21	-	13.8826218778761	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	784206	784226	21	-	13.2796324579617	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	784209	784229	21	-	15.0597733422984	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	785056	785076	21	-	13.6989961107813	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	787780	787800	21	-	13.662546140977	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	787955	787975	21	-	12.7140579418866	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	787993	788013	21	-	13.9381438185556	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	798212	798232	21	-	13.9597117410327	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	798221	798241	21	-	16.5397319184836	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	798227	798247	21	-	14.3392771471471	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	798251	798271	21	-	15.9985128560822	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	801268	801288	21	-	13.0577537003734	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	801538	801558	21	-	14.2348798893452	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	802314	802334	21	-	15.6129707940166	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	803630	803650	21	-	13.1974762080152	MA0528.1	intron	Shank3	ZNF263	ZNF263	zinc finger protein 263	Homo sapiens
+chr10	761946	761956	11	-	12.070215230361	MA0102.3	intron	Shank3	CEBPA	CEBPA	CCAAT/enhancer binding protein (C/EBP),alpha	Homo sapiens
+chr10	774246	774256	11	-	10.7474361078132	MA0102.3	intron	Shank3	CEBPA	CEBPA	CCAAT/enhancer binding protein (C/EBP),alpha	Homo sapiens
+chr10	788776	788786	11	-	12.7332567553642	MA0102.3	intron	Shank3	CEBPA	CEBPA	CCAAT/enhancer binding protein (C/EBP),alpha	Homo sapiens
+chr10	755803	755813	11	-	13.7242207849668	MA0076.2	intron	Shank3	ELK4	ELK4	ELK4,ETS-domain protein (SRF accessory protein 1)	Homo sapiens
+chr10	764788	764798	11	-	12.8417211419234	MA0076.2	intron	Shank3	ELK4	ELK4	ELK4,ETS-domain protein (SRF accessory protein 1)	Homo sapiens
+chr10	765398	765408	11	-	12.894989031605	MA0076.2	intron	Shank3	ELK4	ELK4	ELK4,ETS-domain protein (SRF accessory protein 1)	Homo sapiens
+chr10	765690	765700	11	-	16.1882383065685	MA0076.2	intron	Shank3	ELK4	ELK4	ELK4,ETS-domain protein (SRF accessory protein 1)	Homo sapiens
+chr10	762070	762084	15	-	13.8774931714228	MA0258.2	intron	Shank3	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr10	762648	762662	15	-	13.4373739093336	MA0258.2	intron	Shank3	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr10	766153	766167	15	-	15.9778041633609	MA0258.2	intron	Shank3	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr10	769481	769495	15	-	13.7550499473055	MA0258.2	intron	Shank3	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr10	779068	779082	15	-	16.1613368039482	MA0258.2	intron	Shank3	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr10	779315	779329	15	-	13.2025502749776	MA0258.2	intron	Shank3	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr10	782243	782257	15	-	13.3567544736873	MA0258.2	intron	Shank3	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr10	797416	797430	15	-	15.9789251922122	MA0258.2	exon	Shank3	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr10	748988	749002	15	-	10.8713221723242	MA0148.3	exon	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	749983	749997	15	-	8.44418716138088	MA0148.3	exon	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	780079	780093	15	-	8.49243063289027	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	780939	780953	15	-	9.34736019822448	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	781153	781167	15	-	11.4224514238139	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	788832	788846	15	-	10.0526601721549	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	788987	789001	15	-	10.6762646426416	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	790843	790857	15	-	9.89740121461716	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	791211	791225	15	-	8.54000565291403	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	798616	798630	15	-	8.78101343676089	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	803566	803580	15	-	9.82465407852882	MA0148.3	intron	Shank3	FOXA1	FOXA1	forkhead box A1	Homo sapiens
+chr10	791926	791946	21	+	5.30070734743277	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	794823	794843	21	+	8.72056811875243	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	794996	795016	21	+	5.00633665966956	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	796938	796958	21	+	6.90791147779813	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	748670	748690	21	-	7.60699725261907	MA0050.2	exon	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	749615	749635	21	-	5.05355819007654	MA0050.2	exon	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	755901	755921	21	-	7.05557692044698	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	756968	756988	21	-	8.03188061582004	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	758329	758349	21	-	13.8722536964853	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	763862	763882	21	-	7.75271874015648	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	765411	765431	21	-	5.01998156918387	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	765417	765437	21	-	11.2343062204829	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	766037	766057	21	-	9.94408881629859	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	767214	767234	21	-	5.75941877994178	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	767842	767862	21	-	5.50120137288271	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	772587	772607	21	-	8.08571059893742	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	775423	775443	21	-	6.35911023184964	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	775448	775468	21	-	4.86583074834422	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	775452	775472	21	-	11.4405718891751	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	775456	775476	21	-	4.32220968560146	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	775458	775478	21	-	7.53204193298546	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	780836	780856	21	-	4.66776985400359	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	783927	783947	21	-	5.72614058364773	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	783933	783953	21	-	13.9203288359258	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	786625	786645	21	-	7.08007808195569	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	788955	788975	21	-	9.91718307838292	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	788993	789013	21	-	4.86786367552391	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	789461	789481	21	-	11.0314297343035	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	789472	789492	21	-	6.4813341271583	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	789835	789855	21	-	7.69697364666372	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	789839	789859	21	-	6.49939563170245	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	789841	789861	21	-	5.24394087520984	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	789846	789866	21	-	7.0333776641191	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	789852	789872	21	-	9.29150155299232	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	789856	789876	21	-	4.57766296064938	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	790304	790324	21	-	7.22230952218039	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	790342	790362	21	-	11.2990621163966	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	790795	790815	21	-	6.63837403292593	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	790801	790821	21	-	8.49440166991541	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	790818	790838	21	-	4.28694865949252	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	790852	790872	21	-	10.5604871126931	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	790901	790921	21	-	4.29398047918667	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	791010	791030	21	-	5.68209215207382	MA0050.2	intron	Shank3	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr10	749472	749482	11	-	16.9784366787692	MA0079.3	exon	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	750063	750073	11	-	16.8649735551542	MA0079.3	exon	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	750107	750117	11	-	18.0177125564352	MA0079.3	exon	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	753165	753175	11	-	15.7766133975338	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	757922	757932	11	-	15.2032996610888	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	761172	761182	11	-	18.8315714211586	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	761365	761375	11	-	15.3117698727738	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	763024	763034	11	-	15.5967835065463	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	763030	763040	11	-	15.6408927365352	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	765089	765099	11	-	15.2032996610888	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	765898	765908	11	-	16.2463681891129	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	777864	777874	11	-	15.3108600314208	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	779890	779900	11	-	15.190105620353	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	781675	781685	11	-	16.8649735551542	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	804178	804188	11	-	16.1734855775942	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	804233	804243	11	-	16.8649735551542	MA0079.3	intron	Shank3	SP1	SP1	Sp1 transcription factor	Homo sapiens
+chr10	788296	788306	11	-	10.7081118706022	MA0137.3	exon	Shank3	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr10	788404	788414	11	-	10.9889113441716	MA0137.3	intron	Shank3	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr10	788722	788732	11	-	9.93714172028032	MA0137.3	intron	Shank3	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr10	772333	772343	11	-	12.7198418036892	MA0144.2	intron	Shank3	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	Homo sapiens
+chr10	780247	780257	11	-	11.1826366258585	MA0144.2	intron	Shank3	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	Homo sapiens
+chr10	788422	788432	11	-	12.8181967432708	MA0144.2	intron	Shank3	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	Homo sapiens
+chr10	795812	795829	18	+	11.0268048906338	MA0140.2	intron	Shank3	GATA1::TAL1	-	-	Homo sapiens
+chr10	751168	751185	18	-	10.7095246180287	MA0140.2	intron	Shank3	GATA1::TAL1	-	-	Homo sapiens
+chr10	767317	767334	18	-	11.8652150560985	MA0140.2	intron	Shank3	GATA1::TAL1	-	-	Homo sapiens
+chr10	775602	775612	11	-	14.2421619345453	MA0093.2	intron	Shank3	USF1	USF1	upstream transcription factor 1	Homo sapiens
+chr10	775919	775929	11	-	13.6428738449045	MA0093.2	intron	Shank3	USF1	USF1	upstream transcription factor 1	Homo sapiens
+chr10	784508	784518	11	-	13.2230840888824	MA0093.2	intron	Shank3	USF1	USF1	upstream transcription factor 1	Homo sapiens
+chr10	793055	793066	12	+	13.8903038676837	MA0095.2	intron	Shank3	YY1	YY1	YY1 transcription factor	Homo sapiens
+chr10	793938	793949	12	+	13.5712745556394	MA0095.2	intron	Shank3	YY1	YY1	YY1 transcription factor	Homo sapiens
+chr10	773603	773614	12	-	13.8306302125273	MA0095.2	intron	Shank3	YY1	YY1	YY1 transcription factor	Homo sapiens
+chr10	787180	787191	12	-	14.8712977746433	MA0095.2	intron	Shank3	YY1	YY1	YY1 transcription factor	Homo sapiens
+chr10	796555	796565	11	+	13.6698587696327	MA0593.1	intron	Shank3	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr10	748628	748638	11	-	11.7593991745332	MA0593.1	exon	Shank3	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr10	766732	766742	11	-	13.2392848045971	MA0593.1	intron	Shank3	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr10	758226	758235	10	-	14.0370957756601	MA0595.1	intron	Shank3	SREBF1	SREBF1	sterol regulatory element binding transcription factor 1	Homo sapiens
+chr10	792037	792046	10	+	14.4926560610916	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	754158	754167	10	-	13.264433868674	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	758094	758103	10	-	12.8412690003964	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	766492	766501	10	-	11.629105426581	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	769307	769316	10	-	12.6213809554897	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	769757	769766	10	-	11.6569062495164	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	772353	772362	10	-	12.7192460555288	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	776162	776171	10	-	13.4025154321438	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	798209	798218	10	-	14.6145326362526	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	800175	800184	10	-	12.1502817646044	MA0596.1	intron	Shank3	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr10	795903	795912	10	+	16.7202825779803	MA0599.1	intron	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	748573	748582	10	-	16.6798923117953	MA0599.1	exon	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	749473	749482	10	-	16.6157347854786	MA0599.1	exon	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	750058	750067	10	-	15.7414821758183	MA0599.1	exon	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	750064	750073	10	-	15.7414821758183	MA0599.1	exon	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	750108	750117	10	-	17.5405469248684	MA0599.1	exon	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	753166	753175	10	-	15.5179898158673	MA0599.1	intron	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	761173	761182	10	-	15.9785725323566	MA0599.1	intron	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	763025	763034	10	-	15.9785725323566	MA0599.1	intron	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	781676	781685	10	-	15.7414821758183	MA0599.1	intron	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	801492	801501	10	-	15.7414821758183	MA0599.1	intron	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	804234	804243	10	-	15.7414821758183	MA0599.1	intron	Shank3	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr10	756659	756669	11	-	10.634474955551	MA0610.1	intron	Shank3	DMRT3			Homo sapiens
+chr10	762410	762420	11	-	10.5457041936127	MA0610.1	intron	Shank3	DMRT3			Homo sapiens
+chr10	754665	754674	10	-	9.84926352283028	MA0612.1	intron	Shank3	EMX1			Homo sapiens
+chr10	768245	768254	10	-	9.87309473875894	MA0612.1	intron	Shank3	EMX1			Homo sapiens
+chr10	777748	777757	10	-	10.2723814416781	MA0612.1	intron	Shank3	EMX1			Homo sapiens
+chr10	755194	755203	10	-	11.1711519500653	MA0625.1	intron	Shank3	NFATC3			Homo sapiens
+chr10	761900	761909	10	-	10.274029591269	MA0625.1	intron	Shank3	NFATC3			Homo sapiens
+chr10	772821	772830	10	-	9.75972101276474	MA0625.1	intron	Shank3	NFATC3			Homo sapiens
+chr10	773266	773275	10	-	11.1711519500653	MA0625.1	intron	Shank3	NFATC3			Homo sapiens
+chr10	777992	778001	10	-	10.0464675156612	MA0625.1	intron	Shank3	NFATC3			Homo sapiens
+chr10	780837	780846	10	-	9.9894283313157	MA0625.1	intron	Shank3	NFATC3			Homo sapiens
+chr10	786696	786705	10	-	9.77701425610038	MA0625.1	intron	Shank3	NFATC3			Homo sapiens
+chr10	789499	789508	10	-	9.83967285317284	MA0625.1	intron	Shank3	NFATC3			Homo sapiens
+chr10	794370	794379	10	+	10.2739066647089	MA0628.1	intron	Shank3	POU6F1			Homo sapiens
+chr10	748260	748269	10	-	9.62749668824661	MA0628.1	exon	Shank3	POU6F1			Homo sapiens
+chr10	768245	768254	10	-	10.0109688586845	MA0628.1	intron	Shank3	POU6F1			Homo sapiens
+chr10	754527	754536	10	-	16.184400245702	MA0636.1	intron	Shank3	BHLHE41			Homo sapiens
+chr10	798320	798329	10	-	13.2478648008374	MA0636.1	intron	Shank3	BHLHE41			Homo sapiens
+chr10	748690	748703	14	-	12.7345863083487	MA0638.1	exon	Shank3	CREB3			Homo sapiens
+chr10	748241	748252	12	-	12.716177021955	MA0639.1	exon	Shank3	DBP			Homo sapiens
+chr10	781264	781275	12	-	12.7890345793135	MA0639.1	intron	Shank3	DBP			Homo sapiens
+chr10	752499	752512	14	-	12.2585753088682	MA0154.3	intron	Shank3	EBF1			Homo sapiens
+chr10	752538	752551	14	-	16.0233804917518	MA0154.3	intron	Shank3	EBF1			Homo sapiens
+chr10	769436	769449	14	-	12.9093762385229	MA0154.3	intron	Shank3	EBF1			Homo sapiens
+chr10	783954	783967	14	-	13.0094162012416	MA0154.3	intron	Shank3	EBF1			Homo sapiens
+chr10	759925	759934	10	-	13.2308555897375	MA0645.1	exon	Shank3	ETV6			Homo sapiens
+chr10	784895	784905	11	-	13.4462205078336	MA0646.1	intron	Shank3	GCM1			Homo sapiens
+chr10	773240	773249	10	-	12.2808197608749	MA0648.1	intron	Shank3	GSC			Homo sapiens
+chr10	749149	749158	10	-	13.4768522605775	MA0649.1	exon	Shank3	HEY2			Homo sapiens
+chr10	754527	754536	10	-	14.7976848955075	MA0649.1	intron	Shank3	HEY2			Homo sapiens
+chr10	770533	770542	10	-	14.3127809567641	MA0649.1	intron	Shank3	HEY2			Homo sapiens
+chr10	770763	770772	10	-	14.3127809567641	MA0649.1	intron	Shank3	HEY2			Homo sapiens
+chr10	770812	770821	10	-	14.7675651883113	MA0649.1	intron	Shank3	HEY2			Homo sapiens
+chr10	779021	779030	10	-	14.7675651883113	MA0649.1	intron	Shank3	HEY2			Homo sapiens
+chr10	783820	783829	10	-	14.2650373457395	MA0649.1	intron	Shank3	HEY2			Homo sapiens
+chr10	786659	786668	10	-	13.3175321440051	MA0649.1	intron	Shank3	HEY2			Homo sapiens
+chr10	798968	798977	10	-	14.8973498415032	MA0649.1	exon	Shank3	HEY2			Homo sapiens
+chr10	785691	785702	12	-	17.0715489674963	MA0131.2	intron	Shank3	HINFP			Homo sapiens
+chr10	796135	796146	12	+	10.7912913512105	MA0043.2	intron	Shank3	HLF			Homo sapiens
+chr10	748241	748252	12	-	11.1164933364081	MA0043.2	exon	Shank3	HLF			Homo sapiens
+chr10	781264	781275	12	-	11.1003494101111	MA0043.2	intron	Shank3	HLF			Homo sapiens
+chr10	792092	792106	15	+	8.60852870585376	MA0046.2	intron	Shank3	HNF1A			Homo sapiens
+chr10	767680	767694	15	-	11.9268469557585	MA0046.2	intron	Shank3	HNF1A			Homo sapiens
+chr10	792093	792105	13	+	8.25240927456831	MA0153.2	intron	Shank3	HNF1B			Homo sapiens
+chr10	767681	767693	13	-	8.17703785545793	MA0153.2	intron	Shank3	HNF1B			Homo sapiens
+chr10	789098	789110	13	-	9.05078800888895	MA0153.2	intron	Shank3	HNF1B			Homo sapiens
+chr10	761333	761345	13	-	9.52778717936749	MA0486.2	intron	Shank3	HSF1			Homo sapiens
+chr10	768469	768481	13	-	16.6976300477894	MA0486.2	intron	Shank3	HSF1			Homo sapiens
+chr10	779444	779456	13	-	6.65127563520999	MA0486.2	intron	Shank3	HSF1			Homo sapiens
+chr10	786700	786712	13	-	7.39757723772852	MA0486.2	intron	Shank3	HSF1			Homo sapiens
+chr10	791246	791258	13	-	6.24997953901069	MA0486.2	intron	Shank3	HSF1			Homo sapiens
+chr10	764934	764948	15	-	4.37964536604516	MA0653.1	intron	Shank3	IRF9			Homo sapiens
+chr10	783868	783882	15	-	1.22032906311148	MA0653.1	intron	Shank3	IRF9			Homo sapiens
+chr10	756567	756578	12	-	6.73850652619763	MA0656.1	intron	Shank3	JDP2(var.2)			Homo sapiens
+chr10	778299	778310	12	-	6.77835022305685	MA0656.1	exon	Shank3	JDP2(var.2)			Homo sapiens
+chr10	803758	803775	18	-	10.9872368460756	MA0657.1	exon	Shank3	KLF13			Homo sapiens
+chr10	794370	794379	10	+	10.1713917903565	MA0658.1	intron	Shank3	LHX6			Homo sapiens
+chr10	753737	753757	21	-	11.0307796346792	MA0659.1	intron	Shank3	MAFG			Homo sapiens
+chr10	762027	762047	21	-	10.1290410521141	MA0659.1	intron	Shank3	MAFG			Homo sapiens
+chr10	784005	784025	21	-	9.87056818669151	MA0659.1	exon	Shank3	MAFG			Homo sapiens
+chr10	792047	792058	12	+	9.25744221064283	MA0660.1	intron	Shank3	MEF2B			Homo sapiens
+chr10	792833	792844	12	+	5.27153735346312	MA0660.1	intron	Shank3	MEF2B			Homo sapiens
+chr10	793112	793123	12	+	6.302932626398	MA0660.1	intron	Shank3	MEF2B			Homo sapiens
+chr10	794370	794379	10	+	10.236047713828	MA0661.1	intron	Shank3	MEOX1			Homo sapiens
+chr10	774706	774715	10	-	10.2789305500781	MA0661.1	intron	Shank3	MEOX1			Homo sapiens
+chr10	754527	754536	10	-	11.3835661303242	MA0663.1	intron	Shank3	MLX			Homo sapiens
+chr10	784509	784518	10	-	13.6995295206186	MA0663.1	intron	Shank3	MLX			Homo sapiens
+chr10	754527	754536	10	-	13.2161860049234	MA0664.1	intron	Shank3	MLXIPL			Homo sapiens
+chr10	770533	770542	10	-	12.3067283982942	MA0664.1	intron	Shank3	MLXIPL			Homo sapiens
+chr10	770763	770772	10	-	12.3067283982942	MA0664.1	intron	Shank3	MLXIPL			Homo sapiens
+chr10	784509	784518	10	-	13.221919164474	MA0664.1	intron	Shank3	MLXIPL			Homo sapiens
+chr10	796482	796491	10	+	13.0001749275379	MA0665.1	intron	Shank3	MSC			Homo sapiens
+chr10	778886	778895	10	-	11.1645805913963	MA0665.1	intron	Shank3	MSC			Homo sapiens
+chr10	788139	788148	10	-	13.2003267543834	MA0665.1	exon	Shank3	MSC			Homo sapiens
+chr10	798563	798572	10	-	11.8152100097664	MA0665.1	intron	Shank3	MSC			Homo sapiens
+chr10	801822	801831	10	-	11.5505003478491	MA0665.1	intron	Shank3	MSC			Homo sapiens
+chr10	793882	793891	10	+	16.2558382972337	MA0667.1	intron	Shank3	MYF6			Homo sapiens
+chr10	796482	796491	10	+	10.4898026257079	MA0667.1	intron	Shank3	MYF6			Homo sapiens
+chr10	763598	763607	10	-	13.0102078994463	MA0667.1	intron	Shank3	MYF6			Homo sapiens
+chr10	778666	778675	10	-	10.5439749211359	MA0667.1	intron	Shank3	MYF6			Homo sapiens
+chr10	801822	801831	10	-	10.6829270200534	MA0667.1	intron	Shank3	MYF6			Homo sapiens
+chr10	770460	770469	10	-	12.6659394141294	MA0668.1	intron	Shank3	NEUROD2			Homo sapiens
+chr10	770460	770469	10	-	16.0377348097309	MA0669.1	intron	Shank3	NEUROG2			Homo sapiens
+chr10	797685	797694	10	-	11.444143503191	MA0669.1	intron	Shank3	NEUROG2			Homo sapiens
+chr10	792973	792982	10	+	13.7709792601807	MA0670.1	intron	Shank3	NFIA			Homo sapiens
+chr10	750216	750225	10	-	13.8922807219974	MA0048.2	exon	Shank3	NHLH1			Homo sapiens
+chr10	758110	758119	10	-	14.2017908127075	MA0048.2	intron	Shank3	NHLH1			Homo sapiens
+chr10	760609	760618	10	-	13.3085596836303	MA0048.2	exon	Shank3	NHLH1			Homo sapiens
+chr10	768085	768094	10	-	14.8699512237694	MA0048.2	intron	Shank3	NHLH1			Homo sapiens
+chr10	777056	777065	10	-	14.8699512237694	MA0048.2	intron	Shank3	NHLH1			Homo sapiens
+chr10	778886	778895	10	-	15.2367177216169	MA0048.2	intron	Shank3	NHLH1			Homo sapiens
+chr10	764532	764541	10	-	13.8061301630987	MA0672.1	intron	Shank3	NKX2-3			Homo sapiens
+chr10	768706	768715	10	-	10.7673531068202	MA0678.1	intron	Shank3	OLIG2			Homo sapiens
+chr10	770460	770469	10	-	11.3711279481206	MA0678.1	intron	Shank3	OLIG2			Homo sapiens
+chr10	789928	789937	10	-	10.7673531068202	MA0678.1	intron	Shank3	OLIG2			Homo sapiens
+chr10	773126	773139	14	-	8.31787644000376	MA0679.1	intron	Shank3	ONECUT1			Homo sapiens
+chr10	793248	793263	16	+	5.56357736103257	MA0683.1	intron	Shank3	POU4F2			Homo sapiens
+chr10	801186	801201	16	-	5.98342196472688	MA0683.1	intron	Shank3	POU4F2			Homo sapiens
+chr10	793815	793824	10	+	13.824844734386	MA0684.1	intron	Shank3	RUNX3			Homo sapiens
+chr10	788660	788669	10	-	14.3633834811611	MA0684.1	intron	Shank3	RUNX3			Homo sapiens
+chr10	759760	759776	17	-	10.6369278150147	MA0685.1	exon	Shank3	SP4			Homo sapiens
+chr10	776601	776617	17	-	10.636219970111	MA0685.1	intron	Shank3	SP4			Homo sapiens
+chr10	803760	803776	17	-	15.158234678875	MA0685.1	exon	Shank3	SP4			Homo sapiens
+chr10	756676	756686	11	-	15.9316584976456	MA0686.1	intron	Shank3	SPDEF			Homo sapiens
+chr10	792004	792017	14	+	10.8040693674115	MA0080.4	intron	Shank3	SPI1			Homo sapiens
+chr10	748624	748637	14	-	5.7792126199479	MA0080.4	exon	Shank3	SPI1			Homo sapiens
+chr10	753928	753941	14	-	5.44219413652772	MA0080.4	intron	Shank3	SPI1			Homo sapiens
+chr10	753979	753992	14	-	3.81699750587143	MA0080.4	intron	Shank3	SPI1			Homo sapiens
+chr10	752022	752035	14	-	11.5773146940928	MA0687.1	intron	Shank3	SPIC			Homo sapiens
+chr10	753979	753992	14	-	13.4818449135058	MA0687.1	intron	Shank3	SPIC			Homo sapiens
+chr10	797896	797909	14	-	11.6087679639594	MA0687.1	intron	Shank3	SPIC			Homo sapiens
+chr10	792045	792060	16	+	4.9502090979655	MA0083.3	intron	Shank3	SRF			Homo sapiens
+chr10	762115	762130	16	-	5.86682200616956	MA0083.3	intron	Shank3	SRF			Homo sapiens
+chr10	764722	764737	16	-	11.3108617590383	MA0083.3	intron	Shank3	SRF			Homo sapiens
+chr10	795254	795269	16	+	9.85849580246416	MA0009.2	intron	Shank3	T			Homo sapiens
+chr10	795582	795597	16	+	9.85849580246416	MA0009.2	intron	Shank3	T			Homo sapiens
+chr10	764139	764154	16	-	12.8707432767818	MA0009.2	intron	Shank3	T			Homo sapiens
+chr10	798662	798677	16	-	10.6485839850667	MA0009.2	intron	Shank3	T			Homo sapiens
+chr10	772477	772487	11	-	12.4194876146991	MA0688.1	intron	Shank3	TBX2			Homo sapiens
+chr10	778460	778470	11	-	13.2137441825424	MA0688.1	intron	Shank3	TBX2			Homo sapiens
+chr10	798660	798670	11	-	11.1362833393251	MA0688.1	intron	Shank3	TBX2			Homo sapiens
+chr10	802188	802198	11	-	11.3627189486627	MA0688.1	intron	Shank3	TBX2			Homo sapiens
+chr10	778460	778470	11	-	12.3763398750298	MA0689.1	intron	Shank3	TBX20			Homo sapiens
+chr10	781139	781149	11	-	12.3305735452481	MA0689.1	intron	Shank3	TBX20			Homo sapiens
+chr10	798660	798670	11	-	11.5095701986331	MA0689.1	intron	Shank3	TBX20			Homo sapiens
+chr10	802188	802198	11	-	12.7164243749605	MA0689.1	intron	Shank3	TBX20			Homo sapiens
+chr10	778461	778470	10	-	14.2274237178533	MA0690.1	intron	Shank3	TBX21			Homo sapiens
+chr10	781140	781149	10	-	11.534472867197	MA0690.1	intron	Shank3	TBX21			Homo sapiens
+chr10	798661	798670	10	-	11.7140095380534	MA0690.1	intron	Shank3	TBX21			Homo sapiens
+chr10	802189	802198	10	-	11.8091695859152	MA0690.1	intron	Shank3	TBX21			Homo sapiens
+chr10	791817	791826	10	+	11.2521308494251	MA0090.2	exon	Shank3	TEAD1			Homo sapiens
+chr10	796198	796207	10	+	11.2940072535498	MA0090.2	intron	Shank3	TEAD1			Homo sapiens
+chr10	764599	764608	10	-	11.3727525368278	MA0090.2	intron	Shank3	TEAD1			Homo sapiens
+chr10	777304	777313	10	-	13.2365264973939	MA0090.2	intron	Shank3	TEAD1			Homo sapiens
+chr10	798563	798572	10	-	12.1236035306447	MA0691.1	intron	Shank3	TFAP4			Homo sapiens
+chr10	754527	754536	10	-	13.9070171063987	MA0692.1	intron	Shank3	TFEB			Homo sapiens
+chr10	784303	784312	10	-	12.5705400541156	MA0692.1	intron	Shank3	TFEB			Homo sapiens
+chr10	784509	784518	10	-	12.5829579781866	MA0692.1	intron	Shank3	TFEB			Homo sapiens
+chr10	758754	758765	12	-	15.0984721011462	MA0694.1	intron	Shank3	ZBTB7B			Homo sapiens
+chr10	785202	785213	12	-	14.5980880739339	MA0694.1	exon	Shank3	ZBTB7B			Homo sapiens
+chr10	799143	799154	12	-	15.9321432194487	MA0694.1	exon	Shank3	ZBTB7B			Homo sapiens
+chr10	799143	799154	12	-	16.1171641354386	MA0695.1	exon	Shank3	ZBTB7C			Homo sapiens
+chr10	798182	798196	15	-	15.6870012126851	MA0697.1	intron	Shank3	ZIC3			Homo sapiens
+chr10	796802	796814	13	+	9.76767482577923	MA0698.1	intron	Shank3	ZBTB18			Homo sapiens
+chr10	797278	797290	13	+	13.8469540223508	MA0698.1	intron	Shank3	ZBTB18			Homo sapiens
+chr10	751824	751836	13	-	9.98046442235343	MA0698.1	intron	Shank3	ZBTB18			Homo sapiens
+chr10	755414	755426	13	-	10.4138965027271	MA0698.1	intron	Shank3	ZBTB18			Homo sapiens
+chr10	768322	768334	13	-	12.6740388219913	MA0698.1	intron	Shank3	ZBTB18			Homo sapiens
+chr10	779124	779136	13	-	10.7920696440596	MA0698.1	intron	Shank3	ZBTB18			Homo sapiens
+chr10	789230	789242	13	-	14.9307355858965	MA0698.1	intron	Shank3	ZBTB18			Homo sapiens
+chr10	794370	794379	10	+	10.0689755131908	MA0706.1	intron	Shank3	MEOX2			Homo sapiens
+chr10	794370	794379	10	+	10.2041079566365	MA0707.1	intron	Shank3	MNX1			Homo sapiens
+chr10	801185	801194	10	-	9.45600085055004	MA0707.1	intron	Shank3	MNX1			Homo sapiens
+chr10	792198	792208	11	+	7.24215961018391	MA0715.1	intron	Shank3	PROP1			Homo sapiens
+chr10	792310	792320	11	+	7.61531567515749	MA0715.1	intron	Shank3	PROP1			Homo sapiens
+chr10	796026	796036	11	+	7.0052446660355	MA0715.1	intron	Shank3	PROP1			Homo sapiens
+chr10	748248	748258	11	-	8.50825677754684	MA0715.1	exon	Shank3	PROP1			Homo sapiens
+chr10	748648	748658	11	-	7.71586411739856	MA0715.1	exon	Shank3	PROP1			Homo sapiens
+chr10	768229	768239	11	-	9.44577193125166	MA0715.1	intron	Shank3	PROP1			Homo sapiens
+chr10	792760	792776	17	+	5.22401704690436	MA0112.3	intron	Shank3	ESR1			Homo sapiens
+chr10	766152	766168	17	-	7.09883930249984	MA0112.3	intron	Shank3	ESR1			Homo sapiens
+chr10	797415	797431	17	-	6.3576461968749	MA0112.3	exon	Shank3	ESR1			Homo sapiens
+chr10	773171	773181	11	-	11.9189267782403	MA0141.3	intron	Shank3	ESRRB			Homo sapiens
+chr10	792609	792621	13	+	15.627403440152	MA0017.2	intron	Shank3	NR2F1			Homo sapiens
+chr10	793538	793550	13	+	13.2340682749544	MA0017.2	intron	Shank3	NR2F1			Homo sapiens
+chr10	754420	754432	13	-	13.2820006207342	MA0017.2	intron	Shank3	NR2F1			Homo sapiens
+chr10	764914	764926	13	-	14.834389074027	MA0017.2	intron	Shank3	NR2F1			Homo sapiens
+chr10	767305	767317	13	-	16.7873544114262	MA0017.2	intron	Shank3	NR2F1			Homo sapiens
+chr10	797421	797433	13	-	12.9938398089818	MA0017.2	exon	Shank3	NR2F1			Homo sapiens
+chr10	797853	797865	13	-	12.7420071319556	MA0017.2	intron	Shank3	NR2F1			Homo sapiens
+chr10	754122	754138	17	-	10.9516282816411	MA0113.3	intron	Shank3	NR3C1			Homo sapiens
+chr10	780434	780450	17	-	6.25583187166715	MA0113.3	intron	Shank3	NR3C1			Homo sapiens
+chr10	801117	801133	17	-	10.4328630528175	MA0113.3	intron	Shank3	NR3C1			Homo sapiens
+chr10	803477	803493	17	-	8.38186597970199	MA0113.3	intron	Shank3	NR3C1			Homo sapiens
+chr10	754122	754138	17	-	9.81083792898122	MA0727.1	intron	Shank3	NR3C2			Homo sapiens
+chr10	801117	801133	17	-	13.0524706916345	MA0727.1	intron	Shank3	NR3C2			Homo sapiens
+chr10	803455	803471	17	-	6.51947747768246	MA0727.1	intron	Shank3	NR3C2			Homo sapiens
+chr10	803477	803493	17	-	9.67589974321871	MA0727.1	intron	Shank3	NR3C2			Homo sapiens
+chr10	792611	792628	18	+	1.94444221219548	MA0729.1	intron	Shank3	RARA			Homo sapiens
+chr10	756566	756583	18	-	-2.51051987320057	MA0729.1	intron	Shank3	RARA			Homo sapiens
+chr10	774610	774627	18	-	6.19755820688714	MA0729.1	intron	Shank3	RARA			Homo sapiens
+chr10	776229	776246	18	-	6.59730446126823	MA0729.1	intron	Shank3	RARA			Homo sapiens
+chr10	782872	782889	18	-	-0.209018088144935	MA0729.1	intron	Shank3	RARA			Homo sapiens
+chr10	798246	798263	18	-	-3.62757822063934	MA0729.1	intron	Shank3	RARA			Homo sapiens
+chr10	778674	778690	17	-	8.89813364380862	MA0730.1	intron	Shank3	RARA(var.2)			Homo sapiens
+chr10	781610	781626	17	-	13.5952736079063	MA0730.1	intron	Shank3	RARA(var.2)			Homo sapiens
+chr10	797846	797862	17	-	8.38411577364174	MA0730.1	intron	Shank3	RARA(var.2)			Homo sapiens
+chr10	800716	800732	17	-	6.61266688776924	MA0730.1	intron	Shank3	RARA(var.2)			Homo sapiens
+chr10	797065	797081	17	+	-4.23543050526671	MA0731.1	intron	Shank3	BCL6B			Homo sapiens
+chr10	789413	789429	17	-	-8.26377563102677	MA0731.1	intron	Shank3	BCL6B			Homo sapiens
+chr10	791607	791623	17	-	-6.55437032481799	MA0731.1	intron	Shank3	BCL6B			Homo sapiens
+chr10	761169	761179	11	-	15.0859853330972	MA0472.2	intron	Shank3	EGR2			Homo sapiens
+chr10	777706	777716	11	-	17.8474392704084	MA0472.2	exon	Shank3	EGR2			Homo sapiens
+chr10	760952	760966	15	-	13.5481259542927	MA0732.1	exon	Shank3	EGR3			Homo sapiens
+chr10	761003	761017	15	-	13.1218485799275	MA0732.1	exon	Shank3	EGR3			Homo sapiens
+chr10	761033	761047	15	-	14.5842852553929	MA0732.1	exon	Shank3	EGR3			Homo sapiens
+chr10	761167	761181	15	-	19.7694905674438	MA0732.1	intron	Shank3	EGR3			Homo sapiens
+chr10	764493	764507	15	-	15.4049440027249	MA0732.1	intron	Shank3	EGR3			Homo sapiens
+chr10	777704	777718	15	-	16.8671347279267	MA0732.1	exon	Shank3	EGR3			Homo sapiens
+chr10	785619	785633	15	-	12.9232198269137	MA0732.1	intron	Shank3	EGR3			Homo sapiens
+chr10	757977	757992	16	-	14.3033875680487	MA0733.1	intron	Shank3	EGR4			Homo sapiens
+chr10	761002	761017	16	-	15.8279568363981	MA0733.1	exon	Shank3	EGR4			Homo sapiens
+chr10	761032	761047	16	-	14.3208929395138	MA0733.1	exon	Shank3	EGR4			Homo sapiens
+chr10	761166	761181	16	-	16.5201850856863	MA0733.1	intron	Shank3	EGR4			Homo sapiens
+chr10	764492	764507	16	-	14.654794870282	MA0733.1	intron	Shank3	EGR4			Homo sapiens
+chr10	777703	777718	16	-	17.9747157131412	MA0733.1	exon	Shank3	EGR4			Homo sapiens
+chr10	799160	799171	12	-	14.3652330750156	MA0734.1	exon	Shank3	GLI2			Homo sapiens
+chr10	759485	759500	16	-	1.92394121320177	MA0735.1	exon	Shank3	GLIS1			Homo sapiens
+chr10	786235	786248	14	-	15.2151264210932	MA0736.1	intron	Shank3	GLIS2			Homo sapiens
+chr10	796756	796769	14	+	14.0725224928122	MA0740.1	intron	Shank3	KLF14			Homo sapiens
+chr10	803761	803774	14	-	15.7212132799167	MA0740.1	exon	Shank3	KLF14			Homo sapiens
+chr10	796757	796767	11	+	16.4723195315979	MA0741.1	intron	Shank3	KLF16			Homo sapiens
+chr10	750063	750073	11	-	15.7048896256156	MA0741.1	exon	Shank3	KLF16			Homo sapiens
+chr10	750107	750117	11	-	17.1907615062843	MA0741.1	exon	Shank3	KLF16			Homo sapiens
+chr10	752546	752556	11	-	15.5738771373148	MA0741.1	intron	Shank3	KLF16			Homo sapiens
+chr10	761172	761182	11	-	17.602173978143	MA0741.1	intron	Shank3	KLF16			Homo sapiens
+chr10	781675	781685	11	-	15.7048896256156	MA0741.1	intron	Shank3	KLF16			Homo sapiens
+chr10	803763	803773	11	-	16.1847780750271	MA0741.1	exon	Shank3	KLF16			Homo sapiens
+chr10	804233	804243	11	-	15.7048896256156	MA0741.1	intron	Shank3	KLF16			Homo sapiens
+chr10	752193	752207	15	-	10.0528946192167	MA0743.1	intron	Shank3	SCRT1			Homo sapiens
+chr10	796757	796767	11	+	16.4460766493138	MA0746.1	intron	Shank3	SP3			Homo sapiens
+chr10	750063	750073	11	-	15.3956141335701	MA0746.1	exon	Shank3	SP3			Homo sapiens
+chr10	750107	750117	11	-	15.5339887248362	MA0746.1	exon	Shank3	SP3			Homo sapiens
+chr10	757983	757993	11	-	15.0245216675601	MA0746.1	intron	Shank3	SP3			Homo sapiens
+chr10	761172	761182	11	-	16.6841622757348	MA0746.1	intron	Shank3	SP3			Homo sapiens
+chr10	781675	781685	11	-	15.3956141335701	MA0746.1	intron	Shank3	SP3			Homo sapiens
+chr10	804233	804243	11	-	15.3956141335701	MA0746.1	intron	Shank3	SP3			Homo sapiens
+chr10	796757	796768	12	+	16.5380430026466	MA0747.1	intron	Shank3	SP8			Homo sapiens
+chr10	750060	750071	12	-	15.9865294118917	MA0747.1	exon	Shank3	SP8			Homo sapiens
+chr10	750104	750115	12	-	15.9920166303836	MA0747.1	exon	Shank3	SP8			Homo sapiens
+chr10	776603	776614	12	-	15.7113914775618	MA0747.1	intron	Shank3	SP8			Homo sapiens
+chr10	790638	790649	12	-	15.6005559075482	MA0747.1	intron	Shank3	SP8			Homo sapiens
+chr10	768424	768439	16	-	5.43054963356886	MA0088.2	intron	Shank3	ZNF143			Homo sapiens
+chr10	780584	780599	16	-	8.25631351017698	MA0088.2	intron	Shank3	ZNF143			Homo sapiens
+chr10	787371	787386	16	-	6.85739478136917	MA0088.2	intron	Shank3	ZNF143			Homo sapiens
+chr10	798913	798928	16	-	10.9011669213462	MA0088.2	exon	Shank3	ZNF143			Homo sapiens
+chr10	780770	780786	17	-	2.21222735437701	MA0752.1	intron	Shank3	ZNF410			Homo sapiens
+chr10	776604	776613	10	-	19.0702975222244	MA0753.1	intron	Shank3	ZNF740			Homo sapiens
+chr10	798186	798195	10	-	16.4408506801	MA0753.1	intron	Shank3	ZNF740			Homo sapiens
+chr10	773127	773136	10	-	12.4251751251912	MA0754.1	intron	Shank3	CUX1			Homo sapiens
+chr10	773127	773136	10	-	12.6422389731913	MA0755.1	intron	Shank3	CUX2			Homo sapiens
+chr10	793208	793221	14	+	9.02502992660993	MA0756.1	intron	Shank3	ONECUT2			Homo sapiens
+chr10	773126	773139	14	-	8.33529665799295	MA0756.1	intron	Shank3	ONECUT2			Homo sapiens
+chr10	781659	781672	14	-	8.4353709463466	MA0756.1	intron	Shank3	ONECUT2			Homo sapiens
+chr10	792263	792276	14	+	10.225840489567	MA0757.1	intron	Shank3	ONECUT3			Homo sapiens
+chr10	792862	792875	14	+	8.35804621241263	MA0757.1	intron	Shank3	ONECUT3			Homo sapiens
+chr10	793208	793221	14	+	10.6404446692027	MA0757.1	intron	Shank3	ONECUT3			Homo sapiens
+chr10	754175	754188	14	-	3.95278486125215	MA0758.1	intron	Shank3	E2F7			Homo sapiens
+chr10	756676	756685	10	-	12.6735227941348	MA0761.1	intron	Shank3	ETV1			Homo sapiens
+chr10	785173	785183	11	-	12.1081503411483	MA0762.1	exon	Shank3	ETV2			Homo sapiens
+chr10	756676	756685	10	-	12.4882605581957	MA0763.1	intron	Shank3	ETV3			Homo sapiens
+chr10	756676	756685	10	-	12.4375805547809	MA0765.1	intron	Shank3	ETV5			Homo sapiens
+chr10	756676	756685	10	-	12.965563264169	MA0156.2	intron	Shank3	FEV			Homo sapiens
+chr10	793250	793264	15	+	9.87256314305874	MA0768.1	intron	Shank3	LEF1			Homo sapiens
+chr10	757299	757313	15	-	13.9270369414236	MA0768.1	intron	Shank3	LEF1			Homo sapiens
+chr10	757381	757395	15	-	9.21289899092895	MA0768.1	intron	Shank3	LEF1			Homo sapiens
+chr10	762100	762114	15	-	12.7040282999259	MA0768.1	intron	Shank3	LEF1			Homo sapiens
+chr10	773966	773980	15	-	9.89956368990029	MA0768.1	intron	Shank3	LEF1			Homo sapiens
+chr10	779589	779603	15	-	9.2373583582885	MA0768.1	intron	Shank3	LEF1			Homo sapiens
+chr10	782047	782061	15	-	8.68983295899549	MA0768.1	intron	Shank3	LEF1			Homo sapiens
+chr10	761333	761345	13	-	9.52036643528725	MA0770.1	intron	Shank3	HSF2			Homo sapiens
+chr10	768469	768481	13	-	16.3634489545239	MA0770.1	intron	Shank3	HSF2			Homo sapiens
+chr10	772685	772697	13	-	8.14839337276065	MA0770.1	intron	Shank3	HSF2			Homo sapiens
+chr10	786700	786712	13	-	9.00511676837598	MA0770.1	intron	Shank3	HSF2			Homo sapiens
+chr10	787373	787385	13	-	8.51283307655421	MA0770.1	intron	Shank3	HSF2			Homo sapiens
+chr10	791246	791258	13	-	10.5956822234654	MA0770.1	intron	Shank3	HSF2			Homo sapiens
+chr10	761333	761345	13	-	11.61785571986	MA0771.1	intron	Shank3	HSF4			Homo sapiens
+chr10	768469	768481	13	-	15.9562754301002	MA0771.1	intron	Shank3	HSF4			Homo sapiens
+chr10	779444	779456	13	-	11.5445987759499	MA0771.1	intron	Shank3	HSF4			Homo sapiens
+chr10	786700	786712	13	-	11.7446517452951	MA0771.1	intron	Shank3	HSF4			Homo sapiens
+chr10	764934	764947	14	-	11.7704699984059	MA0772.1	intron	Shank3	IRF7			Homo sapiens
+chr10	792047	792058	12	+	11.866429097216	MA0052.3	intron	Shank3	MEF2A			Homo sapiens
+chr10	792833	792844	12	+	10.3238378404797	MA0052.3	intron	Shank3	MEF2A			Homo sapiens
+chr10	793112	793123	12	+	8.72649602342959	MA0052.3	intron	Shank3	MEF2A			Homo sapiens
+chr10	767689	767700	12	-	8.16016186201483	MA0052.3	intron	Shank3	MEF2A			Homo sapiens
+chr10	791752	791763	12	+	2.22305685780186	MA0773.1	exon	Shank3	MEF2D			Homo sapiens
+chr10	792047	792058	12	+	9.90578869338079	MA0773.1	intron	Shank3	MEF2D			Homo sapiens
+chr10	792833	792844	12	+	6.90255942473775	MA0773.1	intron	Shank3	MEF2D			Homo sapiens
+chr10	793112	793123	12	+	4.81823609550563	MA0773.1	intron	Shank3	MEF2D			Homo sapiens
+chr10	767689	767700	12	-	3.53819101154419	MA0773.1	intron	Shank3	MEF2D			Homo sapiens
+chr10	792598	792610	13	+	9.24222829561641	MA0105.4	intron	Shank3	NFKB1			Homo sapiens
+chr10	752493	752505	13	-	11.4189030308679	MA0105.4	intron	Shank3	NFKB1			Homo sapiens
+chr10	757107	757119	13	-	8.211133240618	MA0105.4	intron	Shank3	NFKB1			Homo sapiens
+chr10	765553	765565	13	-	11.13193215899	MA0105.4	exon	Shank3	NFKB1			Homo sapiens
+chr10	788290	788302	13	-	11.9370352698833	MA0105.4	exon	Shank3	NFKB1			Homo sapiens
+chr10	752493	752505	13	-	14.8957709260966	MA0778.1	intron	Shank3	NFKB2			Homo sapiens
+chr10	752494	752506	13	-	12.3318660874916	MA0778.1	intron	Shank3	NFKB2			Homo sapiens
+chr10	788290	788302	13	-	15.0531294252661	MA0778.1	exon	Shank3	NFKB2			Homo sapiens
+chr10	804239	804251	13	-	13.1520231959948	MA0778.1	intron	Shank3	NFKB2			Homo sapiens
+chr10	783732	783748	17	-	8.91934074629855	MA0779.1	intron	Shank3	PAX1			Homo sapiens
+chr10	758109	758120	12	-	7.72978230389824	MA0782.1	intron	Shank3	PKNOX1			Homo sapiens
+chr10	765315	765326	12	-	3.68592780424708	MA0782.1	intron	Shank3	PKNOX1			Homo sapiens
+chr10	770459	770470	12	-	8.60361415132952	MA0782.1	intron	Shank3	PKNOX1			Homo sapiens
+chr10	775476	775487	12	-	7.01649123446323	MA0782.1	intron	Shank3	PKNOX1			Homo sapiens
+chr10	798201	798212	12	-	7.92569879373597	MA0782.1	intron	Shank3	PKNOX1			Homo sapiens
+chr10	801821	801832	12	-	4.60553280104295	MA0782.1	intron	Shank3	PKNOX1			Homo sapiens
+chr10	758109	758120	12	-	9.22957062950976	MA0783.1	intron	Shank3	PKNOX2			Homo sapiens
+chr10	770459	770470	12	-	6.9808167570064	MA0783.1	intron	Shank3	PKNOX2			Homo sapiens
+chr10	798201	798212	12	-	9.31678897062058	MA0783.1	intron	Shank3	PKNOX2			Homo sapiens
+chr10	801821	801832	12	-	6.11492606699048	MA0783.1	intron	Shank3	PKNOX2			Homo sapiens
+chr10	791800	791813	14	+	10.998382598264	MA0784.1	exon	Shank3	POU1F1			Homo sapiens
+chr10	792361	792374	14	+	8.71571491992059	MA0784.1	intron	Shank3	POU1F1			Homo sapiens
+chr10	793040	793053	14	+	12.0307496589424	MA0784.1	intron	Shank3	POU1F1			Homo sapiens
+chr10	794085	794098	14	+	9.69426411416986	MA0784.1	intron	Shank3	POU1F1			Homo sapiens
+chr10	795946	795959	14	+	10.0704811325814	MA0784.1	intron	Shank3	POU1F1			Homo sapiens
+chr10	757288	757301	14	-	11.7979990948827	MA0784.1	intron	Shank3	POU1F1			Homo sapiens
+chr10	765367	765380	14	-	8.4557514530699	MA0784.1	intron	Shank3	POU1F1			Homo sapiens
+chr10	789102	789115	14	-	10.0930406374119	MA0784.1	intron	Shank3	POU1F1			Homo sapiens
+chr10	791800	791811	12	+	12.3730163835751	MA0785.1	exon	Shank3	POU2F1			Homo sapiens
+chr10	793040	793051	12	+	12.403713095726	MA0785.1	intron	Shank3	POU2F1			Homo sapiens
+chr10	795946	795957	12	+	9.41833767844184	MA0785.1	intron	Shank3	POU2F1			Homo sapiens
+chr10	757290	757301	12	-	12.576299300337	MA0785.1	intron	Shank3	POU2F1			Homo sapiens
+chr10	789104	789115	12	-	10.2942952579504	MA0785.1	intron	Shank3	POU2F1			Homo sapiens
+chr10	791801	791812	12	+	11.7426305018458	MA0786.1	exon	Shank3	POU3F1			Homo sapiens
+chr10	792362	792373	12	+	9.93180720663303	MA0786.1	intron	Shank3	POU3F1			Homo sapiens
+chr10	793041	793052	12	+	12.5433004658947	MA0786.1	intron	Shank3	POU3F1			Homo sapiens
+chr10	794086	794097	12	+	8.95458983804657	MA0786.1	intron	Shank3	POU3F1			Homo sapiens
+chr10	795947	795958	12	+	10.245447852543	MA0786.1	intron	Shank3	POU3F1			Homo sapiens
+chr10	757289	757300	12	-	12.1521964518968	MA0786.1	intron	Shank3	POU3F1			Homo sapiens
+chr10	765368	765379	12	-	8.82766491160889	MA0786.1	intron	Shank3	POU3F1			Homo sapiens
+chr10	789103	789114	12	-	11.9753659327447	MA0786.1	intron	Shank3	POU3F1			Homo sapiens
+chr10	791801	791812	12	+	11.8318830393243	MA0787.1	exon	Shank3	POU3F2			Homo sapiens
+chr10	792362	792373	12	+	9.52371711163237	MA0787.1	intron	Shank3	POU3F2			Homo sapiens
+chr10	793041	793052	12	+	12.6777104681345	MA0787.1	intron	Shank3	POU3F2			Homo sapiens
+chr10	793438	793449	12	+	8.41837054027098	MA0787.1	intron	Shank3	POU3F2			Homo sapiens
+chr10	795947	795958	12	+	10.6373214970823	MA0787.1	intron	Shank3	POU3F2			Homo sapiens
+chr10	757289	757300	12	-	12.050425924717	MA0787.1	intron	Shank3	POU3F2			Homo sapiens
+chr10	765368	765379	12	-	8.58303449594404	MA0787.1	intron	Shank3	POU3F2			Homo sapiens
+chr10	789103	789114	12	-	11.7886752132631	MA0787.1	intron	Shank3	POU3F2			Homo sapiens
+chr10	791800	791812	13	+	11.5709575670795	MA0788.1	exon	Shank3	POU3F3			Homo sapiens
+chr10	792361	792373	13	+	10.2028634768883	MA0788.1	intron	Shank3	POU3F3			Homo sapiens
+chr10	793040	793052	13	+	9.0872713904672	MA0788.1	intron	Shank3	POU3F3			Homo sapiens
+chr10	794305	794317	13	+	8.53441308466622	MA0788.1	intron	Shank3	POU3F3			Homo sapiens
+chr10	795946	795958	13	+	8.7747977595768	MA0788.1	intron	Shank3	POU3F3			Homo sapiens
+chr10	757289	757301	13	-	10.6512985193854	MA0788.1	intron	Shank3	POU3F3			Homo sapiens
+chr10	789103	789115	13	-	11.7317738794412	MA0788.1	intron	Shank3	POU3F3			Homo sapiens
+chr10	791067	791079	13	-	9.32276798955559	MA0788.1	intron	Shank3	POU3F3			Homo sapiens
+chr10	792309	792322	14	+	8.24565421128039	MA0790.1	intron	Shank3	POU4F1			Homo sapiens
+chr10	749697	749710	14	-	8.2816778444165	MA0790.1	exon	Shank3	POU4F1			Homo sapiens
+chr10	774707	774716	10	-	14.4020301796946	MA0793.1	intron	Shank3	POU6F2			Homo sapiens
+chr10	758051	758062	12	-	9.84489182657973	MA0794.1	intron	Shank3	PROX1			Homo sapiens
+chr10	777030	777045	16	-	21.4729522481267	MA0600.2	intron	Shank3	RFX2			Homo sapiens
+chr10	758109	758120	12	-	4.26499893897933	MA0796.1	intron	Shank3	TGIF1			Homo sapiens
+chr10	770459	770470	12	-	5.68010174115462	MA0796.1	intron	Shank3	TGIF1			Homo sapiens
+chr10	775476	775487	12	-	5.03369269759519	MA0796.1	intron	Shank3	TGIF1			Homo sapiens
+chr10	798201	798212	12	-	3.01999098438102	MA0796.1	intron	Shank3	TGIF1			Homo sapiens
+chr10	801821	801832	12	-	4.3901502764263	MA0796.1	intron	Shank3	TGIF1			Homo sapiens
+chr10	758109	758120	12	-	10.4171019728331	MA0797.1	intron	Shank3	TGIF2			Homo sapiens
+chr10	765315	765326	12	-	9.04031237850451	MA0797.1	intron	Shank3	TGIF2			Homo sapiens
+chr10	770459	770470	12	-	11.3939479607032	MA0797.1	intron	Shank3	TGIF2			Homo sapiens
+chr10	775476	775487	12	-	10.8919597361685	MA0797.1	intron	Shank3	TGIF2			Homo sapiens
+chr10	798201	798212	12	-	9.71784570357288	MA0797.1	intron	Shank3	TGIF2			Homo sapiens
+chr10	801821	801832	12	-	9.79598219411868	MA0797.1	intron	Shank3	TGIF2			Homo sapiens
+chr10	795783	795798	16	+	10.3602500922245	MA0798.1	intron	Shank3	RFX3			Homo sapiens
+chr10	777030	777045	16	-	19.5950993469468	MA0798.1	intron	Shank3	RFX3			Homo sapiens
+chr10	795783	795798	16	+	11.1214046506715	MA0799.1	intron	Shank3	RFX4			Homo sapiens
+chr10	777030	777045	16	-	18.4431452623912	MA0799.1	intron	Shank3	RFX4			Homo sapiens
+chr10	777030	777045	16	-	22.1174313445346	MA0510.2	intron	Shank3	RFX5			Homo sapiens
+chr10	778458	778470	13	-	13.9889853249719	MA0800.1	intron	Shank3	EOMES			Homo sapiens
+chr10	802186	802198	13	-	11.7142862768711	MA0800.1	intron	Shank3	EOMES			Homo sapiens
+chr10	778460	778469	10	-	14.8498469645316	MA0802.1	intron	Shank3	TBR1			Homo sapiens
+chr10	793264	793283	20	+	9.51688231914117	MA0804.1	intron	Shank3	TBX19			Homo sapiens
+chr10	795252	795271	20	+	9.90501909488405	MA0804.1	intron	Shank3	TBX19			Homo sapiens
+chr10	795580	795599	20	+	9.90501909488405	MA0804.1	intron	Shank3	TBX19			Homo sapiens
+chr10	764137	764156	20	-	12.1633489695654	MA0804.1	intron	Shank3	TBX19			Homo sapiens
+chr10	789488	789507	20	-	9.36975162806005	MA0804.1	intron	Shank3	TBX19			Homo sapiens
+chr10	798660	798679	20	-	9.85740338392143	MA0804.1	intron	Shank3	TBX19			Homo sapiens
+chr10	791817	791826	10	+	11.2838622684534	MA0809.1	exon	Shank3	TEAD4			Homo sapiens
+chr10	777304	777313	10	-	12.7599991450859	MA0809.1	intron	Shank3	TEAD4			Homo sapiens
+chr10	759717	759728	12	-	14.5890946359139	MA0810.1	exon	Shank3	TFAP2A(var.2)			Homo sapiens
+chr10	783479	783490	12	-	16.1012426386132	MA0810.1	intron	Shank3	TFAP2A(var.2)			Homo sapiens
+chr10	785186	785197	12	-	15.1430392363111	MA0810.1	exon	Shank3	TFAP2A(var.2)			Homo sapiens
+chr10	785300	785311	12	-	15.5284249093539	MA0810.1	intron	Shank3	TFAP2A(var.2)			Homo sapiens
+chr10	800727	800738	12	-	17.1998048520326	MA0810.1	intron	Shank3	TFAP2A(var.2)			Homo sapiens
+chr10	750349	750359	11	-	14.1500547930944	MA0003.3	exon	Shank3	TFAP2A			Homo sapiens
+chr10	760974	760984	11	-	14.1500547930944	MA0003.3	exon	Shank3	TFAP2A			Homo sapiens
+chr10	752752	752763	12	-	14.1823784653945	MA0811.1	intron	Shank3	TFAP2B			Homo sapiens
+chr10	766013	766024	12	-	14.2947302923146	MA0811.1	intron	Shank3	TFAP2B			Homo sapiens
+chr10	778347	778358	12	-	14.3377808880532	MA0811.1	intron	Shank3	TFAP2B			Homo sapiens
+chr10	783479	783490	12	-	16.6660351876114	MA0811.1	intron	Shank3	TFAP2B			Homo sapiens
+chr10	785186	785197	12	-	14.1276600370259	MA0811.1	exon	Shank3	TFAP2B			Homo sapiens
+chr10	785300	785311	12	-	14.5472858631928	MA0811.1	intron	Shank3	TFAP2B			Homo sapiens
+chr10	800727	800738	12	-	17.7967644083481	MA0811.1	intron	Shank3	TFAP2B			Homo sapiens
+chr10	750078	750090	13	-	14.7748391233089	MA0813.1	exon	Shank3	TFAP2B(var.3)			Homo sapiens
+chr10	750652	750664	13	-	16.5226069189917	MA0813.1	exon	Shank3	TFAP2B(var.3)			Homo sapiens
+chr10	761754	761766	13	-	15.1456463929399	MA0813.1	intron	Shank3	TFAP2B(var.3)			Homo sapiens
+chr10	763512	763524	13	-	14.618197360725	MA0813.1	intron	Shank3	TFAP2B(var.3)			Homo sapiens
+chr10	779563	779575	13	-	15.9285239093292	MA0813.1	intron	Shank3	TFAP2B(var.3)			Homo sapiens
+chr10	804112	804124	13	-	15.1127714277523	MA0813.1	intron	Shank3	TFAP2B(var.3)			Homo sapiens
+chr10	752752	752763	12	-	14.1928101955422	MA0524.2	intron	Shank3	TFAP2C			Homo sapiens
+chr10	766013	766024	12	-	14.0889596789807	MA0524.2	intron	Shank3	TFAP2C			Homo sapiens
+chr10	778347	778358	12	-	14.1448481883271	MA0524.2	intron	Shank3	TFAP2C			Homo sapiens
+chr10	783479	783490	12	-	16.6037412745293	MA0524.2	intron	Shank3	TFAP2C			Homo sapiens
+chr10	785186	785197	12	-	14.254004682239	MA0524.2	exon	Shank3	TFAP2C			Homo sapiens
+chr10	785300	785311	12	-	14.1615413887074	MA0524.2	intron	Shank3	TFAP2C			Homo sapiens
+chr10	800727	800738	12	-	17.7379902640836	MA0524.2	intron	Shank3	TFAP2C			Homo sapiens
+chr10	750652	750664	13	-	16.8107918532935	MA0815.1	exon	Shank3	TFAP2C(var.3)			Homo sapiens
+chr10	760949	760961	13	-	14.6771082880358	MA0815.1	exon	Shank3	TFAP2C(var.3)			Homo sapiens
+chr10	761754	761766	13	-	15.2291548832832	MA0815.1	intron	Shank3	TFAP2C(var.3)			Homo sapiens
+chr10	779563	779575	13	-	16.4442731666101	MA0815.1	intron	Shank3	TFAP2C(var.3)			Homo sapiens
+chr10	799203	799215	13	-	14.6754500441311	MA0815.1	exon	Shank3	TFAP2C(var.3)			Homo sapiens
+chr10	804112	804124	13	-	14.9132933153187	MA0815.1	intron	Shank3	TFAP2C(var.3)			Homo sapiens
+chr10	754527	754536	10	-	15.2338627187635	MA0464.2	intron	Shank3	BHLHE40			Homo sapiens
+chr10	779092	779101	10	-	13.5702194759939	MA0464.2	intron	Shank3	BHLHE40			Homo sapiens
+chr10	798320	798329	10	-	13.3590541305942	MA0464.2	intron	Shank3	BHLHE40			Homo sapiens
+chr10	770459	770470	12	-	11.2538047473839	MA0817.1	intron	Shank3	BHLHE23			Homo sapiens
+chr10	770460	770469	10	-	12.3911949894638	MA0818.1	intron	Shank3	BHLHE22			Homo sapiens
+chr10	770533	770542	10	-	13.5196294049648	MA0819.1	intron	Shank3	CLOCK			Homo sapiens
+chr10	770763	770772	10	-	13.5196294049648	MA0819.1	intron	Shank3	CLOCK			Homo sapiens
+chr10	770812	770821	10	-	12.8984411126364	MA0819.1	intron	Shank3	CLOCK			Homo sapiens
+chr10	771173	771182	10	-	13.2732170596449	MA0819.1	intron	Shank3	CLOCK			Homo sapiens
+chr10	779021	779030	10	-	12.8984411126364	MA0819.1	intron	Shank3	CLOCK			Homo sapiens
+chr10	779092	779101	10	-	12.4271367110118	MA0819.1	intron	Shank3	CLOCK			Homo sapiens
+chr10	783820	783829	10	-	12.7584832323099	MA0819.1	intron	Shank3	CLOCK			Homo sapiens
+chr10	792697	792706	10	+	12.1221555750792	MA0820.1	intron	Shank3	FIGLA			Homo sapiens
+chr10	796482	796491	10	+	12.6765692085826	MA0820.1	intron	Shank3	FIGLA			Homo sapiens
+chr10	752557	752566	10	-	13.3843341461316	MA0820.1	intron	Shank3	FIGLA			Homo sapiens
+chr10	759373	759382	10	-	12.430171324751	MA0820.1	exon	Shank3	FIGLA			Homo sapiens
+chr10	762296	762305	10	-	12.1221555750792	MA0820.1	intron	Shank3	FIGLA			Homo sapiens
+chr10	799436	799445	10	-	12.430171324751	MA0820.1	exon	Shank3	FIGLA			Homo sapiens
+chr10	779091	779102	12	-	9.24107902958486	MA0821.1	intron	Shank3	HES5			Homo sapiens
+chr10	786658	786669	12	-	9.02836829078747	MA0821.1	intron	Shank3	HES5			Homo sapiens
+chr10	799388	799399	12	-	9.24012047288869	MA0821.1	exon	Shank3	HES5			Homo sapiens
+chr10	751986	751997	12	-	9.53903032352001	MA0822.1	intron	Shank3	HES7			Homo sapiens
+chr10	754526	754537	12	-	8.8144893395766	MA0822.1	intron	Shank3	HES7			Homo sapiens
+chr10	770812	770821	10	-	14.3295653040035	MA0823.1	intron	Shank3	HEY1			Homo sapiens
+chr10	771173	771182	10	-	14.0209120760858	MA0823.1	intron	Shank3	HEY1			Homo sapiens
+chr10	779021	779030	10	-	14.3295653040035	MA0823.1	intron	Shank3	HEY1			Homo sapiens
+chr10	779092	779101	10	-	15.7001243462637	MA0823.1	intron	Shank3	HEY1			Homo sapiens
+chr10	784303	784312	10	-	14.9399507350946	MA0823.1	intron	Shank3	HEY1			Homo sapiens
+chr10	798968	798977	10	-	14.3342476568396	MA0823.1	exon	Shank3	HEY1			Homo sapiens
+chr10	799389	799398	10	-	13.9012010894824	MA0823.1	exon	Shank3	HEY1			Homo sapiens
+chr10	750216	750225	10	-	14.3883816734524	MA0824.1	exon	Shank3	ID4			Homo sapiens
+chr10	751276	751285	10	-	14.4427344530971	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	751850	751859	10	-	13.6497013008564	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	751987	751996	10	-	14.6879661423086	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	754988	754997	10	-	13.6497013008564	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	763521	763530	10	-	14.6356868118684	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	764540	764549	10	-	14.4427344530971	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	766222	766231	10	-	14.4427344530971	MA0824.1	exon	Shank3	ID4			Homo sapiens
+chr10	769866	769875	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	769978	769987	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770034	770043	10	-	13.4843510425442	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770090	770099	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770146	770155	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770202	770211	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770256	770265	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770312	770321	10	-	13.4843510425442	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770368	770377	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770426	770435	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770520	770529	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770578	770587	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770634	770643	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770692	770701	10	-	13.4843510425442	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770806	770815	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770855	770864	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770911	770920	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	770967	770976	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771076	771085	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771134	771143	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771248	771257	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771306	771315	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771364	771373	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771420	771429	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771476	771485	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771532	771541	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771588	771597	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771646	771655	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	771689	771698	10	-	13.4299982628995	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	776469	776478	10	-	13.8426536596277	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	776475	776484	10	-	13.4822775933397	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	780531	780540	10	-	14.2744515899961	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	787316	787325	10	-	14.2141565269261	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	789689	789698	10	-	13.6497013008564	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	790181	790190	10	-	13.6497013008564	MA0824.1	intron	Shank3	ID4			Homo sapiens
+chr10	779092	779101	10	-	13.6430923700508	MA0058.3	intron	Shank3	MAX			Homo sapiens
+chr10	782748	782757	10	-	13.3582290060718	MA0058.3	intron	Shank3	MAX			Homo sapiens
+chr10	784303	784312	10	-	14.5009173052102	MA0058.3	intron	Shank3	MAX			Homo sapiens
+chr10	779092	779101	10	-	13.5637019785012	MA0825.1	intron	Shank3	MNT			Homo sapiens
+chr10	784303	784312	10	-	14.1545809874762	MA0825.1	intron	Shank3	MNT			Homo sapiens
+chr10	798968	798977	10	-	13.1258827780052	MA0825.1	exon	Shank3	MNT			Homo sapiens
+chr10	770460	770469	10	-	11.4979770135913	MA0826.1	intron	Shank3	OLIG1			Homo sapiens
+chr10	770460	770469	10	-	11.3478190577971	MA0827.1	intron	Shank3	OLIG3			Homo sapiens
+chr10	783354	783363	10	-	10.9125445647604	MA0827.1	intron	Shank3	OLIG3			Homo sapiens
+chr10	763848	763857	10	-	11.4866716038216	MA0828.1	intron	Shank3	SREBF2(var.2)			Homo sapiens
+chr10	775920	775929	10	-	11.0162343474768	MA0828.1	intron	Shank3	SREBF2(var.2)			Homo sapiens
+chr10	784509	784518	10	-	11.5051405624113	MA0828.1	intron	Shank3	SREBF2(var.2)			Homo sapiens
+chr10	799824	799833	10	-	11.0162343474768	MA0828.1	intron	Shank3	SREBF2(var.2)			Homo sapiens
+chr10	796482	796491	10	+	13.9250712934033	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	750216	750225	10	-	13.7108304238683	MA0522.2	exon	Shank3	TCF3			Homo sapiens
+chr10	751276	751285	10	-	13.7790161033437	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	764144	764153	10	-	13.5487193846899	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	764540	764549	10	-	13.7790161033437	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	766054	766063	10	-	13.8568856139279	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	766222	766231	10	-	13.7790161033437	MA0522.2	exon	Shank3	TCF3			Homo sapiens
+chr10	770750	770759	10	-	13.3363661112001	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	782779	782788	10	-	13.3728100446056	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	787316	787325	10	-	13.8167608310081	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	787922	787931	10	-	13.41055477227	MA0522.2	intron	Shank3	TCF3			Homo sapiens
+chr10	798950	798959	10	-	13.8568856139279	MA0522.2	exon	Shank3	TCF3			Homo sapiens
+chr10	798959	798968	10	-	13.3675820295879	MA0522.2	exon	Shank3	TCF3			Homo sapiens
+chr10	792697	792706	10	+	13.5385539988044	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	750216	750225	10	-	15.0736523327326	MA0830.1	exon	Shank3	TCF4			Homo sapiens
+chr10	751276	751285	10	-	14.5720118520463	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	751850	751859	10	-	14.2528530493033	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	754988	754997	10	-	14.2528530493033	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	762296	762305	10	-	13.5385539988044	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	763521	763530	10	-	13.7480882168564	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	764144	764153	10	-	14.1556180284511	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	764540	764549	10	-	14.5720118520463	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	766222	766231	10	-	14.5720118520463	MA0830.1	exon	Shank3	TCF4			Homo sapiens
+chr10	769866	769875	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	769978	769987	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770090	770099	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770146	770155	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770202	770211	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770256	770265	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770368	770377	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770426	770435	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770520	770529	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770578	770587	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770634	770643	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770750	770759	10	-	13.6508531960042	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770806	770815	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770855	770864	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770911	770920	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	770967	770976	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771076	771085	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771134	771143	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771248	771257	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771306	771315	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771364	771373	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771420	771429	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771476	771485	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771532	771541	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771588	771597	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771646	771655	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	771689	771698	10	-	13.5836381010571	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	782779	782788	10	-	13.6057690937515	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	787316	787325	10	-	13.9624683926422	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	789689	789698	10	-	14.2528530493033	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	790181	790190	10	-	14.2528530493033	MA0830.1	intron	Shank3	TCF4			Homo sapiens
+chr10	768690	768702	13	-	9.89769571783624	MA0833.1	intron	Shank3	ATF4			Homo sapiens
+chr10	795675	795688	14	+	2.54132289103579	MA0835.1	intron	Shank3	BATF3			Homo sapiens
+chr10	753840	753853	14	-	8.00289310712409	MA0835.1	intron	Shank3	BATF3			Homo sapiens
+chr10	789731	789744	14	-	11.5042619509364	MA0839.1	intron	Shank3	CREB3L1			Homo sapiens
+chr10	755424	755434	11	-	15.9814895284822	MA0841.1	intron	Shank3	NFE2			Homo sapiens
+chr10	769572	769582	11	-	12.7223396729965	MA0841.1	intron	Shank3	NFE2			Homo sapiens
+chr10	782306	782316	11	-	5.9931267096274	MA0841.1	intron	Shank3	NFE2			Homo sapiens
+chr10	784000	784010	11	-	6.26901369598053	MA0841.1	exon	Shank3	NFE2			Homo sapiens
+chr10	753643	753653	11	-	10.6784662187412	MA0842.1	intron	Shank3	NRL			Homo sapiens
+chr10	775819	775829	11	-	10.9628712772631	MA0842.1	intron	Shank3	NRL			Homo sapiens
+chr10	777276	777286	11	-	12.1284100474587	MA0842.1	intron	Shank3	NRL			Homo sapiens
+chr10	748241	748252	12	-	11.8141230029882	MA0843.1	exon	Shank3	TEF			Homo sapiens
+chr10	781264	781275	12	-	11.740249640082	MA0843.1	intron	Shank3	TEF			Homo sapiens
+chr10	792310	792320	11	+	10.8510836389998	MA0845.1	intron	Shank3	FOXB1			Homo sapiens
+chr10	792310	792320	11	+	12.0639159727349	MA0032.2	intron	Shank3	FOXC1			Homo sapiens
+chr10	779649	779659	11	-	10.1236471580271	MA0032.2	intron	Shank3	FOXC1			Homo sapiens
+chr10	791833	791844	12	+	13.0876301771485	MA0846.1	intron	Shank3	FOXC2			Homo sapiens
+chr10	792310	792321	12	+	12.986768652766	MA0846.1	intron	Shank3	FOXC2			Homo sapiens
+chr10	794140	794151	12	+	11.696363779977	MA0846.1	intron	Shank3	FOXC2			Homo sapiens
+chr10	796527	796538	12	+	10.4746947663079	MA0846.1	intron	Shank3	FOXC2			Homo sapiens
+chr10	796554	796565	12	+	10.778800348428	MA0846.1	intron	Shank3	FOXC2			Homo sapiens
+chr10	773782	773793	12	-	11.2221737117768	MA0846.1	intron	Shank3	FOXC2			Homo sapiens
+chr10	753615	753628	14	-	5.70421455643254	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	754417	754430	14	-	6.98103161986932	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	772152	772165	14	-	6.20911258485886	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	773173	773186	14	-	10.5083703892046	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	774613	774626	14	-	3.40227915429925	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	776183	776196	14	-	10.2796874592107	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	777369	777382	14	-	9.01987449251584	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	781915	781928	14	-	2.02088743441949	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	782117	782130	14	-	2.05222490709463	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	787018	787031	14	-	2.99581236368771	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	799818	799831	14	-	6.00064496198508	MA0855.1	intron	Shank3	RXRB			Homo sapiens
+chr10	753615	753628	14	-	7.05457437067407	MA0856.1	intron	Shank3	RXRG			Homo sapiens
+chr10	754417	754430	14	-	5.94069937301727	MA0856.1	intron	Shank3	RXRG			Homo sapiens
+chr10	757810	757823	14	-	4.29090171129531	MA0856.1	intron	Shank3	RXRG			Homo sapiens
+chr10	772152	772165	14	-	5.49897444347135	MA0856.1	intron	Shank3	RXRG			Homo sapiens
+chr10	773173	773186	14	-	7.02656980651575	MA0856.1	intron	Shank3	RXRG			Homo sapiens
+chr10	776183	776196	14	-	11.9676126089211	MA0856.1	intron	Shank3	RXRG			Homo sapiens
+chr10	777369	777382	14	-	9.68333829012406	MA0856.1	intron	Shank3	RXRG			Homo sapiens
+chr10	799818	799831	14	-	5.4396054690999	MA0856.1	intron	Shank3	RXRG			Homo sapiens
+chr10	794058	794075	18	+	2.11040668050069	MA0525.2	intron	Shank3	TP63			Homo sapiens
+chr10	775566	775583	18	-	10.4386233471587	MA0525.2	intron	Shank3	TP63			Homo sapiens
+chr10	775605	775622	18	-	0.528410033176483	MA0525.2	intron	Shank3	TP63			Homo sapiens
+chr10	794058	794075	18	+	14.2880057538233	MA0106.3	intron	Shank3	TP53			Homo sapiens
+chr10	765947	765964	18	-	8.77064451090861	MA0106.3	intron	Shank3	TP53			Homo sapiens
+chr10	769833	769850	18	-	9.15268019473833	MA0106.3	intron	Shank3	TP53			Homo sapiens
+chr10	775566	775583	18	-	10.4344902682368	MA0106.3	intron	Shank3	TP53			Homo sapiens
+chr10	776013	776030	18	-	11.1807418248663	MA0106.3	intron	Shank3	TP53			Homo sapiens
+chr10	779178	779195	18	-	9.73744861373632	MA0106.3	intron	Shank3	TP53			Homo sapiens
+chr10	794058	794075	18	+	14.2702034415469	MA0861.1	intron	Shank3	TP73			Homo sapiens
+chr10	770426	770443	18	-	10.3750422028471	MA0861.1	intron	Shank3	TP73			Homo sapiens
+chr10	770967	770984	18	-	10.3750422028471	MA0861.1	intron	Shank3	TP73			Homo sapiens
+chr10	775566	775583	18	-	15.7168008634956	MA0861.1	intron	Shank3	TP73			Homo sapiens
+chr10	776013	776030	18	-	11.0202151035502	MA0861.1	intron	Shank3	TP73			Homo sapiens
+chr10	761894	761907	14	-	11.3760461556227	MA0863.1	intron	Shank3	MTF1			Homo sapiens
+chr10	778965	778978	14	-	13.8955732364206	MA0863.1	intron	Shank3	MTF1			Homo sapiens
+chr10	803778	803789	12	-	8.90415488542124	MA0865.1	exon	Shank3	E2F8			Homo sapiens
+chr10	753888	753902	15	-	2.52577951807863	MA0866.1	intron	Shank3	SOX21			Homo sapiens
+chr10	767533	767547	15	-	-1.56772008779988	MA0866.1	intron	Shank3	SOX21			Homo sapiens
+chr10	799831	799845	15	-	-0.567791501320744	MA0866.1	intron	Shank3	SOX21			Homo sapiens
+chr10	757562	757577	16	-	-6.7677779906703	MA0867.1	intron	Shank3	SOX4			Homo sapiens
+chr10	762762	762777	16	-	-4.24400866093959	MA0867.1	intron	Shank3	SOX4			Homo sapiens
+chr10	767533	767548	16	-	-0.186930133079894	MA0867.1	intron	Shank3	SOX4			Homo sapiens
+chr10	802610	802625	16	-	-8.21655879490192	MA0867.1	intron	Shank3	SOX4			Homo sapiens
+chr10	802632	802647	16	-	-6.57336362644613	MA0867.1	intron	Shank3	SOX4			Homo sapiens
+chr10	802723	802738	16	-	-8.36799985869235	MA0867.1	intron	Shank3	SOX4			Homo sapiens
+chr10	787738	787753	16	-	-9.52777238880172	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	802453	802468	16	-	-4.26236021121614	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	802816	802831	16	-	-0.649050618310014	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	802872	802887	16	-	-11.6169440596886	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	802979	802994	16	-	-11.6169440596886	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	803066	803081	16	-	-11.6169440596886	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	803148	803163	16	-	-0.649050618310014	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	803253	803268	16	-	-8.78268384403857	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	803293	803308	16	-	-8.8876926694628	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	803402	803417	16	-	-11.6169440596886	MA0868.1	intron	Shank3	SOX8			Homo sapiens
+chr10	754527	754536	10	-	12.2212180401252	MA0871.1	intron	Shank3	TFEC			Homo sapiens
+chr10	784509	784518	10	-	12.5464117913907	MA0871.1	intron	Shank3	TFEC			Homo sapiens
+chr10	798320	798329	10	-	13.211025739001	MA0871.1	intron	Shank3	TFEC			Homo sapiens
+chr10	750652	750664	13	-	16.549386465913	MA0872.1	exon	Shank3	TFAP2A(var.3)			Homo sapiens
+chr10	761754	761766	13	-	14.6840071085172	MA0872.1	intron	Shank3	TFAP2A(var.3)			Homo sapiens
+chr10	779563	779575	13	-	16.3127453983893	MA0872.1	intron	Shank3	TFAP2A(var.3)			Homo sapiens
+chr10	783968	783980	13	-	14.9084554785731	MA0872.1	intron	Shank3	TFAP2A(var.3)			Homo sapiens
+chr10	799203	799215	13	-	14.7577123903333	MA0872.1	exon	Shank3	TFAP2A(var.3)			Homo sapiens
+chr10	804112	804124	13	-	14.9686228264922	MA0872.1	intron	Shank3	TFAP2A(var.3)			Homo sapiens
+chr10	794956	794968	13	+	11.9120077386764	MA0884.1	intron	Shank3	DUXA			Homo sapiens
+chr10	768181	768193	13	-	10.6065274754609	MA0884.1	intron	Shank3	DUXA			Homo sapiens
+chr10	773240	773249	10	-	11.3014038721919	MA0891.1	intron	Shank3	GSC2			Homo sapiens
+chr10	777748	777757	10	-	11.0210179232122	MA0894.1	intron	Shank3	HESX1			Homo sapiens
+chr10	789269	789278	10	-	10.31680801651	MA0894.1	intron	Shank3	HESX1			Homo sapiens
+chr10	801172	801182	11	-	10.0704414300024	MA0907.1	intron	Shank3	HOXC13			Homo sapiens
+chr10	749598	749610	13	-	14.31314439596	MA1100.1	exon	Shank3	ASCL1			Homo sapiens
+chr10	750128	750140	13	-	14.5301275989399	MA1100.1	exon	Shank3	ASCL1			Homo sapiens
+chr10	751884	751896	13	-	17.3729105162064	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	752294	752306	13	-	15.5006099540303	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	754490	754502	13	-	14.0010880389199	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	759743	759755	13	-	14.6089434742346	MA1100.1	exon	Shank3	ASCL1			Homo sapiens
+chr10	760608	760620	13	-	16.340297777856	MA1100.1	exon	Shank3	ASCL1			Homo sapiens
+chr10	768084	768096	13	-	15.6864613515439	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	777055	777067	13	-	16.6675250472323	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	778885	778897	13	-	14.3127079121802	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	779494	779506	13	-	14.9088699694713	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	781949	781961	13	-	14.7845376625324	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	786168	786180	13	-	14.7339211391986	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	797540	797552	13	-	18.1620067495661	MA1100.1	intron	Shank3	ASCL1			Homo sapiens
+chr10	798958	798970	13	-	13.8422532678837	MA1100.1	exon	Shank3	ASCL1			Homo sapiens
+chr10	751167	751180	14	-	10.9547358616039	MA1101.1	intron	Shank3	BACH2			Homo sapiens
+chr10	784007	784020	14	-	11.1058339163475	MA1101.1	exon	Shank3	BACH2			Homo sapiens
+chr10	799589	799602	14	-	14.2688716806788	MA1101.1	exon	Shank3	BACH2			Homo sapiens
+chr10	800551	800564	14	-	12.6652387937501	MA1101.1	intron	Shank3	BACH2			Homo sapiens
+chr10	764859	764870	12	-	12.3921717879944	MA0018.3	intron	Shank3	CREB1			Homo sapiens
+chr10	777270	777281	12	-	12.1184075908074	MA0018.3	intron	Shank3	CREB1			Homo sapiens
+chr10	796866	796879	14	+	16.3364491972919	MA1102.1	intron	Shank3	CTCFL			Homo sapiens
+chr10	755842	755855	14	-	14.3410908432784	MA1102.1	intron	Shank3	CTCFL			Homo sapiens
+chr10	766888	766901	14	-	15.4021907115369	MA1102.1	intron	Shank3	CTCFL			Homo sapiens
+chr10	785029	785042	14	-	14.5496924812008	MA1102.1	intron	Shank3	CTCFL			Homo sapiens
+chr10	796554	796567	14	+	11.425765999144	MA0852.2	intron	Shank3	FOXK1			Homo sapiens
+chr10	756294	756307	14	-	12.0988501193073	MA0852.2	intron	Shank3	FOXK1			Homo sapiens
+chr10	796555	796565	11	+	12.2502100560949	MA1103.1	intron	Shank3	FOXK2			Homo sapiens
+chr10	766732	766742	11	-	12.6273873417198	MA1103.1	intron	Shank3	FOXK2			Homo sapiens
+chr10	796555	796566	12	+	13.1096494627376	MA0481.2	intron	Shank3	FOXP1			Homo sapiens
+chr10	748627	748638	12	-	10.9380937669429	MA0481.2	exon	Shank3	FOXP1			Homo sapiens
+chr10	766731	766742	12	-	13.9795700682152	MA0481.2	intron	Shank3	FOXP1			Homo sapiens
+chr10	789877	789887	11	-	10.166593239614	MA0036.3	intron	Shank3	GATA2			Homo sapiens
+chr10	791504	791514	11	-	11.8702106865943	MA0036.3	intron	Shank3	GATA2			Homo sapiens
+chr10	799530	799540	11	-	12.4540862791393	MA0036.3	intron	Shank3	GATA2			Homo sapiens
+chr10	795062	795074	13	+	12.2658719957223	MA1104.1	intron	Shank3	GATA6			Homo sapiens
+chr10	774095	774107	13	-	11.5779403365147	MA1104.1	intron	Shank3	GATA6			Homo sapiens
+chr10	777548	777557	10	-	14.0069414152458	MA1106.1	intron	Shank3	HIF1A			Homo sapiens
+chr10	784302	784311	10	-	13.4011067422211	MA1106.1	intron	Shank3	HIF1A			Homo sapiens
+chr10	798967	798976	10	-	13.0297354055478	MA1106.1	exon	Shank3	HIF1A			Homo sapiens
+chr10	796758	796768	11	+	16.204919896598	MA0039.3	intron	Shank3	KLF4			Homo sapiens
+chr10	772006	772016	11	-	16.1204333950471	MA0039.3	intron	Shank3	KLF4			Homo sapiens
+chr10	774286	774296	11	-	16.1204333950471	MA0039.3	intron	Shank3	KLF4			Homo sapiens
+chr10	776862	776872	11	-	16.3340460346894	MA0039.3	intron	Shank3	KLF4			Homo sapiens
+chr10	796756	796768	13	+	20.9046749881746	MA1107.1	intron	Shank3	KLF9			Homo sapiens
+chr10	748531	748543	13	-	15.2042732724989	MA1107.1	exon	Shank3	KLF9			Homo sapiens
+chr10	750060	750072	13	-	14.7638124083979	MA1107.1	exon	Shank3	KLF9			Homo sapiens
+chr10	752545	752557	13	-	16.1596113313775	MA1107.1	intron	Shank3	KLF9			Homo sapiens
+chr10	772006	772018	13	-	17.7861323338805	MA1107.1	intron	Shank3	KLF9			Homo sapiens
+chr10	774286	774298	13	-	16.989943834501	MA1107.1	intron	Shank3	KLF9			Homo sapiens
+chr10	790638	790650	13	-	14.8387289459047	MA1107.1	intron	Shank3	KLF9			Homo sapiens
+chr10	753737	753757	21	-	10.5812673533958	MA0495.2	intron	Shank3	MAFF			Homo sapiens
+chr10	762027	762047	21	-	9.20303227625971	MA0495.2	intron	Shank3	MAFF			Homo sapiens
+chr10	775874	775894	21	-	9.48266284927529	MA0495.2	intron	Shank3	MAFF			Homo sapiens
+chr10	793444	793462	19	+	9.31408568833355	MA0496.2	intron	Shank3	MAFK			Homo sapiens
+chr10	753738	753756	19	-	11.1535628766325	MA0496.2	intron	Shank3	MAFK			Homo sapiens
+chr10	762028	762046	19	-	10.5270944510081	MA0496.2	intron	Shank3	MAFK			Homo sapiens
+chr10	775875	775893	19	-	10.0088879257198	MA0496.2	intron	Shank3	MAFK			Homo sapiens
+chr10	784006	784024	19	-	9.0892228304027	MA0496.2	exon	Shank3	MAFK			Homo sapiens
+chr10	754523	754540	18	-	11.7172341873851	MA0620.2	intron	Shank3	MITF			Homo sapiens
+chr10	775916	775933	18	-	12.429526405831	MA0620.2	intron	Shank3	MITF			Homo sapiens
+chr10	782130	782147	18	-	14.2538139589534	MA0620.2	intron	Shank3	MITF			Homo sapiens
+chr10	784505	784522	18	-	12.3150730117586	MA0620.2	intron	Shank3	MITF			Homo sapiens
+chr10	799820	799837	18	-	11.3520346812835	MA0620.2	intron	Shank3	MITF			Homo sapiens
+chr10	782747	782759	13	-	15.1026387741868	MA1108.1	intron	Shank3	MXI1			Homo sapiens
+chr10	784302	784314	13	-	17.4260598320698	MA1108.1	intron	Shank3	MXI1			Homo sapiens
+chr10	782747	782758	12	-	14.4787540970529	MA0147.3	intron	Shank3	MYC			Homo sapiens
+chr10	784302	784313	12	-	17.0695431785319	MA0147.3	intron	Shank3	MYC			Homo sapiens
+chr10	755861	755870	10	-	12.6437792017685	MA0100.3	intron	Shank3	MYB			Homo sapiens
+chr10	777279	777288	10	-	12.7493654884279	MA0100.3	intron	Shank3	MYB			Homo sapiens
+chr10	782747	782758	12	-	15.6984166791848	MA0104.4	intron	Shank3	MYCN			Homo sapiens
+chr10	784302	784313	12	-	14.6701557146492	MA0104.4	intron	Shank3	MYCN			Homo sapiens
+chr10	769310	769322	13	-	13.1348289735213	MA1109.1	intron	Shank3	NEUROD1			Homo sapiens
+chr10	774890	774902	13	-	13.5190293768198	MA1109.1	intron	Shank3	NEUROD1			Homo sapiens
+chr10	797683	797695	13	-	16.2784865282895	MA1109.1	intron	Shank3	NEUROD1			Homo sapiens
+chr10	801129	801141	13	-	13.3757547484851	MA1109.1	intron	Shank3	NEUROD1			Homo sapiens
+chr10	758304	758314	11	-	13.473574342804	MA0161.2	intron	Shank3	NFIC			Homo sapiens
+chr10	762948	762958	11	-	12.872313733988	MA0161.2	intron	Shank3	NFIC			Homo sapiens
+chr10	784465	784475	11	-	12.8709212179497	MA0161.2	intron	Shank3	NFIC			Homo sapiens
+chr10	793386	793396	11	+	12.9416479181022	MA1110.1	intron	Shank3	NR1H4			Homo sapiens
+chr10	748761	748771	11	-	14.5126781086723	MA1110.1	exon	Shank3	NR1H4			Homo sapiens
+chr10	766069	766079	11	-	11.9932960770431	MA1110.1	intron	Shank3	NR1H4			Homo sapiens
+chr10	798769	798779	11	-	12.1243624588913	MA1110.1	intron	Shank3	NR1H4			Homo sapiens
+chr10	793538	793548	11	+	13.2243362825337	MA1111.1	intron	Shank3	NR2F2			Homo sapiens
+chr10	762655	762665	11	-	14.0764076987692	MA1111.1	intron	Shank3	NR2F2			Homo sapiens
+chr10	773171	773181	11	-	12.9764231462811	MA1111.1	intron	Shank3	NR2F2			Homo sapiens
+chr10	781450	781460	11	-	13.2012088761877	MA1111.1	intron	Shank3	NR2F2			Homo sapiens
+chr10	781619	781629	11	-	14.0580352267272	MA1111.1	intron	Shank3	NR2F2			Homo sapiens
+chr10	762656	762665	10	-	14.4210386053477	MA1112.1	intron	Shank3	NR4A1			Homo sapiens
+chr10	781370	781379	10	-	11.9165001281767	MA1112.1	intron	Shank3	NR4A1			Homo sapiens
+chr10	781620	781629	10	-	14.6161803238261	MA1112.1	intron	Shank3	NR4A1			Homo sapiens
+chr10	773432	773443	12	-	13.6325036560043	MA0014.3	intron	Shank3	PAX5			Homo sapiens
+chr10	792382	792393	12	+	16.1425958907648	MA1113.1	intron	Shank3	PBX2			Homo sapiens
+chr10	794936	794947	12	+	11.7464804988919	MA1113.1	intron	Shank3	PBX2			Homo sapiens
+chr10	753312	753323	12	-	13.0128137986042	MA1113.1	intron	Shank3	PBX2			Homo sapiens
+chr10	765712	765723	12	-	13.0554972916551	MA1113.1	intron	Shank3	PBX2			Homo sapiens
+chr10	786115	786126	12	-	13.2565014917393	MA1113.1	intron	Shank3	PBX2			Homo sapiens
+chr10	792380	792396	17	+	13.1993279249181	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	794934	794950	17	+	12.3769635293104	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	753309	753325	17	-	14.0027858165306	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	765709	765725	17	-	13.0177542637258	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	773439	773455	17	-	13.5188935104622	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	776317	776333	17	-	12.7513035961185	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	783201	783217	17	-	13.3493220936464	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	784441	784457	17	-	12.7933128472386	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	786112	786128	17	-	12.3905471398685	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	800557	800573	17	-	12.2685964562876	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	802302	802318	17	-	12.4057786965914	MA1114.1	intron	Shank3	PBX3			Homo sapiens
+chr10	791801	791811	11	+	13.4169219274039	MA1115.1	exon	Shank3	POU5F1			Homo sapiens
+chr10	792396	792406	11	+	10.8633931004381	MA1115.1	intron	Shank3	POU5F1			Homo sapiens
+chr10	793041	793051	11	+	13.0922663931061	MA1115.1	intron	Shank3	POU5F1			Homo sapiens
+chr10	793933	793943	11	+	11.3880458251074	MA1115.1	intron	Shank3	POU5F1			Homo sapiens
+chr10	795947	795957	11	+	12.1570406239756	MA1115.1	intron	Shank3	POU5F1			Homo sapiens
+chr10	757290	757300	11	-	13.993329978164	MA1115.1	intron	Shank3	POU5F1			Homo sapiens
+chr10	788278	788288	11	-	10.9144585361055	MA1115.1	exon	Shank3	POU5F1			Homo sapiens
+chr10	777341	777350	10	-	11.4730355339786	MA0508.2	intron	Shank3	PRDM1			Homo sapiens
+chr10	753556	753565	10	-	13.0657528808624	MA1116.1	intron	Shank3	RBPJ			Homo sapiens
+chr10	756424	756433	10	-	13.5243267140533	MA1116.1	intron	Shank3	RBPJ			Homo sapiens
+chr10	762368	762377	10	-	12.8505801000566	MA1116.1	intron	Shank3	RBPJ			Homo sapiens
+chr10	772707	772716	10	-	13.5243267140533	MA1116.1	intron	Shank3	RBPJ			Homo sapiens
+chr10	779524	779533	10	-	13.1313660935102	MA1116.1	intron	Shank3	RBPJ			Homo sapiens
+chr10	780246	780255	10	-	13.5243267140533	MA1116.1	intron	Shank3	RBPJ			Homo sapiens
+chr10	784914	784923	10	-	13.8410832940501	MA1116.1	intron	Shank3	RBPJ			Homo sapiens
+chr10	761369	761379	11	-	12.8058342820764	MA1117.1	intron	Shank3	RELB			Homo sapiens
+chr10	765326	765336	11	-	13.2967367261039	MA1117.1	intron	Shank3	RELB			Homo sapiens
+chr10	765638	765648	11	-	12.4189074980672	MA1117.1	intron	Shank3	RELB			Homo sapiens
+chr10	804238	804248	11	-	13.8028010535267	MA1117.1	intron	Shank3	RELB			Homo sapiens
+chr10	795182	795197	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795222	795237	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795264	795279	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795304	795319	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795346	795361	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795388	795403	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795430	795445	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795468	795483	16	+	11.660529777033	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795508	795523	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795550	795565	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795592	795607	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	795632	795647	16	+	11.447544327362	MA1119.1	intron	Shank3	SIX2			Homo sapiens
+chr10	754615	754625	11	-	13.2378549010939	MA0442.2	intron	Shank3	SOX10			Homo sapiens
+chr10	757301	757311	11	-	14.1904609435542	MA0442.2	intron	Shank3	SOX10			Homo sapiens
+chr10	773834	773844	11	-	13.3076183264792	MA0442.2	intron	Shank3	SOX10			Homo sapiens
+chr10	792348	792358	11	+	12.3964199369525	MA1120.1	intron	Shank3	SOX13			Homo sapiens
+chr10	756071	756081	11	-	13.2395499777168	MA1120.1	intron	Shank3	SOX13			Homo sapiens
+chr10	792788	792800	13	+	12.9536628120661	MA1121.1	intron	Shank3	TEAD2			Homo sapiens
+chr10	777302	777314	13	-	12.5318271964117	MA1121.1	intron	Shank3	TEAD2			Homo sapiens
+chr10	797278	797290	13	+	11.8816776052537	MA1123.1	intron	Shank3	TWIST1			Homo sapiens
+chr10	763017	763029	13	-	12.0616267913095	MA1123.1	intron	Shank3	TWIST1			Homo sapiens
+chr10	782861	782873	13	-	12.9243763722235	MA1123.1	intron	Shank3	TWIST1			Homo sapiens
+chr10	789230	789242	13	-	14.2681509284118	MA1123.1	intron	Shank3	TWIST1			Homo sapiens
+chr10	754525	754540	16	-	12.6388645504031	MA0526.2	intron	Shank3	USF2			Homo sapiens
+chr10	782132	782147	16	-	15.8665750645706	MA0526.2	intron	Shank3	USF2			Homo sapiens
+chr10	784507	784522	16	-	13.4204289279824	MA0526.2	intron	Shank3	USF2			Homo sapiens
+chr10	796569	796581	13	+	13.7346373714293	MA0750.2	intron	Shank3	ZBTB7A			Homo sapiens
+chr10	750215	750225	11	-	15.6235883883132	MA0103.3	exon	Shank3	ZEB1			Homo sapiens
+chr10	751275	751285	11	-	15.2788179252131	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	751986	751996	11	-	14.5451680964581	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	763520	763530	11	-	13.8587923659623	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	764303	764313	11	-	14.9435855400324	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	764539	764549	11	-	15.2788179252131	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	764979	764989	11	-	14.2227515683198	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	766221	766231	11	-	14.9187674847086	MA0103.3	exon	Shank3	ZEB1			Homo sapiens
+chr10	766608	766618	11	-	14.2252156886817	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	776474	776484	11	-	14.0774301515434	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	787315	787325	11	-	14.0018649007645	MA0103.3	intron	Shank3	ZEB1			Homo sapiens
+chr10	799435	799445	11	-	14.0108694816898	MA0103.3	exon	Shank3	ZEB1			Homo sapiens
+chr10	760198	760210	13	-	8.28959506453578	MA1124.1	exon	Shank3	ZNF24			Homo sapiens
+chr10	761999	762011	13	-	8.00372920659565	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	762003	762015	13	-	11.7223343090179	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	762007	762019	13	-	10.5233633878983	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	767679	767691	13	-	8.53193356957494	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	780697	780709	13	-	13.8814695999703	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	780701	780713	13	-	14.6504716885287	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	780705	780717	13	-	11.7223343090179	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	786607	786619	13	-	9.7544781930291	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	786611	786623	13	-	13.1016947981801	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	786632	786644	13	-	9.51790565408223	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	790479	790491	13	-	11.685388942753	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	790483	790495	13	-	7.74758762716691	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	802257	802269	13	-	7.72402447588	MA1124.1	intron	Shank3	ZNF24			Homo sapiens
+chr10	791972	791983	12	+	12.9035964676777	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	791973	791984	12	+	14.1808174275426	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	791974	791985	12	+	14.4625900693874	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	791975	791986	12	+	15.0910123467282	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	791976	791987	12	+	15.6344292686022	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	791977	791988	12	+	15.6344292686022	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	791978	791989	12	+	15.6344292686022	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	791979	791990	12	+	15.6344292686022	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	791980	791991	12	+	13.1281878563661	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	792134	792145	12	+	12.1875434967483	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	792825	792836	12	+	11.6558210130427	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793203	793214	12	+	11.9926291104545	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793204	793215	12	+	12.2691387115885	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793754	793765	12	+	14.6998165326074	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793755	793766	12	+	13.9290029330532	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793756	793767	12	+	15.3528695806151	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793757	793768	12	+	15.0037481061296	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793758	793769	12	+	15.6344292686022	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793759	793770	12	+	15.6344292686022	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793760	793771	12	+	13.1281878563661	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793761	793772	12	+	12.958023328431	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793858	793869	12	+	14.619873016538	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793859	793870	12	+	13.5964130731658	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793860	793871	12	+	15.3528695806151	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793861	793872	12	+	15.0037481061296	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793862	793873	12	+	15.6344292686022	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793863	793874	12	+	15.6344292686022	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	793864	793875	12	+	13.1281878563661	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	748639	748650	12	-	12.7471962664444	MA1125.1	exon	Shank3	ZNF384			Homo sapiens
+chr10	748640	748651	12	-	12.7905361570812	MA1125.1	exon	Shank3	ZNF384			Homo sapiens
+chr10	748641	748652	12	-	15.7141934344437	MA1125.1	exon	Shank3	ZNF384			Homo sapiens
+chr10	748642	748653	12	-	13.8673835412768	MA1125.1	exon	Shank3	ZNF384			Homo sapiens
+chr10	757718	757729	12	-	12.8466281683791	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	757719	757730	12	-	13.9290029330532	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	757720	757731	12	-	14.9106435945939	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	773582	773593	12	-	11.660097272985	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	774468	774479	12	-	11.1726534768126	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	774469	774480	12	-	11.8371001520825	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	774778	774789	12	-	12.3095421596511	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	774779	774790	12	-	12.4097432244196	MA1125.1	intron	Shank3	ZNF384			Homo sapiens
+chr10	751590	751606	17	-	8.9951758170019	MA1154.1	intron	Shank3	ZNF282			Homo sapiens
+chr10	772604	772620	17	-	10.3264473255419	MA1154.1	intron	Shank3	ZNF282			Homo sapiens
+chr10	777331	777347	17	-	12.8416670998104	MA1154.1	intron	Shank3	ZNF282			Homo sapiens
+chr10	794585	794599	15	+	11.6814476185937	MA1155.1	intron	Shank3	ZSCAN4			Homo sapiens
+chr10	763303	763317	15	-	9.6893508692522	MA1155.1	intron	Shank3	ZSCAN4			Homo sapiens
+chr10	755424	755433	10	-	11.4887286718583	MA0099.3	intron	Shank3	FOS::JUN			Homo sapiens
+chr10	769572	769581	10	-	14.2555998782844	MA0099.3	intron	Shank3	FOS::JUN			Homo sapiens
+chr10	795122	795137	16	+	11.1698267885484	MA1126.1	intron	Shank3	FOS::JUN(var.2)			Homo sapiens
+chr10	755423	755435	13	-	15.0878057194549	MA1128.1	intron	Shank3	FOSL1::JUN			Homo sapiens
+chr10	782305	782317	13	-	11.8829135606778	MA1128.1	intron	Shank3	FOSL1::JUN			Homo sapiens
+chr10	755424	755435	12	-	11.6651972375887	MA1130.1	intron	Shank3	FOSL2::JUN			Homo sapiens
+chr10	769572	769583	12	-	15.3214020053089	MA1130.1	intron	Shank3	FOSL2::JUN			Homo sapiens
+chr10	755425	755434	10	-	14.4096137003185	MA1132.1	intron	Shank3	JUN::JUNB			Homo sapiens
+chr10	755423	755434	12	-	14.248129560636	MA1134.1	intron	Shank3	FOS::JUNB			Homo sapiens
+chr10	769571	769582	12	-	14.2100727486271	MA1134.1	intron	Shank3	FOS::JUNB			Homo sapiens
+chr10	782305	782316	12	-	11.4983243587339	MA1134.1	intron	Shank3	FOS::JUNB			Homo sapiens
+chr10	755425	755434	10	-	15.4519905197653	MA1135.1	intron	Shank3	FOSB::JUNB			Homo sapiens
+chr10	755423	755435	13	-	13.8195269903108	MA1137.1	intron	Shank3	FOSL1::JUNB			Homo sapiens
+chr10	769571	769583	13	-	11.4010354671681	MA1137.1	intron	Shank3	FOSL1::JUNB			Homo sapiens
+chr10	782305	782317	13	-	11.6172930054677	MA1137.1	intron	Shank3	FOSL1::JUNB			Homo sapiens
+chr10	755425	755434	10	-	15.5058933481199	MA1138.1	intron	Shank3	FOSL2::JUNB			Homo sapiens
+chr10	769571	769583	13	-	15.2654659565767	MA1141.1	intron	Shank3	FOS::JUND			Homo sapiens
+chr10	755425	755434	10	-	12.7299041758159	MA1142.1	intron	Shank3	FOSL1::JUND			Homo sapiens
+chr10	755425	755434	10	-	15.7021052749575	MA1144.1	intron	Shank3	FOSL2::JUND			Homo sapiens
+chr10	759199	759213	15	-	12.5941637187508	MA1146.1	exon	Shank3	NR1A4::RXRA			Homo sapiens
+chr10	760365	760379	15	-	11.4615982301297	MA1146.1	exon	Shank3	NR1A4::RXRA			Homo sapiens
+chr10	777167	777181	15	-	12.3789585089182	MA1146.1	intron	Shank3	NR1A4::RXRA			Homo sapiens
+chr10	777844	777858	15	-	14.9691468035337	MA1146.1	intron	Shank3	NR1A4::RXRA			Homo sapiens
+chr10	786358	786372	15	-	12.0250021302355	MA1146.1	intron	Shank3	NR1A4::RXRA			Homo sapiens
+chr10	759199	759213	15	-	14.9665007091464	MA1147.1	exon	Shank3	NR4A2::RXRA			Homo sapiens
+chr10	777167	777181	15	-	15.8746020877628	MA1147.1	intron	Shank3	NR4A2::RXRA			Homo sapiens
+chr10	777844	777858	15	-	14.8927579234223	MA1147.1	intron	Shank3	NR4A2::RXRA			Homo sapiens
+chr10	797285	797302	18	+	11.3020606722332	MA1148.1	intron	Shank3	PPARA::RXRA			Homo sapiens
+chr10	753614	753631	18	-	14.7942602544489	MA1148.1	intron	Shank3	PPARA::RXRA			Homo sapiens
+chr10	754571	754588	18	-	10.9816516583715	MA1148.1	intron	Shank3	PPARA::RXRA			Homo sapiens
+chr10	757809	757826	18	-	12.2088245835892	MA1148.1	intron	Shank3	PPARA::RXRA			Homo sapiens
+chr10	773172	773189	18	-	12.9356521834945	MA1148.1	intron	Shank3	PPARA::RXRA			Homo sapiens
+chr10	776182	776199	18	-	14.40156360823	MA1148.1	intron	Shank3	PPARA::RXRA			Homo sapiens
+chr10	777368	777385	18	-	11.7466474040154	MA1148.1	intron	Shank3	PPARA::RXRA			Homo sapiens
+chr10	755541	755558	18	-	12.4205637889921	MA1149.1	intron	Shank3	RARA::RXRG			Homo sapiens
+chr10	779323	779340	18	-	12.2574860929088	MA1149.1	intron	Shank3	RARA::RXRG			Homo sapiens
+chr10	781610	781627	18	-	17.533951262546	MA1149.1	intron	Shank3	RARA::RXRG			Homo sapiens
+chr10	797846	797863	18	-	16.1344422645017	MA1149.1	intron	Shank3	RARA::RXRG			Homo sapiens
+chr10	779333	779343	11	-	11.7671268434071	MA1150.1	intron	Shank3	RORB			Homo sapiens
+chr10	780394	780404	11	-	12.1831346237762	MA1150.1	intron	Shank3	RORB			Homo sapiens
+chr10	783607	783617	11	-	11.9607644208933	MA1150.1	intron	Shank3	RORB			Homo sapiens
+chr10	802143	802153	11	-	11.87917884369	MA1150.1	intron	Shank3	RORB			Homo sapiens
+chr10	783608	783619	12	-	12.4606999347152	MA1151.1	intron	Shank3	RORC			Homo sapiens
+chr10	790012	790023	12	-	10.875341641098	MA1151.1	intron	Shank3	RORC			Homo sapiens
+chr10	802144	802155	12	-	13.4765086931241	MA1151.1	intron	Shank3	RORC			Homo sapiens
+chr10	797302	797311	10	+	9.79667761980541	MA1152.1	intron	Shank3	SOX15			Homo sapiens
+chr10	751837	751846	10	-	9.32869152945865	MA1152.1	intron	Shank3	SOX15			Homo sapiens
+chr10	754115	754124	10	-	9.39703637130602	MA1152.1	intron	Shank3	SOX15			Homo sapiens
+chr10	771938	771947	10	-	10.0431924286509	MA1152.1	intron	Shank3	SOX15			Homo sapiens
+chr10	790848	790857	10	-	9.28626109719034	MA1152.1	intron	Shank3	SOX15			Homo sapiens
+chr10	761033	761046	14	-	11.3616389195429	MA0162.3	exon	Shank3	EGR1			Homo sapiens
+chr10	761167	761180	14	-	16.4857080502259	MA0162.3	intron	Shank3	EGR1			Homo sapiens
+chr10	764493	764506	14	-	14.3703425206946	MA0162.3	intron	Shank3	EGR1			Homo sapiens
+chr10	777704	777717	14	-	15.9912713766107	MA0162.3	exon	Shank3	EGR1			Homo sapiens
+chr10	785619	785632	14	-	10.2388188180022	MA0162.3	intron	Shank3	EGR1			Homo sapiens
+chr10	783867	783887	21	-	7.42220259857027	MA1418.1	intron	Shank3	IRF3			Homo sapiens
+chr10	785172	785192	21	-	8.22810989947137	MA1418.1	exon	Shank3	IRF3			Homo sapiens
+chr10	764933	764947	15	-	4.56072188052803	MA1419.1	intron	Shank3	IRF4			Homo sapiens
+chr10	793250	793261	12	+	12.4553377527144	MA1421.1	intron	Shank3	TCF7L1			Homo sapiens
+chr10	762103	762114	12	-	13.8739594838107	MA1421.1	intron	Shank3	TCF7L1			Homo sapiens
+chr10	773969	773980	12	-	14.1884880391233	MA1421.1	intron	Shank3	TCF7L1			Homo sapiens
+chr10	781020	781033	14	-	17.4748077656648	MA0029.1	intron	Shank3	Mecom	MECOM	MDS1 and EVI1 complex locus MDS1,EVI1	Mus musculus
+chr10	783882	783895	14	-	10.5390483744017	MA0029.1	intron	Shank3	Mecom	MECOM	MDS1 and EVI1 complex locus MDS1,EVI1	Mus musculus
+chr10	784119	784128	10	-	11.684754063655	MA0092.1	intron	Shank3	Hand1::Tcf3	-	-	Mus musculus
+chr10	791501	791510	10	-	10.9091000653374	MA0092.1	intron	Shank3	Hand1::Tcf3	-	-	Mus musculus
+chr10	753673	753683	11	-	12.0402760244923	MA0111.1	intron	Shank3	Spz1	SPZ1	spermatogenic leucine zipper 1	Mus musculus
+chr10	772318	772328	11	-	12.1790099862989	MA0111.1	intron	Shank3	Spz1	SPZ1	spermatogenic leucine zipper 1	Mus musculus
+chr10	775255	775265	11	-	11.9369936555836	MA0111.1	intron	Shank3	Spz1	SPZ1	spermatogenic leucine zipper 1	Mus musculus
+chr10	762929	762941	13	-	8.38520671025914	MA0135.1	intron	Shank3	Lhx3	LHX3	LIM homeobox 3	Mus musculus
+chr10	767683	767695	13	-	7.50524552953194	MA0135.1	intron	Shank3	Lhx3	LHX3	LIM homeobox 3	Mus musculus
+chr10	768148	768160	13	-	10.075439968598	MA0135.1	intron	Shank3	Lhx3	LHX3	LIM homeobox 3	Mus musculus
+chr10	793036	793050	15	+	15.3622876131982	MA0142.1	intron	Shank3	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr10	754776	754790	15	-	8.14570298322902	MA0142.1	intron	Shank3	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr10	771977	771991	15	-	7.74124956983346	MA0142.1	intron	Shank3	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr10	791693	791707	15	-	9.54447487285385	MA0142.1	intron	Shank3	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr10	800359	800373	15	-	7.92334459144904	MA0142.1	intron	Shank3	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr10	772737	772747	11	-	14.6113778213129	MA0062.2	intron	Shank3	Gabpa	GABPA	GA binding protein transcription factor,alpha subunit 60kDa	Mus musculus
+chr10	748441	748451	11	-	10.6180206088016	MA0002.2	exon	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	751961	751971	11	-	10.5221645581933	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	754747	754757	11	-	11.976782064523	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	755388	755398	11	-	11.1405554765626	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	758457	758467	11	-	10.9894797489919	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	758554	758564	11	-	11.1333612271965	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	761953	761963	11	-	10.9058712148155	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	766035	766045	11	-	10.6494891481704	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	769829	769839	11	-	11.2874736852474	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	775149	775159	11	-	12.1363301661877	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	787574	787584	11	-	12.5861430779787	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	791338	791348	11	-	11.8777593636317	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	799845	799855	11	-	10.6160229729837	MA0002.2	intron	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	804330	804340	11	-	11.2354206585679	MA0002.2	exon	Shank3	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr10	793307	793318	12	+	8.75224527625585	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	794920	794931	12	+	9.69116304159857	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	748669	748680	12	-	8.75853998718675	MA0047.2	exon	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	748987	748998	12	-	10.3023245205766	MA0047.2	exon	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	775863	775874	12	-	8.87285106833646	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	780009	780020	12	-	8.23905395208663	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	780078	780089	12	-	8.49628461835049	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	780938	780949	12	-	10.2345676134814	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	781152	781163	12	-	13.2382379916711	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	788831	788842	12	-	8.60629691110762	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	788986	788997	12	-	11.2193754545897	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	790842	790853	12	-	9.11083723188966	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	791064	791075	12	-	9.07929293982391	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	803565	803576	12	-	10.2660519173405	MA0047.2	intron	Shank3	Foxa2	FOXA2	forkhead box A2	Mus musculus
+chr10	749752	749766	15	-	12.7234368567436	MA0065.2	exon	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	753615	753629	15	-	15.7456015978347	MA0065.2	intron	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	754572	754586	15	-	13.4305028961269	MA0065.2	intron	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	757810	757824	15	-	14.061662187945	MA0065.2	intron	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	772152	772166	15	-	13.1174746957431	MA0065.2	intron	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	776183	776197	15	-	15.6425877222281	MA0065.2	intron	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	782812	782826	15	-	12.5275753771579	MA0065.2	intron	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	784197	784211	15	-	12.7009129438026	MA0065.2	intron	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	800814	800828	15	-	13.8229675022526	MA0065.2	intron	Shank3	Pparg::Rxra	-	-	Mus musculus
+chr10	794686	794699	14	+	16.592538663696	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	750039	750052	14	-	17.7779116877863	MA0146.2	exon	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	750636	750649	14	-	17.1327221264207	MA0146.2	exon	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	755961	755974	14	-	16.9376540578627	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	756397	756410	14	-	14.9329527962018	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	757505	757518	14	-	14.9564161273606	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	759472	759485	14	-	15.043378716274	MA0146.2	exon	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	759982	759995	14	-	15.9877264573939	MA0146.2	exon	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	763898	763911	14	-	14.5122127449038	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	768725	768738	14	-	14.9295927142394	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	776831	776844	14	-	16.3950321216576	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	776885	776898	14	-	18.1446561960336	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	780203	780216	14	-	15.4673978972746	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	783128	783141	14	-	14.9228937030661	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	787035	787048	14	-	14.6700169269553	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	790087	790100	14	-	15.3263853341605	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	799083	799096	14	-	15.3322628798909	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	799346	799359	14	-	15.518008241929	MA0146.2	intron	Shank3	Zfx	18555785	ZNF926	Mus musculus
+chr10	796002	796015	14	+	11.4837397249959	MA0463.1	intron	Shank3	Bcl6	BCL6	B-cell CLL/lymphoma 6	Mus musculus
+chr10	758070	758083	14	-	10.8868790167052	MA0463.1	intron	Shank3	Bcl6	BCL6	B-cell CLL/lymphoma 6	Mus musculus
+chr10	762593	762606	14	-	11.4049712538317	MA0463.1	intron	Shank3	Bcl6	BCL6	B-cell CLL/lymphoma 6	Mus musculus
+chr10	780299	780312	14	-	10.6034058085487	MA0463.1	intron	Shank3	Bcl6	BCL6	B-cell CLL/lymphoma 6	Mus musculus
+chr10	787661	787674	14	-	14.9851015022938	MA0463.1	intron	Shank3	Bcl6	BCL6	B-cell CLL/lymphoma 6	Mus musculus
+chr10	798385	798398	14	-	14.7826267533624	MA0463.1	intron	Shank3	Bcl6	BCL6	B-cell CLL/lymphoma 6	Mus musculus
+chr10	801996	802009	14	-	14.2134085464166	MA0463.1	intron	Shank3	Bcl6	BCL6	B-cell CLL/lymphoma 6	Mus musculus
+chr10	765353	765363	11	-	12.3894624877126	MA0467.1	intron	Shank3	Crx	CRX	cone-rod homeobox	Mus musculus
+chr10	748673	748683	11	-	10.5468857542594	MA0480.1	exon	Shank3	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr10	755707	755717	11	-	9.35657466771341	MA0480.1	intron	Shank3	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr10	756017	756027	11	-	10.8936988858204	MA0480.1	intron	Shank3	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr10	758332	758342	11	-	9.38454627390852	MA0480.1	intron	Shank3	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr10	761387	761397	11	-	10.4362217987239	MA0480.1	intron	Shank3	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr10	768967	768977	11	-	10.9041534421279	MA0480.1	intron	Shank3	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr10	771870	771880	11	-	10.0928703128028	MA0480.1	intron	Shank3	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr10	781156	781166	11	-	10.8560988718471	MA0480.1	intron	Shank3	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr10	789876	789886	11	-	10.404441334403	MA0482.1	intron	Shank3	Gata4	GATA4	GATA binding protein 4	Mus musculus
+chr10	790099	790109	11	-	10.4763883412364	MA0482.1	intron	Shank3	Gata4	GATA4	GATA binding protein 4	Mus musculus
+chr10	791004	791014	11	-	10.6315169154742	MA0482.1	intron	Shank3	Gata4	GATA4	GATA binding protein 4	Mus musculus
+chr10	791503	791513	11	-	12.2015696366733	MA0482.1	intron	Shank3	Gata4	GATA4	GATA binding protein 4	Mus musculus
+chr10	799529	799539	11	-	14.3033273923492	MA0482.1	intron	Shank3	Gata4	GATA4	GATA binding protein 4	Mus musculus
+chr10	801636	801646	11	-	9.76030909023349	MA0482.1	intron	Shank3	Gata4	GATA4	GATA binding protein 4	Mus musculus
+chr10	766850	766860	11	-	12.183816155035	MA0483.1	intron	Shank3	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr10	773909	773919	11	-	12.2295668456375	MA0483.1	intron	Shank3	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr10	774361	774371	11	-	12.585771949344	MA0483.1	intron	Shank3	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr10	774567	774577	11	-	12.1405535525679	MA0483.1	intron	Shank3	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr10	803878	803888	11	-	14.6145977364384	MA0483.1	exon	Shank3	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr10	795022	795034	13	+	12.0681732250664	MA0485.1	intron	Shank3	Hoxc9	HOXC9	homeobox C9	Mus musculus
+chr10	767685	767697	13	-	10.7949576554696	MA0485.1	intron	Shank3	Hoxc9	HOXC9	homeobox C9	Mus musculus
+chr10	795902	795912	11	+	16.9472792391157	MA0493.1	intron	Shank3	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr10	796756	796766	11	+	18.4159578730481	MA0493.1	intron	Shank3	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr10	772008	772018	11	-	17.4584272734984	MA0493.1	intron	Shank3	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr10	774288	774298	11	-	16.6737646736978	MA0493.1	intron	Shank3	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr10	776864	776874	11	-	17.2243881052607	MA0493.1	intron	Shank3	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr10	790640	790650	11	-	14.8322235522433	MA0493.1	intron	Shank3	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr10	795794	795812	19	+	14.7473049449987	MA0494.1	intron	Shank3	Nr1h3::Rxra	-	-	Mus musculus
+chr10	768514	768532	19	-	11.911707536835	MA0494.1	intron	Shank3	Nr1h3::Rxra	-	-	Mus musculus
+chr10	775209	775227	19	-	13.3301680592108	MA0494.1	intron	Shank3	Nr1h3::Rxra	-	-	Mus musculus
+chr10	775588	775606	19	-	16.1952841188308	MA0494.1	intron	Shank3	Nr1h3::Rxra	-	-	Mus musculus
+chr10	799507	799525	19	-	11.7821406246175	MA0494.1	exon	Shank3	Nr1h3::Rxra	-	-	Mus musculus
+chr10	750213	750225	13	-	14.2153155954575	MA0499.1	exon	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	751163	751175	13	-	14.1655226031521	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	759610	759622	13	-	14.6248237657478	MA0499.1	exon	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	759741	759753	13	-	13.4963667272598	MA0499.1	exon	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	764977	764989	13	-	13.8582195577981	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	765239	765251	13	-	15.2739923323633	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	768082	768094	13	-	14.7119494907352	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	768320	768332	13	-	14.5081422473845	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	772729	772741	13	-	14.8830836640519	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	777053	777065	13	-	13.4782735115345	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	787313	787325	13	-	14.2863931527088	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	788136	788148	13	-	14.778876028876	MA0499.1	exon	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	801819	801831	13	-	14.0035506916343	MA0499.1	intron	Shank3	Myod1	MYOD1	myogenic differentiation 1	Mus musculus
+chr10	750128	750138	11	-	14.5163635902929	MA0500.1	exon	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	751884	751894	11	-	14.3264439695571	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	752294	752304	11	-	13.7919787521637	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	760608	760618	11	-	15.3663175717946	MA0500.1	exon	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	767162	767172	11	-	15.8008970286212	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	768334	768344	11	-	14.7149112164301	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	776344	776354	11	-	13.8487135230743	MA0500.1	exon	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	779363	779373	11	-	15.6545733502325	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	779494	779504	11	-	15.0678841850907	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	786168	786178	11	-	13.9741341777557	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	786466	786476	11	-	14.400234117872	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	797540	797550	11	-	14.8779645643549	MA0500.1	intron	Shank3	Myog	MYOG	myogenin (myogenic factor 4)	Mus musculus
+chr10	792513	792523	11	+	14.2116736926924	MA0503.1	intron	Shank3	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr10	795717	795727	11	+	13.3475717528595	MA0503.1	intron	Shank3	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr10	797252	797262	11	+	15.0281834198532	MA0503.1	intron	Shank3	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr10	756336	756346	11	-	13.3495988679964	MA0503.1	intron	Shank3	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr10	764465	764475	11	-	13.0420682560961	MA0503.1	intron	Shank3	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr10	793534	793548	15	+	13.9580572502855	MA0505.1	intron	Shank3	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr10	795876	795890	15	+	14.7799802604482	MA0505.1	intron	Shank3	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr10	754570	754584	15	-	18.2480178699897	MA0505.1	intron	Shank3	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr10	773171	773185	15	-	17.1964069490723	MA0505.1	intron	Shank3	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr10	776426	776440	15	-	14.3436666391787	MA0505.1	intron	Shank3	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr10	799242	799256	15	-	13.5047779670827	MA0505.1	exon	Shank3	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr10	800225	800239	15	-	16.1725236162839	MA0505.1	intron	Shank3	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr10	762515	762528	14	-	13.0380369358701	MA0509.1	intron	Shank3	Rfx1	RFX1	regulatory factor X,1 (influences HLA class II expression)	Mus musculus
+chr10	777031	777044	14	-	20.4301109772792	MA0509.1	intron	Shank3	Rfx1	RFX1	regulatory factor X,1 (influences HLA class II expression)	Mus musculus
+chr10	796943	796952	10	+	9.31186236648586	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	749194	749203	10	-	11.4127532659428	MA0514.1	exon	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	751303	751312	10	-	12.2400951841597	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	752350	752359	10	-	10.1964122657814	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	755726	755735	10	-	12.9754384179149	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	761550	761559	10	-	9.53318977507226	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	763047	763056	10	-	14.0459594876479	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	763772	763781	10	-	11.7426819596005	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	767386	767395	10	-	10.3865205289849	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	771938	771947	10	-	11.5880578419163	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	775871	775880	10	-	9.96389970872922	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	780157	780166	10	-	9.34308151186876	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	784269	784278	10	-	10.2234943183983	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	788604	788613	10	-	9.33894441910281	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	789447	789456	10	-	11.552573696397	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	790848	790857	10	-	10.7607159236995	MA0514.1	intron	Shank3	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr10	755726	755735	10	-	11.426424878554	MA0515.1	intron	Shank3	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr10	763047	763056	10	-	13.2217586347668	MA0515.1	intron	Shank3	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr10	763772	763781	10	-	11.2621458425818	MA0515.1	intron	Shank3	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr10	765614	765623	10	-	10.1986122182587	MA0515.1	exon	Shank3	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr10	767531	767540	10	-	9.6465950311385	MA0515.1	intron	Shank3	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr10	787395	787404	10	-	12.1769340181878	MA0515.1	intron	Shank3	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr10	789447	789456	10	-	10.8600658804244	MA0515.1	intron	Shank3	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr10	748225	748238	14	-	11.8246221916426	MA0518.1	exon	Shank3	Stat4	STAT4	signal transducer and activator of transcription 4	Mus musculus
+chr10	788293	788306	14	-	11.4884542602186	MA0518.1	exon	Shank3	Stat4	STAT4	signal transducer and activator of transcription 4	Mus musculus
+chr10	763706	763716	11	-	12.0400493850993	MA0519.1	intron	Shank3	Stat5a::Stat5b	-	-	Mus musculus
+chr10	772725	772735	11	-	11.5612674362773	MA0519.1	intron	Shank3	Stat5a::Stat5b	-	-	Mus musculus
+chr10	788405	788415	11	-	12.4474995415993	MA0519.1	intron	Shank3	Stat5a::Stat5b	-	-	Mus musculus
+chr10	749029	749043	15	-	14.5196581466793	MA0520.1	exon	Shank3	Stat6	STAT6	signal transducer and activator of transcription 6,interleukin-4 induced	Mus musculus
+chr10	759075	759089	15	-	15.7308586749693	MA0520.1	exon	Shank3	Stat6	STAT6	signal transducer and activator of transcription 6,interleukin-4 induced	Mus musculus
+chr10	750128	750138	11	-	14.0304498673097	MA0521.1	exon	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	751884	751894	11	-	13.8792770491093	MA0521.1	intron	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	760608	760618	11	-	15.3212864803779	MA0521.1	exon	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	767162	767172	11	-	16.2796551492885	MA0521.1	intron	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	768334	768344	11	-	15.3232578631493	MA0521.1	intron	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	779363	779373	11	-	15.3509295797428	MA0521.1	intron	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	779494	779504	11	-	14.6118539426681	MA0521.1	intron	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	786168	786178	11	-	13.7084904855125	MA0521.1	intron	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	786466	786476	11	-	14.1275769094554	MA0521.1	intron	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	797540	797550	11	-	14.4606811244677	MA0521.1	intron	Shank3	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr10	773592	773602	11	-	9.23143840803004	MA0035.3	intron	Shank3	Gata1	GATA1	GATA binding protein 1 (globin transcription factor 1)	Mus musculus
+chr10	789877	789887	11	-	10.606147203656	MA0035.3	intron	Shank3	Gata1	GATA1	GATA binding protein 1 (globin transcription factor 1)	Mus musculus
+chr10	791005	791015	11	-	11.8844669356848	MA0035.3	intron	Shank3	Gata1	GATA1	GATA binding protein 1 (globin transcription factor 1)	Mus musculus
+chr10	791504	791514	11	-	12.603339033797	MA0035.3	intron	Shank3	Gata1	GATA1	GATA binding protein 1 (globin transcription factor 1)	Mus musculus
+chr10	799530	799540	11	-	14.614836500059	MA0035.3	intron	Shank3	Gata1	GATA1	GATA binding protein 1 (globin transcription factor 1)	Mus musculus
+chr10	801637	801647	11	-	9.92386409749905	MA0035.3	intron	Shank3	Gata1	GATA1	GATA binding protein 1 (globin transcription factor 1)	Mus musculus
+chr10	799591	799605	15	-	12.2864582359863	MA0150.2	exon	Shank3	Nfe2l2	NFE2L2	nuclear factor,erythroid 2-like 2	Mus musculus
+chr10	800553	800567	15	-	10.8525275498426	MA0150.2	intron	Shank3	Nfe2l2	NFE2L2	nuclear factor,erythroid 2-like 2	Mus musculus
+chr10	803529	803543	15	-	11.0368546144823	MA0150.2	intron	Shank3	Nfe2l2	NFE2L2	nuclear factor,erythroid 2-like 2	Mus musculus
+chr10	751168	751182	15	-	10.8407200269061	MA0591.1	intron	Shank3	Bach1::Mafk			Mus musculus
+chr10	759428	759442	15	-	11.3147510499525	MA0591.1	exon	Shank3	Bach1::Mafk			Mus musculus
+chr10	784008	784022	15	-	12.1568492722164	MA0591.1	exon	Shank3	Bach1::Mafk			Mus musculus
+chr10	799590	799604	15	-	11.708540953631	MA0591.1	exon	Shank3	Bach1::Mafk			Mus musculus
+chr10	800552	800566	15	-	11.494690936517	MA0591.1	intron	Shank3	Bach1::Mafk			Mus musculus
+chr10	795023	795033	11	+	13.4522342984738	MA0594.1	intron	Shank3	Hoxa9	HOXA9	homeobox A9	Mus musculus
+chr10	764997	765007	11	-	10.4192887244545	MA0594.1	intron	Shank3	Hoxa9	HOXA9	homeobox A9	Mus musculus
+chr10	767686	767696	11	-	10.9646428170866	MA0594.1	intron	Shank3	Hoxa9	HOXA9	homeobox A9	Mus musculus
+chr10	748261	748271	11	-	9.19727579796805	MA0601.1	exon	Shank3	Arid3b			Mus musculus
+chr10	748652	748662	11	-	8.97306996691725	MA0601.1	exon	Shank3	Arid3b			Mus musculus
+chr10	749694	749704	11	-	9.16294889121639	MA0601.1	exon	Shank3	Arid3b			Mus musculus
+chr10	789022	789032	11	-	10.5478600952667	MA0601.1	intron	Shank3	Arid3b			Mus musculus
+chr10	791712	791722	11	-	8.97306996691725	MA0601.1	intron	Shank3	Arid3b			Mus musculus
+chr10	793303	793316	14	+	9.27940047148688	MA0602.1	intron	Shank3	Arid5a			Mus musculus
+chr10	768203	768216	14	-	11.7657092104524	MA0602.1	intron	Shank3	Arid5a			Mus musculus
+chr10	773872	773885	14	-	11.3978702988899	MA0602.1	intron	Shank3	Arid5a			Mus musculus
+chr10	754528	754537	10	-	14.5172158334498	MA0603.1	intron	Shank3	Arntl			Mus musculus
+chr10	784510	784519	10	-	12.3234871515438	MA0603.1	intron	Shank3	Arntl			Mus musculus
+chr10	798969	798978	10	-	13.2244052847269	MA0603.1	exon	Shank3	Arntl			Mus musculus
+chr10	762169	762178	10	-	11.549773088526	MA0609.1	intron	Shank3	Crem			Mus musculus
+chr10	750109	750125	17	-	11.2985109956527	MA0615.1	exon	Shank3	Gmeb1			Mus musculus
+chr10	799389	799398	10	-	12.6107989709427	MA1099.1	exon	Shank3	Hes1			Mus musculus
+chr10	770534	770546	13	-	13.3040712992862	MA0616.1	intron	Shank3	Hes2			Mus musculus
+chr10	770764	770776	13	-	13.3040712992862	MA0616.1	intron	Shank3	Hes2			Mus musculus
+chr10	770813	770825	13	-	13.3040712992862	MA0616.1	intron	Shank3	Hes2			Mus musculus
+chr10	779022	779034	13	-	14.1225080211321	MA0616.1	intron	Shank3	Hes2			Mus musculus
+chr10	783821	783833	13	-	12.2212055296318	MA0616.1	intron	Shank3	Hes2			Mus musculus
+chr10	798969	798981	13	-	13.1721635760855	MA0616.1	exon	Shank3	Hes2			Mus musculus
+chr10	768706	768715	10	-	10.507920972738	MA0623.1	intron	Shank3	Neurog1			Mus musculus
+chr10	783354	783363	10	-	10.2383101484076	MA0623.1	intron	Shank3	Neurog1			Mus musculus
+chr10	786422	786431	10	-	10.5877897464937	MA0623.1	intron	Shank3	Neurog1			Mus musculus
+chr10	789928	789937	10	-	10.507920972738	MA0623.1	intron	Shank3	Neurog1			Mus musculus
+chr10	749149	749158	10	-	13.7421884815588	MA0626.1	exon	Shank3	Npas2			Mus musculus
+chr10	770961	770970	10	-	13.059339138131	MA0626.1	intron	Shank3	Npas2			Mus musculus
+chr10	775564	775573	10	-	13.4908466954433	MA0626.1	intron	Shank3	Npas2			Mus musculus
+chr10	786659	786668	10	-	13.2483335989369	MA0626.1	intron	Shank3	Npas2			Mus musculus
+chr10	798783	798792	10	-	13.059339138131	MA0626.1	intron	Shank3	Npas2			Mus musculus
+chr10	798968	798977	10	-	13.0808001960336	MA0626.1	exon	Shank3	Npas2			Mus musculus
+chr10	791799	791814	16	+	12.0187546092238	MA0627.1	exon	Shank3	Pou2f3			Mus musculus
+chr10	793039	793054	16	+	10.7633149656058	MA0627.1	intron	Shank3	Pou2f3			Mus musculus
+chr10	795945	795960	16	+	11.7364882304881	MA0627.1	intron	Shank3	Pou2f3			Mus musculus
+chr10	757287	757302	16	-	11.6574557998819	MA0627.1	intron	Shank3	Pou2f3			Mus musculus
+chr10	789648	789664	17	-	10.3807996803368	MA0631.1	intron	Shank3	Six3			Mus musculus
+chr10	785346	785355	10	-	11.2005628272709	MA0632.1	intron	Shank3	Tcfl5			Mus musculus
+chr10	799389	799398	10	-	11.1471693312484	MA0632.1	exon	Shank3	Tcfl5			Mus musculus
+chr10	803713	803722	10	-	11.3484628896938	MA0632.1	intron	Shank3	Tcfl5			Mus musculus
+chr10	796804	796813	10	+	12.8337346005262	MA0633.1	intron	Shank3	Twist2			Mus musculus
+chr10	768706	768715	10	-	12.7944862223471	MA0633.1	intron	Shank3	Twist2			Mus musculus
+chr10	770460	770469	10	-	12.2074216478016	MA0633.1	intron	Shank3	Twist2			Mus musculus
+chr10	770615	770624	10	-	11.4324315375086	MA0633.1	intron	Shank3	Twist2			Mus musculus
+chr10	775664	775673	10	-	11.570066107192	MA0633.1	intron	Shank3	Twist2			Mus musculus
+chr10	786422	786431	10	-	11.8457538621235	MA0633.1	intron	Shank3	Twist2			Mus musculus
+chr10	789928	789937	10	-	12.7944862223471	MA0633.1	intron	Shank3	Twist2			Mus musculus
+chr10	798621	798630	10	-	12.332860599186	MA0633.1	intron	Shank3	Twist2			Mus musculus
+chr10	754122	754138	17	-	11.5999151025051	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	801117	801133	17	-	13.93152091497	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	802756	802772	17	-	9.741103948984	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	803121	803137	17	-	9.741103948984	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	803343	803359	17	-	9.86691009406201	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	803455	803471	17	-	10.4484794390527	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	803477	803493	17	-	12.6246199268642	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	803517	803533	17	-	9.741103948984	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	803539	803555	17	-	9.86691009406201	MA0007.3	intron	Shank3	Ar			Mus musculus
+chr10	793538	793547	10	+	12.4187812993603	MA0643.1	intron	Shank3	Esrrg			Mus musculus
+chr10	762656	762665	10	-	11.7029393656111	MA0643.1	intron	Shank3	Esrrg			Mus musculus
+chr10	773172	773181	10	-	13.4997911928093	MA0643.1	intron	Shank3	Esrrg			Mus musculus
+chr10	774690	774699	10	-	11.567584699961	MA0643.1	intron	Shank3	Esrrg			Mus musculus
+chr10	781451	781460	10	-	12.3015667045498	MA0643.1	intron	Shank3	Esrrg			Mus musculus
+chr10	753615	753628	14	-	12.9152830910861	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	754417	754430	14	-	12.5678682461052	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	757810	757823	14	-	10.4191791556255	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	772152	772165	14	-	15.0409476056706	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	773173	773186	14	-	17.5457743385355	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	776183	776196	14	-	14.7387743669771	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	777369	777382	14	-	12.4270162156422	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	781915	781928	14	-	10.2198710313084	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	787018	787031	14	-	12.2613385394886	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	799818	799831	14	-	12.9412590828651	MA0677.1	intron	Shank3	Nr2f6			Mus musculus
+chr10	793390	793400	11	+	8.76566059690109	MA0681.1	intron	Shank3	Phox2b			Mus musculus
+chr10	788927	788937	11	-	8.64808643019871	MA0681.1	intron	Shank3	Phox2b			Mus musculus
+chr10	753615	753628	14	-	7.79906506608255	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	754417	754430	14	-	9.32431352438075	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	757810	757823	14	-	6.33810684127772	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	772152	772165	14	-	9.51241370868987	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	773173	773186	14	-	15.0770088236129	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	774613	774626	14	-	4.050286826276	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	776183	776196	14	-	10.218171148614	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	777369	777382	14	-	8.58844971656639	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	787018	787031	14	-	7.29351029457329	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	799818	799831	14	-	7.81248902401236	MA0512.2	intron	Shank3	Rxra			Mus musculus
+chr10	794217	794227	11	+	8.1365024781471	MA0592.2	intron	Shank3	Esrra			Mus musculus
+chr10	762656	762666	11	-	8.96504829526154	MA0592.2	intron	Shank3	Esrra			Mus musculus
+chr10	773172	773182	11	-	10.8728470670852	MA0592.2	intron	Shank3	Esrra			Mus musculus
+chr10	757020	757035	16	-	5.19491580852168	MA0114.3	intron	Shank3	Hnf4a			Mus musculus
+chr10	757808	757823	16	-	10.1481045106185	MA0114.3	intron	Shank3	Hnf4a			Mus musculus
+chr10	781727	781742	16	-	7.23865438188636	MA0114.3	intron	Shank3	Hnf4a			Mus musculus
+chr10	782045	782060	16	-	7.70147218224392	MA0114.3	intron	Shank3	Hnf4a			Mus musculus
+chr10	782226	782241	16	-	6.73588240190319	MA0114.3	intron	Shank3	Hnf4a			Mus musculus
+chr10	800682	800697	16	-	5.0851410606967	MA0114.3	intron	Shank3	Hnf4a			Mus musculus
+chr10	792611	792625	15	+	16.1849321927614	MA0728.1	intron	Shank3	Nr2f6(var.2)			Mus musculus
+chr10	793532	793546	15	+	8.47169080998304	MA0728.1	intron	Shank3	Nr2f6(var.2)			Mus musculus
+chr10	793540	793554	15	+	5.22968103391498	MA0728.1	intron	Shank3	Nr2f6(var.2)			Mus musculus
+chr10	754417	754431	15	-	-0.167260763137611	MA0728.1	intron	Shank3	Nr2f6(var.2)			Mus musculus
+chr10	773173	773187	15	-	4.5309734101796	MA0728.1	intron	Shank3	Nr2f6(var.2)			Mus musculus
+chr10	774613	774627	15	-	12.1035768981683	MA0728.1	intron	Shank3	Nr2f6(var.2)			Mus musculus
+chr10	776232	776246	15	-	1.04140744154481	MA0728.1	intron	Shank3	Nr2f6(var.2)			Mus musculus
+chr10	779370	779384	15	-	12.5280512584651	MA0728.1	intron	Shank3	Nr2f6(var.2)			Mus musculus
+chr10	796756	796770	15	+	14.3190729864189	MA0742.1	intron	Shank3	Klf12			Mus musculus
+chr10	772004	772018	15	-	13.8364271405167	MA0742.1	intron	Shank3	Klf12			Mus musculus
+chr10	776860	776874	15	-	14.8304019356523	MA0742.1	intron	Shank3	Klf12			Mus musculus
+chr10	790636	790650	15	-	15.0797932939571	MA0742.1	intron	Shank3	Klf12			Mus musculus
+chr10	799155	799169	15	-	12.8824160133447	MA0742.1	exon	Shank3	Klf12			Mus musculus
+chr10	793250	793261	12	+	11.6837988250543	MA0769.1	intron	Shank3	Tcf7			Mus musculus
+chr10	757384	757395	12	-	9.84199176693703	MA0769.1	intron	Shank3	Tcf7			Mus musculus
+chr10	762103	762114	12	-	14.3571937504881	MA0769.1	intron	Shank3	Tcf7			Mus musculus
+chr10	773969	773980	12	-	11.6051105064745	MA0769.1	intron	Shank3	Tcf7			Mus musculus
+chr10	774519	774530	12	-	10.0203040409014	MA0769.1	intron	Shank3	Tcf7			Mus musculus
+chr10	782050	782061	12	-	11.5306425493376	MA0769.1	intron	Shank3	Tcf7			Mus musculus
+chr10	758110	758119	10	-	13.4044551803986	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	759744	759753	10	-	12.7088798591203	MA0816.1	exon	Shank3	Ascl2			Mus musculus
+chr10	760609	760618	10	-	14.5668759311371	MA0816.1	exon	Shank3	Ascl2			Mus musculus
+chr10	766054	766063	10	-	13.1758661909002	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	767163	767172	10	-	13.9410352235135	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	768085	768094	10	-	16.4371776432152	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	768335	768344	10	-	13.9410352235135	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	777056	777065	10	-	16.4371776432152	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	778886	778895	10	-	16.7645846319691	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	787316	787325	10	-	12.8484592021464	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	788139	788148	10	-	14.8062245571797	MA0816.1	exon	Shank3	Ascl2			Mus musculus
+chr10	798950	798959	10	-	13.1758661909002	MA0816.1	exon	Shank3	Ascl2			Mus musculus
+chr10	801822	801831	10	-	13.2767821760705	MA0816.1	intron	Shank3	Ascl2			Mus musculus
+chr10	770460	770469	10	-	13.3672122973083	MA0461.2	intron	Shank3	Atoh1			Mus musculus
+chr10	797685	797694	10	-	12.1268266891834	MA0461.2	intron	Shank3	Atoh1			Mus musculus
+chr10	763848	763857	10	-	12.0230693753279	MA0829.1	intron	Shank3	Srebf1(var.2)			Mus musculus
+chr10	775920	775929	10	-	11.6101143167707	MA0829.1	intron	Shank3	Srebf1(var.2)			Mus musculus
+chr10	799824	799833	10	-	11.6101143167707	MA0829.1	intron	Shank3	Srebf1(var.2)			Mus musculus
+chr10	793880	793893	14	+	9.64045937250216	MA0832.1	intron	Shank3	Tcf21			Mus musculus
+chr10	788137	788150	14	-	12.3389250955672	MA0832.1	exon	Shank3	Tcf21			Mus musculus
+chr10	778299	778310	12	-	8.37909964880669	MA0840.1	exon	Shank3	Creb5			Mus musculus
+chr10	794235	794246	12	+	11.9321722566501	MA0117.2	intron	Shank3	Mafb			Mus musculus
+chr10	777275	777286	12	-	12.9441161681905	MA0117.2	intron	Shank3	Mafb			Mus musculus
+chr10	779601	779612	12	-	11.1940819629724	MA0117.2	intron	Shank3	Mafb			Mus musculus
+chr10	791831	791847	17	+	11.9909441344105	MA0851.1	intron	Shank3	Foxj3			Mus musculus
+chr10	793074	793090	17	+	11.8011978573442	MA0851.1	intron	Shank3	Foxj3			Mus musculus
+chr10	793433	793449	17	+	11.607231815752	MA0851.1	intron	Shank3	Foxj3			Mus musculus
+chr10	794138	794154	17	+	11.0321469956998	MA0851.1	intron	Shank3	Foxj3			Mus musculus
+chr10	796552	796568	17	+	12.5594722215352	MA0851.1	intron	Shank3	Foxj3			Mus musculus
+chr10	792610	792625	16	+	10.8196683352867	MA0857.1	intron	Shank3	Rarb			Mus musculus
+chr10	793531	793546	16	+	-0.21839042972016	MA0857.1	intron	Shank3	Rarb			Mus musculus
+chr10	768530	768545	16	-	0.771313392120189	MA0857.1	intron	Shank3	Rarb			Mus musculus
+chr10	774613	774628	16	-	12.2725331611194	MA0857.1	intron	Shank3	Rarb			Mus musculus
+chr10	776232	776247	16	-	-0.120887362193145	MA0857.1	intron	Shank3	Rarb			Mus musculus
+chr10	779370	779385	16	-	-0.782426731043502	MA0857.1	intron	Shank3	Rarb			Mus musculus
+chr10	780395	780410	16	-	-1.41754965978512	MA0857.1	intron	Shank3	Rarb			Mus musculus
+chr10	798249	798264	16	-	-1.59547872046254	MA0857.1	intron	Shank3	Rarb			Mus musculus
+chr10	755541	755557	17	-	1.9012595812083	MA0858.1	intron	Shank3	Rarb(var.2)			Mus musculus
+chr10	778674	778690	17	-	5.30256150251114	MA0858.1	intron	Shank3	Rarb(var.2)			Mus musculus
+chr10	781610	781626	17	-	6.27499913858573	MA0858.1	intron	Shank3	Rarb(var.2)			Mus musculus
+chr10	797846	797862	17	-	0.98463770149674	MA0858.1	intron	Shank3	Rarb(var.2)			Mus musculus
+chr10	792611	792626	16	+	15.522054401482	MA0859.1	intron	Shank3	Rarg			Mus musculus
+chr10	766551	766566	16	-	0.224529950195002	MA0859.1	intron	Shank3	Rarg			Mus musculus
+chr10	774612	774627	16	-	12.8360724383914	MA0859.1	intron	Shank3	Rarg			Mus musculus
+chr10	776231	776246	16	-	6.50921454837845	MA0859.1	intron	Shank3	Rarg			Mus musculus
+chr10	790280	790295	16	-	-0.610537769408512	MA0859.1	intron	Shank3	Rarg			Mus musculus
+chr10	798248	798263	16	-	-0.235989240827406	MA0859.1	intron	Shank3	Rarg			Mus musculus
+chr10	792601	792617	17	+	0.0445199641258268	MA0860.1	intron	Shank3	Rarg(var.2)			Mus musculus
+chr10	759914	759930	17	-	1.77120140197773	MA0860.1	exon	Shank3	Rarg(var.2)			Mus musculus
+chr10	762097	762113	17	-	6.57822080886471	MA0860.1	intron	Shank3	Rarg(var.2)			Mus musculus
+chr10	765872	765888	17	-	3.52004185989204	MA0860.1	intron	Shank3	Rarg(var.2)			Mus musculus
+chr10	767299	767315	17	-	6.7157015829329	MA0860.1	intron	Shank3	Rarg(var.2)			Mus musculus
+chr10	773179	773195	17	-	3.46456890605046	MA0860.1	intron	Shank3	Rarg(var.2)			Mus musculus
+chr10	781442	781458	17	-	-1.20697529131611	MA0860.1	intron	Shank3	Rarg(var.2)			Mus musculus
+chr10	783192	783208	17	-	13.9078010573113	MA0860.1	intron	Shank3	Rarg(var.2)			Mus musculus
+chr10	757562	757576	15	-	-4.60786428365619	MA0869.1	intron	Shank3	Sox11			Mus musculus
+chr10	762380	762394	15	-	-6.62572441880737	MA0869.1	intron	Shank3	Sox11			Mus musculus
+chr10	762762	762776	15	-	1.58068575277365	MA0869.1	intron	Shank3	Sox11			Mus musculus
+chr10	767533	767547	15	-	3.25714694033938	MA0869.1	intron	Shank3	Sox11			Mus musculus
+chr10	799831	799845	15	-	-8.54492680513126	MA0869.1	intron	Shank3	Sox11			Mus musculus
+chr10	802610	802624	15	-	-9.59393055280383	MA0869.1	intron	Shank3	Sox11			Mus musculus
+chr10	767533	767547	15	-	10.4723868234677	MA0870.1	intron	Shank3	Sox1			Mus musculus
+chr10	792334	792350	17	+	12.5569375435903	MA0874.1	intron	Shank3	Arx			Mus musculus
+chr10	794366	794382	17	+	9.23935707482222	MA0874.1	intron	Shank3	Arx			Mus musculus
+chr10	754665	754674	10	-	9.10181408274804	MA0877.1	intron	Shank3	Barhl1			Mus musculus
+chr10	777748	777757	10	-	10.2506091960198	MA0877.1	intron	Shank3	Barhl1			Mus musculus
+chr10	765349	765365	17	-	11.8926039379904	MA0883.1	intron	Shank3	Dmbx1			Mus musculus
+chr10	773663	773679	17	-	10.717328391302	MA0896.1	intron	Shank3	Hmx1			Mus musculus
+chr10	767723	767739	17	-	10.5628032375233	MA0897.1	intron	Shank3	Hmx2			Mus musculus
+chr10	767723	767739	17	-	11.2278361079106	MA0898.1	intron	Shank3	Hmx3			Mus musculus
+chr10	794368	794383	16	+	12.1046673003645	MA0904.1	intron	Shank3	Hoxb5			Mus musculus
+chr10	768241	768256	16	-	10.0759726222706	MA0904.1	intron	Shank3	Hoxb5			Mus musculus
+chr10	792310	792326	17	+	8.02952226876448	MA0910.1	intron	Shank3	Hoxd8			Mus musculus
+chr10	793238	793254	17	+	9.18118411023841	MA0910.1	intron	Shank3	Hoxd8			Mus musculus
+chr10	794368	794384	17	+	9.00404697917809	MA0910.1	intron	Shank3	Hoxd8			Mus musculus
+chr10	796025	796040	16	+	9.58401192223852	MA0912.1	intron	Shank3	Hoxd3			Mus musculus
+chr10	793131	793140	10	+	10.4098960854865	MA0913.1	intron	Shank3	Hoxd9			Mus musculus
