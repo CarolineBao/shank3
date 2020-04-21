@@ -63,9 +63,16 @@ shank.match.motif.df <- left_join(shank.match.motif.df, motif_lookup, by = c("gr
 
 #remove start/end duplicates and output data
 shank.match.motif.df <-subset(shank.match.motif.df, !duplicated(shank.match.motif.df[,c(2,3,10)]))
-freq <- as.data.frame(table(shank.match.motif.df$motif_nm))
+freq <- as.data.frame(table(shank.match.motif.df$motif_nm)) %>%
+            .[apply(.!=0, 1, all),] %>%
+            cbind(., as.data.frame(shank.match.motif.df$gene_name[1:nrow(.)]))
+colnames(freq)<-c("tfbs", "frequency", "gene")
 
-write.table(freq, paste(FILE_PATH, "results/shank3_tfbs_by_freq.txt", sep='', quotes=F, row.names=F))
+edgedata$gene<-paste("Shank3 = ", freq$frequency)
+
+write.table(freq, paste(FILE_PATH, "results/shank3_tfbs_by_freq.txt", sep=''), sep = "\t", quote = F, row.names = F)
+write.table(edgedata, paste(FILE_PATH, "results/edge_data.txt", sep=''), sep = "\t", quote = F, row.names = F)
+
 write.table(shank.match.motif.df, paste(FILE_PATH, "results/shank3_region_TF_motifs.txt", sep=''), sep = "\t", quote = F, row.names = F)
 
 #makes windows
