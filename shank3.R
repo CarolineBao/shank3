@@ -22,8 +22,9 @@ FILE_PATH <-"data/mouse/UCSC_mm10/"
 jaspar_motifs_hs <- getMatrixSet(JASPAR2018, list("species"="Homo sapiens")) #gets matrix from the named list "species"="Homo sapiens"
 jaspar_motifs_ms <- getMatrixSet(JASPAR2018, list("species"="Mus musculus"))
 jaspar_motifs_mcm <- getMatrixSet(JASPAR2018, list("species"="Macaca mulatta"))
+jaspar_motifs_rr <- getMatrixSet(JASPAR2018, list("species"="Rattus rattus"))
 # combining both human and mouse motifs
-jaspar_motifs <- c(jaspar_motifs_hs, jaspar_motifs_ms, jaspar_motifs_mcm)
+jaspar_motifs <- c(jaspar_motifs_hs, jaspar_motifs_ms, jaspar_motifs_mcm, jaspar_motifs_rr)
 
 # lookup table to join on motif_id to bring together motif information, such as species, symbols, etc.
 motif_lookup <- list()
@@ -68,10 +69,7 @@ freq <- as.data.frame(table(shank.match.motif.df$motif_nm)) %>%
             cbind(., as.data.frame(shank.match.motif.df$gene_name[1:nrow(.)]))
 colnames(freq)<-c("tfbs", "frequency", "gene")
 
-edgedata$gene<-paste("Shank3 = ", freq$frequency)
-
-write.table(freq, paste(FILE_PATH, "results/shank3_tfbs_by_freq.txt", sep=''), sep = "\t", quote = F, row.names = F)
-write.table(edgedata, paste(FILE_PATH, "results/edge_data.txt", sep=''), sep = "\t", quote = F, row.names = F)
+write.table(freq, paste(FILE_PATH, "results/shank3_tfbs_by_freq_hs_ms.txt", sep=''), sep = "\t", quote = F, row.names = F)
 
 write.table(shank.match.motif.df, paste(FILE_PATH, "results/shank3_region_TF_motifs.txt", sep=''), sep = "\t", quote = F, row.names = F)
 
