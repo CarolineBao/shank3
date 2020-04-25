@@ -14,7 +14,7 @@ register(MulticoreParam(8)) #setting up processing on non-Windows
 set.seed(2019) #set random seed
 options(warn=-1) #turns off warnings
 
-FILE_PATH <-"data/mouse/UCSC_mm10/"
+FILE_PATH <-"data/human/"
 
 # method to get JASPAR2018, Getting both human and mouse
 #opts <- list()
@@ -24,7 +24,7 @@ jaspar_motifs_ms <- getMatrixSet(JASPAR2018, list("species"="Mus musculus"))
 jaspar_motifs_mcm <- getMatrixSet(JASPAR2018, list("species"="Macaca mulatta"))
 jaspar_motifs_rr <- getMatrixSet(JASPAR2018, list("species"="Rattus rattus"))
 # combining both human and mouse motifs
-jaspar_motifs <- c(jaspar_motifs_hs, jaspar_motifs_ms, jaspar_motifs_mcm, jaspar_motifs_rr)
+jaspar_motifs <- c(jaspar_motifs_hs, jaspar_motifs_ms)
 
 # lookup table to join on motif_id to bring together motif information, such as species, symbols, etc.
 motif_lookup <- list()
@@ -39,13 +39,13 @@ motif_lookup <- do.call(rbind, motif_lookup)
 motif_lookup <- as.data.frame(motif_lookup) %>% rownames_to_column(., "motif_id")
 
 # read in Shank3 gene and all feature annotations
-shank_gene <- read.table(paste(FILE_PATH, "input_data/Shank3_gene.txt", sep=''), header = T, stringsAsFactors = F)
-shank_all <- read.table(paste(FILE_PATH, "input_data/Shank3_features.txt", sep=''), header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
+shank_gene <- read.table(paste(FILE_PATH, "input_data/shank_gene.txt", sep=''), header = T, stringsAsFactors = F)
+shank_all <- read.table(paste(FILE_PATH, "input_data/shank_features.txt", sep=''), header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
 shank_gene <- makeGRangesFromDataFrame(shank_gene, keep.extra.columns = T)
 shank_all <- makeGRangesFromDataFrame(shank_all, keep.extra.columns = T)
 
 # match shank gene with jaspar 2018 motifs
-shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions", genome = BSgenome.Mmusculus.UCSC.mm10)
+shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions", genome = BSgenome.Hsapiens.UCSC.hg38)
 
 # add motif_id to the genomic ranges
 shank.match.motif.ranges <- shank.match.motif.pos %>% as.data.frame %>% 
