@@ -32,6 +32,7 @@ Crx	2	Shank3
 CTCF	11	Shank3
 CTCFL	5	Shank3
 DBP	4	Shank3
+Ddit3::Cebpa	3	Shank3
 Dlx1	1	Shank3
 Dmbx1	1	Shank3
 DMRT3	2	Shank3
@@ -93,6 +94,7 @@ FOXA1	1	Shank3
 FOXB1	19	Shank3
 FOXC1	18	Shank3
 FOXC2	22	Shank3
+Foxd3	16	Shank3
 FOXF2	2	Shank3
 FOXH1	6	Shank3
 Foxj3	19	Shank3
@@ -101,12 +103,14 @@ FOXK2	6	Shank3
 Foxo1	3	Shank3
 FOXP1	5	Shank3
 FOXP2	9	Shank3
+Foxq1	1	Shank3
 Gabpa	1	Shank3
 Gata1	4	Shank3
 GATA1::TAL1	2	Shank3
 GATA2	2	Shank3
 Gata4	3	Shank3
 GATA6	4	Shank3
+Gfi1	4	Shank3
 Gfi1b	8	Shank3
 GLI2	4	Shank3
 GLIS1	1	Shank3
@@ -409,5 +413,6 @@ ZNF263	143	Shank3
 ZNF282	3	Shank3
 ZNF384	85	Shank3
 ZNF410	4	Shank3
+Znf423	7	Shank3
 ZNF740	15	Shank3
 ZSCAN4	14	Shank3

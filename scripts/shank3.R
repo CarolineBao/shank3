@@ -22,9 +22,9 @@ FILE_PATH <-"data/human/"
 jaspar_motifs_hs <- getMatrixSet(JASPAR2018, list("species"="Homo sapiens")) #gets matrix from the named list "species"="Homo sapiens"
 jaspar_motifs_ms <- getMatrixSet(JASPAR2018, list("species"="Mus musculus"))
 jaspar_motifs_mcm <- getMatrixSet(JASPAR2018, list("species"="Macaca mulatta"))
-jaspar_motifs_rr <- getMatrixSet(JASPAR2018, list("species"="Rattus rattus"))
+jaspar_motifs_rr <- c(getMatrixSet(JASPAR2018, list("species"="Rattus rattus")), getMatrixSet(JASPAR2018, list("species"="Rattus norvegicus")))
 # combining both human and mouse motifs
-jaspar_motifs <- c(jaspar_motifs_hs, jaspar_motifs_ms)
+jaspar_motifs <- c(jaspar_motifs_hs, jaspar_motifs_ms, jaspar_motifs_rr)
 
 # lookup table to join on motif_id to bring together motif information, such as species, symbols, etc.
 motif_lookup <- list()
@@ -64,14 +64,7 @@ shank.match.motif.df <- left_join(shank.match.motif.df, motif_lookup, by = c("gr
 
 #remove start/end duplicates and output data
 shank.match.motif.df <-subset(shank.match.motif.df, !duplicated(shank.match.motif.df[,c(2,3,10)]))
-freq <- as.data.frame(table(shank.match.motif.df$motif_nm)) %>%
-            .[apply(.!=0, 1, all),] %>%
-            cbind(., as.data.frame(shank.match.motif.df$gene_name[1:nrow(.)]))
-colnames(freq)<-c("tfbs", "frequency", "gene")
-
-write.table(freq, paste(FILE_PATH, "results/shank3_tfbs_by_freq_hs_ms.txt", sep=''), sep = "\t", quote = F, row.names = F)
-
-write.table(shank.match.motif.df, paste(FILE_PATH, "results/shank3_region_TF_motifs.txt", sep=''), sep = "\t", quote = F, row.names = F)
+write.table(shank.match.motif.df, paste(FILE_PATH, "results/shank3_region_TF_hs_mm_motifs.txt", sep=''), sep = "\t", quote = F, row.names = F)
 
 #makes windows
 modified_makewindows <- function(gene, windowsize, shift=0) {
