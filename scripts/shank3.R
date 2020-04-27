@@ -14,7 +14,10 @@ register(MulticoreParam(8)) #setting up processing on non-Windows
 set.seed(2019) #set random seed
 options(warn=-1) #turns off warnings
 
-FILE_PATH <-"data/mouse/UCSC_mm10_Chen_Reference/"
+FILE_PATH <-"data/human/human_Chen_Reference/"
+
+GENOME <- BSgenome.Hsapiens.UCSC.hg38
+#GENOME <-BSgenome.Mmusculus.UCSC.mm10
 
 # method to get JASPAR2018, Getting both human and mouse
 #opts <- list()
@@ -38,13 +41,13 @@ motif_lookup <- do.call(rbind, motif_lookup)
 motif_lookup <- as.data.frame(motif_lookup) %>% rownames_to_column(., "motif_id")
 
 # read in Shank3 gene and all feature annotations
-shank_gene <- read.table(paste(FILE_PATH, "input_data/Shank3_gene.txt", sep=''), header = T, stringsAsFactors = F)
-shank_all <- read.table(paste(FILE_PATH, "input_data/Shank3_features.txt", sep=''), header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
+shank_gene <- read.table(paste(FILE_PATH, "input_data/shank_gene.txt", sep=''), header = T, stringsAsFactors = F)
+shank_all <- read.table(paste(FILE_PATH, "input_data/shank_features.txt", sep=''), header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
 shank_gene <- makeGRangesFromDataFrame(shank_gene, keep.extra.columns = T)
 shank_all <- makeGRangesFromDataFrame(shank_all, keep.extra.columns = T)
 
 # match shank gene with jaspar 2018 motifs
-shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions", genome = BSgenome.Mmusculus.UCSC.mm10)
+shank.match.motif.pos <- matchMotifs(jaspar_motifs, shank_gene, out = "positions", genome = GENOME)
 
 # add motif_id to the genomic ranges
 shank.match.motif.ranges <- shank.match.motif.pos %>% as.data.frame %>% 
@@ -63,7 +66,9 @@ shank.match.motif.df <- left_join(shank.match.motif.df, motif_lookup, by = c("gr
 
 #remove start/end duplicates and output data
 shank.match.motif.df <-subset(shank.match.motif.df, !duplicated(shank.match.motif.df[,c(2,3,10)]))
-write.table(shank.match.motif.df, paste(FILE_PATH, "results/shank3_region_TF_motifs.txt", sep=''), sep = "\t", quote = F, row.names = F)
+write.table(shank.match.motif.df, paste(FILE_PATH, "results/shank3_region_TF_motifs_hs_ms.txt", sep=''), sep = "\t", quote = F, row.names = F)
+shank.match.motif.df.onlystart<-shank.match.motif.df
+shank.match.motif.df.onlystart$end<-shank.match.motif.df$start
 
 #makes windows
 modified_makewindows <- function(gene, windowsize, shift=0) {
@@ -99,7 +104,7 @@ intersection_by_bp_window <- function(gene, motifs, window_size, shift=0, tfbs_n
     ans <- windows
     mcols(ans)$overlap_count <- countOverlaps(windows, motifs, ignore.strand = TRUE)
     write.table(lapply(as.data.frame(ans, stringsAsFactors=F), as.character), 
-                paste(FILE_PATH, "results/shank3_gene_intersect_frequencies_", window_size, "_bps",tfbs_name,".txt", sep=''), sep="\t", col.names=FALSE, quote = F, row.names = F)
+                paste(FILE_PATH, "results/no_repeats/shank3_gene_intersect_frequencies_", window_size, "_bps",tfbs_name,".txt", sep=''), sep="\t", col.names=FALSE, quote = F, row.names = F)
     ans
 }
 
@@ -110,7 +115,9 @@ process_and_graph_overlaps <-function(intersections) {
     "plot"(to_graph, type = "histogram")
 }
 
-
-results<-intersection_by_bp_window(shank_gene, shank.match.motif.df, 100, tfbs_name="MEF2C")
+print(shank.match.motif.df.onlystart)
+for (val in c('ZNF263', 'RREB1', 'IRF1', 'ZNF384', 'CLOCK', 'EWSR1-FLI1', 'SP1', 'KLF5', 'KLF16', 'SP2', 'FOXA1', 'TCF4')){
+    results<-intersection_by_bp_window(shank_gene, shank.match.motif.df.onlystart, 100, tfbs_name=val)
+}
 
 process_and_graph_overlaps(results)
