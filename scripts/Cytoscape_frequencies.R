@@ -2,6 +2,7 @@ library(RCy3)
 
 cytoscapePing ()
 cytoscapeVersionInfo ()
+GENE<-"Shank3"
 
 FILE_PATH<-"/Users/carolinebao/Documents/UROP/Gene\ Therapy/shank3/data/mouse/UCSC_mm10/"
 THRESHOLD<-10
@@ -19,4 +20,4 @@ edges <- data.frame(source=c(filtered$tfbs),
                     weight=c(filtered$frequency), # numeric
                     stringsAsFactors=FALSE)
 
-createNetworkFromDataFrames(nodes, edges, title=paste("Shank3 Frequencies Greater Than", THRESHOLD), collection="DataFrame Example")
+createNetworkFromDataFrames(nodes, edges, title=paste(GENE, " Frequencies Greater Than", THRESHOLD), collection="DataFrame Example")

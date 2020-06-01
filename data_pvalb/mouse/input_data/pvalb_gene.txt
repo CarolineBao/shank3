@@ -1,0 +1,2 @@
+seqnames	start	end	width	strand	type	gene_name
+chr15	78191114	78206400	15287	-	gene	pvalb

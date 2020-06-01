@@ -1,0 +1,14 @@
+seqnames	start	end	width	strand	type	gene_name
+chr10	5639218	5639370	152	+	exon	vip
+chr10	5639371	5640617	1247	+	intron	vip
+chr10	5640618	5640734	116	+	exon	vip
+chr10	5640735	5642468	1734	+	intron	vip
+chr10	5642469	5642594	125	+	exon	vip
+chr10	5642595	5643522	928	+	intron	vip
+chr10	5643523	5643627	104	+	exon	vip
+chr10	5643628	5643986	359	+	intron	vip
+chr10	5643987	5644118	131	+	exon	vip
+chr10	5644119	5644909	791	+	intron	vip
+chr10	5644910	5644990	80	+	exon	vip
+chr10	5644991	5646801	1811	+	intron	vip
+chr10	5646802	5647617	815	+	exon	vip

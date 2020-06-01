@@ -1,0 +1,2 @@
+seqnames	start	end	width	strand	type	gene_name
+chr2	158610910	158615748	4839	-	gene	slc32a1
