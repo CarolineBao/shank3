@@ -3,9 +3,6 @@ library(motifmatchr) #bioconductor
 library(Matrix)
 library(TFBSTools) #bioconductor
 library(SummarizedExperiment) #bioconductor
-library(BSgenome.Hsapiens.UCSC.hg38) #bioconductor
-library(BSgenome.Mmusculus.UCSC.mm10)
-library(BSgenome.Mmulatta.UCSC.rheMac10)
 library(BiocParallel)
 library(JASPAR2018)
 library(HelloRanges)
@@ -14,66 +11,157 @@ register(MulticoreParam(8)) #setting up processing on non-Windows
 set.seed(2019) #set random seed
 options(warn=-1) #turns off warnings
 
-setwd("/Users/carolinebao/Documents/UROP/Gene Therapy/shank3/")
-GENE <- "pvalb"
-FILE_PATH <-paste("data_",GENE,"/mouse/", sep='')
-
-#GENOME <- BSgenome.Hsapiens.UCSC.hg38
-GENOME <-BSgenome.Mmusculus.UCSC.mm10
-
-# method to get JASPAR2018, Getting both human and mouse
-#opts <- list()
-#opts[["species"]] <- c("Homo sapiens")
-jaspar_motifs_hs <- getMatrixSet(JASPAR2018, list("species"="Homo sapiens")) #gets matrix from the named list "species"="Homo sapiens"
-jaspar_motifs_ms <- getMatrixSet(JASPAR2018, list("species"="Mus musculus"))
-jaspar_motifs_rr <- c(getMatrixSet(JASPAR2018, list("species"="Rattus rattus")), getMatrixSet(JASPAR2018, list("species"="Rattus norvegicus")))
-# combining both human and mouse motifs
-jaspar_motifs <- c(jaspar_motifs_hs, jaspar_motifs_ms)
-
-# lookup table to join on motif_id to bring together motif information, such as species, symbols, etc.
-motif_lookup <- list()
-for (m in names(jaspar_motifs)) {
-    #motif_lookup[[m]][["ID"]] <- ID(jaspar_motifs[[m]])
-    motif_lookup[[m]][["motif_nm"]] <- name(jaspar_motifs[[m]])
-    motif_lookup[[m]][["tf_symbol"]] <- ifelse(is.null(tags(jaspar_motifs[[m]])$symbol), "",tags(jaspar_motifs[[m]])$symbol)
-    motif_lookup[[m]][["description"]] <- ifelse(is.null(tags(jaspar_motifs[[m]])$description),"", tags(jaspar_motifs[[m]])$description)
-    motif_lookup[[m]][["species"]] <- ifelse(is.null(tags(jaspar_motifs[[m]])$species), "", tags(jaspar_motifs[[m]])$species %>% paste0(., collapse = "; "))
+make_dir_path <- function(gene, animal, genome) {
+    {
+        cidr <- getwd()
+        mkfldr <- paste(gene, animal, get_genome_nm(genome), "results", "selected_tfbs", "top_tfbs", sep="/")
+        dir.create(file.path(cidr, mkfldr), recursive = TRUE)
+        dir.create(paste(gene, animal, get_genome_nm(genome), "results", "top_tfbs_data", sep="/"))
+        dir.create(paste(gene, animal, get_genome_nm(genome), "results", "intersections", sep="/"))
+        dir.create(paste(gene, animal, get_genome_nm(genome), "input_data", sep="/"))
+    }
 }
-motif_lookup <- do.call(rbind, motif_lookup)
-motif_lookup <- as.data.frame(motif_lookup) %>% rownames_to_column(., "motif_id")
 
-# read in gene and all feature annotations
-gene <- read.table(paste(FILE_PATH, "input_data/",GENE, "_gene.txt", sep=''), header = T, stringsAsFactors = F)
-all <- read.table(paste(FILE_PATH, "input_data/",GENE, "_features.txt", sep=''), header = T, stringsAsFactors = F) #features, aka exons, introns, utr, promoter
-gene <- makeGRangesFromDataFrame(gene, keep.extra.columns = T)
-all <- makeGRangesFromDataFrame(all, keep.extra.columns = T)
+match_tfbs <- function (gene, animal, genome, motifs, path, len_upstream, len_downstream, track, feature_source_type) {
+    #Inputs
+    #   gene (str): gene name
+    #   animal (str): animal name
+    #   genome (str): name of genome to be imported
+    #   motifs (list): list of animal motifs to be imported
+    #   path (str): path to the overall folder
+    #   len_upstream (int):
+    #   len_downstream (int):
+    #   feature_source_type (str): where the gene features were sourced from (determines which preprocessing file is run)
+    #Output
+    #   Saves a file with all of the tfbs locations
+    
+    #make necessary directories
+    make_dir_path(gene, animal, genome)
+    
+    source("scripts/UCSC_table_browser_preprocessing.R")
+    source(paste("scripts", paste(feature_source_type,"_preprocessing.R", sep=""), sep="/"))
+    library(genome, character.only = TRUE)
+    genome_nm <- get_genome_nm(genome)
+    dir_path=paste(paste(gene, animal, genome_nm, sep='/'), "/", sep="")
 
-# match gene with jaspar 2018 motifs
-match.motif.pos <- matchMotifs(jaspar_motifs, gene, out = "positions", genome = GENOME)
+    #pull all motifs from JASPAR2018
+    print("Pulling motifs from JASPAR2018")
+    jaspar_motifs <-NULL
+    for (a in motifs) {
+        if (is.null(jaspar_motifs)) {
+            jaspar_motifs<-getMatrixSet(JASPAR2018, list("species"=a))
+        }
+        else {
+            jaspar_motifs <- c(jaspar_motifs, getMatrixSet(JASPAR2018, list("species"=a)))
+        }
+    }
+    
+    #represent motifs as string
+    motif_nms <- get_motif_nms(motifs)
+    
+    # lookup table to join on motif_id to bring together motif information, such as species, symbols, etc.
+    motif_lookup <- list()
+    for (m in names(jaspar_motifs)) {
+        #motif_lookup[[m]][["ID"]] <- ID(jaspar_motifs[[m]])
+        motif_lookup[[m]][["motif_nm"]] <- name(jaspar_motifs[[m]])
+        motif_lookup[[m]][["tf_symbol"]] <- ifelse(is.null(tags(jaspar_motifs[[m]])$symbol), "",tags(jaspar_motifs[[m]])$symbol)
+        motif_lookup[[m]][["description"]] <- ifelse(is.null(tags(jaspar_motifs[[m]])$description),"", tags(jaspar_motifs[[m]])$description)
+        motif_lookup[[m]][["species"]] <- ifelse(is.null(tags(jaspar_motifs[[m]])$species), "", tags(jaspar_motifs[[m]])$species %>% paste0(., collapse = "; "))
+    }
+    motif_lookup <- do.call(rbind, motif_lookup)
+    motif_lookup <- as.data.frame(motif_lookup) %>% rownames_to_column(., "motif_id")
+    
+    # read in gene and all feature annotations from running feature_source_type's respective script
+    print("Reading in gene and feature annotations")
+    source(paste("scripts", paste(feature_source_type,"_preprocessing.R", sep=""), sep="/"))
+    res <- preprocessing(gene, animal, genome_nm, path, len_upstream, len_downstream, track)
+    gene_grange <- res$gene
+    features_all <- res$features
+    gene_grange <- makeGRangesFromDataFrame(as.data.frame(gene_grange), keep.extra.columns = T)
+    features_all <- makeGRangesFromDataFrame(as.data.frame(features_all), keep.extra.columns = T)
+    
+    # match gene with JASPAR2018 motifs
+    print("Matching gene with JASPAR2018 motifs and finding overlaps between ranges and annotated features")
+    match.motif.pos <- matchMotifs(jaspar_motifs, gene_grange, out = "positions", genome = genome)
+    
+    # add motif_id to the genomic ranges
+    match.motif.ranges <- match.motif.pos %>% as.data.frame %>% 
+        dplyr::select(seqnames, start, end, strand, score, group_name) %>%
+        makeGRangesFromDataFrame(keep.extra.columns = T)
+    
+    # get overlaps between motif matching ranges and annotated features
+    feature.overlap <- GenomicRanges::findOverlaps(match.motif.ranges, features_all, minoverlap = 10) #use overlaps to find highest frequency
+    match.motif.df <- match.motif.ranges[queryHits(feature.overlap)] %>% 
+        as.data.frame %>% 
+        cbind(., as.data.frame(mcols(features_all[subjectHits(feature.overlap)]))) # add feature info
+    
+    # join on motif_id to bring in motif meta data, such as species, symbols etc.
+    match.motif.df <- left_join(match.motif.df, motif_lookup, by = c("group_name" = "motif_id"))
+    
+    #remove start/end duplicates and saves data
+    match.motif.df <-subset(match.motif.df, !duplicated(match.motif.df[,c(2,3,10)]))
+    table_writer_checker(paste(dir_path, "results/region_tf_motifs_", motif_nms,".txt", sep=''), match.motif.df)
+    print("Motifs saved!")
+}
 
-# add motif_id to the genomic ranges
-match.motif.ranges <- match.motif.pos %>% as.data.frame %>% 
-                            dplyr::select(seqnames, start, end, strand, score, group_name) %>%
-                            makeGRangesFromDataFrame(keep.extra.columns = T)
+table_writer_checker <- function(fn, data){
+    towrite<-NULL
+    if (file.exists(fn)){
+        while (towrite!="n"){
+            towrite <- readline(prompt=paste("File", fn, "exists. Do you want to overwrite? (y/n)"))
+            if (towrite=="n"){
+                print("File was not overwritten")
+            }else if (towrite=="y"){
+                print("File rewritten")
+                write.table(data, fn, sep = "\t", quote = F, row.names = F)
+                towrite<-"n"
+            } else {
+                print("Input not recognized.")
+            }
+        }
+    } else{
+        write.table(data, fn, sep = "\t", quote = F, row.names = F)
+    }
+    
+}
 
-# get overlaps between motif matching ranges and annotated features
-feature.overlap <- GenomicRanges::findOverlaps(match.motif.ranges, all, minoverlap = 10) #use overlaps to find highest frequency
-print(feature.overlap)
-match.motif.df <- match.motif.ranges[queryHits(feature.overlap)] %>% 
-                            as.data.frame %>% 
-                            cbind(., as.data.frame(mcols(all[subjectHits(feature.overlap)]))) # add feature info
+get_genome_nm <- function(genome) {
+    paste(strsplit(genome, "\\.")[[1]][3], "_", strsplit(genome, "\\.")[[1]][4], sep="")
+}
 
-# join on motif_id to bring in motif meta data, such as species, symbols etc.
-match.motif.df <- left_join(match.motif.df, motif_lookup, by = c("group_name" = "motif_id"))
+get_motif_nms <- function(motifs) {
+    motif_nms <- NULL
+    for (motif in motifs) {
+        if (is.null(motif_nms)){
+            motif_nms <- tolower(substr(motif, 1, 1))
+        } else {
+            motif_nms <- paste(motif_nms, tolower(substr(motif, 1, 1)), sep="_")
+        }
+    }
+    motif_nms
+}
 
-#remove start/end duplicates and output data
-match.motif.df <-subset(match.motif.df, !duplicated(match.motif.df[,c(2,3,10)]))
-write.table(match.motif.df, paste(FILE_PATH, "results/test_region_TF_motifs_hs_ms.txt", sep=''), sep = "\t", quote = F, row.names = F)
-match.motif.df.onlystart<-match.motif.df
-match.motif.df.onlystart$end<-match.motif.df$start
+tfbs_by_freq <- function(gene, animal, genome_nm, path, motifs) {
+    #   Finds the frequencies for each tfbs
+    dir_path=paste(paste(gene, animal, genome_nm, sep='/'), "/", sep="")
+    motif_nms <- get_motif_nms(motifs)
+    
+    #motif_nms (str): string representation of the list of motifs ex: Homo Sapiens -> h, ex: list(Homo Sapiens, Mus Musculus) -> h_m
+    
+    match.motif.df<-read.table(paste(dir_path, "results/region_tf_motifs_",motif_nms,".txt", sep=''), sep = "\t", header = T, stringsAsFactors = F)
+    
+    freq <- as.data.frame(table(match.motif.df$motif_nm)) %>%
+        .[apply(.!=0, 1, all),] %>%
+        cbind(., as.data.frame(match.motif.df$gene_name[1:nrow(.)]))
+    colnames(freq)<-c("tfbs", "frequency", "gene")
+    
+    table_writer_checker(paste(dir_path,"results/tfbs_by_freq_",motif_nms,".txt", sep=''), freq)
+}
 
 #makes windows
 modified_makewindows <- function(gene, windowsize, shift=0) {
+    #makes bins for a gene and given window size (to be used to count frequencies of tfbs by section on the gene)
+    
     gene_range <- ranges(gene)
     #set temporary end value so that (length of gene)%windowsize=0
     end_value <- (end(gene_range)-start(gene_range))%/%windowsize*windowsize+start(gene_range)+windowsize-1+shift
@@ -85,18 +173,23 @@ modified_makewindows <- function(gene, windowsize, shift=0) {
     
     #reset values so they match original ranges
     output[1,4] <- start(gene_range) 
+    
     if (end(gene_range)<output[length(output[[1]]),4]){
         output[-nrow(output),]
     }else {
         output[length(output[[1]]),5]<-end(gene_range)
     }
-    output[length(output[[1]]),6]<-windowsize-end_value+end(gene_range)
     
+    output[length(output[[1]]),6]<-windowsize-end_value+end(gene_range)
     output<-makeGRangesFromDataFrame(output)
     output
 }
 
+
+#bins the intersections by the window size
 intersection_by_bp_window <- function(gene, motifs, window_size, shift=0, tfbs_name="") {
+    #Counts frequencies of tfbs by section (window) on the gene
+    
     #Creates windows
     windows <- modified_makewindows(gene, window_size, shift)
     
@@ -105,21 +198,15 @@ intersection_by_bp_window <- function(gene, motifs, window_size, shift=0, tfbs_n
     motifs <- makeGRangesFromDataFrame(motifs, keep.extra.columns = T)
     ans <- windows
     mcols(ans)$overlap_count <- countOverlaps(windows, motifs, ignore.strand = TRUE)
-    write.table(lapply(as.data.frame(ans, stringsAsFactors=F), as.character), 
-                paste(FILE_PATH, "results/gene_intersect_frequencies_", window_size, "_bps",tfbs_name,".txt", sep=''), sep="\t", col.names=FALSE, quote = F, row.names = F)
+    table_writer_checker(paste(FILE_PATH, "results/gene_intersect_frequencies_", window_size, "_bps",tfbs_name,".txt", sep=''), 
+                         lapply(as.data.frame(ans, stringsAsFactors=F), as.character))
     ans
 }
 
 #represents gRanges with count_Overlaps column as a histogram
 process_and_graph_overlaps <-function(intersections) {
+    #Used to graph the output of intersection_by_bp_window
     to_graph<-as.data.frame(intersections, stringsAsFactors=F)
     to_graph <- subset(to_graph, select = -c(1,2,4,5))
     "plot"(to_graph, type = "histogram")
 }
-
-print(match.motif.df.onlystart)
-for (val in c('SLC32A1', 'NPY', 'VIP')){
-    results<-intersection_by_bp_window(gene, match.motif.df.onlystart, 100, tfbs_name=val)
-}
-
-process_and_graph_overlaps(results)

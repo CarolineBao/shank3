@@ -1,2 +1,0 @@
-seqnames	start	end	width	strand	type	gene_name
-chr12	116075728	116146261	70534	+	gene	vipr2
