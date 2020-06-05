@@ -1,0 +1,8 @@
+seqnames	start	end	width	strand	type	gene_name
+chr6	49822710	49822801	91	+	exon	npy
+chr6	49822802	49823597	796	+	intron	npy
+chr6	49823598	49823785	187	+	exon	npy
+chr6	49823786	49827488	3703	+	intron	npy
+chr6	49827489	49827569	80	+	exon	npy
+chr6	49827570	49829302	1733	+	intron	npy
+chr6	49829303	49829507	204	+	exon	npy

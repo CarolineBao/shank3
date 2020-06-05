@@ -1,0 +1,4 @@
+seqnames	start	end	width	strand	overlap_count
+chr16	23889581	23890080	500	*	9
+chr16	23890081	23890580	500	*	11
+chr16	23890581	23890844	264	*	5

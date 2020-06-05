@@ -1,0 +1,4 @@
+seqnames	start	end	width	strand	type	gene_name
+chr16	23889581	23889941	360	-	exon	sst
+chr16	23889942	23890606	665	-	intron	sst
+chr16	23890607	23890844	237	-	exon	sst

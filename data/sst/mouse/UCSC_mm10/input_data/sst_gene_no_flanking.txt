@@ -1,0 +1,2 @@
+seqnames	start	end	width	strand	type	gene_name
+chr16	23889581	23890844	1264	-	gene	sst

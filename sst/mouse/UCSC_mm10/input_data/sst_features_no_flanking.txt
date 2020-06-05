@@ -1,8 +1,0 @@
-V1	V4	V5	(.$V5 - .$V4)	V7	V3	rep(gene, nrow(gene_features))
-chr16	23889729	23889731	2	-	stop_codon	sst
-chr16	23889732	23889941	209	-	CDS	sst
-chr16	23889581	23889941	360	-	exon	sst
-chr16	23889942	23890606	665	-	intron	sst
-chr16	23890607	23890744	137	-	CDS	sst
-chr16	23890742	23890744	2	-	start_codon	sst
-chr16	23890607	23890844	237	-	exon	sst

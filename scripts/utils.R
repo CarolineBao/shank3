@@ -1,16 +1,14 @@
-
-
-table_writer_checker <- function(fn, data){
+table_writer_checker <- function(fp, data){
   towrite<-NULL
-  if (file.exists(fn)){
+  if (file.exists(fp)){
     repeat {
-      towrite <- readline(prompt=paste("File", fn, "exists. Do you want to overwrite? (y/n)"))
+      towrite <- readline(prompt=paste("File", fp, "exists. Do you want to overwrite? (y/n)"))
       if (towrite=="n"){
         print("File was not overwritten")
         break
       } else if (towrite=="y"){
-        print(paste("File",fn, "rewritten"))
-        write.table(data, fn, sep = "\t", quote = F, row.names = F)
+        print(paste("File",fp, "rewritten"))
+        write.table(data, fp, sep = "\t", quote = F, row.names = F)
         towrite<-"n"
         break
       } else {
@@ -18,8 +16,15 @@ table_writer_checker <- function(fn, data){
       }
     }
   } else{
-    write.table(data, fn, sep = "\t", quote = F, row.names = F)
+    write.table(data, fp, sep = "\t", quote = F, row.names = F)
   }
+}
+
+read_table_helper <- function(fp, header=F, sep="") {
+  tryCatch({read.table(fp, header = header, stringsAsFactors = F, sep=sep)
+  }, error = function(e) {
+    stop(paste("Expected ", fp, " but did not find it. Is the file named correctly?", sep=""))
+  })
 }
 
 get_preprocessing_fn <- function(genome, gene, track) {
@@ -32,8 +37,8 @@ get_genome_nm <- function(genome) {
 
 move_download <-function(gene, animal, genome, downloads_path, fn, dir_nm=NULL) {
   fp<-paste(downloads_path, fn, sep="/") #file path
-  if (dir_nm==NULL) {
-    dir_nm<-paste(gene, animal, get_genome_nm(genome), "input_data", sep="/") #directory path
+  if (is.null(dir_nm)) {
+    dir_nm<-paste("data", gene, animal, get_genome_nm(genome), "input_data", sep="/") #directory path
   }
   if (file.exists(paste(dir_nm, fn, sep="/"))){
     print(paste("File already exists in", dir_nm, "repository. No files were moved or deleted"))

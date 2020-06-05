@@ -1,0 +1,2 @@
+seqnames	start	end	width	strand	type	gene_name
+chr10	5639193	5647617	8425	+	gene	vip

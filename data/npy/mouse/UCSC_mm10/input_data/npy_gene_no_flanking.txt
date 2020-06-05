@@ -1,0 +1,2 @@
+seqnames	start	end	width	strand	type	gene_name
+chr6	49822710	49829507	6798	+	gene	npy

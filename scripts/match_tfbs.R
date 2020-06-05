@@ -15,14 +15,14 @@ options(warn=-1) #turns off warnings
 make_dir_path <- function(gene, animal, genome) {
     {
         cidr <- getwd()
-        mkfldr <- paste("",gene, animal, get_genome_nm(genome), "results", "selected_tfbs", "top_tfbs_data", sep="/")
+        mkfldr <- paste("data",gene, animal, get_genome_nm(genome), "results", "selected_tfbs", "top_tfbs_data", sep="/")
         dir.create(file.path(cidr, mkfldr), recursive = TRUE)
-        dir.create(paste(gene, animal, get_genome_nm(genome), "results", "intersections", sep="/"))
-        dir.create(paste(gene, animal, get_genome_nm(genome), "input_data", sep="/"))
+        dir.create(paste("data",gene, animal, get_genome_nm(genome), "results", "intersections", sep="/"))
+        dir.create(paste("data",gene, animal, get_genome_nm(genome), "input_data", sep="/"))
     }
 }
 
-match_tfbs <- function (gene, animal, genome, motifs, path, len_upstream, len_downstream, track, feature_source_type) {
+match_tfbs <- function (gene, animal, genome, motifs, len_upstream, len_downstream, track, feature_source_type) {
     #Inputs
     #   gene (str): gene name
     #   animal (str): animal name
@@ -43,7 +43,7 @@ match_tfbs <- function (gene, animal, genome, motifs, path, len_upstream, len_do
     
     library(genome, character.only = TRUE)
     genome_nm <- get_genome_nm(genome)
-    dir_path=paste(paste(gene, animal, genome_nm, sep='/'), "/", sep="")
+    dir_path=paste(paste("data", gene, animal, genome_nm, sep='/'), "/", sep="")
     
     #pull all motifs from JASPAR2018
     print("Pulling motifs from JASPAR2018")
@@ -75,7 +75,7 @@ match_tfbs <- function (gene, animal, genome, motifs, path, len_upstream, len_do
     # read in gene and all feature annotations from running feature_source_type's respective script
     print("Reading in gene and feature annotations")
     source(paste("scripts", paste(feature_source_type,"_preprocessing.R", sep=""), sep="/"))
-    res <- preprocessing(gene, animal, genome, path, len_upstream, len_downstream, track)
+    res <- preprocessing(gene, animal, genome, len_upstream, len_downstream, track)
     gene_grange <- res$gene
     features_all <- res$features
     gene_grange <- makeGRangesFromDataFrame(as.data.frame(gene_grange), keep.extra.columns = T)
@@ -95,8 +95,6 @@ match_tfbs <- function (gene, animal, genome, motifs, path, len_upstream, len_do
     match.motif.df <- match.motif.ranges[queryHits(feature.overlap)] %>% 
         as.data.frame %>% 
         cbind(., as.data.frame(mcols(features_all[subjectHits(feature.overlap)]))) # add feature info
-    print(nrow(match.motif.df))
-    print(match.motif.ranges)
     # join on motif_id to bring in motif meta data, such as species, symbols etc.
     match.motif.df <- left_join(match.motif.df, motif_lookup, by = c("group_name" = "motif_id"))
     
@@ -118,18 +116,21 @@ get_motif_nms <- function(motifs) {
     motif_nms
 }
 
-tfbs_by_freq <- function(gene, animal, genome_nm, len_upstream, len_downstream, path, motifs) {
+tfbs_by_freq <- function(gene, animal, genome_nm, len_upstream, len_downstream, motifs) {
     #   Finds the frequencies for each tfbs
-    
-    dir_path<-paste(paste(gene, animal, genome_nm, sep='/'), "/", sep="")
+    dir_path<-paste("data", gene, animal, genome_nm, sep='/')
+
     motif_nms <- get_motif_nms(motifs)
     fn_descriptor<-paste(motif_nms,"_up_", len_upstream, "_down_", len_downstream, sep="")
     
+    match.motif.df<-read_table_helper(paste(dir_path, "/results/region_tf_motifs_",fn_descriptor,".txt", sep=''), sep = "\t", header = T)
     
-    match.motif.df<-read.table(paste(dir_path, "results/region_tf_motifs_",fn_descriptor,".txt", sep=''), sep = "\t", header = T, stringsAsFactors = F)
-    print(match.motif.df)
-    freq <- as.data.frame(count(match.motif.df, "motif_nm"))
-    table_writer_checker(paste(dir_path,"results/tfbs_by_freq_", fn_descriptor,".txt", sep=''), freq)
+    freq <- as.data.frame(table(match.motif.df$motif_nm)) %>%
+        .[apply(.!=0, 1, all),] %>%
+        cbind(., as.data.frame(match.motif.df$gene_name[1:nrow(.)]))
+    colnames(freq)<-c("tfbs", "frequency", "gene")
+    
+    table_writer_checker(paste(dir_path,"/results/tfbs_by_freq_", fn_descriptor,".txt", sep=''), freq)
 }
 
 #makes windows
@@ -161,18 +162,25 @@ modified_makewindows <- function(gene, windowsize, shift=0) {
 
 
 #bins the intersections by the window size
-intersection_by_bp_window <- function(gene, motifs, window_size, shift=0, tfbs_name="") {
+intersection_by_bp_window <- function(gene, animal, genome, motifs, len_upstream, len_downstream, window_size, shift=0, tfbs_name="") {
     #Counts frequencies of tfbs by section (window) on the gene
+    source("scripts/utils.R")
+    dir_nm=paste("data", gene, animal, get_genome_nm(genome), sep="/")
+    descriptor <- paste("_up_", len_upstream, "_down_", len_downstream, sep="")
+    
+    #read in and format gene and motif data
+    gene_range <- makeGRangesFromDataFrame(read_table_helper(paste(dir_nm, "input_data", paste(gene, "_gene_no_flanking.txt", sep=''), sep="/"), header=T), keep.extra.columns = T)
+    motif_df <- as.data.frame(read_table_helper(paste(dir_nm, "/results/region_tf_motifs_",get_motif_nms(motifs), descriptor,".txt", sep=''), sep="\t", header=T))
     
     #Creates windows
-    windows <- modified_makewindows(gene, window_size, shift)
+    windows <- modified_makewindows(gene_range, window_size, shift)
     
     #Calculates frequency of intersection
-    motifs<- motifs %>% filter(str_detect(motif_nm, tfbs_name))
-    motifs <- makeGRangesFromDataFrame(motifs, keep.extra.columns = T)
+    motif_df<- motif_df %>% filter(str_detect(motif_nm, tfbs_name))
+    motif_df <- makeGRangesFromDataFrame(motif_df, keep.extra.columns = T)
     ans <- windows
-    mcols(ans)$overlap_count <- countOverlaps(windows, motifs, ignore.strand = TRUE)
-    table_writer_checker(paste(FILE_PATH, "results/gene_intersect_frequencies_", window_size, "_bps",tfbs_name,".txt", sep=''), 
+    mcols(ans)$overlap_count <- countOverlaps(windows, motif_df, ignore.strand = TRUE)
+    table_writer_checker(paste(dir_nm, "/results/intersections/gene_intersect_frequencies_", get_motif_nms(motifs), descriptor, "_window_", window_size, "_bps",tfbs_name,".txt", sep=""), 
                          lapply(as.data.frame(ans, stringsAsFactors=F), as.character))
     ans
 }
