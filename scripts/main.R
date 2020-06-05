@@ -1,6 +1,8 @@
-{source("scripts/match_tfbs.R")
+source("scripts/match_tfbs.R")
 source("scripts/utils.R")
+source("scripts/UCSC_table_browser_preprocessing.R")
 
+{
 {
   path <-"/Users/carolinebao/Documents/UROP/Gene\ Therapy/shank3"
   gene <- "slc32a1"
