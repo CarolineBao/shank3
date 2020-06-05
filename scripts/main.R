@@ -9,11 +9,12 @@ source("scripts/UCSC_table_browser_preprocessing.R")
   animal <- "mouse"
   genome <- "BSgenome.Mmusculus.UCSC.mm10"
   motifs <- list("Homo sapiens", "Mus musculus")
-  len_upstream=15000
-  len_downstream=0
-  track="ncbi_refseq"
-  feature_source_type="UCSC_table_browser"
-  downloads_path="~/Downloads" #Directory files from table browser are downloaded into
+  len_upstream<-15000
+  len_downstream<-0
+  track<-"ncbi_refseq"
+  feature_source_type<-"UCSC_table_browser"
+  downloads_path<-"~/Downloads" #Directory files from table browser are downloaded into
+  window_sizes<-list(10, 100, 500)
 }
 
 setwd(path)
@@ -30,7 +31,7 @@ match_tfbs(gene, animal, genome, motifs, len_upstream, len_downstream, track, fe
 tfbs_by_freq(gene, animal, genome_nm, len_upstream, len_downstream, motifs)
 
 #generating intersections for windows=10, 100, 500
-for (window in list(10, 100, 500)){
+for (window in window_sizes){
   print(window)
   intersection_by_bp_window(gene, animal, genome, motifs, len_upstream, len_downstream, window_size=window, shift=0, tfbs_name="")
 }
