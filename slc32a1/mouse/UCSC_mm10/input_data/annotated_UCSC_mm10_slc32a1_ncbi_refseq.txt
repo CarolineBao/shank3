@@ -1,0 +1,6 @@
+chr2	mm10_ncbiRefSeq	start_codon	158611242	158611244	0.000000	+	.	gene_id "NM_009508.2"; transcript_id "NM_009508.2"; 
+chr2	mm10_ncbiRefSeq	CDS	158611242	158611631	0.000000	+	0	gene_id "NM_009508.2"; transcript_id "NM_009508.2"; 
+chr2	mm10_ncbiRefSeq	exon	158610758	158611631	0.000000	+	.	gene_id "NM_009508.2"; transcript_id "NM_009508.2"; 
+chr2	mm10_ncbiRefSeq	CDS	158613817	158615001	0.000000	+	0	gene_id "NM_009508.2"; transcript_id "NM_009508.2"; 
+chr2	mm10_ncbiRefSeq	stop_codon	158615002	158615004	0.000000	+	.	gene_id "NM_009508.2"; transcript_id "NM_009508.2"; 
+chr2	mm10_ncbiRefSeq	exon	158613817	158615747	0.000000	+	.	gene_id "NM_009508.2"; transcript_id "NM_009508.2"; 

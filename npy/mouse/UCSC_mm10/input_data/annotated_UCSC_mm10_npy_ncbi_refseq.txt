@@ -1,0 +1,9 @@
+chr6	mm10_ncbiRefSeq	exon	49822710	49822801	0.000000	+	.	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 
+chr6	mm10_ncbiRefSeq	start_codon	49823598	49823600	0.000000	+	.	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 
+chr6	mm10_ncbiRefSeq	CDS	49823598	49823785	0.000000	+	0	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 
+chr6	mm10_ncbiRefSeq	exon	49823598	49823785	0.000000	+	.	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 
+chr6	mm10_ncbiRefSeq	CDS	49827489	49827569	0.000000	+	1	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 
+chr6	mm10_ncbiRefSeq	exon	49827489	49827569	0.000000	+	.	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 
+chr6	mm10_ncbiRefSeq	CDS	49829303	49829324	0.000000	+	1	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 
+chr6	mm10_ncbiRefSeq	stop_codon	49829325	49829327	0.000000	+	.	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 
+chr6	mm10_ncbiRefSeq	exon	49829303	49829507	0.000000	+	.	gene_id "NM_023456.3"; transcript_id "NM_023456.3"; 

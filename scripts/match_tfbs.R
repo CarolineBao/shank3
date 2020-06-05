@@ -7,6 +7,7 @@ library(BiocParallel)
 library(JASPAR2018)
 library(HelloRanges)
 
+
 register(MulticoreParam(8)) #setting up processing on non-Windows
 set.seed(2019) #set random seed
 options(warn=-1) #turns off warnings
@@ -14,9 +15,8 @@ options(warn=-1) #turns off warnings
 make_dir_path <- function(gene, animal, genome) {
     {
         cidr <- getwd()
-        mkfldr <- paste(gene, animal, get_genome_nm(genome), "results", "selected_tfbs", "top_tfbs", sep="/")
+        mkfldr <- paste("",gene, animal, get_genome_nm(genome), "results", "selected_tfbs", "top_tfbs_data", sep="/")
         dir.create(file.path(cidr, mkfldr), recursive = TRUE)
-        dir.create(paste(gene, animal, get_genome_nm(genome), "results", "top_tfbs_data", sep="/"))
         dir.create(paste(gene, animal, get_genome_nm(genome), "results", "intersections", sep="/"))
         dir.create(paste(gene, animal, get_genome_nm(genome), "input_data", sep="/"))
     }
@@ -38,12 +38,13 @@ match_tfbs <- function (gene, animal, genome, motifs, path, len_upstream, len_do
     #make necessary directories
     make_dir_path(gene, animal, genome)
     
-    source("scripts/UCSC_table_browser_preprocessing.R")
+    source("scripts/utils.R")
     source(paste("scripts", paste(feature_source_type,"_preprocessing.R", sep=""), sep="/"))
+    
     library(genome, character.only = TRUE)
     genome_nm <- get_genome_nm(genome)
     dir_path=paste(paste(gene, animal, genome_nm, sep='/'), "/", sep="")
-
+    
     #pull all motifs from JASPAR2018
     print("Pulling motifs from JASPAR2018")
     jaspar_motifs <-NULL
@@ -74,7 +75,7 @@ match_tfbs <- function (gene, animal, genome, motifs, path, len_upstream, len_do
     # read in gene and all feature annotations from running feature_source_type's respective script
     print("Reading in gene and feature annotations")
     source(paste("scripts", paste(feature_source_type,"_preprocessing.R", sep=""), sep="/"))
-    res <- preprocessing(gene, animal, genome_nm, path, len_upstream, len_downstream, track)
+    res <- preprocessing(gene, animal, genome, path, len_upstream, len_downstream, track)
     gene_grange <- res$gene
     features_all <- res$features
     gene_grange <- makeGRangesFromDataFrame(as.data.frame(gene_grange), keep.extra.columns = T)
@@ -94,39 +95,15 @@ match_tfbs <- function (gene, animal, genome, motifs, path, len_upstream, len_do
     match.motif.df <- match.motif.ranges[queryHits(feature.overlap)] %>% 
         as.data.frame %>% 
         cbind(., as.data.frame(mcols(features_all[subjectHits(feature.overlap)]))) # add feature info
-    
+    print(nrow(match.motif.df))
+    print(match.motif.ranges)
     # join on motif_id to bring in motif meta data, such as species, symbols etc.
     match.motif.df <- left_join(match.motif.df, motif_lookup, by = c("group_name" = "motif_id"))
     
     #remove start/end duplicates and saves data
     match.motif.df <-subset(match.motif.df, !duplicated(match.motif.df[,c(2,3,10)]))
-    table_writer_checker(paste(dir_path, "results/region_tf_motifs_", motif_nms,".txt", sep=''), match.motif.df)
-    print("Motifs saved!")
-}
-
-table_writer_checker <- function(fn, data){
-    towrite<-NULL
-    if (file.exists(fn)){
-        while (towrite!="n"){
-            towrite <- readline(prompt=paste("File", fn, "exists. Do you want to overwrite? (y/n)"))
-            if (towrite=="n"){
-                print("File was not overwritten")
-            }else if (towrite=="y"){
-                print("File rewritten")
-                write.table(data, fn, sep = "\t", quote = F, row.names = F)
-                towrite<-"n"
-            } else {
-                print("Input not recognized.")
-            }
-        }
-    } else{
-        write.table(data, fn, sep = "\t", quote = F, row.names = F)
-    }
-    
-}
-
-get_genome_nm <- function(genome) {
-    paste(strsplit(genome, "\\.")[[1]][3], "_", strsplit(genome, "\\.")[[1]][4], sep="")
+    table_writer_checker(paste(dir_path, "results/region_tf_motifs_", motif_nms,"_up_", len_upstream, "_down_", len_downstream,".txt", sep=''), match.motif.df)
+    print("Done!")
 }
 
 get_motif_nms <- function(motifs) {
@@ -141,21 +118,18 @@ get_motif_nms <- function(motifs) {
     motif_nms
 }
 
-tfbs_by_freq <- function(gene, animal, genome_nm, path, motifs) {
+tfbs_by_freq <- function(gene, animal, genome_nm, len_upstream, len_downstream, path, motifs) {
     #   Finds the frequencies for each tfbs
-    dir_path=paste(paste(gene, animal, genome_nm, sep='/'), "/", sep="")
+    
+    dir_path<-paste(paste(gene, animal, genome_nm, sep='/'), "/", sep="")
     motif_nms <- get_motif_nms(motifs)
+    fn_descriptor<-paste(motif_nms,"_up_", len_upstream, "_down_", len_downstream, sep="")
     
-    #motif_nms (str): string representation of the list of motifs ex: Homo Sapiens -> h, ex: list(Homo Sapiens, Mus Musculus) -> h_m
     
-    match.motif.df<-read.table(paste(dir_path, "results/region_tf_motifs_",motif_nms,".txt", sep=''), sep = "\t", header = T, stringsAsFactors = F)
-    
-    freq <- as.data.frame(table(match.motif.df$motif_nm)) %>%
-        .[apply(.!=0, 1, all),] %>%
-        cbind(., as.data.frame(match.motif.df$gene_name[1:nrow(.)]))
-    colnames(freq)<-c("tfbs", "frequency", "gene")
-    
-    table_writer_checker(paste(dir_path,"results/tfbs_by_freq_",motif_nms,".txt", sep=''), freq)
+    match.motif.df<-read.table(paste(dir_path, "results/region_tf_motifs_",fn_descriptor,".txt", sep=''), sep = "\t", header = T, stringsAsFactors = F)
+    print(match.motif.df)
+    freq <- as.data.frame(count(match.motif.df, "motif_nm"))
+    table_writer_checker(paste(dir_path,"results/tfbs_by_freq_", fn_descriptor,".txt", sep=''), freq)
 }
 
 #makes windows
