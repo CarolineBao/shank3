@@ -4,12 +4,13 @@ source("scripts/UCSC_table_browser_preprocessing.R")
 
 {
 {
-  path <-"/Users/carolinebao/Documents/UROP/Gene\ Therapy/shank3"
-  gene <- "slc32a1"
-  animal <- "mouse"
+  #Adjust header values to match gene/data information
+  path <-"/Users/carolinebao/Documents/College/UROP/Feng UROP (2019-)/Gene Therapy/shank3"
+  gene <- "sst"
+  species <- "mouse"
   genome <- "BSgenome.Mmusculus.UCSC.mm10"
   motifs <- list("Homo sapiens", "Mus musculus")
-  len_upstream<-15000
+  len_upstream<-40000
   len_downstream<-0
   track<-"ncbi_refseq"
   feature_source_type<-"UCSC_table_browser"
@@ -19,22 +20,22 @@ source("scripts/UCSC_table_browser_preprocessing.R")
 
 setwd(path)
 genome_nm<-get_genome_nm(genome)
-make_dir_path(gene, animal, genome)
+make_dir_path(gene, species, genome)
 
 #making/finding initial file and moving it
 preprocessing_fn<-get_preprocessing_fn(genome, gene, track) #gets the expected file name for the downloaded genome data
 print(paste("Expected file name for preprocessing::", preprocessing_fn))
-move_download(gene, animal, genome, downloads_path, preprocessing_fn)
+move_download(gene, species, genome, downloads_path, preprocessing_fn)
 
 #finding tfbs sites and frequencies
-match_tfbs(gene, animal, genome, motifs, len_upstream, len_downstream, track, feature_source_type)
-tfbs_by_freq(gene, animal, genome_nm, len_upstream, len_downstream, motifs)
+match_tfbs(gene, species, genome, motifs, len_upstream, len_downstream, track, feature_source_type)
+tfbs_by_freq(gene, species, genome_nm, len_upstream, len_downstream, motifs)
 
 #generating intersections for windows=10, 100, 500
 for (window in window_sizes){
-  print(window)
-  intersection_by_bp_window(gene, animal, genome, motifs, len_upstream, len_downstream, window_size=window, shift=0, tfbs_name="")
-}
+  print(paste("Binning frequencies by window size", window))
+  intersection_by_bp_window(gene, species, genome, motifs, len_upstream, len_downstream, window_size=window, shift=0, tfbs_name="")
+  }
 }
 
 #To-dos: 

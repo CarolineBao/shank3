@@ -1,26 +1,1719 @@
 seqnames	start	end	width	strand	score	group_name	type	gene_name	motif_nm	tf_symbol	description	species
-chr16	23890274	23890284	11	-	12.9337912192708	MA0137.3	intron	sst	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
-chr16	23890274	23890284	11	-	12.0433995486856	MA0144.2	intron	sst	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	Homo sapiens
-chr16	23890402	23890414	13	-	9.91790798540712	MA0486.2	intron	sst	HSF1			Homo sapiens
-chr16	23890545	23890554	10	-	12.0462441931772	MA0665.1	intron	sst	MSC			Homo sapiens
-chr16	23890545	23890554	10	-	12.0499632966428	MA0667.1	intron	sst	MYF6			Homo sapiens
-chr16	23889594	23889604	11	-	11.5876689792625	MA0715.1	exon	sst	PROP1			Homo sapiens
-chr16	23890066	23890076	11	-	11.4809010562291	MA0715.1	intron	sst	PROP1			Homo sapiens
-chr16	23890546	23890558	13	-	9.67508778712386	MA0744.1	intron	sst	SCRT2			Homo sapiens
-chr16	23890157	23890168	12	-	9.49637915326792	MA0794.1	intron	sst	PROX1			Homo sapiens
-chr16	23890785	23890794	10	-	10.6227777860443	MA0795.1	exon	sst	SMAD3			Homo sapiens
-chr16	23889852	23889862	11	-	14.344400177517	MA0003.3	exon	sst	TFAP2A			Homo sapiens
-chr16	23890751	23890761	11	-	14.6977424487268	MA0003.3	exon	sst	TFAP2A			Homo sapiens
-chr16	23889852	23889862	11	-	14.7343751517029	MA0812.1	exon	sst	TFAP2B(var.2)			Homo sapiens
-chr16	23890751	23890761	11	-	15.6372849599009	MA0812.1	exon	sst	TFAP2B(var.2)			Homo sapiens
-chr16	23889852	23889862	11	-	13.9902168858647	MA0814.1	exon	sst	TFAP2C(var.2)			Homo sapiens
-chr16	23890751	23890761	11	-	15.6487557538247	MA0814.1	exon	sst	TFAP2C(var.2)			Homo sapiens
-chr16	23889916	23889926	11	-	14.1064028210226	MA0161.2	exon	sst	NFIC			Homo sapiens
-chr16	23890000	23890009	10	-	11.8083109190006	MA0508.2	intron	sst	PRDM1			Homo sapiens
-chr16	23890341	23890355	15	-	11.8580130054745	MA1146.1	intron	sst	NR1A4::RXRA			Homo sapiens
-chr16	23890341	23890355	15	-	14.4725404003373	MA1147.1	intron	sst	NR4A2::RXRA			Homo sapiens
-chr16	23889960	23889969	10	-	11.3502381033225	MA1152.1	intron	sst	SOX15			Homo sapiens
-chr16	23890497	23890510	14	-	11.6736934472212	MA0509.1	intron	sst	Rfx1	RFX1	regulatory factor X,1 (influences HLA class II expression)	Mus musculus
-chr16	23889960	23889969	10	-	13.1595260683327	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
-chr16	23890633	23890647	15	-	12.5344644024989	MA0520.1	exon	sst	Stat6	STAT6	signal transducer and activator of transcription 6,interleukin-4 induced	Mus musculus
-chr16	23890543	23890556	14	-	9.26768516867419	MA0832.1	intron	sst	Tcf21			Mus musculus
+chr16	23876484	23876497	14	-	15.6378174917998	MA0030.1	intron	sst	FOXF2	FOXF2	forkhead box F2	Homo sapiens
+chr16	23864566	23864583	18	-	16.3386140949459	MA0051.1	intron	sst	IRF2	IRF2	interferon regulatory factor 2	Homo sapiens
+chr16	23871067	23871084	18	-	15.4177254819836	MA0051.1	intron	sst	IRF2	IRF2	interferon regulatory factor 2	Homo sapiens
+chr16	23871123	23871140	18	-	13.0804966492148	MA0051.1	intron	sst	IRF2	IRF2	interferon regulatory factor 2	Homo sapiens
+chr16	23857592	23857601	10	-	10.3633366239991	MA0057.1	intron	sst	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr16	23862198	23862207	10	-	11.5213370858635	MA0057.1	intron	sst	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr16	23868595	23868604	10	-	10.868718500743	MA0057.1	intron	sst	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr16	23877890	23877899	10	-	10.3594333349819	MA0057.1	intron	sst	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr16	23885625	23885634	10	-	11.2156054777393	MA0057.1	intron	sst	MZF1(var.2)	MZF1	myeloid zinc finger 1 ZNF42	Homo sapiens
+chr16	23857814	23857824	11	-	10.4366660297082	MA0059.1	intron	sst	MAX::MYC	-	-	Homo sapiens
+chr16	23855902	23855921	20	-	10.2592910084201	MA0066.1	intron	sst	PPARG	PPARG	peroxisome proliferator-activated receptor gamma	Homo sapiens
+chr16	23870264	23870277	14	-	12.5705775321325	MA0069.1	intron	sst	PAX6	PAX6	paired box 6	Homo sapiens
+chr16	23878026	23878039	14	-	14.0567399239316	MA0069.1	intron	sst	PAX6	PAX6	paired box 6	Homo sapiens
+chr16	23888163	23888174	12	-	13.8240184839708	MA0070.1	intron	sst	PBX1	PBX1	pre-B-cell leukemia homeobox 1	Homo sapiens
+chr16	23876739	23876748	10	-	13.5106974762167	MA0071.1	intron	sst	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr16	23877726	23877735	10	-	14.665413649602	MA0071.1	intron	sst	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr16	23883368	23883377	10	-	13.5106974762167	MA0071.1	intron	sst	RORA	RORA	RAR-related orphan receptor A	Homo sapiens
+chr16	23860774	23860793	20	-	11.4275876439735	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23866279	23866298	20	-	14.0054822251649	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23866580	23866599	20	-	9.53621258255152	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23870647	23870666	20	-	10.9693313678487	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23870649	23870668	20	-	8.74125568404004	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23870652	23870671	20	-	16.3709150470368	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23870657	23870676	20	-	8.697557079884	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23870660	23870679	20	-	10.647099896589	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23872451	23872470	20	-	15.6438258834394	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23872456	23872475	20	-	13.5655332966905	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23872461	23872480	20	-	16.1504957974117	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23872466	23872485	20	-	16.1504957974117	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23872470	23872489	20	-	9.67760926685914	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23872471	23872490	20	-	10.3470441643714	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23874132	23874151	20	-	9.38072913290378	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23874136	23874155	20	-	13.4306037166044	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23875360	23875379	20	-	9.59582968808103	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23875365	23875384	20	-	8.56714074732765	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23885439	23885458	20	-	8.96702513729203	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23886269	23886288	20	-	8.92442289783661	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23887548	23887567	20	-	9.96926888657288	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23887719	23887738	20	-	17.3823168551022	MA0073.1	intron	sst	RREB1	RREB1	ras responsive element binding protein 1	Homo sapiens
+chr16	23856161	23856172	12	-	12.8071184470846	MA0091.1	intron	sst	TAL1::TCF3	-	-	Homo sapiens
+chr16	23879819	23879830	12	-	15.6733869879813	MA0091.1	intron	sst	TAL1::TCF3	-	-	Homo sapiens
+chr16	23884246	23884257	12	-	12.9120265045302	MA0091.1	intron	sst	TAL1::TCF3	-	-	Homo sapiens
+chr16	23861095	23861104	10	-	11.1892065994388	MA0101.1	intron	sst	REL	REL	v-rel avian reticuloendotheliosis viral oncogene homolog	Homo sapiens
+chr16	23870402	23870411	10	-	11.9455839652171	MA0101.1	intron	sst	REL	REL	v-rel avian reticuloendotheliosis viral oncogene homolog	Homo sapiens
+chr16	23870402	23870411	10	-	12.4747317301612	MA0107.1	intron	sst	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr16	23881839	23881848	10	-	11.3551501144086	MA0107.1	intron	sst	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr16	23882903	23882912	10	-	11.4157915699851	MA0107.1	intron	sst	RELA	RELA	v-rel avian reticuloendotheliosis viral oncogene homolog A	Homo sapiens
+chr16	23852623	23852639	17	-	5.98437891595513	MA0115.1	intron	sst	NR1H2::RXRA	-	-	Homo sapiens
+chr16	23875150	23875166	17	-	8.0932903442184	MA0115.1	intron	sst	NR1H2::RXRA	-	-	Homo sapiens
+chr16	23851172	23851185	14	-	9.37211093824397	MA0119.1	intron	sst	NFIC::TLX1	-	-	Homo sapiens
+chr16	23852826	23852839	14	-	13.3336351027331	MA0119.1	intron	sst	NFIC::TLX1	-	-	Homo sapiens
+chr16	23879846	23879859	14	-	8.34458892907275	MA0119.1	intron	sst	NFIC::TLX1	-	-	Homo sapiens
+chr16	23850721	23850738	18	-	-5.40085425974526	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23857499	23857516	18	-	2.70952308625573	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23862363	23862380	18	-	-3.16359693239944	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23866024	23866041	18	-	-4.91447235435412	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23867624	23867641	18	-	-4.33861781465388	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23877233	23877250	18	-	-4.76418344990455	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23879436	23879453	18	-	3.40825773339264	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23879597	23879614	18	-	-4.74204204169475	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23886171	23886188	18	-	-1.06634992141353	MA0149.1	intron	sst	EWSR1-FLI1	-	-	Homo sapiens
+chr16	23876756	23876776	21	-	5.41161844346512	MA0138.2	intron	sst	REST	REST	RE1-silencing transcription factor	Homo sapiens
+chr16	23882231	23882251	21	-	9.21140689305601	MA0138.2	intron	sst	REST	REST	RE1-silencing transcription factor	Homo sapiens
+chr16	23883085	23883105	21	-	7.67817900260199	MA0138.2	intron	sst	REST	REST	RE1-silencing transcription factor	Homo sapiens
+chr16	23854450	23854461	12	-	11.776330961191	MA0155.1	intron	sst	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr16	23854760	23854771	12	-	12.3662936923343	MA0155.1	intron	sst	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr16	23879766	23879777	12	-	10.2986007158846	MA0155.1	intron	sst	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr16	23880425	23880436	12	-	13.5355778927937	MA0155.1	intron	sst	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr16	23888349	23888360	12	-	10.479777492334	MA0155.1	intron	sst	INSM1	INSM1	insulinoma-associated 1	Homo sapiens
+chr16	23890270	23890286	17	-	11.2842798213581	MA0159.1	intron	sst	RARA::RXRA	-	-	Homo sapiens
+chr16	23854029	23854042	14	-	6.23018909633893	MA0163.1	intron	sst	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr16	23866599	23866612	14	-	9.66192076995027	MA0163.1	intron	sst	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr16	23867475	23867488	14	-	6.81377958732849	MA0163.1	intron	sst	PLAG1	PLAG1	pleiomorphic adenoma gene 1	Homo sapiens
+chr16	23883962	23883972	11	-	14.933491117887	MA0468.1	intron	sst	DUX4	DUX4	double homeobox 4	Homo sapiens
+chr16	23861175	23861185	11	-	14.6085082185231	MA0476.1	intron	sst	FOS	FOS	FBJ murine osteosarcoma viral oncogene homolog	Homo sapiens
+chr16	23886991	23887001	11	-	15.3165347231349	MA0476.1	intron	sst	FOS	FOS	FBJ murine osteosarcoma viral oncogene homolog	Homo sapiens
+chr16	23854229	23854239	11	-	12.230388502872	MA0478.1	intron	sst	FOSL2	FOSL2	FOS-like antigen 2	Homo sapiens
+chr16	23874453	23874463	11	-	12.9120486244397	MA0478.1	intron	sst	FOSL2	FOSL2	FOS-like antigen 2	Homo sapiens
+chr16	23875259	23875269	11	-	12.3043916373781	MA0478.1	intron	sst	FOSL2	FOSL2	FOS-like antigen 2	Homo sapiens
+chr16	23886992	23887002	11	-	12.8152876101001	MA0478.1	intron	sst	FOSL2	FOSL2	FOS-like antigen 2	Homo sapiens
+chr16	23878043	23878055	13	-	13.105513702256	MA0488.1	intron	sst	JUN	JUN	jun proto-oncogene	Homo sapiens
+chr16	23880991	23881003	13	-	16.5751226381725	MA0488.1	intron	sst	JUN	JUN	jun proto-oncogene	Homo sapiens
+chr16	23867780	23867793	14	-	13.9495210983712	MA0489.1	intron	sst	JUN(var.2)	JUN	jun proto-oncogene	Homo sapiens
+chr16	23885060	23885073	14	-	13.2560189257784	MA0489.1	intron	sst	JUN(var.2)	JUN	jun proto-oncogene	Homo sapiens
+chr16	23886992	23887005	14	-	14.4335112954901	MA0489.1	intron	sst	JUN(var.2)	JUN	jun proto-oncogene	Homo sapiens
+chr16	23849913	23849927	15	-	15.6744078431269	MA0497.1	intron	sst	MEF2C	MEF2C	myocyte enhancer factor 2C	Homo sapiens
+chr16	23870382	23870396	15	-	16.2546449427639	MA0497.1	intron	sst	MEF2C	MEF2C	myocyte enhancer factor 2C	Homo sapiens
+chr16	23874057	23874071	15	-	17.2505512588681	MA0497.1	intron	sst	MEF2C	MEF2C	myocyte enhancer factor 2C	Homo sapiens
+chr16	23876563	23876577	15	-	16.1875471372555	MA0497.1	intron	sst	MEF2C	MEF2C	myocyte enhancer factor 2C	Homo sapiens
+chr16	23862903	23862917	15	-	10.8239033598773	MA0501.1	intron	sst	MAF::NFE2	-	-	Homo sapiens
+chr16	23875253	23875267	15	-	15.3749951373826	MA0501.1	intron	sst	MAF::NFE2	-	-	Homo sapiens
+chr16	23884509	23884523	15	-	11.4393983274488	MA0501.1	intron	sst	MAF::NFE2	-	-	Homo sapiens
+chr16	23851675	23851689	15	-	9.83821130508875	MA0504.1	intron	sst	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr16	23852625	23852639	15	-	10.0614620867568	MA0504.1	intron	sst	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr16	23862080	23862094	15	-	11.6852936593276	MA0504.1	intron	sst	NR2C2	NR2C2	nuclear receptor subfamily 2,group C,member 2	Homo sapiens
+chr16	23856469	23856481	13	-	14.8428854979225	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23859693	23859705	13	-	18.2919914850704	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23860836	23860848	13	-	16.1459096826512	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23863634	23863646	13	-	14.4791093969378	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23867050	23867062	13	-	14.4576685298775	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23872226	23872238	13	-	16.084921582726	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23874757	23874769	13	-	14.424669270033	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23879738	23879750	13	-	15.1618750317536	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23881128	23881140	13	-	17.1517488825894	MA0507.1	intron	sst	POU2F2	POU2F2	POU class 2 homeobox 2	Homo sapiens
+chr16	23869492	23869504	13	-	11.7494789115315	MA0513.1	intron	sst	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr16	23877572	23877584	13	-	13.7171136793272	MA0513.1	intron	sst	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr16	23888040	23888052	13	-	10.5742048844439	MA0513.1	intron	sst	SMAD2::SMAD3::SMAD4	-	-	Homo sapiens
+chr16	23849766	23849780	15	-	12.9588078574655	MA0517.1	intron	sst	STAT1::STAT2	-	-	Homo sapiens
+chr16	23850186	23850200	15	-	12.0092516492227	MA0517.1	intron	sst	STAT1::STAT2	-	-	Homo sapiens
+chr16	23853346	23853360	15	-	16.6963424749372	MA0517.1	intron	sst	STAT1::STAT2	-	-	Homo sapiens
+chr16	23856113	23856127	15	-	20.6576504361412	MA0517.1	intron	sst	STAT1::STAT2	-	-	Homo sapiens
+chr16	23858711	23858725	15	-	12.7347827876452	MA0517.1	intron	sst	STAT1::STAT2	-	-	Homo sapiens
+chr16	23874046	23874060	15	-	12.2494972955295	MA0517.1	intron	sst	STAT1::STAT2	-	-	Homo sapiens
+chr16	23881519	23881533	15	-	12.4539687644083	MA0517.1	intron	sst	STAT1::STAT2	-	-	Homo sapiens
+chr16	23884758	23884772	15	-	14.0666536344777	MA0517.1	intron	sst	STAT1::STAT2	-	-	Homo sapiens
+chr16	23849848	23849861	14	-	14.1379756351568	MA0523.1	intron	sst	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific,HMG-box)	Homo sapiens
+chr16	23864141	23864154	14	-	13.4964394802946	MA0523.1	intron	sst	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific,HMG-box)	Homo sapiens
+chr16	23853474	23853484	11	-	12.2139189259815	MA0076.2	intron	sst	ELK4	ELK4	ELK4,ETS-domain protein (SRF accessory protein 1)	Homo sapiens
+chr16	23853516	23853526	11	-	12.2139189259815	MA0076.2	intron	sst	ELK4	ELK4	ELK4,ETS-domain protein (SRF accessory protein 1)	Homo sapiens
+chr16	23853757	23853767	11	-	10.5647308330505	MA0076.2	intron	sst	ELK4	ELK4	ELK4,ETS-domain protein (SRF accessory protein 1)	Homo sapiens
+chr16	23880859	23880869	11	-	10.5001236190058	MA0076.2	intron	sst	ELK4	ELK4	ELK4,ETS-domain protein (SRF accessory protein 1)	Homo sapiens
+chr16	23877717	23877731	15	-	11.8475758882299	MA0258.2	intron	sst	ESR2	ESR2	estrogen receptor 2 (ER beta)	Homo sapiens
+chr16	23850182	23850202	21	-	14.3152569471485	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23851788	23851808	21	-	12.7739416448773	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23851794	23851814	21	-	12.2899776267329	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23851825	23851845	21	-	17.294807219586	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23853348	23853368	21	-	17.4880512635017	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23856109	23856129	21	-	13.9382004925751	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23858707	23858727	21	-	14.8252378855468	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23875280	23875300	21	-	14.3454013800365	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23875974	23875994	21	-	14.4194105098005	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23875975	23875995	21	-	15.4121667001692	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23881519	23881539	21	-	13.4656493587615	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23883683	23883703	21	-	12.3186565698875	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23883689	23883709	21	-	12.2582019161509	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23883773	23883793	21	-	12.3186565698875	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23883779	23883799	21	-	12.2582019161509	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23887814	23887834	21	-	14.3161006913668	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23889105	23889125	21	-	13.7044903978877	MA0050.2	intron	sst	IRF1	IRF1	interferon regulatory factor 1	Homo sapiens
+chr16	23855698	23855708	11	-	13.0035702389405	MA0137.3	intron	sst	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr16	23868051	23868061	11	-	13.4670080864162	MA0137.3	intron	sst	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr16	23868993	23869003	11	-	12.654288238738	MA0137.3	intron	sst	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr16	23872320	23872330	11	-	12.5691337062845	MA0137.3	intron	sst	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr16	23884780	23884790	11	-	14.4913911264759	MA0137.3	intron	sst	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr16	23890274	23890284	11	-	13.1944688078421	MA0137.3	intron	sst	STAT1	STAT1	signal transducer and activator of transcription 1,91kDa	Homo sapiens
+chr16	23868458	23868468	11	-	14.1487683904389	MA0144.2	intron	sst	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	Homo sapiens
+chr16	23884780	23884790	11	-	12.85342068957	MA0144.2	intron	sst	STAT3	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	Homo sapiens
+chr16	23880403	23880420	18	-	13.4531326140725	MA0140.2	intron	sst	GATA1::TAL1	-	-	Homo sapiens
+chr16	23888729	23888746	18	-	15.3086940593738	MA0140.2	intron	sst	GATA1::TAL1	-	-	Homo sapiens
+chr16	23850587	23850598	12	-	13.8654560278538	MA0095.2	intron	sst	YY1	YY1	YY1 transcription factor	Homo sapiens
+chr16	23851948	23851959	12	-	13.8654560278538	MA0095.2	intron	sst	YY1	YY1	YY1 transcription factor	Homo sapiens
+chr16	23866197	23866208	12	-	11.9140486891418	MA0095.2	intron	sst	YY1	YY1	YY1 transcription factor	Homo sapiens
+chr16	23871415	23871426	12	-	12.1264107710212	MA0095.2	intron	sst	YY1	YY1	YY1 transcription factor	Homo sapiens
+chr16	23849793	23849803	11	-	17.8297126342694	MA0593.1	intron	sst	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr16	23870665	23870675	11	-	14.9060139071267	MA0593.1	intron	sst	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr16	23872078	23872088	11	-	17.0265212061454	MA0593.1	intron	sst	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr16	23878404	23878414	11	-	15.0122463039295	MA0593.1	intron	sst	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr16	23880523	23880533	11	-	15.5038487185845	MA0593.1	intron	sst	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr16	23880971	23880981	11	-	14.9701991106796	MA0593.1	intron	sst	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr16	23882145	23882155	11	-	16.6812692277114	MA0593.1	intron	sst	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr16	23883428	23883438	11	-	16.5030092461266	MA0593.1	intron	sst	FOXP2	FOXP2	forkhead box P2	Homo sapiens
+chr16	23881465	23881474	10	-	11.1215631739752	MA0595.1	intron	sst	SREBF1	SREBF1	sterol regulatory element binding transcription factor 1	Homo sapiens
+chr16	23887762	23887771	10	-	13.4957732167223	MA0595.1	intron	sst	SREBF1	SREBF1	sterol regulatory element binding transcription factor 1	Homo sapiens
+chr16	23876589	23876598	10	-	12.9111494457387	MA0596.1	intron	sst	SREBF2	SREBF2	sterol regulatory element binding transcription factor 2	Homo sapiens
+chr16	23854285	23854294	10	-	10.5853885438423	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23858348	23858357	10	-	11.2121226140888	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23860774	23860783	10	-	9.70095741230152	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23860790	23860799	10	-	9.69120384454444	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23872916	23872925	10	-	10.2085820035499	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23873707	23873716	10	-	9.69120384454444	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23873765	23873774	10	-	11.4297150934489	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23873810	23873819	10	-	10.5853885438423	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23881288	23881297	10	-	9.02404897699129	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23883305	23883314	10	-	8.91354456206538	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23884572	23884581	10	-	11.5715450494707	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23886235	23886244	10	-	11.2121226140888	MA0599.1	intron	sst	KLF5	KLF5	Kruppel-like factor 5 (intestinal)	Homo sapiens
+chr16	23852049	23852058	10	-	12.7308761090013	MA0625.1	intron	sst	NFATC3			Homo sapiens
+chr16	23859162	23859171	10	-	13.1582590394354	MA0625.1	intron	sst	NFATC3			Homo sapiens
+chr16	23868137	23868146	10	-	12.7308761090013	MA0625.1	intron	sst	NFATC3			Homo sapiens
+chr16	23869964	23869973	10	-	12.6217710573876	MA0625.1	intron	sst	NFATC3			Homo sapiens
+chr16	23873008	23873017	10	-	12.5156116256334	MA0625.1	intron	sst	NFATC3			Homo sapiens
+chr16	23874155	23874164	10	-	13.1902152131814	MA0634.1	intron	sst	ALX3			Homo sapiens
+chr16	23865827	23865836	10	-	12.581219101009	MA0635.1	intron	sst	BARHL2			Homo sapiens
+chr16	23871112	23871121	10	-	12.6181744841412	MA0635.1	intron	sst	BARHL2			Homo sapiens
+chr16	23888765	23888774	10	-	12.7311903926024	MA0635.1	intron	sst	BARHL2			Homo sapiens
+chr16	23860174	23860183	10	-	14.206943924513	MA0636.1	intron	sst	BHLHE41			Homo sapiens
+chr16	23868489	23868498	10	-	7.51006921452994	MA0636.1	intron	sst	BHLHE41			Homo sapiens
+chr16	23849607	23849618	12	-	15.426851620856	MA0639.1	intron	sst	DBP			Homo sapiens
+chr16	23864947	23864958	12	-	10.2722740375005	MA0641.1	intron	sst	ELF4			Homo sapiens
+chr16	23866035	23866046	12	-	11.3119179552049	MA0641.1	intron	sst	ELF4			Homo sapiens
+chr16	23864947	23864957	11	-	12.5968956729348	MA0136.2	intron	sst	ELF5			Homo sapiens
+chr16	23880529	23880539	11	-	12.1029913706649	MA0136.2	intron	sst	ELF5			Homo sapiens
+chr16	23879034	23879043	10	-	11.4248613631639	MA0645.1	intron	sst	ETV6			Homo sapiens
+chr16	23862741	23862750	10	-	12.2024367550768	MA0648.1	intron	sst	GSC			Homo sapiens
+chr16	23878267	23878276	10	-	13.1465822204369	MA0648.1	intron	sst	GSC			Homo sapiens
+chr16	23855722	23855734	13	-	19.2939743999053	MA0486.2	intron	sst	HSF1			Homo sapiens
+chr16	23872644	23872656	13	-	9.42179600467324	MA0486.2	intron	sst	HSF1			Homo sapiens
+chr16	23875106	23875118	13	-	12.6550141517372	MA0486.2	intron	sst	HSF1			Homo sapiens
+chr16	23890402	23890414	13	-	11.7980325302547	MA0486.2	intron	sst	HSF1			Homo sapiens
+chr16	23851976	23851990	15	-	2.51793391167051	MA0653.1	intron	sst	IRF9			Homo sapiens
+chr16	23862761	23862775	15	-	2.20345193634884	MA0653.1	intron	sst	IRF9			Homo sapiens
+chr16	23872345	23872359	15	-	4.45234158723891	MA0653.1	intron	sst	IRF9			Homo sapiens
+chr16	23857579	23857596	18	-	7.11701998584204	MA0657.1	intron	sst	KLF13			Homo sapiens
+chr16	23873371	23873388	18	-	15.8259813734391	MA0657.1	intron	sst	KLF13			Homo sapiens
+chr16	23877091	23877108	18	-	8.97467493289804	MA0657.1	intron	sst	KLF13			Homo sapiens
+chr16	23884566	23884583	18	-	9.05590653833609	MA0657.1	intron	sst	KLF13			Homo sapiens
+chr16	23860174	23860183	10	-	12.299173840941	MA0663.1	intron	sst	MLX			Homo sapiens
+chr16	23884751	23884760	10	-	10.5526502065881	MA0663.1	intron	sst	MLX			Homo sapiens
+chr16	23860174	23860183	10	-	13.0766574521872	MA0664.1	intron	sst	MLXIPL			Homo sapiens
+chr16	23872055	23872064	10	-	11.9666143604278	MA0664.1	intron	sst	MLXIPL			Homo sapiens
+chr16	23876664	23876673	10	-	11.4191778628669	MA0664.1	intron	sst	MLXIPL			Homo sapiens
+chr16	23884751	23884760	10	-	12.6498576998428	MA0664.1	intron	sst	MLXIPL			Homo sapiens
+chr16	23871687	23871696	10	-	10.72649183734	MA0665.1	intron	sst	MSC			Homo sapiens
+chr16	23879576	23879585	10	-	10.7571162073298	MA0665.1	intron	sst	MSC			Homo sapiens
+chr16	23889336	23889345	10	-	11.7538991828197	MA0665.1	intron	sst	MSC			Homo sapiens
+chr16	23890545	23890554	10	-	11.5432233491869	MA0665.1	intron	sst	MSC			Homo sapiens
+chr16	23852729	23852738	10	-	12.7466549233408	MA0668.1	intron	sst	NEUROD2			Homo sapiens
+chr16	23878038	23878047	10	-	14.2898723325274	MA0668.1	intron	sst	NEUROD2			Homo sapiens
+chr16	23879819	23879828	10	-	14.5368047926411	MA0668.1	intron	sst	NEUROD2			Homo sapiens
+chr16	23881702	23881711	10	-	12.4986226572566	MA0668.1	intron	sst	NEUROD2			Homo sapiens
+chr16	23887175	23887184	10	-	12.807425534613	MA0668.1	intron	sst	NEUROD2			Homo sapiens
+chr16	23878038	23878047	10	-	16.0854330869635	MA0669.1	intron	sst	NEUROG2			Homo sapiens
+chr16	23879819	23879828	10	-	12.997938660087	MA0669.1	intron	sst	NEUROG2			Homo sapiens
+chr16	23887175	23887184	10	-	13.8270781140828	MA0669.1	intron	sst	NEUROG2			Homo sapiens
+chr16	23875421	23875430	10	-	13.1153141171625	MA0670.1	intron	sst	NFIA			Homo sapiens
+chr16	23889336	23889345	10	-	11.0544044589833	MA0048.2	intron	sst	NHLH1			Homo sapiens
+chr16	23854496	23854505	10	-	13.3044570286515	MA0672.1	intron	sst	NKX2-3			Homo sapiens
+chr16	23870583	23870592	10	-	13.3044570286515	MA0672.1	intron	sst	NKX2-3			Homo sapiens
+chr16	23886067	23886076	10	-	12.8009291545793	MA0672.1	intron	sst	NKX2-3			Homo sapiens
+chr16	23852729	23852738	10	-	13.4265283925921	MA0678.1	intron	sst	OLIG2			Homo sapiens
+chr16	23855573	23855582	10	-	13.2002698374113	MA0678.1	intron	sst	OLIG2			Homo sapiens
+chr16	23865000	23865009	10	-	13.5027199602173	MA0678.1	intron	sst	OLIG2			Homo sapiens
+chr16	23876277	23876286	10	-	13.7555861488148	MA0678.1	intron	sst	OLIG2			Homo sapiens
+chr16	23878038	23878047	10	-	14.0079692420128	MA0678.1	intron	sst	OLIG2			Homo sapiens
+chr16	23879819	23879828	10	-	16.684132169045	MA0678.1	intron	sst	OLIG2			Homo sapiens
+chr16	23887175	23887184	10	-	14.256382173467	MA0678.1	intron	sst	OLIG2			Homo sapiens
+chr16	23889492	23889501	10	-	13.7555861488148	MA0678.1	intron	sst	OLIG2			Homo sapiens
+chr16	23861084	23861093	10	-	19.3146072882013	MA0680.1	intron	sst	PAX7			Homo sapiens
+chr16	23860770	23860786	17	-	2.56284476367506	MA0685.1	intron	sst	SP4			Homo sapiens
+chr16	23884568	23884584	17	-	9.59611742113923	MA0685.1	intron	sst	SP4			Homo sapiens
+chr16	23861840	23861850	11	-	10.700346802279	MA0686.1	intron	sst	SPDEF			Homo sapiens
+chr16	23875837	23875847	11	-	13.0241839802897	MA0686.1	intron	sst	SPDEF			Homo sapiens
+chr16	23877549	23877559	11	-	11.7093415501358	MA0686.1	intron	sst	SPDEF			Homo sapiens
+chr16	23850785	23850798	14	-	14.7513768997973	MA0687.1	intron	sst	SPIC			Homo sapiens
+chr16	23867587	23867600	14	-	14.6712381088994	MA0687.1	intron	sst	SPIC			Homo sapiens
+chr16	23883507	23883520	14	-	15.0087682104209	MA0687.1	intron	sst	SPIC			Homo sapiens
+chr16	23883947	23883960	14	-	13.4603556996553	MA0687.1	intron	sst	SPIC			Homo sapiens
+chr16	23874982	23874997	16	-	8.38944061002412	MA0083.3	intron	sst	SRF			Homo sapiens
+chr16	23882090	23882105	16	-	12.1730930491017	MA0083.3	intron	sst	SRF			Homo sapiens
+chr16	23869161	23869176	16	-	15.7537670414285	MA0009.2	intron	sst	TBXT			Homo sapiens
+chr16	23875495	23875510	16	-	11.691702278746	MA0009.2	intron	sst	TBXT			Homo sapiens
+chr16	23886997	23887012	16	-	11.386525688597	MA0009.2	intron	sst	TBXT			Homo sapiens
+chr16	23887913	23887928	16	-	16.3872123589287	MA0009.2	intron	sst	TBXT			Homo sapiens
+chr16	23876106	23876116	11	-	14.2267048674602	MA0688.1	intron	sst	TBX2			Homo sapiens
+chr16	23876106	23876116	11	-	13.7344731867093	MA0689.1	intron	sst	TBX20			Homo sapiens
+chr16	23877163	23877173	11	-	12.437200228031	MA0689.1	intron	sst	TBX20			Homo sapiens
+chr16	23881752	23881762	11	-	13.2053399105158	MA0689.1	intron	sst	TBX20			Homo sapiens
+chr16	23876107	23876116	10	-	14.9823945704212	MA0690.1	intron	sst	TBX21			Homo sapiens
+chr16	23852666	23852675	10	-	11.4863421106618	MA0691.1	intron	sst	TFAP4			Homo sapiens
+chr16	23871687	23871696	10	-	13.4125001199616	MA0691.1	intron	sst	TFAP4			Homo sapiens
+chr16	23873605	23873614	10	-	13.5569244169423	MA0691.1	intron	sst	TFAP4			Homo sapiens
+chr16	23878825	23878834	10	-	10.9664603979029	MA0691.1	intron	sst	TFAP4			Homo sapiens
+chr16	23883636	23883645	10	-	12.7658655404193	MA0145.3	intron	sst	TFCP2			Homo sapiens
+chr16	23860174	23860183	10	-	12.0970788314367	MA0692.1	intron	sst	TFEB			Homo sapiens
+chr16	23868489	23868498	10	-	12.0979567834697	MA0692.1	intron	sst	TFEB			Homo sapiens
+chr16	23872055	23872064	10	-	13.7998379789425	MA0692.1	intron	sst	TFEB			Homo sapiens
+chr16	23884256	23884265	10	-	12.8450134459472	MA0692.1	intron	sst	TFEB			Homo sapiens
+chr16	23864934	23864945	12	-	13.0713631210125	MA0694.1	intron	sst	ZBTB7B			Homo sapiens
+chr16	23871714	23871725	12	-	13.7673759683522	MA0694.1	intron	sst	ZBTB7B			Homo sapiens
+chr16	23877254	23877265	12	-	9.3784016963617	MA0694.1	intron	sst	ZBTB7B			Homo sapiens
+chr16	23864934	23864945	12	-	12.5602624883242	MA0695.1	intron	sst	ZBTB7C			Homo sapiens
+chr16	23871714	23871725	12	-	11.6403532604057	MA0695.1	intron	sst	ZBTB7C			Homo sapiens
+chr16	23877208	23877219	12	-	10.276396242256	MA0695.1	intron	sst	ZBTB7C			Homo sapiens
+chr16	23877254	23877265	12	-	10.6824170848238	MA0695.1	intron	sst	ZBTB7C			Homo sapiens
+chr16	23853563	23853576	14	-	6.7990831368949	MA0696.1	intron	sst	ZIC1			Homo sapiens
+chr16	23853562	23853576	15	-	8.13456052431157	MA0697.1	intron	sst	ZIC3			Homo sapiens
+chr16	23865073	23865087	15	-	6.51731834710718	MA0697.1	intron	sst	ZIC3			Homo sapiens
+chr16	23868908	23868922	15	-	6.10306765617265	MA0697.1	intron	sst	ZIC3			Homo sapiens
+chr16	23874354	23874368	15	-	6.11839319435257	MA0697.1	intron	sst	ZIC3			Homo sapiens
+chr16	23879980	23879994	15	-	6.17036960203283	MA0697.1	intron	sst	ZIC3			Homo sapiens
+chr16	23857353	23857365	13	-	11.907793659592	MA0698.1	intron	sst	ZBTB18			Homo sapiens
+chr16	23862073	23862085	13	-	11.7956698199994	MA0698.1	intron	sst	ZBTB18			Homo sapiens
+chr16	23888113	23888125	13	-	14.2390635267293	MA0698.1	intron	sst	ZBTB18			Homo sapiens
+chr16	23888891	23888903	13	-	10.7484104284083	MA0698.1	intron	sst	ZBTB18			Homo sapiens
+chr16	23874155	23874164	10	-	12.3478736330809	MA0699.1	intron	sst	LBX2			Homo sapiens
+chr16	23861082	23861091	10	-	13.9605046031232	MA0718.1	intron	sst	RAX			Homo sapiens
+chr16	23857687	23857703	17	-	5.24595543920211	MA0112.3	intron	sst	ESR1			Homo sapiens
+chr16	23875157	23875167	11	-	14.6674534511658	MA0141.3	intron	sst	ESRRB			Homo sapiens
+chr16	23879953	23879963	11	-	11.6165488918451	MA0141.3	intron	sst	ESRRB			Homo sapiens
+chr16	23879762	23879774	13	-	13.479708480472	MA0017.2	intron	sst	NR2F1			Homo sapiens
+chr16	23888345	23888357	13	-	13.4581666123116	MA0017.2	intron	sst	NR2F1			Homo sapiens
+chr16	23853699	23853715	17	-	9.09387325603426	MA0113.3	intron	sst	NR3C1			Homo sapiens
+chr16	23864771	23864787	17	-	7.78190592610754	MA0113.3	intron	sst	NR3C1			Homo sapiens
+chr16	23864996	23865012	17	-	11.688450737819	MA0113.3	intron	sst	NR3C1			Homo sapiens
+chr16	23875460	23875476	17	-	6.49699852866661	MA0113.3	intron	sst	NR3C1			Homo sapiens
+chr16	23876273	23876289	17	-	8.69026918342136	MA0113.3	intron	sst	NR3C1			Homo sapiens
+chr16	23864771	23864787	17	-	9.26426064629981	MA0727.1	intron	sst	NR3C2			Homo sapiens
+chr16	23864996	23865012	17	-	10.5010170766494	MA0727.1	intron	sst	NR3C2			Homo sapiens
+chr16	23871823	23871839	17	-	6.49795316840459	MA0727.1	intron	sst	NR3C2			Homo sapiens
+chr16	23875460	23875476	17	-	7.39182316645092	MA0727.1	intron	sst	NR3C2			Homo sapiens
+chr16	23877428	23877444	17	-	8.10784243647251	MA0727.1	intron	sst	NR3C2			Homo sapiens
+chr16	23862775	23862792	18	-	-3.01844437881971	MA0729.1	intron	sst	RARA			Homo sapiens
+chr16	23850686	23850702	17	-	4.20093079858569	MA0730.1	intron	sst	RARA(var.2)			Homo sapiens
+chr16	23883474	23883490	17	-	7.54248842735111	MA0730.1	intron	sst	RARA(var.2)			Homo sapiens
+chr16	23855695	23855711	17	-	0.218939667139007	MA0731.1	intron	sst	BCL6B			Homo sapiens
+chr16	23868990	23869006	17	-	-5.25030237722947	MA0731.1	intron	sst	BCL6B			Homo sapiens
+chr16	23874704	23874720	17	-	-3.37448614353765	MA0731.1	intron	sst	BCL6B			Homo sapiens
+chr16	23887556	23887570	15	-	7.63401076961513	MA0732.1	intron	sst	EGR3			Homo sapiens
+chr16	23873724	23873739	16	-	8.88000036473587	MA0733.1	intron	sst	EGR4			Homo sapiens
+chr16	23874355	23874368	14	-	6.8905016659108	MA0736.1	intron	sst	GLIS2			Homo sapiens
+chr16	23879981	23879994	14	-	5.75735661559897	MA0736.1	intron	sst	GLIS2			Homo sapiens
+chr16	23874355	23874368	14	-	3.2297003149608	MA0737.1	intron	sst	GLIS3			Homo sapiens
+chr16	23860771	23860784	14	-	7.37394727704429	MA0740.1	intron	sst	KLF14			Homo sapiens
+chr16	23884569	23884582	14	-	10.0360691445912	MA0740.1	intron	sst	KLF14			Homo sapiens
+chr16	23852820	23852830	11	-	9.35719413149153	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23858347	23858357	11	-	10.9882759721815	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23860773	23860783	11	-	11.2657461426275	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23860779	23860789	11	-	8.83074413894511	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23860800	23860810	11	-	9.30219967795564	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23867460	23867470	11	-	8.6112755635752	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23884571	23884581	11	-	12.1112517603709	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23885451	23885461	11	-	8.6796168203743	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23887545	23887555	11	-	8.5034003545734	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23887546	23887556	11	-	8.5034003545734	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23887547	23887557	11	-	8.5034003545734	MA0741.1	intron	sst	KLF16			Homo sapiens
+chr16	23858346	23858357	12	-	10.1515452402449	MA0747.1	intron	sst	SP8			Homo sapiens
+chr16	23860772	23860783	12	-	12.9488502266372	MA0747.1	intron	sst	SP8			Homo sapiens
+chr16	23884570	23884581	12	-	12.1059741523711	MA0747.1	intron	sst	SP8			Homo sapiens
+chr16	23853562	23853576	15	-	9.59410382346986	MA0751.1	intron	sst	ZIC4			Homo sapiens
+chr16	23874354	23874368	15	-	8.94056343270025	MA0751.1	intron	sst	ZIC4			Homo sapiens
+chr16	23879980	23879994	15	-	8.37053177017945	MA0751.1	intron	sst	ZIC4			Homo sapiens
+chr16	23872088	23872103	16	-	3.76120150295802	MA0088.2	intron	sst	ZNF143			Homo sapiens
+chr16	23861084	23861093	10	-	14.3058842296664	MA0754.1	intron	sst	CUX1			Homo sapiens
+chr16	23888759	23888768	10	-	14.2955118192002	MA0754.1	intron	sst	CUX1			Homo sapiens
+chr16	23861084	23861093	10	-	14.6981373235163	MA0755.1	intron	sst	CUX2			Homo sapiens
+chr16	23864597	23864610	14	-	15.6039157800142	MA0757.1	intron	sst	ONECUT3			Homo sapiens
+chr16	23889175	23889188	14	-	15.9123078916243	MA0757.1	intron	sst	ONECUT3			Homo sapiens
+chr16	23853097	23853106	10	-	12.0344208692125	MA0760.1	intron	sst	ERF			Homo sapiens
+chr16	23853097	23853106	10	-	12.1334698756073	MA0474.2	intron	sst	ERG			Homo sapiens
+chr16	23853097	23853106	10	-	11.7422263619476	MA0098.3	intron	sst	ETS1			Homo sapiens
+chr16	23875837	23875846	10	-	11.7105749938288	MA0098.3	intron	sst	ETS1			Homo sapiens
+chr16	23864653	23864663	11	-	11.6894415242395	MA0762.1	intron	sst	ETV2			Homo sapiens
+chr16	23875837	23875847	11	-	13.2752998362155	MA0762.1	intron	sst	ETV2			Homo sapiens
+chr16	23877549	23877559	11	-	11.5159195716346	MA0762.1	intron	sst	ETV2			Homo sapiens
+chr16	23879536	23879546	11	-	11.7670091566031	MA0762.1	intron	sst	ETV2			Homo sapiens
+chr16	23849847	23849861	15	-	12.3477476437003	MA0768.1	intron	sst	LEF1			Homo sapiens
+chr16	23869249	23869263	15	-	13.1059007113214	MA0768.1	intron	sst	LEF1			Homo sapiens
+chr16	23871785	23871799	15	-	16.4147299156089	MA0768.1	intron	sst	LEF1			Homo sapiens
+chr16	23855722	23855734	13	-	20.2832736514468	MA0770.1	intron	sst	HSF2			Homo sapiens
+chr16	23856604	23856616	13	-	11.132972468157	MA0770.1	intron	sst	HSF2			Homo sapiens
+chr16	23872644	23872656	13	-	11.4009833934481	MA0770.1	intron	sst	HSF2			Homo sapiens
+chr16	23853313	23853325	13	-	12.9231344369287	MA0771.1	intron	sst	HSF4			Homo sapiens
+chr16	23855722	23855734	13	-	18.86239795725	MA0771.1	intron	sst	HSF4			Homo sapiens
+chr16	23872644	23872656	13	-	13.8842018754197	MA0771.1	intron	sst	HSF4			Homo sapiens
+chr16	23875106	23875118	13	-	12.1619564130233	MA0771.1	intron	sst	HSF4			Homo sapiens
+chr16	23890402	23890414	13	-	11.9768229763612	MA0771.1	intron	sst	HSF4			Homo sapiens
+chr16	23867594	23867607	14	-	12.7431305100486	MA0772.1	intron	sst	IRF7			Homo sapiens
+chr16	23871072	23871085	14	-	14.2414373363139	MA0772.1	intron	sst	IRF7			Homo sapiens
+chr16	23850248	23850262	15	-	11.7820960147394	MA0777.1	intron	sst	MYBL2			Homo sapiens
+chr16	23862193	23862205	13	-	3.3713948800122	MA0105.4	intron	sst	NFKB1			Homo sapiens
+chr16	23871288	23871300	13	-	6.29486078281492	MA0105.4	intron	sst	NFKB1			Homo sapiens
+chr16	23873322	23873334	13	-	10.7212955696105	MA0105.4	intron	sst	NFKB1			Homo sapiens
+chr16	23862193	23862205	13	-	8.13741611300051	MA0778.1	intron	sst	NFKB2			Homo sapiens
+chr16	23871288	23871300	13	-	9.52902492882836	MA0778.1	intron	sst	NFKB2			Homo sapiens
+chr16	23873322	23873334	13	-	14.803808288865	MA0778.1	intron	sst	NFKB2			Homo sapiens
+chr16	23881837	23881849	13	-	7.75980205259193	MA0778.1	intron	sst	NFKB2			Homo sapiens
+chr16	23853282	23853298	17	-	5.81714297748385	MA0779.1	intron	sst	PAX1			Homo sapiens
+chr16	23861084	23861093	10	-	18.9162510028177	MA0780.1	intron	sst	PAX3			Homo sapiens
+chr16	23864561	23864570	10	-	14.1112911775999	MA0780.1	intron	sst	PAX3			Homo sapiens
+chr16	23865741	23865757	17	-	2.81546708405192	MA0781.1	intron	sst	PAX9			Homo sapiens
+chr16	23885290	23885306	17	-	1.20503501860986	MA0781.1	intron	sst	PAX9			Homo sapiens
+chr16	23853032	23853043	12	-	8.27049713239097	MA0783.1	intron	sst	PKNOX2			Homo sapiens
+chr16	23859726	23859737	12	-	5.71900560853158	MA0783.1	intron	sst	PKNOX2			Homo sapiens
+chr16	23862771	23862782	12	-	5.79726826166256	MA0783.1	intron	sst	PKNOX2			Homo sapiens
+chr16	23878037	23878048	12	-	8.06892741430231	MA0783.1	intron	sst	PKNOX2			Homo sapiens
+chr16	23849666	23849679	14	-	15.1064325675132	MA0784.1	intron	sst	POU1F1			Homo sapiens
+chr16	23888245	23888258	14	-	15.154351900728	MA0784.1	intron	sst	POU1F1			Homo sapiens
+chr16	23849668	23849679	12	-	16.1196817504309	MA0785.1	intron	sst	POU2F1			Homo sapiens
+chr16	23868034	23868045	12	-	16.1986165073185	MA0785.1	intron	sst	POU2F1			Homo sapiens
+chr16	23881127	23881138	12	-	14.8896166920183	MA0785.1	intron	sst	POU2F1			Homo sapiens
+chr16	23849667	23849678	12	-	17.8137295669515	MA0786.1	intron	sst	POU3F1			Homo sapiens
+chr16	23867734	23867745	12	-	15.3659138057287	MA0786.1	intron	sst	POU3F1			Homo sapiens
+chr16	23874173	23874184	12	-	15.0644864926655	MA0786.1	intron	sst	POU3F1			Homo sapiens
+chr16	23849667	23849678	12	-	17.8513712560359	MA0787.1	intron	sst	POU3F2			Homo sapiens
+chr16	23867734	23867745	12	-	14.8517115886007	MA0787.1	intron	sst	POU3F2			Homo sapiens
+chr16	23874173	23874184	12	-	14.9518166566154	MA0787.1	intron	sst	POU3F2			Homo sapiens
+chr16	23849667	23849679	13	-	19.4573426872207	MA0788.1	intron	sst	POU3F3			Homo sapiens
+chr16	23856804	23856816	13	-	15.3495921409367	MA0788.1	intron	sst	POU3F3			Homo sapiens
+chr16	23881126	23881138	13	-	15.1854852491209	MA0788.1	intron	sst	POU3F3			Homo sapiens
+chr16	23867748	23867761	14	-	16.0432097539744	MA0790.1	intron	sst	POU4F1			Homo sapiens
+chr16	23853155	23853164	10	-	14.5627124999149	MA0793.1	intron	sst	POU6F2			Homo sapiens
+chr16	23869058	23869067	10	-	13.7380494015108	MA0793.1	intron	sst	POU6F2			Homo sapiens
+chr16	23874156	23874165	10	-	15.2850817166036	MA0793.1	intron	sst	POU6F2			Homo sapiens
+chr16	23890157	23890168	12	-	10.6816573999838	MA0794.1	intron	sst	PROX1			Homo sapiens
+chr16	23853867	23853876	10	-	11.1613723236748	MA0795.1	intron	sst	SMAD3			Homo sapiens
+chr16	23856932	23856941	10	-	11.29145045477	MA0795.1	intron	sst	SMAD3			Homo sapiens
+chr16	23869727	23869736	10	-	11.4096194009438	MA0795.1	intron	sst	SMAD3			Homo sapiens
+chr16	23890785	23890794	10	-	10.5041438128807	MA0795.1	exon	sst	SMAD3			Homo sapiens
+chr16	23851681	23851692	12	-	3.15797525068713	MA0796.1	intron	sst	TGIF1			Homo sapiens
+chr16	23859726	23859737	12	-	2.09558575242347	MA0796.1	intron	sst	TGIF1			Homo sapiens
+chr16	23874753	23874764	12	-	4.79035712504036	MA0796.1	intron	sst	TGIF1			Homo sapiens
+chr16	23878037	23878048	12	-	6.85325295523181	MA0796.1	intron	sst	TGIF1			Homo sapiens
+chr16	23855388	23855399	12	-	9.9901382188575	MA0797.1	intron	sst	TGIF2			Homo sapiens
+chr16	23874753	23874764	12	-	11.0573760569923	MA0797.1	intron	sst	TGIF2			Homo sapiens
+chr16	23878037	23878048	12	-	12.2015798082682	MA0797.1	intron	sst	TGIF2			Homo sapiens
+chr16	23888400	23888415	16	-	12.3805803412954	MA0799.1	intron	sst	RFX4			Homo sapiens
+chr16	23876104	23876116	13	-	17.2605811824601	MA0800.1	intron	sst	EOMES			Homo sapiens
+chr16	23876106	23876115	10	-	15.1157959913291	MA0802.1	intron	sst	TBR1			Homo sapiens
+chr16	23869159	23869178	20	-	13.1238518183167	MA0804.1	intron	sst	TBX19			Homo sapiens
+chr16	23886995	23887014	20	-	11.7853763331679	MA0804.1	intron	sst	TBX19			Homo sapiens
+chr16	23887911	23887930	20	-	20.5695984477489	MA0804.1	intron	sst	TBX19			Homo sapiens
+chr16	23865284	23865295	12	-	11.9562782685144	MA0810.1	intron	sst	TFAP2A(var.2)			Homo sapiens
+chr16	23867554	23867565	12	-	9.51475417137981	MA0810.1	intron	sst	TFAP2A(var.2)			Homo sapiens
+chr16	23885832	23885843	12	-	9.36537867021379	MA0810.1	intron	sst	TFAP2A(var.2)			Homo sapiens
+chr16	23865284	23865295	12	-	12.1506785562057	MA0811.1	intron	sst	TFAP2B			Homo sapiens
+chr16	23867554	23867565	12	-	10.5343607372936	MA0811.1	intron	sst	TFAP2B			Homo sapiens
+chr16	23873328	23873339	12	-	9.83621091002107	MA0811.1	intron	sst	TFAP2B			Homo sapiens
+chr16	23885832	23885843	12	-	9.78831562231731	MA0811.1	intron	sst	TFAP2B			Homo sapiens
+chr16	23865284	23865294	11	-	9.01994541868252	MA0812.1	intron	sst	TFAP2B(var.2)			Homo sapiens
+chr16	23869192	23869202	11	-	14.2168111488162	MA0812.1	intron	sst	TFAP2B(var.2)			Homo sapiens
+chr16	23880404	23880414	11	-	10.0141523061175	MA0812.1	intron	sst	TFAP2B(var.2)			Homo sapiens
+chr16	23884315	23884325	11	-	11.0184830520997	MA0812.1	intron	sst	TFAP2B(var.2)			Homo sapiens
+chr16	23884424	23884434	11	-	9.80048924067147	MA0812.1	intron	sst	TFAP2B(var.2)			Homo sapiens
+chr16	23889852	23889862	11	-	13.2146992481237	MA0812.1	exon	sst	TFAP2B(var.2)			Homo sapiens
+chr16	23890751	23890761	11	-	14.4099458359955	MA0812.1	exon	sst	TFAP2B(var.2)			Homo sapiens
+chr16	23852440	23852452	13	-	8.35502274498985	MA0813.1	intron	sst	TFAP2B(var.3)			Homo sapiens
+chr16	23870312	23870324	13	-	9.33336284041784	MA0813.1	intron	sst	TFAP2B(var.3)			Homo sapiens
+chr16	23872986	23872998	13	-	10.2610648102856	MA0813.1	intron	sst	TFAP2B(var.3)			Homo sapiens
+chr16	23876575	23876587	13	-	9.55269548761518	MA0813.1	intron	sst	TFAP2B(var.3)			Homo sapiens
+chr16	23884564	23884576	13	-	8.90355504641041	MA0813.1	intron	sst	TFAP2B(var.3)			Homo sapiens
+chr16	23885542	23885554	13	-	7.31931930319645	MA0813.1	intron	sst	TFAP2B(var.3)			Homo sapiens
+chr16	23865284	23865295	12	-	11.7813444583382	MA0524.2	intron	sst	TFAP2C			Homo sapiens
+chr16	23867554	23867565	12	-	10.2857884170619	MA0524.2	intron	sst	TFAP2C			Homo sapiens
+chr16	23873328	23873339	12	-	9.77286882113095	MA0524.2	intron	sst	TFAP2C			Homo sapiens
+chr16	23880425	23880436	12	-	9.26515858541315	MA0524.2	intron	sst	TFAP2C			Homo sapiens
+chr16	23885832	23885843	12	-	10.0534548796149	MA0524.2	intron	sst	TFAP2C			Homo sapiens
+chr16	23852440	23852452	13	-	8.04724838954282	MA0815.1	intron	sst	TFAP2C(var.3)			Homo sapiens
+chr16	23870312	23870324	13	-	9.26898395900163	MA0815.1	intron	sst	TFAP2C(var.3)			Homo sapiens
+chr16	23872986	23872998	13	-	10.5544480341544	MA0815.1	intron	sst	TFAP2C(var.3)			Homo sapiens
+chr16	23876575	23876587	13	-	10.178528640634	MA0815.1	intron	sst	TFAP2C(var.3)			Homo sapiens
+chr16	23884564	23884576	13	-	7.06725137946391	MA0815.1	intron	sst	TFAP2C(var.3)			Homo sapiens
+chr16	23885542	23885554	13	-	6.7281954549598	MA0815.1	intron	sst	TFAP2C(var.3)			Homo sapiens
+chr16	23860174	23860183	10	-	13.0275968221908	MA0464.2	intron	sst	BHLHE40			Homo sapiens
+chr16	23884751	23884760	10	-	12.1834560597509	MA0464.2	intron	sst	BHLHE40			Homo sapiens
+chr16	23852728	23852739	12	-	12.8295223566645	MA0817.1	intron	sst	BHLHE23			Homo sapiens
+chr16	23855572	23855583	12	-	12.9390112677925	MA0817.1	intron	sst	BHLHE23			Homo sapiens
+chr16	23878037	23878048	12	-	15.646471848546	MA0817.1	intron	sst	BHLHE23			Homo sapiens
+chr16	23879818	23879829	12	-	16.6900852982317	MA0817.1	intron	sst	BHLHE23			Homo sapiens
+chr16	23887174	23887185	12	-	16.8043350322705	MA0817.1	intron	sst	BHLHE23			Homo sapiens
+chr16	23878038	23878047	10	-	14.8377896158934	MA0818.1	intron	sst	BHLHE22			Homo sapiens
+chr16	23879819	23879828	10	-	15.5025103031932	MA0818.1	intron	sst	BHLHE22			Homo sapiens
+chr16	23881702	23881711	10	-	12.1781959013675	MA0818.1	intron	sst	BHLHE22			Homo sapiens
+chr16	23887175	23887184	10	-	15.501270809487	MA0818.1	intron	sst	BHLHE22			Homo sapiens
+chr16	23854201	23854210	10	-	11.3710945843108	MA0819.1	intron	sst	CLOCK			Homo sapiens
+chr16	23888640	23888649	10	-	12.9303642452218	MA0819.1	intron	sst	CLOCK			Homo sapiens
+chr16	23878825	23878834	10	-	11.2965408222667	MA0820.1	intron	sst	FIGLA			Homo sapiens
+chr16	23877967	23877978	12	-	5.99068055049077	MA0821.1	intron	sst	HES5			Homo sapiens
+chr16	23877967	23877978	12	-	4.13823947254685	MA0822.1	intron	sst	HES7			Homo sapiens
+chr16	23852729	23852738	10	-	13.3942682111292	MA0826.1	intron	sst	OLIG1			Homo sapiens
+chr16	23878038	23878047	10	-	14.9296179003249	MA0826.1	intron	sst	OLIG1			Homo sapiens
+chr16	23879819	23879828	10	-	16.7619920467498	MA0826.1	intron	sst	OLIG1			Homo sapiens
+chr16	23887175	23887184	10	-	15.6630465529824	MA0826.1	intron	sst	OLIG1			Homo sapiens
+chr16	23852729	23852738	10	-	13.0570713649168	MA0827.1	intron	sst	OLIG3			Homo sapiens
+chr16	23855573	23855582	10	-	13.9329799763981	MA0827.1	intron	sst	OLIG3			Homo sapiens
+chr16	23865000	23865009	10	-	13.5056333686616	MA0827.1	intron	sst	OLIG3			Homo sapiens
+chr16	23876277	23876286	10	-	14.1374364633132	MA0827.1	intron	sst	OLIG3			Homo sapiens
+chr16	23878038	23878047	10	-	13.7514020378359	MA0827.1	intron	sst	OLIG3			Homo sapiens
+chr16	23879819	23879828	10	-	15.7355288759492	MA0827.1	intron	sst	OLIG3			Homo sapiens
+chr16	23887175	23887184	10	-	13.9735229830457	MA0827.1	intron	sst	OLIG3			Homo sapiens
+chr16	23889492	23889501	10	-	14.1374364633132	MA0827.1	intron	sst	OLIG3			Homo sapiens
+chr16	23860174	23860183	10	-	13.4124740187417	MA0828.1	intron	sst	SREBF2(var.2)			Homo sapiens
+chr16	23864070	23864079	10	-	10.880378543103	MA0828.1	intron	sst	SREBF2(var.2)			Homo sapiens
+chr16	23872055	23872064	10	-	11.0334531532868	MA0828.1	intron	sst	SREBF2(var.2)			Homo sapiens
+chr16	23876664	23876673	10	-	12.4673891554958	MA0828.1	intron	sst	SREBF2(var.2)			Homo sapiens
+chr16	23880196	23880205	10	-	13.8399559840847	MA0466.2	intron	sst	CEBPB			Homo sapiens
+chr16	23880196	23880205	10	-	13.6028234430773	MA0837.1	intron	sst	CEBPE			Homo sapiens
+chr16	23852352	23852361	10	-	12.3123689150123	MA0838.1	intron	sst	CEBPG			Homo sapiens
+chr16	23855496	23855505	10	-	12.2616535821303	MA0838.1	intron	sst	CEBPG			Homo sapiens
+chr16	23880196	23880205	10	-	13.3405460421774	MA0838.1	intron	sst	CEBPG			Homo sapiens
+chr16	23858292	23858305	14	-	9.06922967307332	MA0839.1	intron	sst	CREB3L1			Homo sapiens
+chr16	23864171	23864184	14	-	13.7821883468423	MA0839.1	intron	sst	CREB3L1			Homo sapiens
+chr16	23883491	23883504	14	-	8.86372847158624	MA0839.1	intron	sst	CREB3L1			Homo sapiens
+chr16	23854228	23854238	11	-	14.6085893016899	MA0841.1	intron	sst	NFE2			Homo sapiens
+chr16	23886991	23887001	11	-	10.0894593367677	MA0841.1	intron	sst	NFE2			Homo sapiens
+chr16	23849607	23849618	12	-	16.3226720231768	MA0843.1	intron	sst	TEF			Homo sapiens
+chr16	23868008	23868018	11	-	17.7352461537199	MA0845.1	intron	sst	FOXB1			Homo sapiens
+chr16	23868033	23868043	11	-	16.4266216108442	MA0845.1	intron	sst	FOXB1			Homo sapiens
+chr16	23881110	23881120	11	-	16.2075668248448	MA0845.1	intron	sst	FOXB1			Homo sapiens
+chr16	23881134	23881144	11	-	17.7352461537199	MA0845.1	intron	sst	FOXB1			Homo sapiens
+chr16	23864598	23864608	11	-	15.752011296416	MA0032.2	intron	sst	FOXC1			Homo sapiens
+chr16	23868008	23868018	11	-	17.6610061176303	MA0032.2	intron	sst	FOXC1			Homo sapiens
+chr16	23872079	23872089	11	-	15.9311053462302	MA0032.2	intron	sst	FOXC1			Homo sapiens
+chr16	23881110	23881120	11	-	15.5324479992573	MA0032.2	intron	sst	FOXC1			Homo sapiens
+chr16	23881134	23881144	11	-	17.6610061176303	MA0032.2	intron	sst	FOXC1			Homo sapiens
+chr16	23849793	23849804	12	-	15.6702956457379	MA0846.1	intron	sst	FOXC2			Homo sapiens
+chr16	23864597	23864608	12	-	17.5461352260414	MA0846.1	intron	sst	FOXC2			Homo sapiens
+chr16	23868007	23868018	12	-	16.4848117698505	MA0846.1	intron	sst	FOXC2			Homo sapiens
+chr16	23872078	23872089	12	-	18.597134630138	MA0846.1	intron	sst	FOXC2			Homo sapiens
+chr16	23874145	23874156	12	-	15.3702707343245	MA0846.1	intron	sst	FOXC2			Homo sapiens
+chr16	23882145	23882156	12	-	15.9537937298961	MA0846.1	intron	sst	FOXC2			Homo sapiens
+chr16	23851526	23851539	14	-	8.39906881969021	MA0855.1	intron	sst	RXRB			Homo sapiens
+chr16	23851675	23851688	14	-	8.34824469287146	MA0855.1	intron	sst	RXRB			Homo sapiens
+chr16	23851526	23851539	14	-	8.53023651192322	MA0856.1	intron	sst	RXRG			Homo sapiens
+chr16	23851675	23851688	14	-	8.01042844519519	MA0856.1	intron	sst	RXRG			Homo sapiens
+chr16	23851585	23851602	18	-	2.43943014869038	MA0525.2	intron	sst	TP63			Homo sapiens
+chr16	23851585	23851602	18	-	13.1643200165112	MA0106.3	intron	sst	TP53			Homo sapiens
+chr16	23875122	23875139	18	-	7.82422329193863	MA0106.3	intron	sst	TP53			Homo sapiens
+chr16	23880060	23880077	18	-	7.41405982489648	MA0106.3	intron	sst	TP53			Homo sapiens
+chr16	23851585	23851602	18	-	12.8554107297784	MA0861.1	intron	sst	TP73			Homo sapiens
+chr16	23863604	23863621	18	-	10.1585966573973	MA0861.1	intron	sst	TP73			Homo sapiens
+chr16	23875122	23875139	18	-	9.03393691466523	MA0861.1	intron	sst	TP73			Homo sapiens
+chr16	23855487	23855501	15	-	12.1727329501648	MA0866.1	intron	sst	SOX21			Homo sapiens
+chr16	23852440	23852452	13	-	7.53779269378844	MA0872.1	intron	sst	TFAP2A(var.3)			Homo sapiens
+chr16	23866745	23866757	13	-	7.64684075848737	MA0872.1	intron	sst	TFAP2A(var.3)			Homo sapiens
+chr16	23870312	23870324	13	-	11.5402931749933	MA0872.1	intron	sst	TFAP2A(var.3)			Homo sapiens
+chr16	23872986	23872998	13	-	10.1653747065146	MA0872.1	intron	sst	TFAP2A(var.3)			Homo sapiens
+chr16	23876575	23876587	13	-	11.2307608114851	MA0872.1	intron	sst	TFAP2A(var.3)			Homo sapiens
+chr16	23884564	23884576	13	-	9.13297675264865	MA0872.1	intron	sst	TFAP2A(var.3)			Homo sapiens
+chr16	23862741	23862750	10	-	11.7998231031774	MA0891.1	intron	sst	GSC2			Homo sapiens
+chr16	23878267	23878276	10	-	11.7649394147535	MA0891.1	intron	sst	GSC2			Homo sapiens
+chr16	23874155	23874164	10	-	12.8571268229576	MA0892.1	intron	sst	GSX1			Homo sapiens
+chr16	23881909	23881918	10	-	13.7354694723901	MA0894.1	intron	sst	HESX1			Homo sapiens
+chr16	23858582	23858591	10	-	13.9571288666739	MA0895.1	intron	sst	HMBOX1			Homo sapiens
+chr16	23867022	23867032	11	-	14.3563371045707	MA0899.1	intron	sst	HOXA10			Homo sapiens
+chr16	23876476	23876486	11	-	14.8249559024387	MA0899.1	intron	sst	HOXA10			Homo sapiens
+chr16	23883400	23883410	11	-	15.1645535942115	MA0899.1	intron	sst	HOXA10			Homo sapiens
+chr16	23889435	23889445	11	-	14.6821565639738	MA0899.1	intron	sst	HOXA10			Homo sapiens
+chr16	23849920	23849929	10	-	12.5567343390822	MA0903.1	intron	sst	HOXB3			Homo sapiens
+chr16	23888577	23888587	11	-	13.5629179535697	MA0906.1	intron	sst	HOXC12			Homo sapiens
+chr16	23858533	23858543	11	-	13.5921331660839	MA0907.1	intron	sst	HOXC13			Homo sapiens
+chr16	23881996	23882006	11	-	13.7901046558709	MA0907.1	intron	sst	HOXC13			Homo sapiens
+chr16	23849791	23849804	14	-	14.4786059041437	MA0852.2	intron	sst	FOXK1			Homo sapiens
+chr16	23859980	23859993	14	-	15.0467947152973	MA0852.2	intron	sst	FOXK1			Homo sapiens
+chr16	23862946	23862959	14	-	14.4633509849256	MA0852.2	intron	sst	FOXK1			Homo sapiens
+chr16	23872076	23872089	14	-	13.8855882067712	MA0852.2	intron	sst	FOXK1			Homo sapiens
+chr16	23882143	23882156	14	-	16.1219069890719	MA0852.2	intron	sst	FOXK1			Homo sapiens
+chr16	23883426	23883439	14	-	15.7787767609595	MA0852.2	intron	sst	FOXK1			Homo sapiens
+chr16	23884704	23884717	14	-	13.9125589180801	MA0852.2	intron	sst	FOXK1			Homo sapiens
+chr16	23854304	23854313	10	-	11.9763218325936	MA1106.1	intron	sst	HIF1A			Homo sapiens
+chr16	23851186	23851195	10	-	12.6099275500994	MA0100.3	intron	sst	MYB			Homo sapiens
+chr16	23857624	23857633	10	-	12.7308661873058	MA0100.3	intron	sst	MYB			Homo sapiens
+chr16	23880497	23880506	10	-	12.6552042166728	MA0100.3	intron	sst	MYB			Homo sapiens
+chr16	23865099	23865111	13	-	11.1724021241557	MA1109.1	intron	sst	NEUROD1			Homo sapiens
+chr16	23872429	23872441	13	-	12.9966272904291	MA1109.1	intron	sst	NEUROD1			Homo sapiens
+chr16	23878929	23878941	13	-	13.9241510868716	MA1109.1	intron	sst	NEUROD1			Homo sapiens
+chr16	23884196	23884208	13	-	14.0343437885191	MA1109.1	intron	sst	NEUROD1			Homo sapiens
+chr16	23885160	23885172	13	-	12.1120227045719	MA1109.1	intron	sst	NEUROD1			Homo sapiens
+chr16	23852177	23852187	11	-	10.6126612280514	MA0161.2	intron	sst	NFIC			Homo sapiens
+chr16	23889916	23889926	11	-	14.14359576435	MA0161.2	exon	sst	NFIC			Homo sapiens
+chr16	23852698	23852708	11	-	14.9102039258793	MA0060.3	intron	sst	NFYA			Homo sapiens
+chr16	23870507	23870517	11	-	15.2096692517702	MA0060.3	intron	sst	NFYA			Homo sapiens
+chr16	23877212	23877222	11	-	12.6452014097465	MA1110.1	intron	sst	NR1H4			Homo sapiens
+chr16	23876737	23876747	11	-	12.9922415787737	MA1111.1	intron	sst	NR2F2			Homo sapiens
+chr16	23853283	23853294	12	-	11.0371256271915	MA0014.3	intron	sst	PAX5			Homo sapiens
+chr16	23869798	23869809	12	-	10.8015977922562	MA0014.3	intron	sst	PAX5			Homo sapiens
+chr16	23888334	23888345	12	-	9.83900656602105	MA0014.3	intron	sst	PAX5			Homo sapiens
+chr16	23876696	23876712	17	-	12.4737343203601	MA1114.1	intron	sst	PBX3			Homo sapiens
+chr16	23878861	23878877	17	-	11.3719097509816	MA1114.1	intron	sst	PBX3			Homo sapiens
+chr16	23850794	23850804	11	-	14.0681035474779	MA1115.1	intron	sst	POU5F1			Homo sapiens
+chr16	23861904	23861914	11	-	14.268765168794	MA1115.1	intron	sst	POU5F1			Homo sapiens
+chr16	23868034	23868044	11	-	14.6367697155095	MA1115.1	intron	sst	POU5F1			Homo sapiens
+chr16	23870543	23870553	11	-	15.2951979022977	MA1115.1	intron	sst	POU5F1			Homo sapiens
+chr16	23874896	23874906	11	-	14.2755151219669	MA1115.1	intron	sst	POU5F1			Homo sapiens
+chr16	23852134	23852143	10	-	12.6386429272098	MA1116.1	intron	sst	RBPJ			Homo sapiens
+chr16	23852238	23852247	10	-	12.7180225157489	MA1116.1	intron	sst	RBPJ			Homo sapiens
+chr16	23855671	23855680	10	-	12.4641175989014	MA1116.1	intron	sst	RBPJ			Homo sapiens
+chr16	23866626	23866635	10	-	12.0116217744655	MA1116.1	intron	sst	RBPJ			Homo sapiens
+chr16	23869678	23869687	10	-	12.7323318038053	MA1116.1	intron	sst	RBPJ			Homo sapiens
+chr16	23881441	23881451	11	-	12.6961871092838	MA1117.1	intron	sst	RELB			Homo sapiens
+chr16	23881836	23881846	11	-	10.7114832973431	MA1117.1	intron	sst	RELB			Homo sapiens
+chr16	23856968	23856978	11	-	14.2823980278429	MA1118.1	intron	sst	SIX1			Homo sapiens
+chr16	23863660	23863670	11	-	13.7291982906891	MA1118.1	intron	sst	SIX1			Homo sapiens
+chr16	23883935	23883945	11	-	13.8554398580354	MA1118.1	intron	sst	SIX1			Homo sapiens
+chr16	23856967	23856982	16	-	13.2945170836747	MA1119.1	intron	sst	SIX2			Homo sapiens
+chr16	23863659	23863674	16	-	14.1174428046946	MA1119.1	intron	sst	SIX2			Homo sapiens
+chr16	23849849	23849859	11	-	14.4457109559568	MA0442.2	intron	sst	SOX10			Homo sapiens
+chr16	23864142	23864152	11	-	15.4853371749168	MA0442.2	intron	sst	SOX10			Homo sapiens
+chr16	23864888	23864898	11	-	13.9536525843992	MA0442.2	intron	sst	SOX10			Homo sapiens
+chr16	23874131	23874141	11	-	13.9102654138532	MA0442.2	intron	sst	SOX10			Homo sapiens
+chr16	23878988	23878998	11	-	15.4517782686905	MA0442.2	intron	sst	SOX10			Homo sapiens
+chr16	23862953	23862963	11	-	13.2571854030067	MA1120.1	intron	sst	SOX13			Homo sapiens
+chr16	23869836	23869846	11	-	13.2364446239183	MA1120.1	intron	sst	SOX13			Homo sapiens
+chr16	23871138	23871148	11	-	13.9146764407707	MA1120.1	intron	sst	SOX13			Homo sapiens
+chr16	23885193	23885203	11	-	14.6982165055009	MA1120.1	intron	sst	SOX13			Homo sapiens
+chr16	23853165	23853177	13	-	12.2747992563523	MA1121.1	intron	sst	TEAD2			Homo sapiens
+chr16	23853018	23853028	11	-	8.97327972917551	MA1122.1	intron	sst	TFDP1			Homo sapiens
+chr16	23882956	23882966	11	-	11.5301246893084	MA1122.1	intron	sst	TFDP1			Homo sapiens
+chr16	23853095	23853107	13	-	10.1056589963407	MA0750.2	intron	sst	ZBTB7A			Homo sapiens
+chr16	23864945	23864957	13	-	9.89431467359354	MA0750.2	intron	sst	ZBTB7A			Homo sapiens
+chr16	23866033	23866045	13	-	12.1038132029542	MA0750.2	intron	sst	ZBTB7A			Homo sapiens
+chr16	23875705	23875717	13	-	11.0014807631871	MA0750.2	intron	sst	ZBTB7A			Homo sapiens
+chr16	23880416	23880428	13	-	9.83626993257774	MA0750.2	intron	sst	ZBTB7A			Homo sapiens
+chr16	23875495	23875505	11	-	11.0670611115332	MA0103.3	intron	sst	ZEB1			Homo sapiens
+chr16	23879128	23879138	11	-	11.0382842843014	MA0103.3	intron	sst	ZEB1			Homo sapiens
+chr16	23854733	23854745	13	-	14.7522075888809	MA1124.1	intron	sst	ZNF24			Homo sapiens
+chr16	23860089	23860101	13	-	13.235457360857	MA1124.1	intron	sst	ZNF24			Homo sapiens
+chr16	23880933	23880945	13	-	12.1872898330508	MA1124.1	intron	sst	ZNF24			Homo sapiens
+chr16	23852848	23852859	12	-	16.9054476385154	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23852849	23852860	12	-	18.0976658081939	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23852850	23852861	12	-	19.0750302097923	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23865728	23865739	12	-	17.0101512874396	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23867334	23867345	12	-	18.1624423746842	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23867335	23867346	12	-	17.5858452263714	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23876158	23876169	12	-	16.8133840010617	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23876604	23876615	12	-	17.9278535965514	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23876605	23876616	12	-	18.2370547248126	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23877883	23877894	12	-	17.0101512874396	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23877916	23877927	12	-	17.1830142150043	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23877917	23877928	12	-	18.5146213013015	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886261	23886272	12	-	16.8485476455358	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886262	23886273	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886263	23886274	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886264	23886275	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886265	23886276	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886266	23886277	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886267	23886278	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886268	23886279	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886269	23886280	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886270	23886281	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886271	23886282	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886272	23886283	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886273	23886284	12	-	19.6794734041922	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886274	23886285	12	-	18.1675904525127	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886275	23886286	12	-	18.7275389889847	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886276	23886287	12	-	17.6413240407077	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23886277	23886288	12	-	18.3323734744203	MA1125.1	intron	sst	ZNF384			Homo sapiens
+chr16	23854498	23854514	17	-	11.1482609893982	MA1154.1	intron	sst	ZNF282			Homo sapiens
+chr16	23869948	23869964	17	-	6.66314644002837	MA1154.1	intron	sst	ZNF282			Homo sapiens
+chr16	23876944	23876960	17	-	8.1964425156891	MA1154.1	intron	sst	ZNF282			Homo sapiens
+chr16	23869941	23869955	15	-	13.6086692590935	MA1155.1	intron	sst	ZSCAN4			Homo sapiens
+chr16	23870899	23870913	15	-	5.08214424779092	MA1155.1	intron	sst	ZSCAN4			Homo sapiens
+chr16	23878325	23878339	15	-	20.9395105722749	MA1155.1	intron	sst	ZSCAN4			Homo sapiens
+chr16	23881870	23881884	15	-	5.14670783335662	MA1155.1	intron	sst	ZSCAN4			Homo sapiens
+chr16	23886199	23886213	15	-	8.20404603012854	MA1155.1	intron	sst	ZSCAN4			Homo sapiens
+chr16	23886991	23887000	10	-	14.4210232014538	MA0099.3	intron	sst	FOS::JUN			Homo sapiens
+chr16	23854227	23854239	13	-	13.0427765572331	MA1128.1	intron	sst	FOSL1::JUN			Homo sapiens
+chr16	23877260	23877272	13	-	12.9258158873834	MA1128.1	intron	sst	FOSL1::JUN			Homo sapiens
+chr16	23886991	23887002	12	-	15.1396866406621	MA1130.1	intron	sst	FOSL2::JUN			Homo sapiens
+chr16	23877262	23877271	10	-	13.5324675658512	MA1132.1	intron	sst	JUN::JUNB			Homo sapiens
+chr16	23856476	23856487	12	-	13.7304714046065	MA1133.1	intron	sst	JUN::JUNB(var.2)			Homo sapiens
+chr16	23886990	23887001	12	-	15.1237755018283	MA1134.1	intron	sst	FOS::JUNB			Homo sapiens
+chr16	23854229	23854238	10	-	13.4457463135896	MA1135.1	intron	sst	FOSB::JUNB			Homo sapiens
+chr16	23886992	23887001	10	-	13.8048586702343	MA1135.1	intron	sst	FOSB::JUNB			Homo sapiens
+chr16	23853281	23853290	10	-	12.1639604971104	MA1136.1	intron	sst	FOSB::JUNB(var.2)			Homo sapiens
+chr16	23854229	23854238	10	-	13.3215894713601	MA1138.1	intron	sst	FOSL2::JUNB			Homo sapiens
+chr16	23886992	23887001	10	-	13.8731683672704	MA1138.1	intron	sst	FOSL2::JUNB			Homo sapiens
+chr16	23886990	23887002	13	-	15.3567196168358	MA1141.1	intron	sst	FOS::JUND			Homo sapiens
+chr16	23877262	23877271	10	-	12.7626241699104	MA1142.1	intron	sst	FOSL1::JUND			Homo sapiens
+chr16	23854229	23854238	10	-	13.3183519069338	MA1144.1	intron	sst	FOSL2::JUND			Homo sapiens
+chr16	23886992	23887001	10	-	13.6988003291541	MA1144.1	intron	sst	FOSL2::JUND			Homo sapiens
+chr16	23856474	23856488	15	-	12.5585078889127	MA1145.1	intron	sst	FOSL2::JUND(var.2)			Homo sapiens
+chr16	23854185	23854199	15	-	11.0323742984903	MA1146.1	intron	sst	NR1H4::RXRA			Homo sapiens
+chr16	23856971	23856985	15	-	12.7562555881514	MA1146.1	intron	sst	NR1H4::RXRA			Homo sapiens
+chr16	23858595	23858609	15	-	11.8997105142773	MA1146.1	intron	sst	NR1H4::RXRA			Homo sapiens
+chr16	23862679	23862693	15	-	11.276106813296	MA1146.1	intron	sst	NR1H4::RXRA			Homo sapiens
+chr16	23864752	23864766	15	-	11.3078189880993	MA1146.1	intron	sst	NR1H4::RXRA			Homo sapiens
+chr16	23871017	23871031	15	-	13.4942431378754	MA1146.1	intron	sst	NR1H4::RXRA			Homo sapiens
+chr16	23856971	23856985	15	-	12.1891649156145	MA1147.1	intron	sst	NR4A2::RXRA			Homo sapiens
+chr16	23858595	23858609	15	-	11.9620356266262	MA1147.1	intron	sst	NR4A2::RXRA			Homo sapiens
+chr16	23864752	23864766	15	-	11.2269280119013	MA1147.1	intron	sst	NR4A2::RXRA			Homo sapiens
+chr16	23871017	23871031	15	-	10.9942048607422	MA1147.1	intron	sst	NR4A2::RXRA			Homo sapiens
+chr16	23890341	23890355	15	-	12.7160900656546	MA1147.1	intron	sst	NR4A2::RXRA			Homo sapiens
+chr16	23880694	23880711	18	-	12.8134505173674	MA1148.1	intron	sst	PPARA::RXRA			Homo sapiens
+chr16	23859097	23859114	18	-	11.7520813277629	MA1149.1	intron	sst	RARA::RXRG			Homo sapiens
+chr16	23883474	23883491	18	-	13.5519104005424	MA1149.1	intron	sst	RARA::RXRG			Homo sapiens
+chr16	23871024	23871034	11	-	13.3342472630869	MA1150.1	intron	sst	RORB			Homo sapiens
+chr16	23850193	23850202	10	-	14.250800826389	MA1152.1	intron	sst	SOX15			Homo sapiens
+chr16	23877031	23877040	10	-	13.0275576936745	MA1152.1	intron	sst	SOX15			Homo sapiens
+chr16	23851975	23851995	21	-	7.78585451885691	MA1418.1	intron	sst	IRF3			Homo sapiens
+chr16	23861903	23861923	21	-	8.28213397320404	MA1418.1	intron	sst	IRF3			Homo sapiens
+chr16	23863093	23863113	21	-	9.08423937917524	MA1418.1	intron	sst	IRF3			Homo sapiens
+chr16	23864564	23864584	21	-	12.8437219925954	MA1418.1	intron	sst	IRF3			Homo sapiens
+chr16	23865726	23865746	21	-	7.01362733764925	MA1418.1	intron	sst	IRF3			Homo sapiens
+chr16	23867620	23867640	21	-	8.68942969006783	MA1418.1	intron	sst	IRF3			Homo sapiens
+chr16	23872344	23872364	21	-	14.4141013337735	MA1418.1	intron	sst	IRF3			Homo sapiens
+chr16	23862760	23862774	15	-	6.67122381905277	MA1419.1	intron	sst	IRF4			Homo sapiens
+chr16	23852029	23852042	14	-	12.8206982172027	MA1420.1	intron	sst	IRF5			Homo sapiens
+chr16	23872274	23872287	14	-	12.1736840803845	MA1420.1	intron	sst	IRF5			Homo sapiens
+chr16	23864371	23864382	12	-	12.3073245432329	MA1421.1	intron	sst	TCF7L1			Homo sapiens
+chr16	23866980	23866991	12	-	12.8433048181712	MA1421.1	intron	sst	TCF7L1			Homo sapiens
+chr16	23869252	23869263	12	-	12.7110125625057	MA1421.1	intron	sst	TCF7L1			Homo sapiens
+chr16	23871788	23871799	12	-	12.7983920622641	MA1421.1	intron	sst	TCF7L1			Homo sapiens
+chr16	23888547	23888558	12	-	15.832711165016	MA1421.1	intron	sst	TCF7L1			Homo sapiens
+chr16	23860174	23860183	10	-	13.7551826980759	MA1464.1	intron	sst	ARNT2			Homo sapiens
+chr16	23865101	23865110	10	-	12.2685441674893	MA1467.1	intron	sst	ATOH1(var.2)			Homo sapiens
+chr16	23889336	23889345	10	-	15.0834330440022	MA1467.1	intron	sst	ATOH1(var.2)			Homo sapiens
+chr16	23878038	23878047	10	-	13.0234361459492	MA1468.1	intron	sst	ATOH7			Homo sapiens
+chr16	23879819	23879828	10	-	14.174720356681	MA1468.1	intron	sst	ATOH7			Homo sapiens
+chr16	23887175	23887184	10	-	14.3770962214431	MA1468.1	intron	sst	ATOH7			Homo sapiens
+chr16	23854224	23854242	19	-	13.1413636974167	MA1101.2	intron	sst	BACH2			Homo sapiens
+chr16	23886987	23887005	19	-	14.6753659283576	MA1101.2	intron	sst	BACH2			Homo sapiens
+chr16	23853276	23853295	20	-	6.15247317228429	MA1470.1	intron	sst	BACH2(var.2)			Homo sapiens
+chr16	23866251	23866270	20	-	6.28130089638904	MA1470.1	intron	sst	BACH2(var.2)			Homo sapiens
+chr16	23862849	23862860	12	-	15.7896640706959	MA1471.1	intron	sst	BARX2			Homo sapiens
+chr16	23883207	23883218	12	-	15.0961625167425	MA1471.1	intron	sst	BARX2			Homo sapiens
+chr16	23859767	23859776	10	-	11.8763306727239	MA1472.1	intron	sst	BHLHA15(var.2)			Homo sapiens
+chr16	23865101	23865110	10	-	11.8275447756315	MA1472.1	intron	sst	BHLHA15(var.2)			Homo sapiens
+chr16	23889336	23889345	10	-	12.0159032593428	MA1472.1	intron	sst	BHLHA15(var.2)			Homo sapiens
+chr16	23883400	23883410	11	-	17.7076626494611	MA1473.1	intron	sst	CDX4			Homo sapiens
+chr16	23889435	23889445	11	-	16.4439600578898	MA1473.1	intron	sst	CDX4			Homo sapiens
+chr16	23881464	23881475	12	-	11.5066384311044	MA1475.1	intron	sst	CREB3L4(var.2)			Homo sapiens
+chr16	23865822	23865833	12	-	16.310277237932	MA1478.1	intron	sst	DMRTA2			Homo sapiens
+chr16	23854581	23854592	12	-	14.4412344332507	MA1479.1	intron	sst	DMRTC2			Homo sapiens
+chr16	23860683	23860694	12	-	15.7744257365448	MA1479.1	intron	sst	DMRTC2			Homo sapiens
+chr16	23865822	23865833	12	-	18.3708604978037	MA1479.1	intron	sst	DMRTC2			Homo sapiens
+chr16	23882999	23883008	10	-	12.8130257272312	MA1480.1	intron	sst	DPRX			Homo sapiens
+chr16	23864947	23864958	12	-	10.6838742036385	MA1483.1	intron	sst	ELF2			Homo sapiens
+chr16	23853098	23853107	10	-	11.7180470845792	MA1484.1	intron	sst	ETS2			Homo sapiens
+chr16	23872961	23872970	10	-	11.4189881187494	MA1484.1	intron	sst	ETS2			Homo sapiens
+chr16	23864614	23864628	15	-	13.6469999863952	MA1487.1	intron	sst	FOXE1			Homo sapiens
+chr16	23872078	23872092	15	-	22.6668578615032	MA1487.1	intron	sst	FOXE1			Homo sapiens
+chr16	23872483	23872497	15	-	14.4910164882629	MA1487.1	intron	sst	FOXE1			Homo sapiens
+chr16	23878404	23878418	15	-	13.5295668896147	MA1487.1	intron	sst	FOXE1			Homo sapiens
+chr16	23862277	23862291	15	-	9.93132226224086	MA1491.1	intron	sst	GLI3			Homo sapiens
+chr16	23871166	23871180	15	-	10.7602191549752	MA1491.1	intron	sst	GLI3			Homo sapiens
+chr16	23885451	23885465	15	-	7.31315898628036	MA1491.1	intron	sst	GLI3			Homo sapiens
+chr16	23886136	23886150	15	-	14.900939502384	MA1491.1	intron	sst	GLI3			Homo sapiens
+chr16	23870306	23870315	10	-	12.6976174490366	MA1493.1	intron	sst	HES6			Homo sapiens
+chr16	23851525	23851539	15	-	10.2625346014096	MA1494.1	intron	sst	HNF4A(var.2)			Homo sapiens
+chr16	23851674	23851688	15	-	8.64700010556923	MA1494.1	intron	sst	HNF4A(var.2)			Homo sapiens
+chr16	23867001	23867015	15	-	9.13799492242641	MA1494.1	intron	sst	HNF4A(var.2)			Homo sapiens
+chr16	23849920	23849929	10	-	13.4676936139142	MA1501.1	intron	sst	HOXB7			Homo sapiens
+chr16	23863726	23863737	12	-	12.7783096003139	MA1508.1	intron	sst	IKZF1			Homo sapiens
+chr16	23864654	23864665	12	-	13.8298384596245	MA1508.1	intron	sst	IKZF1			Homo sapiens
+chr16	23877866	23877877	12	-	12.8709858189408	MA1508.1	intron	sst	IKZF1			Homo sapiens
+chr16	23879537	23879548	12	-	14.8269196216355	MA1508.1	intron	sst	IKZF1			Homo sapiens
+chr16	23883948	23883959	12	-	13.3400552051283	MA1508.1	intron	sst	IKZF1			Homo sapiens
+chr16	23858313	23858323	11	-	9.74380025690051	MA1511.1	intron	sst	KLF10			Homo sapiens
+chr16	23858347	23858357	11	-	12.6228937790789	MA1511.1	intron	sst	KLF10			Homo sapiens
+chr16	23884571	23884581	11	-	10.3862354326374	MA1511.1	intron	sst	KLF10			Homo sapiens
+chr16	23885451	23885461	11	-	10.1175608006687	MA1511.1	intron	sst	KLF10			Homo sapiens
+chr16	23855950	23855960	11	-	9.5531284279174	MA1512.1	intron	sst	KLF11			Homo sapiens
+chr16	23858347	23858357	11	-	13.2183912621294	MA1512.1	intron	sst	KLF11			Homo sapiens
+chr16	23860773	23860783	11	-	10.5067302214204	MA1512.1	intron	sst	KLF11			Homo sapiens
+chr16	23860779	23860789	11	-	9.01494608815111	MA1512.1	intron	sst	KLF11			Homo sapiens
+chr16	23885451	23885461	11	-	8.93661638271193	MA1512.1	intron	sst	KLF11			Homo sapiens
+chr16	23886234	23886244	11	-	8.69374118823636	MA1512.1	intron	sst	KLF11			Homo sapiens
+chr16	23890665	23890675	11	-	6.65951690384349	MA1513.1	exon	sst	KLF15			Homo sapiens
+chr16	23870318	23870332	15	-	7.96915992230522	MA1514.1	intron	sst	KLF17			Homo sapiens
+chr16	23871376	23871390	15	-	7.94261098723655	MA1514.1	intron	sst	KLF17			Homo sapiens
+chr16	23872862	23872876	15	-	8.72610266980583	MA1514.1	intron	sst	KLF17			Homo sapiens
+chr16	23872910	23872924	15	-	8.72610266980583	MA1514.1	intron	sst	KLF17			Homo sapiens
+chr16	23885443	23885457	15	-	10.1249522177218	MA1514.1	intron	sst	KLF17			Homo sapiens
+chr16	23887552	23887566	15	-	14.5671803518383	MA1514.1	intron	sst	KLF17			Homo sapiens
+chr16	23889975	23889989	15	-	7.44715689752807	MA1514.1	intron	sst	KLF17			Homo sapiens
+chr16	23858348	23858358	11	-	10.4614453305265	MA1515.1	intron	sst	KLF2			Homo sapiens
+chr16	23865064	23865074	11	-	9.52941964623407	MA1515.1	intron	sst	KLF2			Homo sapiens
+chr16	23886235	23886245	11	-	10.6200771082898	MA1515.1	intron	sst	KLF2			Homo sapiens
+chr16	23884572	23884582	11	-	8.14071863100339	MA1516.1	intron	sst	KLF3			Homo sapiens
+chr16	23858348	23858358	11	-	10.5855396623201	MA1517.1	intron	sst	KLF6			Homo sapiens
+chr16	23865766	23865776	11	-	10.3075958094775	MA1517.1	intron	sst	KLF6			Homo sapiens
+chr16	23886235	23886245	11	-	10.4086026098238	MA1517.1	intron	sst	KLF6			Homo sapiens
+chr16	23872029	23872043	15	-	13.3977342929055	MA1520.1	intron	sst	MAF			Homo sapiens
+chr16	23878827	23878841	15	-	12.4811937004761	MA1520.1	intron	sst	MAF			Homo sapiens
+chr16	23886541	23886555	15	-	11.8138767909781	MA1520.1	intron	sst	MAF			Homo sapiens
+chr16	23872029	23872043	15	-	10.7721871232505	MA1521.1	intron	sst	MAFA			Homo sapiens
+chr16	23878827	23878841	15	-	11.864706458104	MA1521.1	intron	sst	MAFA			Homo sapiens
+chr16	23854285	23854295	11	-	12.6744881805896	MA1522.1	intron	sst	MAZ			Homo sapiens
+chr16	23873765	23873775	11	-	13.4895929855688	MA1522.1	intron	sst	MAZ			Homo sapiens
+chr16	23873810	23873820	11	-	12.6857768208262	MA1522.1	intron	sst	MAZ			Homo sapiens
+chr16	23881373	23881383	11	-	9.77242969964221	MA1522.1	intron	sst	MAZ			Homo sapiens
+chr16	23881438	23881448	11	-	6.44914604800678	MA1522.1	intron	sst	MAZ			Homo sapiens
+chr16	23883848	23883858	11	-	12.6220250584898	MA1522.1	intron	sst	MAZ			Homo sapiens
+chr16	23868808	23868817	10	-	11.5231182433433	MA1523.1	intron	sst	MSANTD3			Homo sapiens
+chr16	23859184	23859195	12	-	13.6284925529198	MA1524.1	intron	sst	MSGN1			Homo sapiens
+chr16	23868019	23868030	12	-	11.6255970525846	MA1524.1	intron	sst	MSGN1			Homo sapiens
+chr16	23879818	23879829	12	-	13.4597453908662	MA1524.1	intron	sst	MSGN1			Homo sapiens
+chr16	23887174	23887185	12	-	12.1741243093439	MA1524.1	intron	sst	MSGN1			Homo sapiens
+chr16	23850732	23850741	10	-	13.6714649662977	MA1525.1	intron	sst	NFATC4			Homo sapiens
+chr16	23863961	23863970	10	-	14.0780422049153	MA1525.1	intron	sst	NFATC4			Homo sapiens
+chr16	23871135	23871144	10	-	14.998535637613	MA1525.1	intron	sst	NFATC4			Homo sapiens
+chr16	23878142	23878151	10	-	14.4789815339095	MA1525.1	intron	sst	NFATC4			Homo sapiens
+chr16	23850795	23850811	17	-	4.29728557819937	MA1527.1	intron	sst	NFIC(var.2)			Homo sapiens
+chr16	23851171	23851187	17	-	4.06939303362786	MA1527.1	intron	sst	NFIC(var.2)			Homo sapiens
+chr16	23852825	23852841	17	-	4.64584637389811	MA1527.1	intron	sst	NFIC(var.2)			Homo sapiens
+chr16	23852883	23852899	17	-	3.75089877064153	MA1527.1	intron	sst	NFIC(var.2)			Homo sapiens
+chr16	23851171	23851187	17	-	9.86903326896213	MA1528.1	intron	sst	NFIX(var.2)			Homo sapiens
+chr16	23852883	23852899	17	-	11.358600926894	MA1528.1	intron	sst	NFIX(var.2)			Homo sapiens
+chr16	23859599	23859615	17	-	8.61080066448105	MA1528.1	intron	sst	NFIX(var.2)			Homo sapiens
+chr16	23877490	23877506	17	-	7.40684627263523	MA1528.1	intron	sst	NFIX(var.2)			Homo sapiens
+chr16	23881332	23881348	17	-	8.2062634540211	MA1528.1	intron	sst	NFIX(var.2)			Homo sapiens
+chr16	23850339	23850356	18	-	7.40327054746227	MA1529.1	intron	sst	NHLH2			Homo sapiens
+chr16	23852662	23852679	18	-	6.11840822318061	MA1529.1	intron	sst	NHLH2			Homo sapiens
+chr16	23853083	23853100	18	-	8.45070657036253	MA1529.1	intron	sst	NHLH2			Homo sapiens
+chr16	23878236	23878253	18	-	6.45966151233218	MA1529.1	intron	sst	NHLH2			Homo sapiens
+chr16	23887487	23887504	18	-	7.47647813989801	MA1529.1	intron	sst	NHLH2			Homo sapiens
+chr16	23868068	23868082	15	-	10.7964826473229	MA1531.1	intron	sst	NR1D1			Homo sapiens
+chr16	23870311	23870325	15	-	8.60985243956706	MA1531.1	intron	sst	NR1D1			Homo sapiens
+chr16	23868068	23868082	15	-	16.6697585618476	MA1532.1	intron	sst	NR1D2			Homo sapiens
+chr16	23851250	23851266	17	-	13.8734824425502	MA1533.1	intron	sst	NR1I2			Homo sapiens
+chr16	23886674	23886690	17	-	11.0591908988691	MA1533.1	intron	sst	NR1I2			Homo sapiens
+chr16	23851525	23851539	15	-	9.85076005675887	MA1537.1	intron	sst	NR2F1(var.2)			Homo sapiens
+chr16	23851674	23851688	15	-	8.12776336089358	MA1537.1	intron	sst	NR2F1(var.2)			Homo sapiens
+chr16	23854185	23854199	15	-	8.92698664795592	MA1538.1	intron	sst	NR2F1(var.3)			Homo sapiens
+chr16	23856971	23856985	15	-	8.16997350059972	MA1538.1	intron	sst	NR2F1(var.3)			Homo sapiens
+chr16	23858595	23858609	15	-	9.07228344144722	MA1538.1	intron	sst	NR2F1(var.3)			Homo sapiens
+chr16	23871017	23871031	15	-	12.2214342335623	MA1538.1	intron	sst	NR2F1(var.3)			Homo sapiens
+chr16	23890341	23890355	15	-	12.9442007837841	MA1538.1	intron	sst	NR2F1(var.3)			Homo sapiens
+chr16	23856971	23856985	15	-	6.51997918164847	MA1539.1	intron	sst	NR2F6(var.3)			Homo sapiens
+chr16	23871017	23871031	15	-	10.8121778468695	MA1539.1	intron	sst	NR2F6(var.3)			Homo sapiens
+chr16	23890341	23890355	15	-	12.5321622626605	MA1539.1	intron	sst	NR2F6(var.3)			Homo sapiens
+chr16	23858299	23858309	11	-	11.5019741460178	MA1540.1	intron	sst	NR5A1			Homo sapiens
+chr16	23864359	23864369	11	-	12.3358960155759	MA1540.1	intron	sst	NR5A1			Homo sapiens
+chr16	23875158	23875168	11	-	13.0810734730266	MA1540.1	intron	sst	NR5A1			Homo sapiens
+chr16	23879954	23879964	11	-	12.4093178694785	MA1540.1	intron	sst	NR5A1			Homo sapiens
+chr16	23871027	23871043	17	-	12.541391183561	MA1541.1	intron	sst	NR6A1			Homo sapiens
+chr16	23876738	23876754	17	-	15.432085889905	MA1541.1	intron	sst	NR6A1			Homo sapiens
+chr16	23850405	23850414	10	-	12.0380412589147	MA1542.1	intron	sst	OSR1			Homo sapiens
+chr16	23858395	23858404	10	-	11.2797558303903	MA1542.1	intron	sst	OSR1			Homo sapiens
+chr16	23882393	23882402	10	-	14.1717524996254	MA1542.1	intron	sst	OSR1			Homo sapiens
+chr16	23887477	23887486	10	-	14.8387519148259	MA1542.1	intron	sst	OSR1			Homo sapiens
+chr16	23858310	23858325	16	-	11.2909917364662	MA1546.1	intron	sst	PAX3(var.2)			Homo sapiens
+chr16	23860466	23860475	10	-	9.09062297669251	MA1548.1	intron	sst	PLAGL2			Homo sapiens
+chr16	23873375	23873384	10	-	8.40547465134849	MA1548.1	intron	sst	PLAGL2			Homo sapiens
+chr16	23877490	23877499	10	-	9.20286260866501	MA1548.1	intron	sst	PLAGL2			Homo sapiens
+chr16	23889650	23889659	10	-	8.73904420242267	MA1548.1	exon	sst	PLAGL2			Homo sapiens
+chr16	23862672	23862681	10	-	14.0445232886494	MA1549.1	intron	sst	POU6F1(var.2)			Homo sapiens
+chr16	23876592	23876601	10	-	14.0445232886494	MA1549.1	intron	sst	POU6F1(var.2)			Homo sapiens
+chr16	23878164	23878173	10	-	14.820292208205	MA1549.1	intron	sst	POU6F1(var.2)			Homo sapiens
+chr16	23851525	23851540	16	-	9.66361777825671	MA1550.1	intron	sst	PPARD			Homo sapiens
+chr16	23851674	23851689	16	-	9.75346837578074	MA1550.1	intron	sst	PPARD			Homo sapiens
+chr16	23869221	23869234	14	-	13.9135890123602	MA1553.1	intron	sst	RARG(var.3)			Homo sapiens
+chr16	23869221	23869234	14	-	11.0384867978898	MA1555.1	intron	sst	RXRB(var.2)			Homo sapiens
+chr16	23871018	23871031	14	-	9.79950756805727	MA1555.1	intron	sst	RXRB(var.2)			Homo sapiens
+chr16	23871018	23871031	14	-	7.90724018183158	MA1556.1	intron	sst	RXRG(var.2)			Homo sapiens
+chr16	23853867	23853876	10	-	11.6642253891625	MA1557.1	intron	sst	SMAD5			Homo sapiens
+chr16	23869727	23869736	10	-	12.5316571017541	MA1557.1	intron	sst	SMAD5			Homo sapiens
+chr16	23890785	23890794	10	-	11.1257535976688	MA1557.1	exon	sst	SMAD5			Homo sapiens
+chr16	23853033	23853042	10	-	11.5855652117984	MA1558.1	intron	sst	SNAI1			Homo sapiens
+chr16	23879576	23879585	10	-	12.1257646169372	MA1558.1	intron	sst	SNAI1			Homo sapiens
+chr16	23883621	23883630	10	-	11.4991109193994	MA1558.1	intron	sst	SNAI1			Homo sapiens
+chr16	23890545	23890554	10	-	12.0836090050113	MA1558.1	intron	sst	SNAI1			Homo sapiens
+chr16	23853033	23853042	10	-	13.0693222594212	MA1559.1	intron	sst	SNAI3			Homo sapiens
+chr16	23879576	23879585	10	-	13.262729503583	MA1559.1	intron	sst	SNAI3			Homo sapiens
+chr16	23890545	23890554	10	-	11.2777070012569	MA1559.1	intron	sst	SNAI3			Homo sapiens
+chr16	23884751	23884760	10	-	11.420369378168	MA1560.1	intron	sst	SOHLH2			Homo sapiens
+chr16	23852488	23852497	10	-	14.41054857242	MA1562.1	intron	sst	SOX14			Homo sapiens
+chr16	23855949	23855960	12	-	9.79571444619041	MA1564.1	intron	sst	SP9			Homo sapiens
+chr16	23858346	23858357	12	-	9.58308557180179	MA1564.1	intron	sst	SP9			Homo sapiens
+chr16	23860772	23860783	12	-	10.2565470613	MA1564.1	intron	sst	SP9			Homo sapiens
+chr16	23884570	23884581	12	-	9.73586770080754	MA1564.1	intron	sst	SP9			Homo sapiens
+chr16	23850122	23850133	12	-	11.7912103456815	MA1565.1	intron	sst	TBX18			Homo sapiens
+chr16	23866030	23866041	12	-	11.6837775918006	MA1565.1	intron	sst	TBX18			Homo sapiens
+chr16	23876106	23876117	12	-	12.1579834817774	MA1565.1	intron	sst	TBX18			Homo sapiens
+chr16	23852728	23852739	12	-	12.537270947275	MA1568.1	intron	sst	TCF21(var.2)			Homo sapiens
+chr16	23878037	23878048	12	-	12.131683398098	MA1568.1	intron	sst	TCF21(var.2)			Homo sapiens
+chr16	23878344	23878355	12	-	11.8647327397943	MA1568.1	intron	sst	TCF21(var.2)			Homo sapiens
+chr16	23879818	23879829	12	-	15.7583946690004	MA1568.1	intron	sst	TCF21(var.2)			Homo sapiens
+chr16	23887174	23887185	12	-	12.4207190475973	MA1568.1	intron	sst	TCF21(var.2)			Homo sapiens
+chr16	23865284	23865294	11	-	9.48198248662769	MA1569.1	intron	sst	TFAP2E			Homo sapiens
+chr16	23869192	23869202	11	-	12.6821364254528	MA1569.1	intron	sst	TFAP2E			Homo sapiens
+chr16	23873271	23873281	11	-	10.2550128906077	MA1569.1	intron	sst	TFAP2E			Homo sapiens
+chr16	23884315	23884325	11	-	11.5808928655153	MA1569.1	intron	sst	TFAP2E			Homo sapiens
+chr16	23884424	23884434	11	-	9.20089959983175	MA1569.1	intron	sst	TFAP2E			Homo sapiens
+chr16	23885833	23885843	11	-	9.31725770311043	MA1569.1	intron	sst	TFAP2E			Homo sapiens
+chr16	23889852	23889862	11	-	12.3843081689747	MA1569.1	exon	sst	TFAP2E			Homo sapiens
+chr16	23890751	23890761	11	-	13.5918680424212	MA1569.1	exon	sst	TFAP2E			Homo sapiens
+chr16	23878038	23878047	10	-	13.6077503178315	MA1570.1	intron	sst	TFAP4(var.2)			Homo sapiens
+chr16	23879819	23879828	10	-	13.3977883808995	MA1570.1	intron	sst	TFAP4(var.2)			Homo sapiens
+chr16	23888640	23888649	10	-	14.1501465152767	MA1570.1	intron	sst	TFAP4(var.2)			Homo sapiens
+chr16	23874753	23874764	12	-	11.7312088830748	MA1571.1	intron	sst	TGIF2LX			Homo sapiens
+chr16	23878037	23878048	12	-	12.2467047455341	MA1571.1	intron	sst	TGIF2LX			Homo sapiens
+chr16	23871049	23871060	12	-	10.9305279793509	MA1572.1	intron	sst	TGIF2LY			Homo sapiens
+chr16	23874753	23874764	12	-	12.2064065977772	MA1572.1	intron	sst	TGIF2LY			Homo sapiens
+chr16	23878037	23878048	12	-	12.9585879679094	MA1572.1	intron	sst	TGIF2LY			Homo sapiens
+chr16	23863880	23863898	19	-	6.62198585769736	MA1573.1	intron	sst	THAP11			Homo sapiens
+chr16	23866908	23866926	19	-	6.02615582262798	MA1573.1	intron	sst	THAP11			Homo sapiens
+chr16	23869728	23869746	19	-	7.86691964579002	MA1573.1	intron	sst	THAP11			Homo sapiens
+chr16	23879690	23879708	19	-	6.3740245329828	MA1573.1	intron	sst	THAP11			Homo sapiens
+chr16	23851525	23851539	15	-	12.2429978212839	MA1574.1	intron	sst	THRB			Homo sapiens
+chr16	23851674	23851688	15	-	10.392695385606	MA1574.1	intron	sst	THRB			Homo sapiens
+chr16	23855338	23855356	19	-	13.5903998674065	MA1575.1	intron	sst	THRB(var.2)			Homo sapiens
+chr16	23860140	23860158	19	-	12.1941873038216	MA1575.1	intron	sst	THRB(var.2)			Homo sapiens
+chr16	23862099	23862117	19	-	8.02186787540085	MA1575.1	intron	sst	THRB(var.2)			Homo sapiens
+chr16	23850297	23850315	19	-	5.47727618108498	MA1576.1	intron	sst	THRB(var.3)			Homo sapiens
+chr16	23853282	23853300	19	-	15.8755199400731	MA1576.1	intron	sst	THRB(var.3)			Homo sapiens
+chr16	23860985	23861003	19	-	6.08228208163085	MA1576.1	intron	sst	THRB(var.3)			Homo sapiens
+chr16	23871276	23871294	19	-	16.5052071521151	MA1576.1	intron	sst	THRB(var.3)			Homo sapiens
+chr16	23874111	23874129	19	-	10.0309137739327	MA1576.1	intron	sst	THRB(var.3)			Homo sapiens
+chr16	23860793	23860802	10	-	11.58998811326	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23860795	23860804	10	-	10.2541089535623	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23867455	23867464	10	-	10.095089887353	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23882439	23882448	10	-	11.0156082496745	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23887543	23887552	10	-	10.095089887353	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23887544	23887553	10	-	10.7095049748967	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23887545	23887554	10	-	9.18951436732057	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23887546	23887555	10	-	9.18951436732057	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23887547	23887556	10	-	9.18951436732057	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23887548	23887557	10	-	9.18951436732057	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23889980	23889989	10	-	9.81531877451242	MA1578.1	intron	sst	VEZF1			Homo sapiens
+chr16	23853313	23853327	15	-	14.389180220063	MA1579.1	intron	sst	ZBTB26			Homo sapiens
+chr16	23864293	23864307	15	-	15.1413167449938	MA1579.1	intron	sst	ZBTB26			Homo sapiens
+chr16	23865905	23865919	15	-	15.2022036784388	MA1579.1	intron	sst	ZBTB26			Homo sapiens
+chr16	23869394	23869408	15	-	12.9611697960112	MA1579.1	intron	sst	ZBTB26			Homo sapiens
+chr16	23875033	23875047	15	-	14.9281708413937	MA1579.1	intron	sst	ZBTB26			Homo sapiens
+chr16	23875246	23875255	10	-	14.5767120748625	MA1580.1	intron	sst	ZBTB32			Homo sapiens
+chr16	23878631	23878640	10	-	17.8409764054533	MA1580.1	intron	sst	ZBTB32			Homo sapiens
+chr16	23862145	23862157	13	-	11.2873218328004	MA1581.1	intron	sst	ZBTB6			Homo sapiens
+chr16	23873314	23873326	13	-	10.5616370258859	MA1581.1	intron	sst	ZBTB6			Homo sapiens
+chr16	23878953	23878965	13	-	16.1949135429982	MA1581.1	intron	sst	ZBTB6			Homo sapiens
+chr16	23884831	23884843	13	-	10.0187393917688	MA1581.1	intron	sst	ZBTB6			Homo sapiens
+chr16	23889869	23889881	13	-	12.4439596864338	MA1581.1	exon	sst	ZBTB6			Homo sapiens
+chr16	23853562	23853577	16	-	4.30076054778778	MA1584.1	intron	sst	ZIC5			Homo sapiens
+chr16	23874354	23874369	16	-	4.88077035032909	MA1584.1	intron	sst	ZIC5			Homo sapiens
+chr16	23870948	23870961	14	-	7.48216877875453	MA1587.1	intron	sst	ZNF135			Homo sapiens
+chr16	23879117	23879130	14	-	7.11734114185266	MA1587.1	intron	sst	ZNF135			Homo sapiens
+chr16	23874905	23874919	15	-	11.3843190371104	MA1588.1	intron	sst	ZNF136			Homo sapiens
+chr16	23853929	23853949	21	-	8.67087136860704	MA1589.1	intron	sst	ZNF140			Homo sapiens
+chr16	23859896	23859916	21	-	7.44993693880926	MA1589.1	intron	sst	ZNF140			Homo sapiens
+chr16	23861903	23861923	21	-	7.99898058536053	MA1589.1	intron	sst	ZNF140			Homo sapiens
+chr16	23852076	23852091	16	-	16.196059668567	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23858181	23858196	16	-	13.8772345622365	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23859547	23859562	16	-	9.95271382234912	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23860166	23860181	16	-	14.0686726369871	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23863606	23863621	16	-	10.6008800530758	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23868665	23868680	16	-	10.7719129782392	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23880011	23880026	16	-	9.35013951004613	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23889556	23889571	16	-	12.0990975653355	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23890137	23890152	16	-	9.77901892441747	MA1592.1	intron	sst	ZNF274			Homo sapiens
+chr16	23852308	23852319	12	-	12.7971614599761	MA1593.1	intron	sst	ZNF317			Homo sapiens
+chr16	23868634	23868645	12	-	12.5708250038459	MA1593.1	intron	sst	ZNF317			Homo sapiens
+chr16	23880225	23880236	12	-	14.4410737526127	MA1593.1	intron	sst	ZNF317			Homo sapiens
+chr16	23880811	23880822	12	-	13.1333551604183	MA1593.1	intron	sst	ZNF317			Homo sapiens
+chr16	23888726	23888737	12	-	12.3834062588391	MA1593.1	intron	sst	ZNF317			Homo sapiens
+chr16	23866278	23866301	24	-	8.48901185640749	MA1594.1	intron	sst	ZNF382			Homo sapiens
+chr16	23875643	23875666	24	-	12.6635460068711	MA1594.1	intron	sst	ZNF382			Homo sapiens
+chr16	23853318	23853333	16	-	6.29503316864314	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23860923	23860938	16	-	14.1933191669806	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23869186	23869201	16	-	3.69070705698358	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23874457	23874472	16	-	3.76828086651094	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23875225	23875240	16	-	4.92448474745691	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23877409	23877424	16	-	3.94056154308323	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23879116	23879131	16	-	20.9730332113886	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23883852	23883867	16	-	4.51905231178536	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23890567	23890582	16	-	3.60425593522199	MA1596.1	intron	sst	ZNF460			Homo sapiens
+chr16	23861041	23861057	17	-	8.02084020408727	MA1597.1	intron	sst	ZNF528			Homo sapiens
+chr16	23890511	23890526	16	-	9.93235530846276	MA1599.1	intron	sst	ZNF682			Homo sapiens
+chr16	23854137	23854154	18	-	6.57847993079077	MA1600.1	intron	sst	ZNF684			Homo sapiens
+chr16	23865431	23865448	18	-	7.39533801298856	MA1600.1	intron	sst	ZNF684			Homo sapiens
+chr16	23884733	23884750	18	-	6.46712201133723	MA1600.1	intron	sst	ZNF684			Homo sapiens
+chr16	23852135	23852144	10	-	15.7414164919261	MA1601.1	intron	sst	ZNF75D			Homo sapiens
+chr16	23858016	23858025	10	-	11.5829374715394	MA1601.1	intron	sst	ZNF75D			Homo sapiens
+chr16	23866018	23866027	10	-	13.9444883208322	MA1601.1	intron	sst	ZNF75D			Homo sapiens
+chr16	23869679	23869688	10	-	16.6031761370374	MA1601.1	intron	sst	ZNF75D			Homo sapiens
+chr16	23872542	23872551	10	-	12.3364353414522	MA1601.1	intron	sst	ZNF75D			Homo sapiens
+chr16	23873199	23873208	10	-	12.1567793805258	MA1601.1	intron	sst	ZNF75D			Homo sapiens
+chr16	23876106	23876115	10	-	11.3553519093409	MA1601.1	intron	sst	ZNF75D			Homo sapiens
+chr16	23889167	23889176	10	-	14.9448906221528	MA1601.1	intron	sst	ZNF75D			Homo sapiens
+chr16	23853667	23853678	12	-	10.9191486244029	MA1602.1	intron	sst	ZSCAN29			Homo sapiens
+chr16	23879193	23879204	12	-	10.0253091039562	MA1602.1	intron	sst	ZSCAN29			Homo sapiens
+chr16	23879576	23879585	10	-	10.2296635826333	MA1100.2	intron	sst	ASCL1			Homo sapiens
+chr16	23887014	23887023	10	-	10.6114190832452	MA1100.2	intron	sst	ASCL1			Homo sapiens
+chr16	23889336	23889345	10	-	11.7605074301265	MA1100.2	intron	sst	ASCL1			Homo sapiens
+chr16	23877261	23877271	11	-	14.2940633601591	MA0462.2	intron	sst	BATF::JUN			Homo sapiens
+chr16	23852547	23852562	16	-	11.7608989958547	MA0463.2	intron	sst	BCL6			Homo sapiens
+chr16	23855697	23855712	16	-	12.2805254928748	MA0463.2	intron	sst	BCL6			Homo sapiens
+chr16	23872319	23872334	16	-	11.2613932019088	MA0463.2	intron	sst	BCL6			Homo sapiens
+chr16	23888523	23888538	16	-	12.460023735813	MA0463.2	intron	sst	BCL6			Homo sapiens
+chr16	23883400	23883410	11	-	17.0246701033062	MA0878.2	intron	sst	CDX1			Homo sapiens
+chr16	23889435	23889445	11	-	15.3060533433088	MA0878.2	intron	sst	CDX1			Homo sapiens
+chr16	23866148	23866163	16	-	6.12476426909674	MA0469.3	intron	sst	E2F3			Homo sapiens
+chr16	23866192	23866207	16	-	7.38356522406293	MA0469.3	intron	sst	E2F3			Homo sapiens
+chr16	23849794	23849806	13	-	15.4965494394464	MA0847.2	intron	sst	FOXD2			Homo sapiens
+chr16	23868008	23868020	13	-	15.6893092341552	MA0847.2	intron	sst	FOXD2			Homo sapiens
+chr16	23872079	23872091	13	-	18.2803833835075	MA0847.2	intron	sst	FOXD2			Homo sapiens
+chr16	23862277	23862291	15	-	7.80629258570506	MA0734.2	intron	sst	GLI2			Homo sapiens
+chr16	23871166	23871180	15	-	10.240911073066	MA0734.2	intron	sst	GLI2			Homo sapiens
+chr16	23886136	23886150	15	-	14.1660242047446	MA0734.2	intron	sst	GLI2			Homo sapiens
+chr16	23853821	23853831	11	-	15.6637713589825	MA0650.2	intron	sst	HOXA13			Homo sapiens
+chr16	23866144	23866154	11	-	13.9912137127611	MA0650.2	intron	sst	HOXA13			Homo sapiens
+chr16	23870667	23870677	11	-	15.4139848612642	MA0650.2	intron	sst	HOXA13			Homo sapiens
+chr16	23883400	23883410	11	-	15.409647693234	MA0650.2	intron	sst	HOXA13			Homo sapiens
+chr16	23853821	23853831	11	-	16.7799306311744	MA0909.2	intron	sst	HOXD13			Homo sapiens
+chr16	23870667	23870677	11	-	14.3707281871691	MA0909.2	intron	sst	HOXD13			Homo sapiens
+chr16	23883400	23883409	10	-	16.9306844293469	MA0913.2	intron	sst	HOXD9			Homo sapiens
+chr16	23889435	23889444	10	-	15.422317726387	MA0913.2	intron	sst	HOXD9			Homo sapiens
+chr16	23876253	23876263	11	-	18.034837097865	MA0703.2	intron	sst	LMX1B			Homo sapiens
+chr16	23878038	23878047	10	-	16.7308312195949	MA0623.2	intron	sst	NEUROG1			Homo sapiens
+chr16	23879819	23879828	10	-	13.8588657855178	MA0623.2	intron	sst	NEUROG1			Homo sapiens
+chr16	23881702	23881711	10	-	13.2386217221267	MA0623.2	intron	sst	NEUROG1			Homo sapiens
+chr16	23887175	23887184	10	-	15.1847459622728	MA0623.2	intron	sst	NEUROG1			Homo sapiens
+chr16	23869030	23869042	13	-	17.0636346643002	MA0842.2	intron	sst	NRL			Homo sapiens
+chr16	23876806	23876818	13	-	12.418282758257	MA0842.2	intron	sst	NRL			Homo sapiens
+chr16	23878044	23878056	13	-	12.9313223417404	MA0842.2	intron	sst	NRL			Homo sapiens
+chr16	23849849	23849858	10	-	13.1815914499314	MA0867.2	intron	sst	SOX4			Homo sapiens
+chr16	23864142	23864151	10	-	14.8651496421636	MA0867.2	intron	sst	SOX4			Homo sapiens
+chr16	23864888	23864897	10	-	13.7315227025453	MA0867.2	intron	sst	SOX4			Homo sapiens
+chr16	23878988	23878997	10	-	14.6065523318911	MA0867.2	intron	sst	SOX4			Homo sapiens
+chr16	23852487	23852496	10	-	14.2655926194329	MA0868.2	intron	sst	SOX8			Homo sapiens
+chr16	23862326	23862335	10	-	13.6715751010367	MA0868.2	intron	sst	SOX8			Homo sapiens
+chr16	23871810	23871819	10	-	14.3841176452056	MA0868.2	intron	sst	SOX8			Homo sapiens
+chr16	23874022	23874031	10	-	14.68389632338	MA0868.2	intron	sst	SOX8			Homo sapiens
+chr16	23858346	23858360	15	-	2.94109792138196	MA0079.4	intron	sst	SP1			Homo sapiens
+chr16	23884570	23884584	15	-	9.11292522588572	MA0079.4	intron	sst	SP1			Homo sapiens
+chr16	23854282	23854298	17	-	7.21115266087625	MA0516.2	intron	sst	SP2			Homo sapiens
+chr16	23860771	23860787	17	-	7.14619379351222	MA0516.2	intron	sst	SP2			Homo sapiens
+chr16	23873724	23873740	17	-	6.91457577011187	MA0516.2	intron	sst	SP2			Homo sapiens
+chr16	23855949	23855961	13	-	9.51876682717332	MA0746.2	intron	sst	SP3			Homo sapiens
+chr16	23858346	23858358	13	-	10.5782262681362	MA0746.2	intron	sst	SP3			Homo sapiens
+chr16	23860772	23860784	13	-	10.524904845723	MA0746.2	intron	sst	SP3			Homo sapiens
+chr16	23884570	23884582	13	-	11.6281250359588	MA0746.2	intron	sst	SP3			Homo sapiens
+chr16	23884750	23884759	10	-	10.1502520146389	MA0632.2	intron	sst	TCFL5			Homo sapiens
+chr16	23856307	23856317	11	-	10.1536427175942	MA0871.2	intron	sst	TFEC			Homo sapiens
+chr16	23874114	23874124	11	-	10.7695831765246	MA0871.2	intron	sst	TFEC			Homo sapiens
+chr16	23883996	23884006	11	-	9.47125421168381	MA0871.2	intron	sst	TFEC			Homo sapiens
+chr16	23860779	23860791	13	-	7.59614339784833	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23860794	23860806	13	-	8.7833523404815	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23860795	23860807	13	-	16.4240232849822	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23860796	23860808	13	-	7.64824021997315	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23860799	23860811	13	-	8.18890348316897	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23867455	23867467	13	-	11.9677260220916	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23867456	23867468	13	-	8.4323523388344	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23867521	23867533	13	-	7.73890860939793	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23873712	23873724	13	-	7.04981242916613	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23873725	23873737	13	-	10.5738836202426	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23882439	23882451	13	-	7.15441673684725	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23883848	23883860	13	-	6.46054466723546	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23883851	23883863	13	-	7.84619835973321	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23887542	23887554	13	-	8.94182156192791	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23887543	23887555	13	-	11.8056465220668	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23887544	23887556	13	-	11.5716270883322	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23887545	23887557	13	-	13.3440065129599	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23887546	23887558	13	-	12.4041560585019	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23887547	23887559	13	-	13.0029013785673	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23887548	23887560	13	-	12.271467408536	MA0753.2	intron	sst	ZNF740			Homo sapiens
+chr16	23879127	23879139	13	-	12.8045355528661	MA1631.1	intron	sst	ASCL1(var.2)			Homo sapiens
+chr16	23889334	23889346	13	-	9.69299530691863	MA1631.1	intron	sst	ASCL1(var.2)			Homo sapiens
+chr16	23880990	23881002	13	-	13.0650220105502	MA1632.1	intron	sst	ATF2			Homo sapiens
+chr16	23875256	23875268	13	-	14.5190908690319	MA1633.1	intron	sst	BACH1			Homo sapiens
+chr16	23877259	23877271	13	-	12.0411217409114	MA1633.1	intron	sst	BACH1			Homo sapiens
+chr16	23877261	23877271	11	-	14.3061834292783	MA1634.1	intron	sst	BATF			Homo sapiens
+chr16	23857681	23857690	10	-	11.6272562162948	MA1635.1	intron	sst	BHLHE22(var.2)			Homo sapiens
+chr16	23878240	23878249	10	-	11.5212300718528	MA1635.1	intron	sst	BHLHE22(var.2)			Homo sapiens
+chr16	23878288	23878297	10	-	11.5803317862636	MA1635.1	intron	sst	BHLHE22(var.2)			Homo sapiens
+chr16	23878825	23878834	10	-	11.6707793568211	MA1635.1	intron	sst	BHLHE22(var.2)			Homo sapiens
+chr16	23887014	23887023	10	-	12.2033754526275	MA1635.1	intron	sst	BHLHE22(var.2)			Homo sapiens
+chr16	23889336	23889345	10	-	11.5911231132718	MA1635.1	intron	sst	BHLHE22(var.2)			Homo sapiens
+chr16	23883244	23883258	15	-	14.7072976662187	MA1636.1	intron	sst	CEBPG(var.2)			Homo sapiens
+chr16	23863102	23863114	13	-	9.43850567505681	MA1637.1	intron	sst	EBF3			Homo sapiens
+chr16	23863550	23863562	13	-	11.712160777628	MA1637.1	intron	sst	EBF3			Homo sapiens
+chr16	23876883	23876895	13	-	11.9536639330847	MA1637.1	intron	sst	EBF3			Homo sapiens
+chr16	23885831	23885843	13	-	9.47439026784657	MA1637.1	intron	sst	EBF3			Homo sapiens
+chr16	23865101	23865110	10	-	12.8582480010999	MA1638.1	intron	sst	HAND2			Homo sapiens
+chr16	23870999	23871008	10	-	12.3772997586809	MA1638.1	intron	sst	HAND2			Homo sapiens
+chr16	23883465	23883474	10	-	12.6368018302966	MA1638.1	intron	sst	HAND2			Homo sapiens
+chr16	23869932	23869944	13	-	16.0960955015346	MA1639.1	intron	sst	MEIS1(var.2)			Homo sapiens
+chr16	23868104	23868118	15	-	17.4191121737471	MA1640.1	intron	sst	MEIS2(var.2)			Homo sapiens
+chr16	23878824	23878835	12	-	11.6133758860788	MA1641.1	intron	sst	MYF5			Homo sapiens
+chr16	23889335	23889346	12	-	12.3347370218467	MA1641.1	intron	sst	MYF5			Homo sapiens
+chr16	23865100	23865112	13	-	12.0979021267995	MA1642.1	intron	sst	NEUROG2(var.2)			Homo sapiens
+chr16	23872430	23872442	13	-	12.799125797924	MA1642.1	intron	sst	NEUROG2(var.2)			Homo sapiens
+chr16	23878930	23878942	13	-	13.9916025508685	MA1642.1	intron	sst	NEUROG2(var.2)			Homo sapiens
+chr16	23882008	23882020	13	-	12.3680589087233	MA1642.1	intron	sst	NEUROG2(var.2)			Homo sapiens
+chr16	23884197	23884209	13	-	13.9859635422822	MA1642.1	intron	sst	NEUROG2(var.2)			Homo sapiens
+chr16	23885161	23885173	13	-	12.4771226002747	MA1642.1	intron	sst	NEUROG2(var.2)			Homo sapiens
+chr16	23851169	23851189	21	-	17.0087333345282	MA1643.1	intron	sst	NFIB			Homo sapiens
+chr16	23852823	23852843	21	-	9.51816936425068	MA1643.1	intron	sst	NFIB			Homo sapiens
+chr16	23859597	23859617	21	-	6.6293677375331	MA1643.1	intron	sst	NFIB			Homo sapiens
+chr16	23872433	23872453	21	-	7.36120434107267	MA1643.1	intron	sst	NFIB			Homo sapiens
+chr16	23877488	23877508	21	-	7.79249936169701	MA1643.1	intron	sst	NFIB			Homo sapiens
+chr16	23881859	23881879	21	-	7.91345678430995	MA1643.1	intron	sst	NFIB			Homo sapiens
+chr16	23852698	23852708	11	-	14.7985797915894	MA1644.1	intron	sst	NFYC			Homo sapiens
+chr16	23870507	23870517	11	-	14.1953531862925	MA1644.1	intron	sst	NFYC			Homo sapiens
+chr16	23865329	23865342	14	-	13.9927736985729	MA1645.1	intron	sst	NKX2-2			Homo sapiens
+chr16	23868805	23868818	14	-	11.9136929836094	MA1645.1	intron	sst	NKX2-2			Homo sapiens
+chr16	23874473	23874486	14	-	12.19120148565	MA1645.1	intron	sst	NKX2-2			Homo sapiens
+chr16	23874635	23874648	14	-	15.1689402063452	MA1645.1	intron	sst	NKX2-2			Homo sapiens
+chr16	23863068	23863079	12	-	14.5661900781499	MA1646.1	intron	sst	OSR2			Homo sapiens
+chr16	23869751	23869762	12	-	11.693011410138	MA1646.1	intron	sst	OSR2			Homo sapiens
+chr16	23872338	23872349	12	-	12.1854077533989	MA1646.1	intron	sst	OSR2			Homo sapiens
+chr16	23878487	23878498	12	-	14.0223589059033	MA1646.1	intron	sst	OSR2			Homo sapiens
+chr16	23878663	23878674	12	-	11.7570189048019	MA1646.1	intron	sst	OSR2			Homo sapiens
+chr16	23882296	23882307	12	-	11.7063728534759	MA1646.1	intron	sst	OSR2			Homo sapiens
+chr16	23883518	23883529	12	-	11.9804058118421	MA1646.1	intron	sst	OSR2			Homo sapiens
+chr16	23849771	23849781	11	-	13.3068423680178	MA1647.1	intron	sst	PRDM4			Homo sapiens
+chr16	23856112	23856122	11	-	13.3019296460606	MA1647.1	intron	sst	PRDM4			Homo sapiens
+chr16	23856157	23856167	11	-	14.2385383465502	MA1647.1	intron	sst	PRDM4			Homo sapiens
+chr16	23862486	23862496	11	-	12.2030009453287	MA1647.1	intron	sst	PRDM4			Homo sapiens
+chr16	23868889	23868899	11	-	12.9447132394246	MA1647.1	intron	sst	PRDM4			Homo sapiens
+chr16	23870769	23870779	11	-	12.10053772198	MA1647.1	intron	sst	PRDM4			Homo sapiens
+chr16	23873010	23873020	11	-	11.9734808608044	MA1647.1	intron	sst	PRDM4			Homo sapiens
+chr16	23885698	23885708	11	-	13.7374228361455	MA1647.1	intron	sst	PRDM4			Homo sapiens
+chr16	23879128	23879138	11	-	11.3806624948764	MA1648.1	intron	sst	TCF12(var.2)			Homo sapiens
+chr16	23851875	23851885	11	-	12.6758833753684	MA1649.1	intron	sst	ZBTB12			Homo sapiens
+chr16	23878603	23878613	11	-	12.1915099951133	MA1649.1	intron	sst	ZBTB12			Homo sapiens
+chr16	23850582	23850602	21	-	14.3205736888315	MA1651.1	intron	sst	ZFP42			Homo sapiens
+chr16	23851943	23851963	21	-	12.9792308408221	MA1651.1	intron	sst	ZFP42			Homo sapiens
+chr16	23889005	23889025	21	-	14.0508636752921	MA1651.1	intron	sst	ZFP42			Homo sapiens
+chr16	23889409	23889429	21	-	11.5093835372377	MA1651.1	intron	sst	ZFP42			Homo sapiens
+chr16	23852610	23852623	14	-	12.0855147261626	MA1652.1	intron	sst	ZKSCAN5			Homo sapiens
+chr16	23863119	23863132	14	-	10.856628004451	MA1652.1	intron	sst	ZKSCAN5			Homo sapiens
+chr16	23864456	23864469	14	-	13.2175140132144	MA1652.1	intron	sst	ZKSCAN5			Homo sapiens
+chr16	23866031	23866044	14	-	17.3991357827577	MA1652.1	intron	sst	ZKSCAN5			Homo sapiens
+chr16	23867616	23867629	14	-	12.6587717605817	MA1652.1	intron	sst	ZKSCAN5			Homo sapiens
+chr16	23879443	23879456	14	-	11.1558869588735	MA1652.1	intron	sst	ZKSCAN5			Homo sapiens
+chr16	23882906	23882919	14	-	13.9496292020813	MA1652.1	intron	sst	ZKSCAN5			Homo sapiens
+chr16	23886178	23886191	14	-	11.2924561695138	MA1652.1	intron	sst	ZKSCAN5			Homo sapiens
+chr16	23853322	23853333	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23853325	23853336	12	-	6.88852438075086	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23854284	23854295	12	-	10.3144678809551	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23860800	23860811	12	-	8.22746579697774	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861338	23861349	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861341	23861352	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861344	23861355	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861347	23861358	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861350	23861361	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861353	23861364	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861356	23861367	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861359	23861370	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861362	23861373	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861365	23861376	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861368	23861379	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861371	23861382	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861374	23861385	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861377	23861388	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861380	23861391	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23861383	23861394	12	-	7.89582440170843	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872867	23872878	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872871	23872882	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872875	23872886	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872879	23872890	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872883	23872894	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872887	23872898	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872891	23872902	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872895	23872906	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872899	23872910	12	-	7.75342784860864	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23872932	23872943	12	-	11.7808854536934	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23873130	23873141	12	-	7.52682320800067	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23873764	23873775	12	-	11.964885220945	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23873769	23873780	12	-	7.50496382299585	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23873809	23873820	12	-	11.5253637565575	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23882770	23882781	12	-	8.13483521083141	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23882773	23882784	12	-	7.14994448843254	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23882796	23882807	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883811	23883822	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883814	23883825	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883829	23883840	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883832	23883843	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883835	23883846	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883838	23883849	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883841	23883852	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883844	23883855	12	-	8.13483521083141	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883847	23883858	12	-	13.2024219929518	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883853	23883864	12	-	10.6046065381004	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883856	23883867	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883859	23883870	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883862	23883873	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883865	23883876	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883868	23883879	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883871	23883882	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23883874	23883885	12	-	8.00327895943808	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23884279	23884290	12	-	7.79946057681776	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23889685	23889696	12	-	10.0309628490315	MA1653.1	exon	sst	ZNF148			Homo sapiens
+chr16	23889978	23889989	12	-	12.0198962628164	MA1653.1	intron	sst	ZNF148			Homo sapiens
+chr16	23863480	23863491	12	-	12.2953336317668	MA1655.1	intron	sst	ZNF341			Homo sapiens
+chr16	23879644	23879655	12	-	11.5351587369962	MA1655.1	intron	sst	ZNF341			Homo sapiens
+chr16	23882371	23882382	12	-	11.8195396641718	MA1655.1	intron	sst	ZNF341			Homo sapiens
+chr16	23889337	23889348	12	-	12.3055818918493	MA1655.1	intron	sst	ZNF341			Homo sapiens
+chr16	23863196	23863209	14	-	11.6368911603052	MA1656.1	intron	sst	ZNF449			Homo sapiens
+chr16	23863521	23863534	14	-	10.0168605532589	MA1656.1	intron	sst	ZNF449			Homo sapiens
+chr16	23888772	23888785	14	-	10.6770222944618	MA1656.1	intron	sst	ZNF449			Homo sapiens
+chr16	23889894	23889907	14	-	15.6644089110811	MA1656.1	exon	sst	ZNF449			Homo sapiens
+chr16	23851436	23851447	12	-	16.1428711421773	MA1657.1	intron	sst	ZNF652			Homo sapiens
+chr16	23849793	23849803	11	-	15.3677397561855	MA1683.1	intron	sst	FOXA3			Homo sapiens
+chr16	23882145	23882155	11	-	15.2053016008455	MA1683.1	intron	sst	FOXA3			Homo sapiens
+chr16	23883428	23883438	11	-	15.2754176336802	MA1683.1	intron	sst	FOXA3			Homo sapiens
+chr16	23883245	23883258	14	-	13.0120242918123	MA0833.2	intron	sst	ATF4			Homo sapiens
+chr16	23852352	23852362	11	-	13.1483370964082	MA0835.2	intron	sst	BATF3			Homo sapiens
+chr16	23877261	23877271	11	-	14.6690468755222	MA0835.2	intron	sst	BATF3			Homo sapiens
+chr16	23864609	23864620	12	-	15.2193257950558	MA0465.2	intron	sst	CDX2			Homo sapiens
+chr16	23883400	23883411	12	-	16.5578918995542	MA0465.2	intron	sst	CDX2			Homo sapiens
+chr16	23855494	23855507	14	-	15.627729985353	MA0102.4	intron	sst	CEBPA			Homo sapiens
+chr16	23873917	23873930	14	-	14.7633614382472	MA0102.4	intron	sst	CEBPA			Homo sapiens
+chr16	23880194	23880207	14	-	14.4561303887628	MA0102.4	intron	sst	CEBPA			Homo sapiens
+chr16	23855494	23855506	13	-	14.2605450147377	MA0836.2	intron	sst	CEBPD			Homo sapiens
+chr16	23880194	23880206	13	-	13.602061476069	MA0836.2	intron	sst	CEBPD			Homo sapiens
+chr16	23878042	23878054	13	-	14.4402254293112	MA0018.4	intron	sst	CREB1			Homo sapiens
+chr16	23880990	23881002	13	-	14.347956738834	MA0018.4	intron	sst	CREB1			Homo sapiens
+chr16	23869622	23869633	12	-	8.15728919461369	MA1102.2	intron	sst	CTCFL			Homo sapiens
+chr16	23877333	23877344	12	-	10.1598043956396	MA1102.2	intron	sst	CTCFL			Homo sapiens
+chr16	23885244	23885255	12	-	9.43662119725558	MA1102.2	intron	sst	CTCFL			Homo sapiens
+chr16	23885962	23885973	12	-	9.36495888558255	MA1102.2	intron	sst	CTCFL			Homo sapiens
+chr16	23853018	23853030	13	-	9.83387579302595	MA0471.2	intron	sst	E2F6			Homo sapiens
+chr16	23864490	23864502	13	-	9.75074000222931	MA0471.2	intron	sst	E2F6			Homo sapiens
+chr16	23875708	23875720	13	-	9.49262804349166	MA0471.2	intron	sst	E2F6			Homo sapiens
+chr16	23880419	23880431	13	-	10.1145502628771	MA0471.2	intron	sst	E2F6			Homo sapiens
+chr16	23862292	23862306	15	-	9.93584909545464	MA0154.4	intron	sst	EBF1			Homo sapiens
+chr16	23863550	23863564	15	-	9.88401769644927	MA0154.4	intron	sst	EBF1			Homo sapiens
+chr16	23865112	23865126	15	-	9.76733609850925	MA0154.4	intron	sst	EBF1			Homo sapiens
+chr16	23876883	23876897	15	-	13.2211710118724	MA0154.4	intron	sst	EBF1			Homo sapiens
+chr16	23879686	23879700	15	-	12.6496332420318	MA0154.4	intron	sst	EBF1			Homo sapiens
+chr16	23880205	23880219	15	-	11.048682179237	MA0154.4	intron	sst	EBF1			Homo sapiens
+chr16	23885830	23885844	15	-	9.82957862084995	MA0154.4	intron	sst	EBF1			Homo sapiens
+chr16	23890497	23890511	15	-	11.4787146988247	MA0154.4	intron	sst	EBF1			Homo sapiens
+chr16	23858343	23858356	14	-	8.50072485234254	MA0162.4	intron	sst	EGR1			Homo sapiens
+chr16	23860775	23860788	14	-	11.2204021468798	MA0162.4	intron	sst	EGR1			Homo sapiens
+chr16	23860791	23860804	14	-	8.60489929984686	MA0162.4	intron	sst	EGR1			Homo sapiens
+chr16	23865059	23865072	14	-	8.38567750827979	MA0162.4	intron	sst	EGR1			Homo sapiens
+chr16	23873726	23873739	14	-	8.28007896289574	MA0162.4	intron	sst	EGR1			Homo sapiens
+chr16	23887557	23887570	14	-	9.53204756613949	MA0162.4	intron	sst	EGR1			Homo sapiens
+chr16	23852974	23852988	15	-	13.3629837766959	MA0598.3	intron	sst	EHF			Homo sapiens
+chr16	23853471	23853485	15	-	13.8421303937437	MA0598.3	intron	sst	EHF			Homo sapiens
+chr16	23853513	23853527	15	-	12.4636369522324	MA0598.3	intron	sst	EHF			Homo sapiens
+chr16	23856649	23856663	15	-	12.5969338023302	MA0598.3	intron	sst	EHF			Homo sapiens
+chr16	23880856	23880870	15	-	13.5705401792346	MA0598.3	intron	sst	EHF			Homo sapiens
+chr16	23889729	23889743	15	-	12.6340802811952	MA0598.3	exon	sst	EHF			Homo sapiens
+chr16	23853095	23853108	14	-	13.732004863076	MA0473.3	intron	sst	ELF1			Homo sapiens
+chr16	23864651	23864664	14	-	13.4380318278736	MA0473.3	intron	sst	ELF1			Homo sapiens
+chr16	23866033	23866046	14	-	16.600636533335	MA0473.3	intron	sst	ELF1			Homo sapiens
+chr16	23875705	23875718	14	-	13.1204480709258	MA0473.3	intron	sst	ELF1			Homo sapiens
+chr16	23880416	23880429	14	-	12.0933102081068	MA0473.3	intron	sst	ELF1			Homo sapiens
+chr16	23883945	23883958	14	-	11.531372728357	MA0473.3	intron	sst	ELF1			Homo sapiens
+chr16	23886180	23886193	14	-	11.7754928817659	MA0473.3	intron	sst	ELF1			Homo sapiens
+chr16	23852976	23852989	14	-	11.7280934629718	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23853473	23853486	14	-	13.4481589419263	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23853515	23853528	14	-	12.0707930617573	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23853620	23853633	14	-	11.4893247962955	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23856651	23856664	14	-	11.7755972838362	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23880858	23880871	14	-	11.9028970575862	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23882812	23882825	14	-	12.0164407874497	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23883214	23883227	14	-	12.375506975752	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23883819	23883832	14	-	11.3835639541879	MA0640.2	intron	sst	ELF3			Homo sapiens
+chr16	23889731	23889744	14	-	11.7643024596936	MA0640.2	exon	sst	ELF3			Homo sapiens
+chr16	23875157	23875169	13	-	14.3621175806446	MA0592.3	intron	sst	ESRRA			Homo sapiens
+chr16	23876737	23876749	13	-	11.6448599486973	MA0592.3	intron	sst	ESRRA			Homo sapiens
+chr16	23877724	23877736	13	-	11.6184122139867	MA0592.3	intron	sst	ESRRA			Homo sapiens
+chr16	23879953	23879965	13	-	11.9597752291005	MA0592.3	intron	sst	ESRRA			Homo sapiens
+chr16	23853095	23853108	14	-	15.2620083458	MA0761.2	intron	sst	ETV1			Homo sapiens
+chr16	23864651	23864664	14	-	12.3387582500341	MA0761.2	intron	sst	ETV1			Homo sapiens
+chr16	23866033	23866046	14	-	15.1707713339217	MA0761.2	intron	sst	ETV1			Homo sapiens
+chr16	23874581	23874594	14	-	13.3255040350253	MA0761.2	intron	sst	ETV1			Homo sapiens
+chr16	23875705	23875718	14	-	13.2172999546171	MA0761.2	intron	sst	ETV1			Homo sapiens
+chr16	23880416	23880429	14	-	13.3656221773518	MA0761.2	intron	sst	ETV1			Homo sapiens
+chr16	23883945	23883958	14	-	13.1376410129521	MA0761.2	intron	sst	ETV1			Homo sapiens
+chr16	23849741	23849750	10	-	13.0574993577813	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23850101	23850110	10	-	12.3961326552025	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23853097	23853106	10	-	13.6169812042378	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23853231	23853240	10	-	13.8030220553304	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23866035	23866044	10	-	12.9735632894115	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23874583	23874592	10	-	13.6596606554741	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23875707	23875716	10	-	13.2074173142725	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23880418	23880427	10	-	13.2074173142725	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23883947	23883956	10	-	13.6196564989236	MA0764.2	intron	sst	ETV4			Homo sapiens
+chr16	23869426	23869436	11	-	10.8359857123849	MA0765.2	intron	sst	ETV5			Homo sapiens
+chr16	23854227	23854239	13	-	13.2265682474602	MA0477.2	intron	sst	FOSL1			Homo sapiens
+chr16	23877260	23877272	13	-	13.3263680434043	MA0477.2	intron	sst	FOSL1			Homo sapiens
+chr16	23849792	23849803	12	-	14.5670008172131	MA0148.4	intron	sst	FOXA1			Homo sapiens
+chr16	23883427	23883438	12	-	14.3781518430677	MA0148.4	intron	sst	FOXA1			Homo sapiens
+chr16	23887808	23887819	12	-	14.2158953722231	MA0148.4	intron	sst	FOXA1			Homo sapiens
+chr16	23849793	23849803	11	-	15.4799125770547	MA0047.3	intron	sst	FOXA2			Homo sapiens
+chr16	23882145	23882155	11	-	15.5204533460529	MA0047.3	intron	sst	FOXA2			Homo sapiens
+chr16	23883428	23883438	11	-	15.7023692270843	MA0047.3	intron	sst	FOXA2			Homo sapiens
+chr16	23888007	23888017	11	-	14.4621711353017	MA0047.3	intron	sst	FOXA2			Homo sapiens
+chr16	23849793	23849803	11	-	15.1460695745743	MA1103.2	intron	sst	FOXK2			Homo sapiens
+chr16	23872078	23872088	11	-	14.2956832882698	MA1103.2	intron	sst	FOXK2			Homo sapiens
+chr16	23882145	23882155	11	-	14.7959442647557	MA1103.2	intron	sst	FOXK2			Homo sapiens
+chr16	23883428	23883438	11	-	15.3652979031021	MA1103.2	intron	sst	FOXK2			Homo sapiens
+chr16	23849793	23849803	11	-	15.3923338887118	MA0481.3	intron	sst	FOXP1			Homo sapiens
+chr16	23872078	23872088	11	-	14.3311689580516	MA0481.3	intron	sst	FOXP1			Homo sapiens
+chr16	23880971	23880981	11	-	14.3242373937756	MA0481.3	intron	sst	FOXP1			Homo sapiens
+chr16	23882145	23882155	11	-	15.0014352466166	MA0481.3	intron	sst	FOXP1			Homo sapiens
+chr16	23883428	23883438	11	-	15.4420269551263	MA0481.3	intron	sst	FOXP1			Homo sapiens
+chr16	23852975	23852988	14	-	12.1374163213018	MA0062.3	intron	sst	GABPA			Homo sapiens
+chr16	23853472	23853485	14	-	14.9778050301075	MA0062.3	intron	sst	GABPA			Homo sapiens
+chr16	23853514	23853527	14	-	14.7706171525535	MA0062.3	intron	sst	GABPA			Homo sapiens
+chr16	23877368	23877381	14	-	11.0926446508008	MA0062.3	intron	sst	GABPA			Homo sapiens
+chr16	23880584	23880597	14	-	12.3562744267365	MA0062.3	intron	sst	GABPA			Homo sapiens
+chr16	23880857	23880870	14	-	14.5725703646316	MA0062.3	intron	sst	GABPA			Homo sapiens
+chr16	23889730	23889743	14	-	14.1025637877059	MA0062.3	exon	sst	GABPA			Homo sapiens
+chr16	23877006	23877018	13	-	15.0303083018581	MA1104.2	intron	sst	GATA6			Homo sapiens
+chr16	23877550	23877561	12	-	12.9356794828745	MA1105.2	intron	sst	GRHL2			Homo sapiens
+chr16	23888247	23888260	14	-	15.2464282217402	MA0043.3	intron	sst	HLF			Homo sapiens
+chr16	23862685	23862697	13	-	12.8943243813823	MA0114.4	intron	sst	HNF4A			Homo sapiens
+chr16	23870564	23870576	13	-	14.9561225356849	MA0114.4	intron	sst	HNF4A			Homo sapiens
+chr16	23862685	23862697	13	-	12.7190921032716	MA0484.2	intron	sst	HNF4G			Homo sapiens
+chr16	23870564	23870576	13	-	14.9665009503087	MA0484.2	intron	sst	HNF4G			Homo sapiens
+chr16	23864607	23864620	14	-	17.4186069773965	MA0901.2	intron	sst	HOXB13			Homo sapiens
+chr16	23866142	23866155	14	-	17.0732934558377	MA0901.2	intron	sst	HOXB13			Homo sapiens
+chr16	23872194	23872207	14	-	18.32370654551	MA0901.2	intron	sst	HOXB13			Homo sapiens
+chr16	23876474	23876487	14	-	17.2544741854872	MA0901.2	intron	sst	HOXB13			Homo sapiens
+chr16	23876606	23876619	14	-	16.5439400090977	MA0901.2	intron	sst	HOXB13			Homo sapiens
+chr16	23883398	23883411	14	-	16.0405139477964	MA0901.2	intron	sst	HOXB13			Homo sapiens
+chr16	23888600	23888613	14	-	16.1221362147832	MA0901.2	intron	sst	HOXB13			Homo sapiens
+chr16	23854284	23854295	12	-	8.93234430977687	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23858347	23858358	12	-	11.1801516814924	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23860779	23860790	12	-	9.55406822178956	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23865063	23865074	12	-	9.0417682717136	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23867287	23867298	12	-	9.075365878616	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23873726	23873737	12	-	8.70571236176062	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23873764	23873775	12	-	9.02972798084198	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23873809	23873820	12	-	8.86086277939108	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23877251	23877262	12	-	8.97604181086252	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23881430	23881441	12	-	9.81975013950862	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23886234	23886245	12	-	10.9035377012993	MA0039.4	intron	sst	KLF4			Homo sapiens
+chr16	23858344	23858359	16	-	13.5846464552674	MA1107.2	intron	sst	KLF9			Homo sapiens
+chr16	23860770	23860785	16	-	12.918248838683	MA1107.2	intron	sst	KLF9			Homo sapiens
+chr16	23860776	23860791	16	-	10.5742025064745	MA1107.2	intron	sst	KLF9			Homo sapiens
+chr16	23886231	23886246	16	-	9.85052600934433	MA1107.2	intron	sst	KLF9			Homo sapiens
+chr16	23861082	23861092	11	-	14.9008892837128	MA0700.2	intron	sst	LHX2			Homo sapiens
+chr16	23861056	23861071	16	-	14.6606483946955	MA0495.3	intron	sst	MAFF			Homo sapiens
+chr16	23881100	23881115	16	-	13.5234225537464	MA0495.3	intron	sst	MAFF			Homo sapiens
+chr16	23861057	23861071	15	-	13.6856459466448	MA0659.2	intron	sst	MAFG			Homo sapiens
+chr16	23881101	23881115	15	-	12.7701647560943	MA0659.2	intron	sst	MAFG			Homo sapiens
+chr16	23882239	23882253	15	-	12.7828787105407	MA0659.2	intron	sst	MAFG			Homo sapiens
+chr16	23875255	23875269	15	-	13.932133560557	MA0496.3	intron	sst	MAFK			Homo sapiens
+chr16	23877258	23877272	15	-	12.1680153922873	MA0496.3	intron	sst	MAFK			Homo sapiens
+chr16	23854386	23854400	15	-	16.8795193827366	MA0052.4	intron	sst	MEF2A			Homo sapiens
+chr16	23874056	23874070	15	-	17.7976336849151	MA0052.4	intron	sst	MEF2A			Homo sapiens
+chr16	23876562	23876576	15	-	16.5856936789507	MA0052.4	intron	sst	MEF2A			Homo sapiens
+chr16	23857810	23857827	18	-	12.4789364794747	MA0620.3	intron	sst	MITF			Homo sapiens
+chr16	23860170	23860187	18	-	14.9274642074731	MA0620.3	intron	sst	MITF			Homo sapiens
+chr16	23868485	23868502	18	-	16.8918876186217	MA0620.3	intron	sst	MITF			Homo sapiens
+chr16	23872051	23872068	18	-	15.7676798379134	MA0620.3	intron	sst	MITF			Homo sapiens
+chr16	23883993	23884010	18	-	12.7370925993433	MA0620.3	intron	sst	MITF			Homo sapiens
+chr16	23884252	23884269	18	-	12.7142616984188	MA0620.3	intron	sst	MITF			Homo sapiens
+chr16	23870492	23870501	10	-	12.447319153448	MA1108.2	intron	sst	MXI1			Homo sapiens
+chr16	23875494	23875506	13	-	10.8929769468589	MA0499.2	intron	sst	MYOD1			Homo sapiens
+chr16	23878824	23878835	12	-	11.2776481792558	MA0500.2	intron	sst	MYOG			Homo sapiens
+chr16	23887013	23887024	12	-	12.1680078724732	MA0500.2	intron	sst	MYOG			Homo sapiens
+chr16	23889335	23889346	12	-	12.8353936034098	MA0500.2	intron	sst	MYOG			Homo sapiens
+chr16	23871374	23871386	13	-	14.2491561727135	MA0056.2	intron	sst	MZF1			Homo sapiens
+chr16	23868961	23868976	16	-	10.8351859331205	MA0089.2	intron	sst	NFE2L1			Homo sapiens
+chr16	23875255	23875270	16	-	14.481821128041	MA0089.2	intron	sst	NFE2L1			Homo sapiens
+chr16	23888247	23888259	13	-	15.521800790035	MA0025.2	intron	sst	NFIL3			Homo sapiens
+chr16	23854584	23854595	12	-	10.654101254249	MA0502.2	intron	sst	NFYB			Homo sapiens
+chr16	23855466	23855477	12	-	10.7059939873987	MA0502.2	intron	sst	NFYB			Homo sapiens
+chr16	23859075	23859086	12	-	11.0173660651751	MA0502.2	intron	sst	NFYB			Homo sapiens
+chr16	23863390	23863401	12	-	10.9633246513852	MA0502.2	intron	sst	NFYB			Homo sapiens
+chr16	23870943	23870954	12	-	10.9569127368709	MA0502.2	intron	sst	NFYB			Homo sapiens
+chr16	23874282	23874293	12	-	10.829071542537	MA0502.2	intron	sst	NFYB			Homo sapiens
+chr16	23877483	23877494	12	-	11.6509002056599	MA0502.2	intron	sst	NFYB			Homo sapiens
+chr16	23854495	23854505	11	-	13.4301962833388	MA0063.2	intron	sst	NKX2-5			Homo sapiens
+chr16	23865308	23865318	11	-	13.2885243254585	MA0063.2	intron	sst	NKX2-5			Homo sapiens
+chr16	23868806	23868816	11	-	14.748346336043	MA0063.2	intron	sst	NKX2-5			Homo sapiens
+chr16	23874636	23874646	11	-	14.1693700704149	MA0063.2	intron	sst	NKX2-5			Homo sapiens
+chr16	23879005	23879015	11	-	13.4150034477183	MA0063.2	intron	sst	NKX2-5			Homo sapiens
+chr16	23864595	23864610	16	-	17.050299071637	MA0679.2	intron	sst	ONECUT1			Homo sapiens
+chr16	23888756	23888771	16	-	17.7387946242639	MA0679.2	intron	sst	ONECUT1			Homo sapiens
+chr16	23860909	23860920	12	-	13.8768534783891	MA0712.2	intron	sst	OTX2			Homo sapiens
+chr16	23865626	23865637	12	-	15.3834407718113	MA0712.2	intron	sst	OTX2			Homo sapiens
+chr16	23879659	23879670	12	-	15.1763799032918	MA0712.2	intron	sst	OTX2			Homo sapiens
+chr16	23869932	23869944	13	-	17.6382995259225	MA1113.2	intron	sst	PBX2			Homo sapiens
+chr16	23871916	23871931	16	-	20.7892354888069	MA0681.2	intron	sst	PHOX2B			Homo sapiens
+chr16	23876471	23876486	16	-	16.9800941310493	MA0681.2	intron	sst	PHOX2B			Homo sapiens
+chr16	23878862	23878876	15	-	13.7863655215634	MA0782.2	intron	sst	PKNOX1			Homo sapiens
+chr16	23887920	23887934	15	-	11.7872124139254	MA0782.2	intron	sst	PKNOX1			Homo sapiens
+chr16	23868033	23868045	13	-	15.4269554831764	MA0627.2	intron	sst	POU2F3			Homo sapiens
+chr16	23870542	23870554	13	-	16.1291837954982	MA0627.2	intron	sst	POU2F3			Homo sapiens
+chr16	23881126	23881138	13	-	16.3797696803736	MA0627.2	intron	sst	POU2F3			Homo sapiens
+chr16	23857838	23857848	11	-	12.7095535607384	MA0508.3	intron	sst	PRDM1			Homo sapiens
+chr16	23858633	23858643	11	-	13.4553071952648	MA0508.3	intron	sst	PRDM1			Homo sapiens
+chr16	23859321	23859331	11	-	13.4012576606716	MA0508.3	intron	sst	PRDM1			Homo sapiens
+chr16	23869050	23869060	11	-	12.1689902754187	MA0508.3	intron	sst	PRDM1			Homo sapiens
+chr16	23869885	23869895	11	-	12.9189080671096	MA0508.3	intron	sst	PRDM1			Homo sapiens
+chr16	23884361	23884371	11	-	14.5838887759126	MA0508.3	intron	sst	PRDM1			Homo sapiens
+chr16	23886306	23886316	11	-	12.3733188719668	MA0508.3	intron	sst	PRDM1			Homo sapiens
+chr16	23856350	23856363	14	-	11.4626401061687	MA0509.2	intron	sst	RFX1			Homo sapiens
+chr16	23875088	23875101	14	-	11.8089147621354	MA0509.2	intron	sst	RFX1			Homo sapiens
+chr16	23856350	23856363	14	-	10.8537165739435	MA0798.2	intron	sst	RFX3			Homo sapiens
+chr16	23873349	23873360	12	-	13.5263499183683	MA0684.2	intron	sst	RUNX3			Homo sapiens
+chr16	23876448	23876459	12	-	14.0166309147774	MA0684.2	intron	sst	RUNX3			Homo sapiens
+chr16	23877859	23877870	12	-	14.9034606677719	MA0684.2	intron	sst	RUNX3			Homo sapiens
+chr16	23863500	23863515	16	-	12.8639789163594	MA0743.2	intron	sst	SCRT1			Homo sapiens
+chr16	23864717	23864732	16	-	12.1313477350769	MA0743.2	intron	sst	SCRT1			Homo sapiens
+chr16	23879575	23879590	16	-	13.2156896809314	MA0743.2	intron	sst	SCRT1			Homo sapiens
+chr16	23864717	23864732	16	-	13.4642329931063	MA0744.2	intron	sst	SCRT2			Homo sapiens
+chr16	23879536	23879551	16	-	12.0062613531039	MA0744.2	intron	sst	SCRT2			Homo sapiens
+chr16	23879575	23879590	16	-	13.2288796945402	MA0744.2	intron	sst	SCRT2			Homo sapiens
+chr16	23875494	23875506	13	-	13.8351240000565	MA0745.2	intron	sst	SNAI2			Homo sapiens
+chr16	23879127	23879139	13	-	10.4079028683499	MA0745.2	intron	sst	SNAI2			Homo sapiens
+chr16	23862953	23862963	11	-	14.0946261270616	MA0143.4	intron	sst	SOX2			Homo sapiens
+chr16	23869836	23869846	11	-	13.4136028451268	MA0143.4	intron	sst	SOX2			Homo sapiens
+chr16	23871138	23871148	11	-	15.3085135365762	MA0143.4	intron	sst	SOX2			Homo sapiens
+chr16	23875549	23875559	11	-	13.4982602662352	MA0143.4	intron	sst	SOX2			Homo sapiens
+chr16	23885193	23885203	11	-	14.9123329345377	MA0143.4	intron	sst	SOX2			Homo sapiens
+chr16	23850742	23850761	20	-	14.8639771451429	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23852609	23852628	20	-	13.1036881259154	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23854466	23854485	20	-	14.6389867000417	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23855393	23855412	20	-	13.6446578479785	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23864421	23864440	20	-	16.8004358842947	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23864455	23864474	20	-	14.3973829996046	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23864648	23864667	20	-	18.0632162095678	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23865728	23865747	20	-	15.6456971073603	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23866030	23866049	20	-	17.5820681989125	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23867615	23867634	20	-	17.5356421034593	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23870460	23870479	20	-	13.0492848337365	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23879442	23879461	20	-	15.1789345206923	MA0080.5	intron	sst	SPI1			Homo sapiens
+chr16	23853347	23853362	16	-	10.9217290165833	MA0081.2	intron	sst	SPIB			Homo sapiens
+chr16	23853471	23853486	16	-	10.9080856039031	MA0081.2	intron	sst	SPIB			Homo sapiens
+chr16	23853618	23853633	16	-	11.1080969874201	MA0081.2	intron	sst	SPIB			Homo sapiens
+chr16	23858110	23858125	16	-	13.4047091068342	MA0081.2	intron	sst	SPIB			Homo sapiens
+chr16	23858706	23858721	16	-	11.2844635999645	MA0081.2	intron	sst	SPIB			Homo sapiens
+chr16	23876967	23876982	16	-	11.3552904343052	MA0081.2	intron	sst	SPIB			Homo sapiens
+chr16	23882810	23882825	16	-	14.5503159871258	MA0081.2	intron	sst	SPIB			Homo sapiens
+chr16	23883817	23883832	16	-	11.281854357741	MA0081.2	intron	sst	SPIB			Homo sapiens
+chr16	23860172	23860185	14	-	14.8441712898248	MA0829.2	intron	sst	SREBF1(var.2)			Homo sapiens
+chr16	23864068	23864081	14	-	11.7847462450296	MA0829.2	intron	sst	SREBF1(var.2)			Homo sapiens
+chr16	23869205	23869218	14	-	11.9671823808715	MA0829.2	intron	sst	SREBF1(var.2)			Homo sapiens
+chr16	23872053	23872066	14	-	14.9306278784519	MA0829.2	intron	sst	SREBF1(var.2)			Homo sapiens
+chr16	23876662	23876675	14	-	14.5124273375185	MA0829.2	intron	sst	SREBF1(var.2)			Homo sapiens
+chr16	23879128	23879138	11	-	11.6447167212015	MA0522.3	intron	sst	TCF3			Homo sapiens
+chr16	23862421	23862433	13	-	10.5229195197404	MA0830.2	intron	sst	TCF4			Homo sapiens
+chr16	23879127	23879139	13	-	11.7371370037166	MA0830.2	intron	sst	TCF4			Homo sapiens
+chr16	23887939	23887951	13	-	10.5371567013032	MA0830.2	intron	sst	TCF4			Homo sapiens
+chr16	23849807	23849817	11	-	13.6108396631418	MA0769.2	intron	sst	TCF7			Homo sapiens
+chr16	23857955	23857965	11	-	15.0730336940358	MA0769.2	intron	sst	TCF7			Homo sapiens
+chr16	23858087	23858097	11	-	13.9966078747261	MA0769.2	intron	sst	TCF7			Homo sapiens
+chr16	23874918	23874928	11	-	13.6062414045373	MA0769.2	intron	sst	TCF7			Homo sapiens
+chr16	23877137	23877147	11	-	13.9699256936114	MA0769.2	intron	sst	TCF7			Homo sapiens
+chr16	23889045	23889055	11	-	14.4494098955019	MA0769.2	intron	sst	TCF7			Homo sapiens
+chr16	23869191	23869204	14	-	15.3477470318292	MA0003.4	intron	sst	TFAP2A			Homo sapiens
+chr16	23873270	23873283	14	-	9.98704225289241	MA0003.4	intron	sst	TFAP2A			Homo sapiens
+chr16	23884314	23884327	14	-	10.8796076922133	MA0003.4	intron	sst	TFAP2A			Homo sapiens
+chr16	23884423	23884436	14	-	9.0646663130444	MA0003.4	intron	sst	TFAP2A			Homo sapiens
+chr16	23889851	23889864	14	-	11.6228472838498	MA0003.4	exon	sst	TFAP2A			Homo sapiens
+chr16	23890750	23890763	14	-	12.5084420629563	MA0003.4	exon	sst	TFAP2A			Homo sapiens
+chr16	23851484	23851497	14	-	8.73447896056694	MA0814.2	intron	sst	TFAP2C(var.2)			Homo sapiens
+chr16	23869190	23869203	14	-	9.72747736205286	MA0814.2	intron	sst	TFAP2C(var.2)			Homo sapiens
+chr16	23877421	23877434	14	-	9.3812162535723	MA0814.2	intron	sst	TFAP2C(var.2)			Homo sapiens
+chr16	23880402	23880415	14	-	8.55662560177652	MA0814.2	intron	sst	TFAP2C(var.2)			Homo sapiens
+chr16	23884313	23884326	14	-	12.551166637009	MA0814.2	intron	sst	TFAP2C(var.2)			Homo sapiens
+chr16	23890749	23890762	14	-	14.1554492960512	MA0814.2	exon	sst	TFAP2C(var.2)			Homo sapiens
+chr16	23890796	23890809	14	-	10.7367352092283	MA0814.2	exon	sst	TFAP2C(var.2)			Homo sapiens
+chr16	23858925	23858937	13	-	12.6104280832298	MA1123.2	intron	sst	TWIST1			Homo sapiens
+chr16	23883464	23883476	13	-	13.1068600608128	MA1123.2	intron	sst	TWIST1			Homo sapiens
+chr16	23885161	23885173	13	-	13.1331623323946	MA1123.2	intron	sst	TWIST1			Homo sapiens
+chr16	23888113	23888125	13	-	12.3961263363377	MA1123.2	intron	sst	TWIST1			Homo sapiens
+chr16	23857812	23857825	14	-	11.4956731408595	MA0093.3	intron	sst	USF1			Homo sapiens
+chr16	23868487	23868500	14	-	17.9288379448867	MA0093.3	intron	sst	USF1			Homo sapiens
+chr16	23874113	23874126	14	-	11.6969789541062	MA0093.3	intron	sst	USF1			Homo sapiens
+chr16	23879038	23879051	14	-	12.9173700845057	MA0093.3	intron	sst	USF1			Homo sapiens
+chr16	23883995	23884008	14	-	14.1626679918012	MA0093.3	intron	sst	USF1			Homo sapiens
+chr16	23887442	23887455	14	-	12.6758250884867	MA0093.3	intron	sst	USF1			Homo sapiens
+chr16	23857812	23857825	14	-	11.5948288060448	MA0526.3	intron	sst	USF2			Homo sapiens
+chr16	23860172	23860185	14	-	11.3999133184184	MA0526.3	intron	sst	USF2			Homo sapiens
+chr16	23868487	23868500	14	-	17.7154851385724	MA0526.3	intron	sst	USF2			Homo sapiens
+chr16	23874113	23874126	14	-	12.1569063412895	MA0526.3	intron	sst	USF2			Homo sapiens
+chr16	23879038	23879051	14	-	12.7099602066104	MA0526.3	intron	sst	USF2			Homo sapiens
+chr16	23883995	23884008	14	-	14.0329007646543	MA0526.3	intron	sst	USF2			Homo sapiens
+chr16	23887442	23887455	14	-	12.1684320691292	MA0526.3	intron	sst	USF2			Homo sapiens
+chr16	23850740	23850751	12	-	9.04965862986838	MA0528.2	intron	sst	ZNF263			Homo sapiens
+chr16	23850926	23850937	12	-	12.9650390627223	MA0528.2	intron	sst	ZNF263			Homo sapiens
+chr16	23868843	23868854	12	-	9.86811383104444	MA0528.2	intron	sst	ZNF263			Homo sapiens
+chr16	23881843	23881854	12	-	12.2532384913917	MA0528.2	intron	sst	ZNF263			Homo sapiens
+chr16	23887218	23887229	12	-	8.80206397374916	MA0528.2	intron	sst	ZNF263			Homo sapiens
+chr16	23856474	23856489	16	-	11.5922623283417	MA0609.2	intron	sst	CREM			Homo sapiens
+chr16	23879008	23879023	16	-	10.9747106927287	MA0609.2	intron	sst	CREM			Homo sapiens
+chr16	23865857	23865870	14	-	13.963623979878	MA0029.1	intron	sst	Mecom	MECOM	MDS1 and EVI1 complex locus MDS1,EVI1	Mus musculus
+chr16	23874510	23874523	14	-	14.1194842317131	MA0029.1	intron	sst	Mecom	MECOM	MDS1 and EVI1 complex locus MDS1,EVI1	Mus musculus
+chr16	23878515	23878528	14	-	15.0160006842038	MA0029.1	intron	sst	Mecom	MECOM	MDS1 and EVI1 complex locus MDS1,EVI1	Mus musculus
+chr16	23883001	23883014	14	-	15.7270541955492	MA0029.1	intron	sst	Mecom	MECOM	MDS1 and EVI1 complex locus MDS1,EVI1	Mus musculus
+chr16	23854004	23854013	10	-	11.5475535391738	MA0092.1	intron	sst	Hand1::Tcf3	-	-	Mus musculus
+chr16	23877143	23877152	10	-	12.0470184848305	MA0092.1	intron	sst	Hand1::Tcf3	-	-	Mus musculus
+chr16	23885518	23885527	10	-	13.133481649495	MA0092.1	intron	sst	Hand1::Tcf3	-	-	Mus musculus
+chr16	23850015	23850025	11	-	12.8106631163866	MA0111.1	intron	sst	Spz1	SPZ1	spermatogenic leucine zipper 1	Mus musculus
+chr16	23860608	23860618	11	-	11.7975121374707	MA0111.1	intron	sst	Spz1	SPZ1	spermatogenic leucine zipper 1	Mus musculus
+chr16	23880379	23880389	11	-	12.1521965303208	MA0111.1	intron	sst	Spz1	SPZ1	spermatogenic leucine zipper 1	Mus musculus
+chr16	23850879	23850893	15	-	14.3267784897901	MA0142.1	intron	sst	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr16	23862018	23862032	15	-	16.0318400962317	MA0142.1	intron	sst	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr16	23866159	23866173	15	-	14.6548103108253	MA0142.1	intron	sst	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr16	23877182	23877196	15	-	13.9492208758693	MA0142.1	intron	sst	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr16	23888248	23888262	15	-	18.1819018177108	MA0142.1	intron	sst	Pou5f1::Sox2	POU5F1	POU class 5 homeobox 1	Mus musculus
+chr16	23857193	23857203	11	-	15.5550543935994	MA0002.2	intron	sst	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr16	23857812	23857822	11	-	11.7634645048962	MA0002.2	intron	sst	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr16	23879749	23879759	11	-	11.328969767072	MA0002.2	intron	sst	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr16	23889507	23889517	11	-	14.0185851697252	MA0002.2	intron	sst	RUNX1	RUNX1	runt-related transcription factor 1	Mus musculus
+chr16	23862080	23862094	15	-	13.9217146369423	MA0065.2	intron	sst	Pparg::Rxra	-	-	Mus musculus
+chr16	23865555	23865569	15	-	11.5059889147255	MA0065.2	intron	sst	Pparg::Rxra	-	-	Mus musculus
+chr16	23870840	23870854	15	-	13.6386147830468	MA0065.2	intron	sst	Pparg::Rxra	-	-	Mus musculus
+chr16	23880695	23880709	15	-	12.7622945732735	MA0065.2	intron	sst	Pparg::Rxra	-	-	Mus musculus
+chr16	23853736	23853749	14	-	8.42434115602438	MA0146.2	intron	sst	Zfx	18555785	ZNF926	Mus musculus
+chr16	23882866	23882879	14	-	8.73841943190119	MA0146.2	intron	sst	Zfx	18555785	ZNF926	Mus musculus
+chr16	23887050	23887063	14	-	10.4748603586752	MA0146.2	intron	sst	Zfx	18555785	ZNF926	Mus musculus
+chr16	23852584	23852594	11	-	13.7710220077568	MA0467.1	intron	sst	Crx	CRX	cone-rod homeobox	Mus musculus
+chr16	23865628	23865638	11	-	15.9336886919553	MA0467.1	intron	sst	Crx	CRX	cone-rod homeobox	Mus musculus
+chr16	23887836	23887846	11	-	14.6573739916496	MA0467.1	intron	sst	Crx	CRX	cone-rod homeobox	Mus musculus
+chr16	23888698	23888708	11	-	13.30377388125	MA0467.1	intron	sst	Crx	CRX	cone-rod homeobox	Mus musculus
+chr16	23851363	23851373	11	-	15.8043695367968	MA0480.1	intron	sst	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr16	23855886	23855896	11	-	17.1641032763804	MA0480.1	intron	sst	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr16	23858623	23858633	11	-	13.5204357405403	MA0480.1	intron	sst	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr16	23864010	23864020	11	-	13.9263510201263	MA0480.1	intron	sst	Foxo1	FOXO1	forkhead box O1	Mus musculus
+chr16	23850516	23850526	11	-	12.7652242994712	MA0483.1	intron	sst	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr16	23865403	23865413	11	-	14.2068104925279	MA0483.1	intron	sst	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr16	23876554	23876564	11	-	13.8288371376907	MA0483.1	intron	sst	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr16	23883230	23883240	11	-	14.2218811342403	MA0483.1	intron	sst	Gfi1b	GFI1B	growth factor independent 1B transcription repressor	Mus musculus
+chr16	23858348	23858358	11	-	11.444243101954	MA0493.1	intron	sst	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr16	23865064	23865074	11	-	11.3151458446502	MA0493.1	intron	sst	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr16	23878330	23878340	11	-	9.54613981137312	MA0493.1	intron	sst	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr16	23886235	23886245	11	-	10.5789835995794	MA0493.1	intron	sst	Klf1	KLF1	Kruppel-like factor 1 (erythroid)	Mus musculus
+chr16	23865309	23865319	11	-	12.1201030286919	MA0503.1	intron	sst	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr16	23867644	23867654	11	-	11.8810162496243	MA0503.1	intron	sst	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr16	23874637	23874647	11	-	13.9074405741654	MA0503.1	intron	sst	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr16	23877339	23877349	11	-	12.7188989747091	MA0503.1	intron	sst	Nkx2-5(var.2)	NKX2-5	NK2 homeobox 5	Mus musculus
+chr16	23864358	23864372	15	-	12.9240199890064	MA0505.1	intron	sst	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr16	23866329	23866343	15	-	11.255804937876	MA0505.1	intron	sst	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr16	23866358	23866372	15	-	12.3056516092146	MA0505.1	intron	sst	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr16	23871966	23871980	15	-	13.5533369972236	MA0505.1	intron	sst	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr16	23875157	23875171	15	-	11.7523573880982	MA0505.1	intron	sst	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr16	23876737	23876751	15	-	12.9404050272442	MA0505.1	intron	sst	Nr5a2	NR5A2	nuclear receptor subfamily 5,group A,member 2	Mus musculus
+chr16	23850084	23850093	10	-	12.6809605209236	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr16	23851867	23851876	10	-	14.3749431908008	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr16	23853161	23853170	10	-	12.9986205500268	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr16	23856613	23856622	10	-	14.5119805656916	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr16	23859612	23859621	10	-	12.646655695247	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr16	23874715	23874724	10	-	14.4188484874069	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr16	23887405	23887414	10	-	14.4904661271988	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr16	23889960	23889969	10	-	14.5119805656916	MA0514.1	intron	sst	Sox3	SOX3	SRY (sex determining region Y)-box 3	Mus musculus
+chr16	23850084	23850093	10	-	15.4522111238679	MA0515.1	intron	sst	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr16	23862680	23862689	10	-	14.6430214237934	MA0515.1	intron	sst	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr16	23868865	23868874	10	-	13.4555014071735	MA0515.1	intron	sst	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr16	23874715	23874724	10	-	13.7263406714343	MA0515.1	intron	sst	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr16	23887405	23887414	10	-	14.3610994082438	MA0515.1	intron	sst	Sox6	SOX6	SRY (sex determining region Y)-box 6	Mus musculus
+chr16	23853096	23853109	14	-	13.7143682154878	MA0518.1	intron	sst	Stat4	STAT4	signal transducer and activator of transcription 4	Mus musculus
+chr16	23872317	23872330	14	-	13.5853024262862	MA0518.1	intron	sst	Stat4	STAT4	signal transducer and activator of transcription 4	Mus musculus
+chr16	23884777	23884790	14	-	17.0360963046075	MA0518.1	intron	sst	Stat4	STAT4	signal transducer and activator of transcription 4	Mus musculus
+chr16	23868052	23868062	11	-	14.1092844898449	MA0519.1	intron	sst	Stat5a::Stat5b	-	-	Mus musculus
+chr16	23872321	23872331	11	-	14.6852090138375	MA0519.1	intron	sst	Stat5a::Stat5b	-	-	Mus musculus
+chr16	23884781	23884791	11	-	16.6690598206804	MA0519.1	intron	sst	Stat5a::Stat5b	-	-	Mus musculus
+chr16	23885493	23885503	11	-	14.7837732378513	MA0519.1	intron	sst	Stat5a::Stat5b	-	-	Mus musculus
+chr16	23855539	23855553	15	-	16.1052747144985	MA0520.1	intron	sst	Stat6	STAT6	signal transducer and activator of transcription 6,interleukin-4 induced	Mus musculus
+chr16	23861049	23861063	15	-	14.3755728022006	MA0520.1	intron	sst	Stat6	STAT6	signal transducer and activator of transcription 6,interleukin-4 induced	Mus musculus
+chr16	23870394	23870408	15	-	15.4387852680587	MA0520.1	intron	sst	Stat6	STAT6	signal transducer and activator of transcription 6,interleukin-4 induced	Mus musculus
+chr16	23875086	23875100	15	-	14.261487648509	MA0520.1	intron	sst	Stat6	STAT6	signal transducer and activator of transcription 6,interleukin-4 induced	Mus musculus
+chr16	23888457	23888471	15	-	15.6865979141197	MA0520.1	intron	sst	Stat6	STAT6	signal transducer and activator of transcription 6,interleukin-4 induced	Mus musculus
+chr16	23853032	23853042	11	-	11.3414451334853	MA0521.1	intron	sst	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr16	23857680	23857690	11	-	12.3199640730152	MA0521.1	intron	sst	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr16	23878824	23878834	11	-	14.1427931851853	MA0521.1	intron	sst	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr16	23879575	23879585	11	-	12.4872751578891	MA0521.1	intron	sst	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr16	23889335	23889345	11	-	13.8865723726078	MA0521.1	intron	sst	Tcf12	TCF12	transcription factor 12	Mus musculus
+chr16	23868963	23868977	15	-	11.6347042171784	MA0150.2	intron	sst	Nfe2l2	NFE2L2	nuclear factor,erythroid 2-like 2	Mus musculus
+chr16	23875257	23875271	15	-	13.3038534492358	MA0150.2	intron	sst	Nfe2l2	NFE2L2	nuclear factor,erythroid 2-like 2	Mus musculus
+chr16	23878160	23878174	15	-	12.8824835703949	MA0150.2	intron	sst	Nfe2l2	NFE2L2	nuclear factor,erythroid 2-like 2	Mus musculus
+chr16	23875256	23875270	15	-	12.9353129518666	MA0591.1	intron	sst	Bach1::Mafk			Mus musculus
+chr16	23867196	23867206	11	-	16.2226649987215	MA0601.1	intron	sst	Arid3b			Mus musculus
+chr16	23876253	23876263	11	-	15.8385531043963	MA0601.1	intron	sst	Arid3b			Mus musculus
+chr16	23860175	23860184	10	-	13.3690424299569	MA0603.1	intron	sst	Arntl			Mus musculus
+chr16	23884752	23884761	10	-	11.302480359852	MA0603.1	intron	sst	Arntl			Mus musculus
+chr16	23872207	23872223	17	-	13.2535976819218	MA0629.1	intron	sst	Rhox11			Mus musculus
+chr16	23886827	23886843	17	-	13.1677565860843	MA0629.1	intron	sst	Rhox11			Mus musculus
+chr16	23871752	23871768	17	-	17.5237989184424	MA0631.1	intron	sst	Six3			Mus musculus
+chr16	23862236	23862245	10	-	13.5946652537691	MA0633.1	intron	sst	Twist2			Mus musculus
+chr16	23874754	23874763	10	-	13.0186241168318	MA0633.1	intron	sst	Twist2			Mus musculus
+chr16	23878038	23878047	10	-	14.6320177152312	MA0633.1	intron	sst	Twist2			Mus musculus
+chr16	23881011	23881020	10	-	13.1338322577502	MA0633.1	intron	sst	Twist2			Mus musculus
+chr16	23860551	23860567	17	-	7.88877827566232	MA0007.3	intron	sst	Ar			Mus musculus
+chr16	23864996	23865012	17	-	10.7540822641933	MA0007.3	intron	sst	Ar			Mus musculus
+chr16	23876273	23876289	17	-	7.34823530580862	MA0007.3	intron	sst	Ar			Mus musculus
+chr16	23875158	23875167	10	-	14.6629752474035	MA0643.1	intron	sst	Esrrg			Mus musculus
+chr16	23879954	23879963	10	-	13.5972110895821	MA0643.1	intron	sst	Esrrg			Mus musculus
+chr16	23851526	23851539	14	-	13.4417193307852	MA0677.1	intron	sst	Nr2f6			Mus musculus
+chr16	23851675	23851688	14	-	11.6033372831114	MA0677.1	intron	sst	Nr2f6			Mus musculus
+chr16	23851526	23851539	14	-	10.3296684875533	MA0512.2	intron	sst	Rxra			Mus musculus
+chr16	23851675	23851688	14	-	9.51588224363048	MA0512.2	intron	sst	Rxra			Mus musculus
+chr16	23851675	23851689	15	-	3.26866948379435	MA0728.1	intron	sst	Nr2f6(var.2)			Mus musculus
+chr16	23870826	23870840	15	-	2.68222130685463	MA0728.1	intron	sst	Nr2f6(var.2)			Mus musculus
+chr16	23855947	23855961	15	-	8.33282034457244	MA0742.1	intron	sst	Klf12			Mus musculus
+chr16	23884568	23884582	15	-	8.5272320946467	MA0742.1	intron	sst	Klf12			Mus musculus
+chr16	23887510	23887524	15	-	7.18244550748074	MA0742.1	intron	sst	Klf12			Mus musculus
+chr16	23859767	23859776	10	-	11.5781235678807	MA0816.1	intron	sst	Ascl2			Mus musculus
+chr16	23889336	23889345	10	-	14.4276440291837	MA0816.1	intron	sst	Ascl2			Mus musculus
+chr16	23852729	23852738	10	-	13.7729327602974	MA0461.2	intron	sst	Atoh1			Mus musculus
+chr16	23878038	23878047	10	-	14.8902863245601	MA0461.2	intron	sst	Atoh1			Mus musculus
+chr16	23879819	23879828	10	-	14.5298076730095	MA0461.2	intron	sst	Atoh1			Mus musculus
+chr16	23887175	23887184	10	-	13.8960286208991	MA0461.2	intron	sst	Atoh1			Mus musculus
+chr16	23878823	23878836	14	-	9.64297710527294	MA0832.1	intron	sst	Tcf21			Mus musculus
+chr16	23889334	23889347	14	-	10.6455115341743	MA0832.1	intron	sst	Tcf21			Mus musculus
+chr16	23890543	23890556	14	-	8.68565726177876	MA0832.1	intron	sst	Tcf21			Mus musculus
+chr16	23869030	23869041	12	-	14.5639094887368	MA0117.2	intron	sst	Mafb			Mus musculus
+chr16	23876806	23876817	12	-	12.6178678703384	MA0117.2	intron	sst	Mafb			Mus musculus
+chr16	23864594	23864610	17	-	18.4783164975441	MA0851.1	intron	sst	Foxj3			Mus musculus
+chr16	23870662	23870678	17	-	15.7518742602493	MA0851.1	intron	sst	Foxj3			Mus musculus
+chr16	23872075	23872091	17	-	17.6782139337027	MA0851.1	intron	sst	Foxj3			Mus musculus
+chr16	23876481	23876497	17	-	16.7117753773485	MA0851.1	intron	sst	Foxj3			Mus musculus
+chr16	23882142	23882158	17	-	16.7072678283429	MA0851.1	intron	sst	Foxj3			Mus musculus
+chr16	23849676	23849692	17	-	0.734695094549299	MA0858.1	intron	sst	Rarb(var.2)			Mus musculus
+chr16	23883474	23883490	17	-	8.0662818279375	MA0858.1	intron	sst	Rarb(var.2)			Mus musculus
+chr16	23875159	23875175	17	-	6.10852414993596	MA0860.1	intron	sst	Rarg(var.2)			Mus musculus
+chr16	23856296	23856310	15	-	-1.22801203601456	MA0869.1	intron	sst	Sox11			Mus musculus
+chr16	23855487	23855501	15	-	11.3599452490636	MA0870.1	intron	sst	Sox1			Mus musculus
+chr16	23862837	23862851	15	-	10.5024092335704	MA0870.1	intron	sst	Sox1			Mus musculus
+chr16	23861079	23861095	17	-	15.3823845926895	MA0874.1	intron	sst	Arx			Mus musculus
+chr16	23888741	23888750	10	-	12.5687412406371	MA0879.1	intron	sst	Dlx1			Mus musculus
+chr16	23865624	23865640	17	-	14.1226646416813	MA0883.1	intron	sst	Dmbx1			Mus musculus
+chr16	23861078	23861094	17	-	16.0585956291477	MA0896.1	intron	sst	Hmx1			Mus musculus
+chr16	23862819	23862835	17	-	14.1390215225437	MA0896.1	intron	sst	Hmx1			Mus musculus
+chr16	23864555	23864571	17	-	14.7681778605252	MA0896.1	intron	sst	Hmx1			Mus musculus
+chr16	23864606	23864622	17	-	14.4516834438702	MA0896.1	intron	sst	Hmx1			Mus musculus
+chr16	23870579	23870595	17	-	15.5864300921667	MA0896.1	intron	sst	Hmx1			Mus musculus
+chr16	23861078	23861094	17	-	17.972575694966	MA0897.1	intron	sst	Hmx2			Mus musculus
+chr16	23864555	23864571	17	-	15.6120351637915	MA0897.1	intron	sst	Hmx2			Mus musculus
+chr16	23864606	23864622	17	-	15.9459516118925	MA0897.1	intron	sst	Hmx2			Mus musculus
+chr16	23870579	23870595	17	-	17.1051657794709	MA0897.1	intron	sst	Hmx2			Mus musculus
+chr16	23861078	23861094	17	-	18.7554390577467	MA0898.1	intron	sst	Hmx3			Mus musculus
+chr16	23864555	23864571	17	-	16.8505046367834	MA0898.1	intron	sst	Hmx3			Mus musculus
+chr16	23864606	23864622	17	-	15.6382563032352	MA0898.1	intron	sst	Hmx3			Mus musculus
+chr16	23870579	23870595	17	-	17.5048921897661	MA0898.1	intron	sst	Hmx3			Mus musculus
+chr16	23878986	23878998	13	-	14.072324407316	MA1603.1	intron	sst	Dmrt1			Mus musculus
+chr16	23863102	23863114	13	-	9.61564352994189	MA1604.1	intron	sst	Ebf2			Mus musculus
+chr16	23863550	23863562	13	-	11.9951766862274	MA1604.1	intron	sst	Ebf2			Mus musculus
+chr16	23876883	23876895	13	-	11.4604395674941	MA1604.1	intron	sst	Ebf2			Mus musculus
+chr16	23849793	23849803	11	-	15.1898336110951	MA1606.1	intron	sst	Foxf1			Mus musculus
+chr16	23872078	23872088	11	-	15.8143151391371	MA1606.1	intron	sst	Foxf1			Mus musculus
+chr16	23880523	23880533	11	-	14.6756664773717	MA1606.1	intron	sst	Foxf1			Mus musculus
+chr16	23882145	23882155	11	-	15.2174623676289	MA1606.1	intron	sst	Foxf1			Mus musculus
+chr16	23883428	23883438	11	-	15.5214299808899	MA1606.1	intron	sst	Foxf1			Mus musculus
+chr16	23849793	23849806	14	-	16.5936253204994	MA1607.1	intron	sst	Foxl2			Mus musculus
+chr16	23868007	23868020	14	-	14.9731394675882	MA1607.1	intron	sst	Foxl2			Mus musculus
+chr16	23868032	23868045	14	-	15.8399340627292	MA1607.1	intron	sst	Foxl2			Mus musculus
+chr16	23872078	23872091	14	-	14.8043678178171	MA1607.1	intron	sst	Foxl2			Mus musculus
+chr16	23882145	23882158	14	-	15.497640986445	MA1607.1	intron	sst	Foxl2			Mus musculus
+chr16	23883428	23883441	14	-	16.8951280167419	MA1607.1	intron	sst	Foxl2			Mus musculus
+chr16	23887809	23887822	14	-	14.947482037947	MA1607.1	intron	sst	Foxl2			Mus musculus
+chr16	23872098	23872108	11	-	13.1741162445703	MA1608.1	intron	sst	Isl1			Mus musculus
+chr16	23887900	23887910	11	-	12.7959169857064	MA1608.1	intron	sst	Isl1			Mus musculus
+chr16	23850953	23850965	13	-	9.06494052825489	MA1615.1	intron	sst	Plagl1			Mus musculus
+chr16	23864977	23864989	13	-	11.9182947260064	MA1615.1	intron	sst	Plagl1			Mus musculus
+chr16	23880423	23880435	13	-	8.9311019368686	MA1615.1	intron	sst	Plagl1			Mus musculus
+chr16	23877875	23877889	15	-	16.1487907228922	MA1616.1	intron	sst	Prdm15			Mus musculus
+chr16	23865099	23865111	13	-	14.2596933919226	MA1618.1	intron	sst	Ptf1a			Mus musculus
+chr16	23878036	23878048	13	-	12.3457685101505	MA1618.1	intron	sst	Ptf1a			Mus musculus
+chr16	23883463	23883475	13	-	12.3027248840715	MA1618.1	intron	sst	Ptf1a			Mus musculus
+chr16	23888112	23888124	13	-	13.4034180542736	MA1618.1	intron	sst	Ptf1a			Mus musculus
+chr16	23857680	23857691	12	-	11.3704083132749	MA1619.1	intron	sst	Ptf1a(var.2)			Mus musculus
+chr16	23878239	23878250	12	-	11.3268764663878	MA1619.1	intron	sst	Ptf1a(var.2)			Mus musculus
+chr16	23878824	23878835	12	-	11.7550105797304	MA1619.1	intron	sst	Ptf1a(var.2)			Mus musculus
+chr16	23889335	23889346	12	-	11.673793734474	MA1619.1	intron	sst	Ptf1a(var.2)			Mus musculus
+chr16	23875495	23875506	12	-	14.8759186889545	MA1620.1	intron	sst	Ptf1a(var.3)			Mus musculus
+chr16	23864068	23864081	14	-	11.9689208695444	MA1621.1	intron	sst	Rbpjl			Mus musculus
+chr16	23875494	23875507	14	-	14.4026703614104	MA1621.1	intron	sst	Rbpjl			Mus musculus
+chr16	23854227	23854240	14	-	12.8646589279585	MA1622.1	intron	sst	Smad2::Smad3			Mus musculus
+chr16	23851447	23851459	13	-	14.4390109002385	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23851976	23851988	13	-	15.0445293769034	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23865792	23865804	13	-	17.566641827436	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23865810	23865822	13	-	14.8656792853511	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23871128	23871140	13	-	14.5040227049714	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23872339	23872351	13	-	15.3040226285108	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23872345	23872357	13	-	16.2774057938197	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23872449	23872461	13	-	15.4628541105358	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23877866	23877878	13	-	17.1480616247655	MA1623.1	intron	sst	Stat2			Mus musculus
+chr16	23864368	23864379	12	-	13.9181958531298	MA1624.1	intron	sst	Stat5a			Mus musculus
+chr16	23867058	23867069	12	-	13.8177117856395	MA1624.1	intron	sst	Stat5a			Mus musculus
+chr16	23868050	23868061	12	-	14.2578504833211	MA1624.1	intron	sst	Stat5a			Mus musculus
+chr16	23872319	23872330	12	-	12.9246404734194	MA1624.1	intron	sst	Stat5a			Mus musculus
+chr16	23884779	23884790	12	-	15.5579140245858	MA1624.1	intron	sst	Stat5a			Mus musculus
+chr16	23885491	23885502	12	-	13.2684858460943	MA1624.1	intron	sst	Stat5a			Mus musculus
+chr16	23867057	23867071	15	-	13.072802067161	MA1625.1	intron	sst	Stat5b			Mus musculus
+chr16	23872318	23872332	15	-	12.7032340701351	MA1625.1	intron	sst	Stat5b			Mus musculus
+chr16	23884778	23884792	15	-	16.0934289441662	MA1625.1	intron	sst	Stat5b			Mus musculus
+chr16	23885490	23885504	15	-	16.3064353957172	MA1625.1	intron	sst	Stat5b			Mus musculus
+chr16	23853318	23853331	14	-	9.70770097646259	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23853321	23853334	14	-	8.60256353200152	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23860793	23860806	14	-	9.93634487074894	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23860796	23860809	14	-	8.19030147049115	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861337	23861350	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861340	23861353	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861343	23861356	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861346	23861359	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861349	23861362	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861352	23861365	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861355	23861368	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861358	23861371	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861361	23861374	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861364	23861377	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861367	23861380	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861370	23861383	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861373	23861386	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861376	23861389	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23861379	23861392	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23872826	23872839	14	-	9.54326048445011	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23872851	23872864	14	-	9.91232185969555	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23872928	23872941	14	-	9.90602349793242	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23876846	23876859	14	-	11.0988309701771	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23882769	23882782	14	-	9.29980701054714	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23882792	23882805	14	-	9.98426965217254	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23882795	23882808	14	-	8.37952467682985	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883807	23883820	14	-	9.24776915864124	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883810	23883823	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883813	23883826	14	-	9.39649230926443	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883825	23883838	14	-	9.24776915864124	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883828	23883841	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883831	23883844	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883834	23883847	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883837	23883850	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883840	23883853	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883843	23883856	14	-	9.5228458657188	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883849	23883862	14	-	13.0646279190448	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883855	23883868	14	-	9.9860230327845	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883858	23883871	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883861	23883874	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883864	23883877	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883867	23883880	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883870	23883883	14	-	9.6195311644361	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23883873	23883886	14	-	9.39649230926443	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23884273	23884286	14	-	9.77555398243218	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23884275	23884288	14	-	9.09681516715419	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23887681	23887694	14	-	8.21064203119651	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23889681	23889694	14	-	11.4649914357741	MA1627.1	exon	sst	Wt1			Mus musculus
+chr16	23889974	23889987	14	-	9.53426149213756	MA1627.1	intron	sst	Wt1			Mus musculus
+chr16	23865298	23865308	11	-	11.255879380691	MA1628.1	intron	sst	Zic1::Zic2			Mus musculus
+chr16	23874669	23874679	11	-	12.1681840391221	MA1628.1	intron	sst	Zic1::Zic2			Mus musculus
+chr16	23857679	23857692	14	-	10.875848030341	MA1629.1	intron	sst	Zic2			Mus musculus
+chr16	23874668	23874681	14	-	11.3167610821822	MA1629.1	intron	sst	Zic2			Mus musculus
+chr16	23851644	23851654	11	-	8.48692936009893	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23854449	23854459	11	-	9.09274835678397	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23854759	23854769	11	-	7.95256829396215	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23855759	23855769	11	-	10.4570035929088	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23856996	23857006	11	-	9.10599898750994	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23862085	23862095	11	-	12.5155578737251	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23865879	23865889	11	-	9.49676261068177	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23868843	23868853	11	-	10.3024201867094	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23868849	23868859	11	-	7.95640364494188	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23874201	23874211	11	-	10.1619467948147	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23874213	23874223	11	-	13.2326499307735	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23884416	23884426	11	-	8.47356270942944	MA1630.1	intron	sst	Znf281			Mus musculus
+chr16	23854496	23854508	13	-	16.8644957060698	MA0122.3	intron	sst	Nkx3-2			Mus musculus
+chr16	23860195	23860207	13	-	16.2068319012654	MA0122.3	intron	sst	Nkx3-2			Mus musculus
+chr16	23870583	23870595	13	-	17.3819830603352	MA0122.3	intron	sst	Nkx3-2			Mus musculus
+chr16	23872716	23872728	13	-	14.5304811206226	MA0122.3	intron	sst	Nkx3-2			Mus musculus
