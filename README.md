@@ -13,4 +13,12 @@ BiocManager::install(c("motifmatchr", "TFBSTools", "SummarizedExperiment", [GENO
 
 ## Usage
 
-Functions can be run using main.R (identifying transcription factor binding sites from JASPAR2020, finding frequencies for each transcription factor, and binning intersections by window sizes of 10, 100, and 500).
+Functions can be run using main.R (identifying transcription factor binding sites from JASPAR2020, finding frequencies for each transcription factor, and binning intersections by window sizes). 
+
+To use main.R:
+
+1) Change header values so that inputs to functions match the information associated with the input data.
+2) Go to UCSC Genome Browser to find the position of your desired gene: https://genome.ucsc.edu/
+3) Run lines 1-27 of main.R and copy the printed file name.
+4) Go to UCSC Table Browser and save the output using the given file name and gene position: https://genome.ucsc.edu/cgi-bin/hgTables
+5) Run the rest of main.R to produce motifs and motif intersections.

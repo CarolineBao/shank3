@@ -5,12 +5,12 @@ source("scripts/UCSC_table_browser_preprocessing.R")
 {
 {
   #Adjust header values to match gene/data information
-  path <-"/Users/carolinebao/Documents/College/UROP/Feng UROP (2019-)/Gene Therapy/shank3"
-  gene <- "sst"
+  path <-"/Users/carolinebao/Documents/Feng UROP (2019-)/Gene Therapy/shank3"
+  gene <- "vip_1"
   species <- "mouse"
   genome <- "BSgenome.Mmusculus.UCSC.mm10"
   motifs <- list("Homo sapiens", "Mus musculus")
-  len_upstream<-40000
+  len_upstream<-35000
   len_downstream<-0
   track<-"ncbi_refseq"
   feature_source_type<-"UCSC_table_browser"
@@ -23,8 +23,9 @@ genome_nm<-get_genome_nm(genome)
 make_dir_path(gene, species, genome)
 
 #making/finding initial file and moving it
-preprocessing_fn<-get_preprocessing_fn(genome, gene, track) #gets the expected file name for the downloaded genome data
+preprocessing_fn<-get_preprocessing_fn(genome, gene, track) #gets the expected file name for the downloaded genome data to be downloaded from here: https://genome.ucsc.edu/cgi-bin/hgTables
 print(paste("Expected file name for preprocessing::", preprocessing_fn))
+
 move_download(gene, species, genome, downloads_path, preprocessing_fn)
 
 #finding tfbs sites and frequencies
