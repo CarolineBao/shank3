@@ -3,7 +3,7 @@ library(tidyverse)
 library(Matrix)
 
 #bioconductor packages
-library(motifmatchr) 
+library(motifmatchr)
 library(TFBSTools)
 library(SummarizedExperiment)
 library(BiocParallel)
@@ -140,13 +140,34 @@ tfbs_by_freq <- function(gene, species, genome_nm, len_upstream, len_downstream,
     table_writer_checker(paste(dir_path,"/results/tfbs_by_freq_", fn_descriptor,".txt", sep=''), freq)
 }
 
+
+tfbs_by_freq_upstream <- function(gene, species, genome_nm, len_upstream, len_downstream, motifs) {
+    #Finds the frequencies for each tfbs
+    dir_path<-paste("data", gene, species, genome_nm, sep='/')
+    
+    motif_nms <- get_motif_nms(motifs)
+    fn_descriptor<-paste(motif_nms,"_up_", len_upstream, "_down_", len_downstream, sep="")
+    
+    get_gene<-read_table_helper(paste(dir_path, "/input_data/",gene,"_gene_no_flanking.txt",sep=''), sep="\t", header=T)
+    match.motif.df<-read_table_helper(paste(dir_path, "/results/region_tf_motifs_",fn_descriptor,".txt", sep=''), sep = "\t", header = T)
+    match.motif.df<-subset(match.motif.df, match.motif.df$start < get_gene[1, 2])
+    
+    freq <- as.data.frame(table(match.motif.df$motif_nm)) %>% 
+        .[apply(.!=0, 1, all),] %>%
+        cbind(., as.data.frame(match.motif.df$gene_name[1:nrow(.)]))
+    colnames(freq)<-c("tfbs", "frequency", "gene")
+    
+    table_writer_checker(paste(dir_path,"/results/tfbs_by_freq_upstream_", fn_descriptor,".txt", sep=''), freq)
+}
+
 #makes windows
 modified_makewindows <- function(gene, windowsize, shift=0) {
     #Makes bins for a gene and given window size (to be used to count frequencies of tfbs by section on the gene)
-    
     gene_range <- ranges(gene)
+    
     #set temporary end value the length of the gene is a multiple of the window size (prevents strange window size creation)
     end_value <- (end(gene_range)-start(gene_range))%/%windowsize*windowsize+start(gene_range)+windowsize-1+shift
+    
     #Creates new gene based off of the new end value to be temporarily used to create windows of equal size
     gene_temp <- GRanges(seqnames = seqnames(gene), ranges = IRanges(start=start(gene_range)+shift, end=end_value+shift, width=end_value-start(gene_range)+1))
     

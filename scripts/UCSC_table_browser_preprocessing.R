@@ -63,6 +63,6 @@ preprocessing <- function (gene, species, genome, len_upstream, len_downstream, 
   gene<-cbind(seqnames=gene_features[1,1], start=gene_features[1,2], end=gene_features[nrow(gene_features),3], 
               width=gene_features[nrow(gene_features),3]-gene_features[1,2]+1, strand=gene_features[1,5], 
               type="gene", gene_name=gene)
-  list(gene=gene, features=gene_features) #returns gene and gene_features as a lsit
+  list(gene=gene, features=gene_features) #returns gene and gene_features as a list
 }
 

@@ -6,11 +6,11 @@ source("scripts/UCSC_table_browser_preprocessing.R")
 {
   #Adjust header values to match gene/data information
   path <-"/Users/carolinebao/Documents/Feng UROP (2019-)/Gene Therapy/shank3"
-  gene <- "vip_1"
+  gene <- "sst"
   species <- "mouse"
   genome <- "BSgenome.Mmusculus.UCSC.mm10"
   motifs <- list("Homo sapiens", "Mus musculus")
-  len_upstream<-35000
+  len_upstream<-40000
   len_downstream<-0
   track<-"ncbi_refseq"
   feature_source_type<-"UCSC_table_browser"
@@ -31,6 +31,7 @@ move_download(gene, species, genome, downloads_path, preprocessing_fn)
 #finding tfbs sites and frequencies
 match_tfbs(gene, species, genome, motifs, len_upstream, len_downstream, track, feature_source_type)
 tfbs_by_freq(gene, species, genome_nm, len_upstream, len_downstream, motifs)
+tfbs_by_freq_upstream(gene, species, genome_nm, len_upstream, len_downstream, motifs)
 
 #generating intersections for windows=10, 100, 500
 for (window in window_sizes){
